@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging mathematically again." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
+<meta name="keywords" content="blog">
+<meta name="author" content="Gilgamech Technologies">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.gilgamech.com/js/rgb.js"></script>
+		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script type="application/javascript"> 
+const colors = [
+"#E50000", //red
+"#FF8D00",//orange 
+"#FFFF00", //yellow
+"#028121",//green 
+"#004CFF",//indigo 
+"#760088",//purple 
+"#FFFFFF",//white
+"#FFAFC7",//pink
+"#73D7EE",//teal
+"#000000"];//black
+
+window.addEventListener("mousedown", (e) => {
+	const color = colors.shift();
+	var foreground = "#000000"
+if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) < 500){
+	foreground = "#FFFFFF"
+}
+
+  document.documentElement.style.setProperty("--highlight-color", color);
+  document.documentElement.style.setProperty("--foreground-color", foreground);
+  colors.push(color);
+});
+</script>
+<style type="text/css"> 
+.floatingBubble {
+ display: inline-block;
+ max-width: 98%;
+}
+
+.validInput {
+	background-color:#d9ead3;
+}
+
+.saltine .house {
+	text-align:center;
+	vertical-align:center;
+	padding:2px 3px 2px 3px;
+}.saltine .house a {
+	color: inherit;
+} .s0{
+	background-color:#ffd966;
+}.s1{
+	background-color:#ffe599;
+} .s2{
+	background-color:#fff2cc;
+} .s3{
+	background-color:#ffff00;
+} .s4{
+	background-color:#ff9900;
+} .s5{
+	background-color:#c9daf8;
+} .s6{
+	background-color:#f1c232;
+} .s7{
+} .tableYes{
+	background-color:#D9EAD3;
+} .tableNo{
+	background-color:#F4CCCC;
+} .tableMaybe{
+	background-color:#FCE5CD;
+}
+
+.THeader {
+	width:52px;
+}
+.TRow  {
+	height: 45px;
+	line-height: 45px;
+}
+
+:root {
+  --highlight-color: null;
+  --foreground-color: null;
+}
+
+::selection {
+  background: var(--highlight-color);
+  color: var(--foreground-color);
+}
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+				<ul>
+					<li><a>Blog ▼</a>
+					<ul>
+						<li><a href="/blog.html">June 2022</a></li>
+						<li><a>2022 ▼</a><ul>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/April.html">Apr 2022</a></li>
+							<li><a href="/2022/March.html">Mar 2022</a></li>
+							<li><a href="/2022/February.html">Feb 2022</a></li>
+							<li><a href="/2022/January.html">Jan 2022</a></li>
+						</ul></li>
+						<li><a>2021 ▼</a><ul>
+							<li><a href="/2021/December.html">Dec 2021</a></li>
+							<li><a href="/2021/November.html">Nov 2021</a></li>
+							<li><a href="/2021/October.html">Oct 2021</a></li>
+							<li><a href="/2021/September.html">Sept 2021</a></li>
+							<li><a href="/2021/August.html">August 2021</a></li>
+							<li><a href="/2021/July.html">July 2021</a></li>
+						</ul></ul></li>
+					<li><a href="/history.html">World History</a></li>
+					<li><a>Stuff ▼</a><ul>
+						<li><a href="/Gillogisms.html">Gillogisms</a></li>
+						<li><a>Gaming ▼</a><ul>
+							<li><a href="/InGameItem.html">Ingame Items</a></li>
+							<li><a href="/Android.html">Android</a></li>
+						</ul></li>
+						<li><a>Tools ▼</a><ul>
+							<li><a href="/calc.html">Calculators</a></li>
+							<li><a href="/WhyIsItDown.html">Why's It Down?</a></li>
+							<li><a href="/errorcause.html">Error Causes</a></li>
+						</ul></li>
+					</ul></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul></li>
+			</nav>
+		</div>
+		<div id="content">
+			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
+			</div><br><br>
+
+<!-- Cryptid currency
+- Formal
+Lack of oversight allows market players to create volatility, and whole new currencies, at will.  market players set up and run countryless central banks as though they're businesses, including the massive marketing budgets to name sports stadiums.
+- Forex
+Volatile and not backed make it like investing in the Turkish Lira.
+- ROI
+Consumes enormous amounts of very expensive computational resorces for questionable ROI.
+- Computational
+Reverse-engineering SHA256 (or similar) certificates to store data feels like a solution in search of a problem. Why not reverse-engineer SSL certificates or user passwords?
+- Utility
+Markets often overinflates with speculative investors, causing too much volatility for the currency to be used for payment, and definitely too "interesting" to reliabiy store asset value. 
+In which situations do you need a volunteer-distributed append-only database that's weak against a 51% attack?
+- Psychological
+"Winning" a block has a very gacha feel, and the "line go up" effect is undeniable. 
+Users are eager to look at ugly monkeys because they're a nice change of pace from the bar and line graphs. (This is the News Advertising cycle being played out in crypto)
+- Market effects
+Impacts gaming as both consume the same video cards. (Weren't ASICs supposed to help with this?)
+- Career
+Giving a "cash prize" for performing work is much less ethical than having a labor contract, turning mining into the Gig Economy version of Data Centers. 
+Company employees experience rug-pulls during market downturns, since their employers sole value is psychological, and the industry has but one revenue stream: investors. 
+- Industry
+These are quintessential tech companies in a few ways, including their heavy use of scalable code, investor-driven Ponziesque profit model (where is the ad-supported Bitcon?), and disregard for employees with highly-valuable skills by treating them as disposable.
+-->
+
+			<div class="textBubbleBG">
+				<h2 id="06212022"><a href="#06212022">06/21/2022</a> - Cost balancing.</h2>
+				<p>The first noticeable outcome is the pricing of ALBs - they cost almost as much as a small EC2 instance. The sole function provided by the ALB is to anchor the SSL cert and translate port 443, since SSL in Javascript is still somewhat undiscussed, Hopefully adding a Traefik instance to my container set will allow this to get its own SSL certs from Let's Encrypt.</p>
+				<ol>
+				<li>Pull together a small Node.js app to serve static files.</li>
+				<li>Dockerfile to declare Node.js version and start it.</li>
+				<li>Scripting Docker for quick local builds.</li>
+				<li>Upload to ECR, include in Task Definition, create Service.</li>
+				<li>Apply for ACM cert, add CNAME in Google Domains.</li>
+				<li>Add ACM cert to ALB, set up Target Group, point at the Task's internal IP.</li>
+				</ol>
+				<p>Larger breakdown still to come.</p>
+				</div><br><br>			
+
+			<div class="textBubbleBG">
+				<h2 id="06192022"><a href="#06192022">06/19/2022</a> - Blog in a box.</h2>
+				<p>Containerizing this site has been pretty easy. Containers are pretty powerful, and hosting static files is kinda overkill, but still seems much more efficient than renting a Windows server.</p>
+				<ol>
+				<li>Pull together a small Node.js app to serve static files.</li>
+				<li>Dockerfile to declare Node.js version and start it.</li>
+				<li>Scripting Docker for quick local builds.</li>
+				<li>Upload to ECR, include in Task Definition, create Service.</li>
+				<li>Apply for ACM cert, add CNAME in Google Domains.</li>
+				<li>Add ACM cert to ALB, set up Target Group, point at the Task's internal IP.</li>
+				</ol>
+				<p>Larger breakdown still to come.</p>
+				</div><br><br>			
+
+			<div class="textBubbleBG">
+				<h2 id="06162022"><a href="#06162022">06/16/2022</a> - Facsimileft.</h2>
+				<p>Learning Docker containers has reignited a desire for web development. They are like a missing puzzle piece. And a key part of modern web dev is licensing.</p>
+				<p>Here's a tabulation of software licenses from <a href="https://itsfoss.com/open-source-licenses-explained/">It's Foss</a>. All licenses have in common: "The Work is suitable for commercial use" and "Licensees can modify the work."</p>
+
+				<table><colgroup>
+				<col style="max-width: 35px; width: 25vw;"/> <!-- Name -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- GPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- LGPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- EPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- MPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- ASL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- MIT -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- BSD -->
+				</colgroup><thead>
+				<tr><th>Term</th><th>GPL</th> <th>LGPL</th> <th>EPL 1.0</th> <th>MPL</th> <th>ASL 2.0</th> <th>MIT</th> <th>BSD</th></tr>
+				</thead><tbody>
+				<tr><td>Copyleft (generally unrestricted to use and redistribute)</td><td>Strong</td><td><div>Weak (bound to DLL)</div></td><td><div>Weak (bound to software "module")</div></td><td><div>Weak (bound to individual files)</div></td><td>Non-copyleft</td><td>Non-copyleft</td><td>Non-copyleft</td></tr>
+				<tr><td>Licensees must provide proper attribution for the Work.</td><td></td><td></td><td></td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td></tr>
+				<tr><td><div style="width:399px;left:-1px">Licensees must release the source alongside with Derivative Work.</div></td><td class="tableYes">Yes</td><td class="tableMaybe"><div>Only if you don&#39;t modify</div></td><td class="tableMaybe"><div>Only if you don&#39;t modify</div></td><td class="tableYes"><div>Yes (Licensees cannot relicense MPL-licensed source)</div></td><td class="tableNo">No</td><td class="tableNo">No</td><td class="tableNo">No</td></tr>
+				<tr><td><div style="width:399px;left:-1px">Licensees may redistribute Derivative Work under different terms</div></td><td class="tableNo">No</td><td></td><td></td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td></tr>
+				<tr><td><div>Commercial distributors of the software must defend or compensate original EPL contributors from lawsuits/damages caused by the commercial offering.</div></td><td></td><td></td><td class="tableYes">Yes</td><td></td><td></td><td></td><td></td></tr>
+				<tr><td><div>Licensees cannot use the original Author name or trademark to endorse Derivative Work (3- and 4- clause BSD)</div></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tableYes">Yes</td></tr>
+				<tr><td><div>Licensees must acknowledge the original Author in all advertising materials mentioning features or use of the Work (4-clause BSD)</div></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tableYes">Yes</td></tr>
+				</tbody></table>
+
+				<p>In case the blog didn't make it obvious, the author isn't a lawyer, so be sure to check with one before making a business-impacting decision.</p>
+
+				</div><br><br>			
+			<div class="textBubbleBG">
+				<h2 id="06062022"><a href="#06062022">06/06/2022</a> - Pride in what you do.</h2>
+				<p>Found <a href="https://dev.to/braydoncoyer/change-text-highlight-color-with-css-80">CSS and JS to change highlight-color</a>. Each time you click, the color will change, moving through the Pride flag rainbow. As an upgrade to the original, this checks if the background color is within 500 "color points" of dark #000000 text. Back in my <a href="https://www.gilgamech.com/2021/August.html#08212021">8/21/2021</a> post, I discussed adding together all 3 color values to obtain a "color point" value, and how a value of 500 is considered the minimum value for readability. I got this from an accessability website and forgot to reference them 😞.</p>
+				<p>First, the CSS. The top section, :root, is where these variables are initialized with a null value. They'll get populated in the lower Javascript section then used in this ::selection section.</p>
+				<div class="codeWrapper">
+				:root {<ul>
+				  --foreground-color: null;<br>
+				  --highlight-color: null;<br>
+				</ul>}<br>
+				::selection {<ul>
+				  color: var(--foreground-color);<br>
+				  background: var(--highlight-color);<br>
+				</ul>}<br>
+				</div>
+				<p>Next, Javascript to setup the colors, from <a href="https://www.kapwing.com/resources/official-pride-colors-2021-exact-color-codes-for-15-pride-flags/">here</a>.</p>
+				<div class="codeWrapper">
+				const colors = [<br>
+				"#E50000", //red<br>
+				"#FF8D00",//orange <br>
+				"#FFFF00", //yellow<br>
+				"#028121",//green <br>
+				"#004CFF",//indigo <br>
+				"#760088",//purple <br>
+				"#FFAFC7",//pink<br>
+				"#73D7EE",//teal<br>
+				"#613915"];//brown<br>
+				</div>
+				<p>Then setup the mousedown event. Whenver the left mouse button is clicked on the webpage, it will detach the first color in the colors array, check its "color points" <a href="https://www.w3docs.com/snippets/javascript/how-to-convert-decimal-to-hexadecimal-in-javascript.html">by converting</a> and update the foreground color if necessary, then forward both values to the CSS variable above. Then it reattaches the color to the end of the colors array, effectively rotating it forward by one.</p>
+				
+				<div class="codeWrapper">
+				window.addEventListener("mousedown", (e) => {<ul>
+					const color = colors.shift();<br>
+					var foreground = "#000000";<br>
+				if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) &gt; 500){<ul>
+					foreground = "#FFFFFF";<br>
+				</ul>}<br>
+				  document.documentElement.style.setProperty("--highlight-color", color);<br>
+				  document.documentElement.style.setProperty("--foreground-color", foreground);<br>
+				  colors.push(color);<br>
+				</ul>});<br>
+				</div>				
+				<p></p>
+
+				</div><br><br>			
+								
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">Moving
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2022 Gilgamech Technologies - We are the gears that make our world go around.</p>
+			</div>
+		</div>
+	</body>
+</html>

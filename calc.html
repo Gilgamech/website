@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.gilgamech.com/js/rgb.js"></script>
+		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script>
+<!-- SCRIPTS GO HERE -->
+</script>
+<style>
+<!-- CSS CLASSES GO HERE -->
+
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+				<ul>
+					<li><a>Blog ▼</a>
+					<ul>
+						<li><a href="/blog.html">June 2022</a></li>
+						<li><a>2022 ▼</a><ul>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/April.html">Apr 2022</a></li>
+							<li><a href="/2022/March.html">Mar 2022</a></li>
+							<li><a href="/2022/February.html">Feb 2022</a></li>
+							<li><a href="/2022/January.html">Jan 2022</a></li>
+						</ul></li>
+						<li><a>2021 ▼</a><ul>
+							<li><a href="/2021/December.html">Dec 2021</a></li>
+							<li><a href="/2021/November.html">Nov 2021</a></li>
+							<li><a href="/2021/October.html">Oct 2021</a></li>
+							<li><a href="/2021/September.html">Sept 2021</a></li>
+							<li><a href="/2021/August.html">August 2021</a></li>
+							<li><a href="/2021/July.html">July 2021</a></li>
+						</ul></ul></li>
+					<li><a href="/history.html">World History</a></li>
+					<li><a>Stuff ▼</a><ul>
+						<li><a href="/Gillogisms.html">Gillogisms</a></li>
+						<li><a>Gaming ▼</a><ul>
+							<li><a href="/InGameItem.html">Ingame Items</a></li>
+							<li><a href="/Android.html">Android</a></li>
+						</ul></li>
+						<li><a>Tools ▼</a><ul>
+							<li><a href="/calc.html">Calculators</a></li>
+							<li><a href="/WhyIsItDown.html">Why's It Down?</a></li>
+							<li><a href="/errorcause.html">Error Causes</a></li>
+						</ul></li>
+					</ul></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul></li>
+			</nav>
+		</div>
+		<div id="content">
+<!-- CONTENT GOES HERE -->
+			<div class="textBubbleBG">
+				<h2>Calculators:</h2>
+				<a href="#Conversions">Conversions</a><br />
+				<a href="#Relativistic">Relativistic</a><br />
+				<a href="#Snow">Snow volume and weight</a><br />
+				<a href="#RGB">RGB</a><br />
+				<a href="#Energy">Energy</a><br />
+				<a href="#RMR">RMR</a><br />
+				<a href="#GasMileage">GasMileage</a><br />
+				<a href="#Horsepower">Horsepower</a><br />
+				<a href="#HistoryID">HistoryID</a><br />
+			</div><br><br>
+
+			<div class="textBubbleBG">
+				<h4 id="Conversions"><a href="#Conversions">Conversions:</a></h4>
+				<input id="cubicInches" type="number" oninput='writeElement("cubicLiters",(getRoundedNumber(readElement("cubicInches")*0.01638706,1)));' value=152.6 type="number" /> in<sup>3</sup> &lt;&gt; 
+				<input id="cubicLiters" type="number" oninput="writeElement('cubicInches',(getRoundedNumber(readElement('cubicLiters')*61.02374,3)));" value=2.5 /> Liters<br />
+				<input id="horsepowerCalc" type="number" oninput='writeElement("kWCalc",(getRoundedNumber(readElement("horsepowerCalc")*1.34,1)));' value=208 type="number" /> HP  &lt;&gt; 
+				<input id="kWCalc" type="number" oninput="writeElement('horsepowerCalc',(getRoundedNumber(readElement('kWCalc')*0.745699872,3)));" value=278.7 /> kW<br />
+				<input id="miInput" oninput="writeElement('kmInput',getRoundedNumber(readElement('miInput')*1.609344,2))" type="number"  value=12 /> mi &lt;&gt; <input id="kmInput" oninput="writeElement('miInput',getRoundedNumber(readElement('kmInput')*0.6213712,2))" type="number" value=19.3 /> km <br />
+				<div><input id="lbInput" oninput="writeElement('kgInput',getRoundedNumber(readElement('lbInput')*0.4535924,2))" type="number" value=2.2 /> lb &lt;&gt; <input id="kgInput" oninput="writeElement('lbInput',getRoundedNumber(readElement('kgInput')*2.204623,2))" type="number" value=1 /> kg </div>
+
+				<div><input id="tonInput" oninput="writeElement('metricTonInput',getRoundedNumber(readElement('tonInput')*0.9071847,2))" type="number" value=2 /> tons &lt;&gt; <input id="metricTonInput" oninput="writeElement('tonInput',getRoundedNumber(readElement('metricTonInput')*1.102311,2))" type="number" value=1.81 /> metric tons </div>
+
+				<div><input id="galInput" oninput="writeElement('literInput',getRoundedNumber(readElement('galInput')*3.7854,2))" type="number" value=2 /> gal &lt;&gt; <input id="literInput" oninput="writeElement('galInput',getRoundedNumber(readElement('literInput')*0.2641729,2))" type="number" value=7.57 /> liter</div>
+
+				<div><input id="mphInput" oninput="writeElement('kmhInput',getRoundedNumber(readElement('mphInput')*1.609344,2))" type="number" value=25 /> mph &lt;&gt; <input id="kmhInput" oninput="writeElement('mphInput',getRoundedNumber(readElement('kmhInput')*0.6213712,2))" type="number" value=40.23 /> km/h </div>
+
+				<div><input id="ftlbInput" oninput="writeElement('newtonMeterInput',getRoundedNumber(readElement('ftlbInput')*1.3558179483,2))" type="number" value=2 /> ft/lb &lt;&gt; <input id="newtonMeterInput" oninput="writeElement('ftlbInput',getRoundedNumber(readElement('newtonMeterInput')*0.7375621493,2))" type="number" value=2.71 /> newton-meter </div>
+			</div><br><br>
+			
+			<div class="textBubbleBG">
+				<h4 id="Relativistic"><a href="#Relativistic">Relativistic:</a></h4>
+				<p>Speed (m/s):<input class="roundInput" id="lorentzFactorVelocity" oninput="doLorentzFactor();" type="number" value="75000000"/> (<span id="percentC"></span> % c_Light )</p>
+				<p> Lorentz Factor <span id="lorentzFactorOutput"></span></p>
+				<p>Lorentz Multiple: <span id="lorentzMultipleOutput"></span></p>
+				<p>Observer Time: <input class="roundInput" id="TimeDilationTimeObserver" oninput="doLorentzFactor()" type="number" value="100"/></p>
+				<p>Relativistic time: <span id="TimeDilationOutput"></span></p>
+				<p>Length: <input class="roundInput" id="lengthContractionLength" oninput="doLorentzFactor()" type="number" value="100"/></p>
+				<p>Length Contraction:<span id="lengthContractionOutput"></span></p>
+				<p>Mass: <input class="roundInput" id="RMassrestMass" oninput="doLorentzFactor()" type="number" value="100"/></p>
+				<p>Relativistic Mass: <span id="RMassOutput"></span></p>
+				<p>Relativistic Momentum: <span id="RMomentumOutput"></span></p>
+				<p>RKE: <span id="RKEOutput"></span></p>
+				<h4>Planetary:</h4>
+				<p>Rest Mass: <input class="roundInput" id="EscapeVelocityrestMass" oninput="doLorentzFactor();" type="number" value="100"/>, Radius: <input class="roundInput" id="EscapeVelocityRadius" oninput="doLorentzFactor();" type="number" value="75000000"/> Escape Velocity: <span id="EscapeVelocityOutput"></span></p>
+
+<script>
+function doLorentzFactor() {
+	writeElement('lorentzFactorOutput',returnLorentzFactor(readElement('lorentzFactorVelocity')));
+	writeElement('percentC',getRoundedNumber(readElement('lorentzFactorVelocity')/c_Light,2))
+	writeElement('TimeDilationOutput',returnTimeDilation(readElement('TimeDilationTimeObserver'),readElement('lorentzFactorVelocity')));
+	writeElement('lorentzMultipleOutput',returnLorentzMultiple(readElement('lorentzFactorVelocity')));
+	writeElement('lengthContractionOutput',returnLengthContraction(readElement('lengthContractionLength'),readElement('lorentzFactorVelocity')));
+	writeElement('RMassOutput',returnRMass(readElement('RMassrestMass'),readElement('lorentzFactorVelocity')));
+	writeElement('RMomentumOutput',returnRMomentum(readElement('RMassrestMass'),readElement('lorentzFactorVelocity')));
+	writeElement('RKEOutput',returnRKE(readElement('RMassrestMass'),readElement('lorentzFactorVelocity')));
+	writeElement('EscapeVelocityOutput',returnEscapeVelocity(readElement('EscapeVelocityrestMass'),readElement('EscapeVelocityRadius')) + " " + EarthRadiusUnits + "/s");
+}
+
+	writeElement('EscapeVelocityrestMass',EarthMass)
+	writeElement('EscapeVelocityRadius',EarthRadius)
+	doLorentzFactor()
+
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="Snow"><a href="#Snow">Snow volume and weight:</a></h4>
+				Width (ft): <input id="snowWidth" type="number" oninput='doSnowMath()' value='30'/><br />
+				Length (ft): <input id="snowLength" type="number" oninput='doSnowMath()'  value='20'/><br />
+				Depth (ft): <input id="snowDepth" type="number" oninput='doSnowMath()'  value='2'/><br /><br />
+				Cubic Ft: <input id="snowCuFt" type="number" readonly/><br />
+				Lbs: <input id="snowLbs" type="number" readonly /><br />
+				KG: <input id="snowKG" type="number" readonly /><br />
+<script>
+function doSnowMath() {
+	writeElement("snowCuFt",readElement("snowWidth")*readElement("snowLength")*readElement("snowDepth"));
+	writeElement("snowLbs",readElement("snowCuFt")*20);
+	writeElement('snowKG',getRoundedNumber((readElement('snowLbs')*0.4535924),2));
+}
+doSnowMath() ;
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="RGB"></h4>
+				<div id='rgb'></div>
+<script>
+addPage("rgb")
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="Energy"><a href="#Energy">Energy and work:</a></h4>
+				<input id="inputJoules" type="number" oninput='doSocratic(0);' value=1800000> J = 60 s/1 min × 
+				<input id="inputMinutesA" type="number" oninput='doSocraticTime(1);' value=20> min × J/s &lt;<input id="inputEnergy" type="number" oninput='doSocratic(2);' value=1500>&gt; W × <input id="inputMinutesB" type="number" oninput='doSocraticTime(3);' value=20> min × 1 h /60 min = <input id="inputWattHour" type="number" oninput='doSocratic(4);' value=500> Wh
+				
+				
+				<p>From <a href="https://en.wikipedia.org/wiki/Joule">Wikipedia</a> - <input id="jouleJoules" type="number" oninput='doJoules(0);' value=1> J represents (approximately):</p><ul>
+				<li>The amount of electricity required to run a 1 W device for <input id="jouleWattSec" type="number" oninput='doJoules(1);' value=1> s.</li>
+				<li>The energy required to accelerate a 1 kg mass at <input id="jouleAccel" type="number" oninput='doJoules(2);' value=1> m/s<sup>2</sup> through a distance of 1 m.</li>
+				<li>The kinetic energy of a <input id="jouleKGrams" type="number" oninput='doJoules(3);' value=1> kg mass traveling at 1.41 m/s.</li>
+				<li>The energy required to lift a 101.97 g (3.597 oz) tomato up <input id="jouleMeter" type="number" oninput='doJoules(4);' value=1> meters.</li>
+
+				<li>The heat required to raise the temperature of <input id="jouleGrams" type="number" oninput='doJoules(5);' value=0.239> g water from 0 °C (32 °F) to 1 °C (33.8 °F).</li>
+				<li>The typical energy released as heat by a person at rest every <input id="jouleHumanHeat" type="number" oninput='doJoules(6);' value=16.7364> ms.</li>
+				<li>The kinetic energy of a 50 kg human moving at <input id="jouleHumanMotion" type="number" oninput='doJoules(7);' value=0.2> m/s.</li>
+				<li>The kinetic energy of a 56 g tennis ball moving at <input id="jouleTennisMotion" type="number" oninput='doJoules(8);' value=6> m/s.</li>
+				<li>The food energy in about <input id="jouleKcal" type="number" oninput='doJoules(9);' value=.55> mg table sugar.</li>
+				</ul>
+<script>
+function doSocraticTime(inputNumber) {
+	if (inputNumber != 1) {writeElement("inputMinutesA",getRoundedNumber(readElement("inputMinutesB"),2));}
+	if (inputNumber != 3) {writeElement("inputMinutesB",getRoundedNumber(readElement("inputMinutesA"),2));}
+
+	writeElement("inputJoules",getRoundedNumber(readElement("inputEnergy")*readElement("inputMinutesA")*60,2));
+	writeElement("inputWattHour",getRoundedNumber(readElement("inputJoules")/60/60,2));
+}
+function doSocratic(inputNumber) {
+
+	if (inputNumber != 0) {writeElement("inputJoules",getRoundedNumber(readElement("inputEnergy")*readElement("inputMinutesA")*60,2));}
+	if (inputNumber != 2) {writeElement("inputEnergy",getRoundedNumber(readElement("inputWattHour")/readElement("inputMinutesA")*60,2));}
+	if (inputNumber != 4) {writeElement("inputWattHour",getRoundedNumber(readElement("inputJoules")/60/60,2));}
+	
+	if (inputNumber != 0) {writeElement("inputJoules",getRoundedNumber(readElement("inputEnergy")*readElement("inputMinutesA")*60,2));}
+	if (inputNumber != 2) {writeElement("inputEnergy",getRoundedNumber(readElement("inputWattHour")/readElement("inputMinutesA")*60,2));}
+	if (inputNumber != 4) {writeElement("inputWattHour",getRoundedNumber(readElement("inputJoules")/60/60,2));}
+}
+
+function doJoules(inputNumber) {
+	if (inputNumber != 0) {writeElement("jouleJoules",getRoundedNumber(readElement("jouleKcal")/.55,2));}
+	if (inputNumber != 1) {writeElement("jouleWattSec",getRoundedNumber(readElement("jouleJoules"),2));}
+	if (inputNumber != 2) {writeElement("jouleAccel",getRoundedNumber(readElement("jouleWattSec"),2));}
+	if (inputNumber != 3) {writeElement("jouleKGrams",getRoundedNumber(readElement("jouleAccel"),2));}
+	if (inputNumber != 4) {writeElement("jouleMeter",getRoundedNumber(readElement("jouleKGrams"),2));}
+	if (inputNumber != 5) {writeElement("jouleGrams",getRoundedNumber(readElement("jouleMeter")*.239,2));}
+	if (inputNumber != 6) {writeElement("jouleHumanHeat",getRoundedNumber(readElement("jouleGrams")/.239/.060,4));}
+	if (inputNumber != 7) {writeElement("jouleHumanMotion",getRoundedNumber(readElement("jouleHumanHeat")*0.2*.060,2));}
+	if (inputNumber != 8) {writeElement("jouleTennisMotion",getRoundedNumber(readElement("jouleHumanMotion")*30,2));}
+	if (inputNumber != 9) {writeElement("jouleKcal",getRoundedNumber(readElement("jouleTennisMotion")/10.9,2));}
+
+	if (inputNumber != 0) {writeElement("jouleJoules",getRoundedNumber(readElement("jouleKcal")/.55,2));}
+	if (inputNumber != 1) {writeElement("jouleWattSec",getRoundedNumber(readElement("jouleJoules"),2));}
+	if (inputNumber != 2) {writeElement("jouleAccel",getRoundedNumber(readElement("jouleWattSec"),2));}
+	if (inputNumber != 3) {writeElement("jouleKGrams",getRoundedNumber(readElement("jouleAccel"),2));}
+	if (inputNumber != 4) {writeElement("jouleMeter",getRoundedNumber(readElement("jouleKGrams"),2));}
+	if (inputNumber != 5) {writeElement("jouleGrams",getRoundedNumber(readElement("jouleMeter")*.239,2));}
+	if (inputNumber != 6) {writeElement("jouleHumanHeat",getRoundedNumber(readElement("jouleGrams")/.239/.060,4));}
+	if (inputNumber != 7) {writeElement("jouleHumanMotion",getRoundedNumber(readElement("jouleHumanHeat")*0.2*.060,2));}
+	if (inputNumber != 8) {writeElement("jouleTennisMotion",getRoundedNumber(readElement("jouleHumanMotion")*30,2));}
+	if (inputNumber != 9) {writeElement("jouleKcal",getRoundedNumber(readElement("jouleTennisMotion")/10.9,2));}
+
+}
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="RMR"><a href="#RMR">RMR:</a></h4>
+				<table>
+				<tr><th>Human Gender</th><td>Has womb</td><td>No womb</td><th>Metric</th><th>USA! USA! USA!</th>
+				</tr>
+				<tr><th>RMR</th><td><input id="reorRMR" type="number" readonly></td><td><input id="noroRMR" type="number" readonly></td>
+				</tr>
+				<tr><th><span class="popup">RO<span>Reproductive Organ</span></span> Constant</th><td>444.7593</td><td>88.362</td>
+				</tr>
+				
+				<tr><th>Weight</th><td>+ 9.247 x </td><td>+ 13.397 x </td>
+				<td><input id="rmrWeightKG" type="number" oninput='writeElement("rmrWeightLB",(getRoundedNumber(readElement("rmrWeightKG")*2.204623,2)));doRMR();doRMR();' value=91> kg</td>
+				<td><input id="rmrWeightLB" type="number" oninput='writeElement("rmrWeightKG",(getRoundedNumber(readElement("rmrWeightLB")*0.4535924,2)));doRMR();' value=200> lbs</td></tr>
+
+				<tr><th>Height</th><td>+ 3.098 x </td><td>+ 4.799 x </td>
+				<td><input id="rmrHeightCM" type="number" oninput='writeElement("rmrHeightFt",getRoundedNumber(readElement("rmrHeightCM")*0.0328084,2));doRMR();' value=175> cm</td>
+				<td><input id="rmrHeightFt" type="number" oninput='writeElement("rmrHeightCM",getRoundedNumber(readElement("rmrHeightFt")*30.48,2));doRMR();' value=5.74> ft</td></tr>
+
+				<tr><th>Age (years)</th><td>- 4.330 x </td><td>- 5.677 x </td><td><input id="rmrAge" type="number" oninput='doRMR();' value=35></td></tr>
+				</table>
+				<p>Formulas from <a href="https://betterme.world/articles/resting-calories/">here.</a></p>
+				
+<script>
+function doRMR(){
+	writeElement("reorRMR",getRoundedNumber(444.7593+9.247*readElement("rmrWeightKG")+3.098*readElement("rmrHeightCM")-4.33*readElement("rmrAge"),2))
+	writeElement("noroRMR",getRoundedNumber(88.362+9.247*readElement("rmrWeightKG")+3.098*readElement("rmrHeightCM")-4.33*readElement("rmrAge"),2));
+}
+doRMR();
+doRMR();
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="GasMileage"><a href="#GasMileage">Gas mileage:</a></h4>
+				<input id="mpgInput" type="number" oninput='doInput(0)' value=50> MPG<br />
+				<input id="gal100miInput" type="number" oninput='doInput(1)' value=2> Gal / 100mi<br /><br />
+				<span id="whGalInput">33410.107</span> WH / Gal<br />
+				<input id="wh100MiInput" type="number" oninput='doInput(2)' value=66820.21> WH / 100mi<br />
+				<input id="whMiInput" type="number" oninput='doInput(3)' value=668.2> WH / mi<br />
+<script>
+function doInput(inputNumber) {
+	if (inputNumber != 0) {writeElement("mpgInput",getRoundedNumber(33410.11/readElement("whMiInput"),2));}
+	if (inputNumber != 1) {writeElement("gal100miInput",getRoundedNumber(100/readElement("mpgInput"),2));}
+	if (inputNumber != 2) {writeElement("wh100MiInput",getRoundedNumber(readElement("whGalInput")*readElement("gal100miInput"),2));}
+	if (inputNumber != 3) {writeElement("whMiInput",getRoundedNumber(readElement("wh100MiInput")/100,2));}	
+	if (inputNumber != 0) {writeElement("mpgInput",getRoundedNumber(33410.11/readElement("whMiInput"),2));}
+}
+
+</script>
+			</div><br><br>
+			<div class="textBubbleBG">
+				<h4 id="Horsepower"><a href="#Horsepower">Horsepower and Torque:</a></h4>
+
+				<input id="HPInput" type="number" oninput='writeElement("torque_Ft_Lb",getRoundedNumber(readElement("HPInput")*5252/readElement("RPMInput"),1));writeElement("torque_N_m",getRoundedNumber(readElement("HPInput")*9550/readElement("RPMInput"),1));' value="208"> HP<br />
+
+				<input id="RPMInput" type="number" oninput='writeElement("HPInput",getRoundedNumber(readElement("torque_Ft_Lb")*readElement("RPMInput")/5252,1));' value="5700"> RPM<br />
+
+				<input id="torque_Ft_Lb" type="number" oninput='writeElement("HPInput",getRoundedNumber(readElement("torque_Ft_Lb")*readElement("RPMInput")/5252,1));writeElement("torque_N_m",getRoundedNumber(readElement("HPInput")*9550/readElement("RPMInput"),1));' value="185"> ft-lbs<br />
+
+				<input id="torque_N_m" type="number" oninput='writeElement("HPInput",getRoundedNumber(readElement("torque_N_m")*readElement("RPMInput")/9550,1));writeElement("torque_Ft_Lb",getRoundedNumber(readElement("HPInput")*5252/readElement("RPMInput"),1));' value="633"> Nm<br />
+				</div><br><br>
+
+			<div class="textBubbleBG">
+				<h4 id="HistoryID"><a href="#HistoryID">History date to HistoryID:</a></h4>
+				//ID: <input id="idToDateID" oninput='writeElement("idPage",idToPage(readElement("idToDateID"))+" "+readElement("eventOne")+" to "+readElement("eventTwo"));writeElement("idNotes",idToNotes(readElement("idToDateID")))'></input><br />
+				//eventOne: <input id="eventOne" oninput='writeElement("idPage",idToPage(readElement("idToDateID"))+" "+readElement("eventOne")+" to "+readElement("eventTwo"));writeElement("idNotes",idToNotes(readElement("idToDateID")))'></input><br />
+				//eventTwo: <input id="eventTwo" oninput='writeElement("idPage",idToPage(readElement("idToDateID"))+" "+readElement("eventOne")+" to "+readElement("eventTwo"));writeElement("idNotes",idToNotes(readElement("idToDateID")))'></input><br />
+				
+				//Page: <div id="idPage" oninput=''></div><br />
+				//Notes: <div id="idNotes" oninput=''></div>
+
+				<br />
+				<br />
+				//Date: <input id="dateToIDID" style="height:30px" oninput='writeElement("dateOut",dateToID(readElement("dateToIDID")))'></input><br />
+				<input id="dateOut" readonly /><br />
+<script>
+function idToPage(id){
+    return id.split(" ")[0].replace("P","Page ")+": "
+}
+
+function idToNotes(id){
+	var idA = id.split(" ")[1]
+	var idB = id.split(" ")[2]
+	//(N485P4M-N419P2M) -485.4 my to -419.2 my
+	var out = "("+idA+"-"+idB+") "+idToDate(idA)+" to "+ idToDate(idB)
+	var com = "Historical Compendium: https://www.gilgamech.com/history.html"
+	var pat = "Patreon: https://www.patreon.com/Gilgamech"
+	return out + "\n"+com+ "\n"+pat;
+}
+
+function idToDate(id){
+    return id.replace(/-[0-9]+/g,"").replace(/N/g,"-").replace(/P/g,".").replace(/B/g," by").replace(/M/g," my").replace(/K/g,"k y").replace(/\t/g,"").replace(/\Y[0-9]/g,"").replace(/\Y/g,"")
+}
+
+function dateToID(date){
+	date = date.toString().replace(/-/g,"N").replace(/[.]/g,"P").replace(/ billion/g,"B").replace(/ million/g,"M").replace(/000/g,"K").replace(/k/g,"K").replace(/\t/g,"") + "Y"
+	date = date.replace(/BY/g,"B").replace(/MY/g,"M").replace(/KY/g,"K").replace(/sY/g,"S")
+    return date
+}
+
+
+</script>
+			</div><br><br>
+
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2022 Gilgamech Technologies - We are the gears that make our world go around.</p>
+			</div>
+		</div>
+	</body>
+</html>

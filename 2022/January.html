@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging loudly again." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
+<meta name="keywords" content="blog">
+<meta name="author" content="Gilgamech Technologies">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.gilgamech.com/js/rgb.js"></script>
+		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script type="application/javascript"> 
+
+
+</script>
+<style type="text/css"> 
+textarea {
+	border-radius: 15px;
+	width: 75vw;
+	height: 10vh;
+}
+
+span.Earth {background: aqua; color: forestgreen;}
+
+span.PowershellBlue {background: #012456; color: #fff;}
+span.PowershellBlack {background: #0c0c0c; color: #ccc;}
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+				<ul>
+					<li><a>Blog ▼</a>
+					<ul>
+						<li><a href="/blog.html">June 2022</a></li>
+						<li><a>2022 ▼</a><ul>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/April.html">Apr 2022</a></li>
+							<li><a href="/2022/March.html">Mar 2022</a></li>
+							<li><a href="/2022/February.html">Feb 2022</a></li>
+							<li><a href="/2022/January.html">Jan 2022</a></li>
+						</ul></li>
+						<li><a>2021 ▼</a><ul>
+							<li><a href="/2021/December.html">Dec 2021</a></li>
+							<li><a href="/2021/November.html">Nov 2021</a></li>
+							<li><a href="/2021/October.html">Oct 2021</a></li>
+							<li><a href="/2021/September.html">Sept 2021</a></li>
+							<li><a href="/2021/August.html">August 2021</a></li>
+							<li><a href="/2021/July.html">July 2021</a></li>
+						</ul></ul></li>
+					<li><a href="/history.html">World History</a></li>
+					<li><a>Stuff ▼</a><ul>
+						<li><a href="/Gillogisms.html">Gillogisms</a></li>
+						<li><a>Gaming ▼</a><ul>
+							<li><a href="/InGameItem.html">Ingame Items</a></li>
+							<li><a href="/Android.html">Android</a></li>
+						</ul></li>
+						<li><a>Tools ▼</a><ul>
+							<li><a href="/calc.html">Calculators</a></li>
+							<li><a href="/WhyIsItDown.html">Why's It Down?</a></li>
+							<li><a href="/errorcause.html">Error Causes</a></li>
+						</ul></li>
+					</ul></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul></li>
+			</nav>
+		</div>
+		<div id="content">
+			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
+			</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01312022"><a href="#01312022">01/31/2022</a> - Mike Wazowski cipher.</h2>
+				<p>//<a href="https://www.cryptogram.org/downloads/aca.info/ciphers/Myszkowski.pdf">Myszkowski</a> cipher uses a key to rearrange a message. It only works if the message length is a multiple of the key length. This example message is 90 characters without spaces, which is exactly 15 times longer than the 6 character key.</p>
+				//Key: <input id="wazowskiKey" class="roundInput" oninput='runMyszkowski()' value="banana"><br />
+				//Input: <textarea id="wazowskiInput" oninput='runMyszkowski()'>Incomplete columnar with pattern word key and letters under same number taken off by row from top to bottom.</textarea><br />
+				//Output: <textarea id="wazowskiOutput" oninput='writeElement("wazowskiRevert",revertMyszkowski(readElement("wazowskiOutput"),readElement("wazowskiKey")));'></textarea><br />
+				//Revert: <textarea id="wazowskiRevert" oninput='writeElement("wazowskiOutput",getMyszkowski(readElement("wazowskiInput"),readElement("wazowskiKey")));'></textarea><br />
+				<p>It took about 4 days to figure out the encipherment, and about 8 days to figure out the revert function. Though I was ill...</p>
+				<h3>First, the easy part: Very carefully making a mess of things.</h3>
+				<p>Encipherment starts with uppercasing the key and message, and removing spaces. Also create the Out variable as a function-level for later.</p>
+				<div id="code31a" class="codeWrapper">
+				function getMyszkowski(message,key) {<br /><ul>
+					message = message.toUpperCase().replace(/ /g,"");<br />
+					key = key.toUpperCase();<br />
+					var out = "";<br />
+				</ul></div>
+				<p>//This cipher works by looping it around the key length before rearranging the key alphabetically. It's a nest of loops. So we start by breaking the message into key-sized chunks with the outermost loop, cycle through the caps alphabet in order, then cycle throgh the message's actual letters within that. The outermost loop creates the Current Message Chunk from which the innermost loop extracts the current letter. </p>
+				<div id="code31b" class="codeWrapper"><ul>
+				for (messageChunkIndex = 0;messageChunkIndex&lt;message.length;messageChunkIndex+=key.length) {<br /><ul>
+					var currentMessageChunk = message.substring(messageChunkIndex,messageChunkIndex+key.length);<br />
+					<br />for (currentAlphaCode = 65;currentAlphaCode&lt;91;currentAlphaCode++) <br /><ul>
+						var currentAlpha = String.fromCharCode(currentAlphaCode);<br />
+						<br />for (messageIndex=0;messageIndex&lt;currentMessageChunk.length;messageIndex++) {<br /><ul>
+							var msgLetter = currentMessageChunk.substring(messageIndex,messageIndex+1);<br />
+				</ul></ul></ul></ul></div>
+				<p>//The innermost loop checks if the key at the current location matches the middle loop's alphabet letter - if so, the message letter is written to the Out variable. Then close all the loops, return the Out variable, and close the function.</p>
+				<div id="code31c" class="codeWrapper"><ul><ul><ul><ul>
+							var keyLetter = key.substring(messageIndex%key.length,messageIndex%key.length+1);<br />
+							if (keyLetter == currentAlpha){<ul><br />
+								out += msgLetter;<br />
+							</ul>}// end if keyLetter<br />
+						</ul>}// end for messageIndex<br />
+					</ul>}// end for currentAlphaCode<br />
+				</ul>}// end for messageChunkIndex<br />
+				return out;
+			</ul>}; //end getMyszkowski<br />
+			</div>
+			<h3>Now the hard part: Getting back to where we were in the first place.</h3>
+			<p>Decipherment begins with copypasta of the first section:</p>
+			<div id="code31d" class="codeWrapper">
+			function revertMyszkowski(message,key) {<br /><ul>
+				message = message.toUpperCase().replace(/ /g,"");<br />
+				key = key.toUpperCase();<br />
+				var out = "";<br />
+			</ul></div>
+			<p>//Set up the Current Message Chunk in the outer loop, just as before. Set it up as an array, and the key as keySplit also an array.</p>
+			<div id="code31e" class="codeWrapper"><ul>
+				for (messageChunkIndex = 0;messageChunkIndex&lt;message.length;messageChunkIndex+=key.length) {<br /><ul>
+					var currentMessageChunk = message.substring(messageChunkIndex,messageChunkIndex+key.length);<br />
+					var currentMessageChunk = currentMessageChunk.split('');<br />
+					var keySplit = key.split('');<br />
+				</ul></ul></div>
+			<p>//Cycle through the current key in order - this replaces the alphabetic loop from the first function, as here the key starts alphabetized and is returned to key-order - and the message with it. The key is alphabetized into an array as keySorted.</p>
+			<div id="code31f" class="codeWrapper"><ul><ul>
+		for (KeyIndex = 0;KeyIndex&lt;keySplit.length;KeyIndex++) {<br /><ul>
+			var keySorted = key.split('').sort();<br />
+				</ul></ul></ul></div>
+			<p>//In the innermost loop, cycle through the the letters of each message chunk as an array. The individual letters are set up from their respective indices. The Key Sorted Index is also set up, which is the location of the current key letter within the alphabetized array. Keeping the key columns in order is essential to making this decipherment work correctly.</p>
+			<div id="code31g" class="codeWrapper"><ul><ul><ul>
+			for (messageIndex=0;messageIndex&lt;keySplit.length;messageIndex++) {<br /><ul>
+					var keySortedLetter = keySorted[messageIndex];<br />
+					var keySplitLetter = keySplit[KeyIndex];<br />
+					var keySortedIndex = keySorted.indexOf(keySplitLetter);<br />
+					var msgLetter = currentMessageChunk[keySortedIndex];<br />
+				</ul></ul></ul></ul></div>
+			<p>//If the sorted and split keys have the same letter, add it to the Out variable. And remove the current letter from each of the arrays, and reset to the start of the message chunk loop again.</p>
+			<div id="code31h" class="codeWrapper"><ul><ul><ul><ul>
+					if (keySortedLetter == keySplitLetter){<br /><ul>
+						out += msgLetter;<br />
+						<br />
+						keySplit.splice(KeyIndex,1);<br />
+						keySorted.splice(keySortedIndex,1);<br />
+						currentMessageChunk.splice(keySortedIndex,1);<br />
+						<br />
+						messageIndex=0;<br />
+					</ul>}// end if keyLetter<br />
+				</ul></ul></ul></ul></div>
+			<p>//If there's only one letter left in the chunk, add that to the Out variable too - this is a bugfix because it kept leaving off the last letter in each message chunk. Close all the loops and return the Out variable before closing the function.</p>
+			<div id="code31i" class="codeWrapper"><ul><ul><ul><ul>
+					if (currentMessageChunk.length == 1) {<br /><ul>
+						out += currentMessageChunk[0];<br />
+					</ul>}<br />
+				</ul>}// end for messageIndex<br />
+			</ul>}// end for keySplitLetter<br />
+		</ul>}// end for messageChunkIndex<br />
+		return out;<br />
+	</ul>}; //end revertMyszkowski<br />
+				</div>
+				<p>//As with <a href="#01172022">Porta</a>, this could be extended to better handle spaces and other punctuation.</p>
+			</div><br><br>
+<script>
+function runMyszkowski() {
+	writeElement("wazowskiOutput",getMyszkowski(readElement("wazowskiInput"),readElement("wazowskiKey")));
+	writeElement("wazowskiRevert",revertMyszkowski(readElement("wazowskiOutput"),readElement("wazowskiKey")));
+}
+runMyszkowski()
+
+var wordList = ["messageChunkIndex","currentMessageChunk","messageIndex","keyLetter","currentAlphaCode","currentAlpha","msgLetter","portaBeta","KeyIndex","keySplitLetter","keySplit","keySortedIndex","keySortedLetter","keySorted","key","message","currentAlphaCode","out","out","out","out"];
+var divList = ["code31a","code31b","code31c","code31d","code31e","code31f","code31g","code31h","code31i"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"PORTA"','""','"number"',"'IMG'",'"A"','"B"','"C"','"D"','"E"','"F"','"G"','"H"','"I"','"J"','"K"','"L"','"M"','"N"','"O"','"P"','"Q"','"R"','"S"','"T"','"U"','"V"','"W"','"X"','"Y"','"Z"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+</script>
+
+			<div class="textBubbleBG">
+				<h2 id="01282022"><a href="#01282022">01/28/2022</a> - NASA conspiracy!</h2>
+				<p>Looking at the ISS stream showed this weird image:</p>
+				<img src="https://www.gilgamech.com/images/ISS-1.png" maxwidth="800vw" maxheight="600vw"/>
+				<p>Checking again a few hours later reveals the truth:</p>
+				<img src="https://www.gilgamech.com/images/ISS-2.png" maxwidth="800vw" maxheight="600vw"/>
+				<p>I've been watching too many UFO videos lately. The ISS was viewing Earth's dark side, but wasn't in Earth's shadow - hence the dark side of the Earth was washed out by the much brighter parts of the ISS. Occam's razor suggests amateur photography mistakes are much more likely than interstellar conspiracy.</p>
+				</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01262022"><a href="#01262022">01/26/2022</a> - Powershell default color.</h2>
+				<p>Windows 11 is available for prerelease install. Some of the features aren't quite complete - like hiding favorite files from the start bar.</p>
+				<p>And some cheese definitely gets moved. Powershell changes from the pretty <span class="PowershellBlue">dark blue</span> from before, to a <span class="PowershellBlack">very dark grey</span>. The grey is nearly black, but makes sense when you convert to hex:</p><ul>
+				<li><span class="PowershellBlue">The classic Powershell Blue uses full-saturation #FFFFFF text on a #012456 (dark blue) background.</span></li>
+				<li><span class="PowershellBlack">New Powershell Black uses #CCCCCC (light grey) text on a #0C0C0C (very dark grey) background.</span></li>
+				</ul><p>It's subtle, like a joke in HTML color language. Technically the new colors are slightly less visible, as (204 - 12) * 3 = 576, while 254 + 219 + 169 = 642. As I discussed back in <a href="https://www.gilgamech.com/2021/August.html#08212021">August</a>, the "minimum contrast" for visibility is a total difference of 500, which the new scheme meets. But it has 66 less total contrast than the classic Blue scheme. Given that this color space is 765 units large, the new scheme's difference of 66 color points makes it 8.6% less visible than the classic Blue. Something to keep in mind for low visibility and low brightness situations.</p>
+				<p>If all you want is the normal Powershell colors again, just right click the top bar > Properites > Colors tab, and enter these values for the background:</p>
+				<img src="https://www.gilgamech.com/images/PowershellColorValues.png" /><ul>
+				<li>Red: 01</li>
+				<li>Blue: 36</li>
+				<li>Green: 86</li>
+				</ul><p>Then select the Screen Text radio button, and update the text color:</p>
+				<img src="https://www.gilgamech.com/images/PowershellColorValues2.png" /><ul>
+				<li>Red: 255</li>
+				<li>Blue: 255</li>
+				<li>Green: 255</li>
+				</ul><p>Then click "OK" and you're back in blue. Now you'll just need something borrowed.</p>
+				</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01232022"><a href="#01232022">01/23/2022</a> - Steam Heat.</h2>
+				<p>Nuclear power is a hot topic - indeed a charged one, electric with opinions. All of them emotional - don't we "trust" the subatomic particles? Or are we some kind of uneducated yeller-bellied chicken-herder?</p>
+				<h3>What is Nuclear Fission Power?</h3>
+				<p>Nuclear fission power is the energy-as-velocity carried by subatomic particles as they "drip" off their oversized neuclei. Through Boltzmann's constant, we humans perceive this velocity as temperature, and use this temperature to perform thermodynamic work. Most of our tools use electricity these days, so this temperature needs to be converted to electricity - and the most well-known method for doing this is a steam engine.</p>
+				<p>Steam engines produce tremendous torque and massive work output, but are very unsafe as they are prone to exploding. This is a centuries-old issue in railways, and a huge reason for the push away from steam locomotives and into the less-powerful but much safer diesel-electric, and gas-turbine locomotives which use so much fuel that they become a money pit. Likewise with navy vessels, steam boilers allow great speed but have been replaced by much safer diesel engines on virtually all craft. Steamboats are extremely uncommon in the 21st century. Nuclear warships were common, and then 2 sank - the US Navy has to monitor these to ensure they don't become critical disasters. A nuclear warship requires a huge team of highly-trained engineers, and costs so much that they only make sense when oil is more than $90 per barrel.</p>
+				<p>Failing to control the heat source has been the cause for every modern nuclear meltdown, because the technology relies on generating immense heat to boil water very quickly. A failure to correctly insert the control rods happened in Fukushima due to an electric grid outage from the earthquake, and in Chernobyl due to a mechanical malfunction. At Three Mile Island the heat caused a meltdown even with the control rods inserted correctly.</p>
+				<h3>If steam isn't a viable technology, let's try this hot new tech: Steam!</h3>
+				<p>Instead of avoiding the problematic technology, many want to patch it. One suggestion is to make the reactor fail-safe instead of fail-dangerous. Some of these designs include the Molten Salt reactor, which is designed to meltdown. Now we're compounding one problematic technology with the problematic part of another technology! With these powers combined, we can destroy the planet!</p>
+				<p>Other options involve using thorium - which is much more difficult to weaponize, as it's less potent. But thorium would still be coupled with the same problematic steam technology from the 17th century.</p>
+				<h3>It's the 21st century - aren't there other options?</h3>
+				<p>Betavoltaics are a low-power nuclear fission technology that have been used in satellites for more than 60 years. These capture beta radiation (aka fast electrons), creating electricity similar to a solar panel. Like batteries, each one can provide just a small charge, but hundreds of these could power a house or maybe even a car. A downside for the energy industry is that they last for decades, so you won't have customers stopping by daily to fill up their betavoltaic systems. For the consumer, it would be like a solar-powered car or house - even at nighttime or in a heavy storm. Future reasearch could unlock "alphavoltaics" which use the helium ion alpha particle in the same way. </p>
+				<p>Alpha-Betavoltaic Circuit - Like putting 2 terminals at either end of a radiation source, and place a permanent magnet nearby to direct helium ion alpha particles towards one end, and naked electron beta particles towards another end, creating an electric circuit.</p>
+				<p>Gamma ray capture - this would unlock both numerous nuclear fission energy sources, as well as possibly antimatter energy sources. Matter-antimatter annihilation releases immense energy, with all of it split between just 2 photons. Gamma rays are known for causing "bit flips" - adding an electric charge to a memory cell, so it changes from a 0 to a 1. This issue is so prevalent in our terrestrial electronics that we use basic error correction to make it invisible, and so bad in our orbital electronics that satellites run multiple sets of hardware that constantly reload each others memory cells. Treating these memory cells like capacitors could allow us to usefully discharge them instead, extracting some of the overwhelming energy of these photons.</p>
+				<p>Internal-criticality engine - This would resemble an internal combustion engine, with a nearly-critical mass on each piston and another at the end of each cylinder. The pistons would push the two masses together until the forces of the subatomic particles become critical enough to repel the piston.</p>
+				<p>Fusion - this is the new "holy grail" for the industry, but will be more interesting as a materials source than as a power source. It has an even more massive heat problem, as its operational goal is self-sustaining solar temperatures and pressures.</p>
+				<h3>I don't even go here...</h3>
+				<p>As a nuclear energy industry outsider, I'm likely just scratching the surface for options. Despite the vast environmental messaging prevalent in the modern ad-scape, US American choices are still heavily engineered to sell oil, gasoline, and other petroleum products on a daily basis. Did you know that 50 MPG cars have been common in Europe for decades, but are still extremely rare in the USA?</p>
+			</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01202022"><a href="#01202022">01/20/2022</a> - Miles O'Kilometer.</h2>
+				<p>//Adding a conversion calculator to the <a href="#01122022">01/12/2022</a> collection: Miles to kilometers and back.</p>
+				<div><input id="miInput" oninput="writeElement('kmInput',(readElement('miInput')*1.609344))" type="number" /> mi &lt;&gt; <input id="kmInput" oninput="writeElement('miInput',(readElement('kmInput')*0.6213712))" type="number" /> km </div>
+			</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01172022"><a href="#01172022">01/17/2022</a> - Porta cipher.</h2>
+				<p>//This is a <a href="https://www.cryptogram.org/downloads/aca.info/ciphers/Porta.pdf">neat reciprocal cipher</a> - copy the output and paste back into the input and it will show your original message. This means you can use the same tool (like this page) to both encrypt and later decrypt the message.</p>
+				//Key: <input id="portaKey" class="roundInput" oninput='writeElement("portaOutput",getPorta(readElement("portaInput"),readElement("portaKey")))' value="PORTA"><br />
+				//Input: <textarea id="portaInput" oninput='writeElement("portaOutput",getPorta(readElement("portaInput"),readElement("portaKey")))'>encipherment is reciprocal</textarea><br />
+				//Output: <textarea id="portaOutput" oninput='writeElement("portaInput",getPorta(readElement("portaOutput"),readElement("portaKey")))'></textarea><br />
+				<h3>//Code</h3>
+				<p>//This took a while to sort out. First, set up the two halves of the alphabet. Then, make everything uppercase and remove all spaces. This should be extended to either remove all punctuation, or also handle punctuation in the halves of the alphabet.</p>
+				<div id="code17a" class="codeWrapper">
+				var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M"];<br />
+				var bet = ["N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];<br />
+				<br />
+				function getPorta(message,key = "PORTA"){<br /><ul>
+					message = message.toUpperCase().replace(/ /g,"");<br />
+					key = key.toUpperCase();<br />
+					var out = "";<br />
+				</ul></div>
+				<p>//Foreach letter, set up msgLetter as the current letter, keyLetterCode as the current key's code, and msgLetterCode as its code. The key uses a modulus (%) to infinitely wrap around it.</p>
+				<div id="code17b" class="codeWrapper"><ul>
+					for (messageIndex=0; messageIndex &lt; message.length; messageIndex++) {<br /><ul>
+						var msgLetter = message.substring(messageIndex, messageIndex+1);<br />
+						var keyLetterCode = Math.floor((key.substring( messageIndex%key.length, messageIndex%key.length+1 ).charCodeAt(0)-65)/2);<br />
+						var msgLetterCode = msgLetter.charCodeAt(0)-65;<br />
+				</ul></ul></div>
+				<p>//This part rotates the lower alphabet to the correct location - first it slices the alphabet from the key index to the end, then pushes those before the key index into it. I had this as another function, but Javascript's async nature means that would finish after the code below it - luckily it wasn't very long and didn't clutter up the function much.</p>
+				<div id="code17c" class="codeWrapper"><ul><ul>
+						var portaBeta = bet.slice(keyLetterCode, bet.length);<br />
+						for (arrayFillIndex=0; arrayFillIndex &lt; keyLetterCode ;arrayFillIndex++) {<br /><ul>
+							portaBeta.push(bet[arrayFillIndex]);<br />
+						</ul>}<br />
+				</ul></ul></div>
+				<p>//The last part finds the msgLetter's location in one array, and outputs that same location in the other array.</p>
+				<div id="code17d" class="codeWrapper"><ul><ul>
+						if (msgLetterCode &gt;12) {<br /><ul>
+							out += alpha[portaBeta.indexOf(msgLetter)];<br />
+						</ul>} else {<br /><ul>
+							out += portaBeta[alpha.indexOf(msgLetter)];<br />
+						</ul>};// end if keyLetterCode<br /> 
+					</ul>}<br />
+					return out;<br />
+				</ul>}; //end getPorta<br /> 
+			</div>
+				<p>//And that gives us a reversable cipher. Next steps involve working to replace the key by inferring it from the message somehow. The hurdle here is getting it to be reversable.</p>
+			</div><br><br>
+			<script>
+			writeElement("portaOutput",getPorta(readElement("portaInput"),readElement("portaKey")));
+
+var wordList = ["messageIndex","arrayFillIndex","message","msgLetterCode","keyLetterCode","msgLetter","portaBeta","key","alpha","bet","out"];
+var divList = ["code17a","code17b","code17c","code17d"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"PORTA"','""','"number"',"'IMG'",'"A"','"B"','"C"','"D"','"E"','"F"','"G"','"H"','"I"','"J"','"K"','"L"','"M"','"N"','"O"','"P"','"Q"','"R"','"S"','"T"','"U"','"V"','"W"','"X"','"Y"','"Z"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+</script>
+
+			<div class="textBubbleBG">
+				<h2 id="01162022"><a href="#01162022">01/16/2022</a> - Relativistic equations.</h2>
+				<h3>//Lorentz Factor</h3>
+				<p>//This is all based on the <a href="https://en.wikipedia.org/wiki/Lorentz_factor">Lorentz factor</a>, which describes how matter changes as it moves through space:</p>
+				<div id="code16a" class="codeWrapper">
+				function returnLorentzFactor(Velocity) {<br /><ul>
+					return (1 / Math.sqrt(1- (Math.pow(Velocity,2) / c_Squared)));<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt;returnLorentzFactor(<input class="roundInput" id="lorentzFactorVelocity" oninput="writeElement('lorentzFactorOutput',returnLorentzFactor(readElement('lorentzFactorVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="lorentzFactorOutput"></span></p>
+				
+				
+				<h3>//Lorentz Multiple</h3>
+				<p>//Next, we multiply the input velocity by the factor by its respective velocity, to give relativistic speed as seen by an observer.</p>
+				<div id="code16b" class="codeWrapper">
+				function returnLorentzMultiple(Velocity) {<br /><ul>
+					return (Velocity * (returnLorentzFactor(Velocity)));<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnLorentzMultiple(<input class="roundInput" id="lorentzMultipleVelocity" oninput="writeElement('lorentzMultipleOutput',returnLorentzMultiple(readElement('lorentzMultipleVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="lorentzMultipleOutput"></span></p>
+				
+
+				<h3>//Time Dilation</h3>
+				<p>//One of the more interesting impacts of using relativistic speed is living longer than those who don't use it.</p>
+				<div id="code16c" class="codeWrapper">
+				function returnTimeDilation(timeObserver,Velocity) {<br /><ul>
+					return (returnLorentzFactor(Velocity)) * timeObserver;<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnTimeDilation(<input class="roundInput" id="TimeDilationTimeObserver" oninput="writeElement('TimeDilationOutput',returnTimeDilation(readElement('TimeDilationTimeObserver'),readElement('TimeDilationVelocity')));" type="number" value="100"/>, <input class="roundInput" id="TimeDilationVelocity" oninput="writeElement('TimeDilationOutput',returnTimeDilation(readElement('TimeDilationTimeObserver'),readElement('TimeDilationVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="TimeDilationOutput"></span></p>
+				
+				
+				<h3>//Length Contraction</h3>
+				<p>//Another interesting impact is that you are thinner while using relativistic speeds, compared to someone with a lesser speed. Just don't lay down or you'll become shorter instead.</p>
+				<div id="code16d" class="codeWrapper">
+				function returnLengthContraction(Length,Velocity) {<br /><ul>
+					return Length/(returnLorentzFactor(Velocity));<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnLengthContraction(<input class="roundInput" id="lengthContractionLength" oninput="writeElement('lengthContractionOutput',returnLengthContraction(readElement('lengthContractionLength'),readElement('lengthContractionVelocity')));" type="number" value="100"/>, <input class="roundInput" id="lengthContractionVelocity" oninput="writeElement('lengthContractionOutput',returnLengthContraction(readElement('lengthContractionLength'),readElement('lengthContractionVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="lengthContractionOutput"></span></p>
+				
+				
+				<h3>//Relativistic Mass</h3>
+				<p>//Sadly the temporary thinness is accompanied by temporary weight gain:</p>
+				<div id="code16e" class="codeWrapper">
+				function returnRMass(restMass,Velocity) {<br /><ul>
+					return (returnLorentzFactor(Velocity))*restMass;<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnRMass(<input class="roundInput" id="RMassrestMass" oninput="writeElement('RMassOutput',returnRMass(readElement('RMassrestMass'),readElement('RMassVelocity')));" type="number" value="100"/>, <input class="roundInput" id="RMassVelocity" oninput="writeElement('RMassOutput',returnRMass(readElement('RMassrestMass'),readElement('RMassVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="RMassOutput"></span></p>
+				
+				
+				<h3>//Relativistic Momentum</h3>
+				<p>//Being slightly more massive means you're slightly more momentous.</p>
+				<div id="code16f" class="codeWrapper">
+				function returnRMomentum(Mass,Velocity) {<br /><ul>
+					return (1 / Math.sqrt(1+ (Math.pow(Velocity,2)/(Math.pow(Mass,2) * c_Squared))));<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnRMomentum(<input class="roundInput" id="RMomentumMass" oninput="writeElement('RMomentumOutput',returnRMomentum(readElement('RMomentumMass'),readElement('RMomentumVelocity')));" type="number" value="100"/>, <input class="roundInput" id="RMomentumVelocity" oninput="writeElement('RMomentumOutput',returnRMomentum(readElement('RMomentumMass'),readElement('RMomentumVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="RMomentumOutput"></span></p>
+				
+				
+				<h3>//Relativistic kinetic energy</h3>
+				<p>//This is a form of E<sup>2</sup>=(mc<sup>2</sup>)<sup>2</sup>+(mv)<sup>2</sup>(c)<sup>2</sup>, which leaves out the momentum half.</p>
+				<div id="code16g" class="codeWrapper">
+				function returnRKE(restMass,Velocity) {<br /><ul>
+					return ((returnLorentzFactor(Velocity)) -1) * restMass * c_Squared;<br />
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnRKE(<input class="roundInput" id="RKErestMass" oninput="writeElement('RKEOutput',returnRKE(readElement('RKErestMass'),readElement('RKEVelocity')));" type="number" value="100"/>, <input class="roundInput" id="RKEVelocity" oninput="writeElement('RKEOutput',returnRKE(readElement('RKErestMass'),readElement('RKEVelocity')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="RKEOutput"></span></p>
+				
+				
+				<h3>//Escape Velocity</h3>
+				<p>//Escape velocity is the minimum speed a ballistic object needs to escape from a massive body such as Earth. It represents the kinetic energy that, when added to the object's gravitational potential energy, (which is always negative) is equal to zero.</p>
+				<div id="code16h" class="codeWrapper">
+				function returnEscapeVelocity(restMass = EarthMass,Radius = EarthRadius) {<br /><ul>
+					return returnRMomentum (Math.sqrt( (2 * GravitationalConstant * restMass) / Radius))
+				</ul>}<br />
+				</div>
+				<p>//&gt; returnEscapeVelocity(<input class="roundInput" id="EscapeVelocityrestMass" oninput="writeElement('EscapeVelocityOutput',returnEscapeVelocity(readElement('EscapeVelocityrestMass'),readElement('EscapeVelocityRadius')));" type="number" value="100"/>, <input class="roundInput" id="EscapeVelocityRadius" oninput="writeElement('EscapeVelocityOutput',returnEscapeVelocity(readElement('EscapeVelocityrestMass'),readElement('EscapeVelocityRadius')));" type="number" value="75000000"/>)</p>
+				<p>//&gt; <span id="EscapeVelocityOutput"></span></p>
+
+			</div><br><br>
+<script>
+writeElement('lorentzFactorOutput',returnLorentzFactor(readElement('lorentzFactorVelocity')));
+writeElement('lorentzMultipleOutput',returnLorentzMultiple(readElement('lorentzMultipleVelocity')));
+writeElement('TimeDilationOutput',returnTimeDilation(readElement('TimeDilationTimeObserver'),readElement('TimeDilationVelocity')));
+writeElement('lengthContractionOutput',returnLengthContraction(readElement('lengthContractionLength'),readElement('lengthContractionVelocity')));
+writeElement('RMassOutput',returnRMass(readElement('RMassrestMass'),readElement('RMassVelocity')));
+writeElement('RMomentumOutput',returnRMomentum(readElement('RMomentumMass'),readElement('RMomentumVelocity')));
+writeElement('RKEOutput',returnRKE(readElement('RKErestMass'),readElement('RKEVelocity')));
+
+writeElement('EscapeVelocityrestMass',EarthMass)
+writeElement('EscapeVelocityRadius',EarthRadius)
+addPopupToWord("code16h", "EarthMass", EarthMass + " " + EarthMassUnits,"Earth")
+addPopupToWord("code16h", "EarthRadius", EarthRadius + " " + EarthRadiusUnits,"Earth")
+writeElement('EscapeVelocityOutput',returnEscapeVelocity(readElement('EscapeVelocityrestMass'),readElement('EscapeVelocityRadius')) + " " + EarthRadiusUnits + "/s");
+</script>
+			
+			<div class="textBubbleBG">
+				<h2 id="01142022"><a href="#01142022">01/14/2022</a> - The other half completes the whole.</h2>
+				<p>Write Element puts the value into any HTML element. Just give it the Element ID and it will display the text or value inside that element.</p>
+				<div id="code14a" class="codeWrapper">
+					function writeElement($elementId,$source) {<br /><ul>	 
+						var $elementType = JSON.stringify(document.getElementById($elementId).type);<br />
+						if (($elementType == '"text"')<br />
+						|| ($elementType == '"select-one"')<br />
+						|| ($elementType == '"number"')) {<br /><ul>
+				</ul></ul></div>
+				<p>Similarly simple - gather the element's type, and update the appropriate value based on this.</p>
+				<div id="code14b" class="codeWrapper"><ul><ul>
+							document.getElementById($elementId).value = $source;<br />
+						</ul>} else {<br /><ul>
+							if (document.getElementById($elementId).tagName == 'IMG') {<br /><ul>
+								document.getElementById($elementId).src = $source;<br />
+							</ul>}<br /> else {<br /><ul>
+								document.getElementById($elementId).innerText = $source;<br />
+							</ul>}<br />				
+						</ul>}; // end if elementType<br />
+					</ul>}; // end writeElement<br />
+				</div>
+				<p>This is the counterpart to <a href="#01132022">yesterday's</a> Read Element, and looks very similar because it performs the inverse function. This one excludes Textarea but includes Image, likely because I haven't used readElement on images, nor writeElement on textareas.</p>				
+			</div><br><br>
+<script>
+var wordList = ["\\$elementType","\\$elementId","\\$source"];
+var divList = ["code14a","code14b"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"text"','"select-one"','"number"',"'IMG'"];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+</script>
+			
+			<div class="textBubbleBG">
+				<h2 id="01132022"><a href="#01132022">01/13/2022</a> - Frustration is the stepmother of invention.</h2>
+				<p>Read Element gathers the value from any HTML element. Just give it the Element ID and it will give you the text or value displayed inside that element.</p>
+				<div id="code13a" class="codeWrapper">
+					function readElement($elementId) {<br /><ul>
+						var $elementType = JSON.stringify(document.getElementById($elementId).type);<br />
+						if (($elementType == '"text"')<br /> 
+						|| ($elementType == '"textarea"')<br />
+						|| ($elementType == '"select-one"')<br />
+						|| ($elementType == '"number"')) {<br />
+				</ul></div>
+				<p>Not too complex - gather the element's type, and return the appropriate value based on this.</p>
+				<div id="code13b" class="codeWrapper"><ul><ul>
+							return document.getElementById($elementId).value;<br />
+						</ul>} else {<br /><ul>
+							return document.getElementById($elementId).innerText;<br />
+						</ul>}; // end if elementType<br />
+					</ul>}; // end readElement<br />
+				</div>
+				<p>I made this because I find it maddening for different element types to have the same data concept under different variable names. So I hid it in the imperative layer. My software design is generally to create an <a href="https://en.wikipedia.org/wiki/Imperative_programming">imperative layer</a>, and a <a href="https://en.wikipedia.org/wiki/Declarative_programming">declarative layer</a> on top. Read Element is a key imperative function in this paradigm, being widely used to simplify both the creation and the operation of many pages.</p>				
+			</div><br><br>
+<script>
+var wordList = ["\\$elementType","\\$elementId"];
+var divList = ["code13a","code13b"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"text"','"textarea"','"select-one"','"number"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+</script>
+					
+			<div class="textBubbleBG">
+				<h2 id="01122022"><a href="#01122022">01/12/2022</a> - Conversion calculators.</h2>
+				<p>Starting with Ft to Meter and back:</p>
+				<div><input id="ftInput" oninput="writeElement('meterInput',(readElement('ftInput')*0.3048))" type="number" /> ft &lt;&gt; <input id="meterInput" oninput="writeElement('ftInput',(readElement('meterInput')*3.28084))" type="number" /> meter </div>
+				<p>WebCoif makes this easy, with two functions that simplify reading and writing so much that you might have an emotional reaction. First, Read Element gets the value from any element, transform, and Write Element to output the value into the other field.</p>
+				<div class="codeWrapper"><ul>
+				writeElement('meterInput',(readElement('ftInput')*0.3048))
+				</ul></div>
+				<p>And the complement for the other input field:</p>
+				<div class="codeWrapper"><ul>
+				writeElement('ftInput',(readElement('meterInput')*3.28084))
+				</ul></div>
+				<p>Added to the oninput of each input field links the two fields in an easy to use but powerful way.</p>
+
+				<div><input id="lbInput" oninput="writeElement('kgInput',(readElement('lbInput')*0.4535924))" type="number" /> lb &lt;&gt; <input id="kgInput" oninput="writeElement('lbInput',(readElement('kgInput')*2.204623))" type="number" /> kg </div>
+
+				<div><input id="tonInput" oninput="writeElement('metricTonInput',(readElement('tonInput')*0.9071847))" type="number" /> tons &lt;&gt; <input id="metricTonInput" oninput="writeElement('tonInput',(readElement('metricTonInput')*1.102311))" type="number" /> metric tons </div>
+
+				<div><input id="galInput" oninput="writeElement('literInput',(readElement('galInput')*3.7854))" type="number" /> gal &lt;&gt; <input id="literInput" oninput="writeElement('galInput',(readElement('literInput')*0.2641729))" type="number" /> liter</div>
+
+				<div><input id="mphInput" oninput="writeElement('kmhInput',(readElement('mphInput')*1.609344))" type="number" /> mph &lt;&gt; <input id="kmhInput" oninput="writeElement('mphInput',(readElement('kmhInput')*0.6213712))" type="number" /> km/h </div>
+
+				<div><input id="ftlbInput" oninput="writeElement('newtonMeterInput',(readElement('ftlbInput')*1.3558179483))" type="number" /> ft/lb &lt;&gt; <input id="newtonMeterInput" oninput="writeElement('ftlbInput',(readElement('newtonMeterInput')*0.7375621493))" type="number" /> newton-meter </div>
+				<p>WebCoif is currently part of <a href="https://www.gilgamech.com/js/Gilgamech.js">Gilgamech.js</a>.</p>
+			</div><br><br>
+			
+			<div class="textBubbleBG">
+				<h2 id="01092022"><a href="#01092022">01/09/2022</a> - CSS popupdate.</h2>
+				<p>Update to the <a href="#01022022">01/02/2022</a> post, to clean up formatting. First, lighten the default background from the solid blue to a color closer to sky blue:</p>
+				<div id="code09" class="codeWrapper"><ul>
+				.popup {<br /><ul>
+					background: #9df;<br />
+				</ul>}<br />
+				</ul></div>
+				<p>Next, a little trick to keep the popup div centered is to center the text after setting the margins. These margins keep the popup within the window almost all of the time:</p>
+				<div id="code09" class="codeWrapper"><ul>
+				.popup span {<br /><ul>
+					position: absolute;<br />
+					/*margin: top right bottom left*/<br />
+					margin: 15px 5px 0 -30px;<br />
+					text-align: center;<br />
+					...<br />
+				</ul>}<br />
+				</ul></div>
+				<p>The left margin pushes the popup span about 4 letters to the left of the parent span, so at least a few letters overlap. And the right margin setting forces the popup span to remain just inside the window. Still looking for a "Goldilocks" setting that's not too wide for Mobile and not too narrow for Desktop.</p>
+				</div><br /><br />
+			<div class="textBubbleBG">
+				<h2 id="01082022"><a href="#01082022">01/08/2022</a> - Relocation code snippet.</h2>
+				<div id="code08" class="codeWrapper"><ul>
+					[string]$DefaultSecurityGroupID = "DEFAULTSG"<br />
+					$currentServer = (Get-EC2Instance).Instances<br />
+					[int]$CurrentSecurityGroupName = (Get-EC2SecurityGroup | where {$_.description -match "Created on"}).GroupName<br />
+					$newSecurityGroupID = New-RdpSecurityGroup<br />
+					Edit-EC2InstanceAttribute -InstanceId $currentServer.InstanceId -Group @($DefaultSecurityGroupID, $newSecurityGroupID)<br />
+					Remove-EC2SecurityGroup -GroupId (Get-EC2SecurityGroup -GroupName $CurrentSecurityGroupName).GroupId -Force<br />
+				</ul></div>
+				</div><br /><br />
+<script>
+
+var wordList = ["\\$DefaultSecurityGroupID","\\$currentServer","\\$CurrentSecurityGroupName","\\$_","\\$newSecurityGroupID"];
+var divList = ["code08"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"DEFAULTSG"','"Created on"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+</script>
+			
+			<div class="textBubbleBG">
+				<h2 id="01072022"><a href="#01072022">01/07/2022</a> - When two (sets of columnar data) become one.</h2>
+				<p>//ColumnMath transforms data from 2 columns, or one column and a constant, into a third column. This builds most of the tables on the <a href="https://www.gilgamech.com/InGameItem.html">Ingame Item page</a> from just two data columns (cost and quantity) for recent games. It can perform basic math on two columns in a table and put the output in another column of the same table. It can even read from 2 different tables and write to a 3rd, can add the output column as a new column in the table (with specified or autogenerated name), and can add min/max formatting. Rows are sortable with the numerical sort function whose description is coming soon - that's an automatic function of addColumn, whose description is also coming soon.</p>
+				<span class="popup">//Here are the inputs:<span>
+				<table><thead>
+					<tr><th>Parameter</th><th>Type</th><th>Description</th><th>Valid Inputs</th><th>Notes</th></tr>
+				</thead><tbody>
+					<tr><td>TableAid</td><td>string</td><td>Input A's table ID.</td><td>Table ID on page.</td><td>This will be the numerator for Divide and Percent functions.</td></tr>
+					<tr><td>inputACol</td><td>integer</td><td>Input A's column number in Table A.</td><td>0 up to number of columns -1.</td><td></td></tr>
+					<tr><td>TableBid</td><td>string</td><td>Input B's table ID.</td><td>Table ID on page (or "" to to specify a constant for Input B instead.)</td><td>This will be the denominator for Divide and Percent functions, and negated for subtraction functions. </td></tr>
+					<tr><td>inputBCol</td><td>integer</td><td>Input B's column number in Table B.</td><td>0 up to number of columns -1.<br>(If using a constant for Input B, put that constant here instead.)</td><td></td></tr>
+					<tr><td>rowBAdj</td><td>integer</td><td>Adjust Input B down by this many rows.</td><td>0 down to negative table length.</td><td>Used when comparing the current cell to the cell beneath.</td></tr>
+					<tr><td>TableOutid</td><td>string</td><td>Output table ID.</td><td>Table ID on page.</td><td></td></tr>
+					<tr><td>outputCol</td><td>integer</td><td>Description</td><td>Output column number in the table.</td><td>Starting from 0 (zero). If this is an existing column, its contents will be replaced with this function's output. If this is 1 + the highest numbered column (aka this is 2 when there are 2 columns, as they will be 0 and 1) then it will add a new column to the table.</td></tr>
+					<tr><td>mathOperation</td><td>string</td><td>Description</td><td>"add","subtract","multiply","divide","percent","none"</td><td>Percent is Divide also by 100.</td></tr>
+					<tr><td>roundDigits</td><td>integer</td><td>Description</td><td>0 to 16 (or higher?)</td><td>Rounds the output to the specified digits. (Low-value numbers might show oddly when rounded too much, and this works best at 2 and above.)</td></tr>
+					<tr><td>formatMaxOutput</td><td>Binary</td><td>Description</td><td>True or false.</td><td>Perform formatMax (green gradient based on ratio between min and max) on column after transform, for better visualization.</td></tr>
+					<tr><td>newOutColumnName</td><td>string</td><td>Header for new column. (Optional)</td><td>(Any string)</td><td>If outputCol would create a new column, this column becomes the column header. If blank, a new name is generated from Input column headers, any constant, and the math operation or verb.</td></tr>
+				</tbody></table></span></span>
+				<p>//The first section gathers the table body data for Tables A, Output, and B if it's not a constant.</p>
+				<div id="code07a" class="codeWrapper">
+				function columnMath(TableAid, inputACol, TableBid, inputBCol, rowBAdj, TableOutid, outputCol, mathOperation, roundDigits, formatMaxOutput, newOutColumnName) {<br><ul>
+					var TableA = returnTablePart(TableAid,"TBODY");<br>
+					var TableB;<br>
+					var TableOut = returnTablePart(TableOutid,"TBODY");<br>
+					
+					if (TableBid != "") {<br><ul>
+						TableB = returnTablePart(TableBid,"TBODY");<br>
+					</ul>}<br>
+				</ul></div>
+				<p>//The second section sets up the new column and name autogeneration. The name is autogenerated from the input column headers and the operation being performed.</p>
+				<div id="code07b" class="codeWrapper"><ul>
+					if (outputCol >= TableOut.children[0].children.length) {<br><ul>
+						if (newOutColumnName == null) {<br><ul>
+							var TableAHead = returnTablePart(TableAid,"THEAD");<br>
+							var TableBHead = returnTablePart(TableBid,"THEAD");<br>
+							var mathOperator;<br>
+							var mathVerb;<br>
+							switch(mathOperation) {<br><ul>
+							 case "none":<br><ul>
+								mathOperator = "";<br>
+								mathVerb = "";<br>
+								break;<br></ul>
+							 case "add":<br><ul>
+								mathOperator = " + ";<br>
+								mathVerb = " sum";<br>
+								break;<br></ul>
+							 case "subtract":<br><ul>
+								mathOperator = " - ";<br>
+								mathVerb = " change";<br>
+								break;<br></ul>
+							 case "multiply":<br><ul>
+								mathOperator = " * ";<br>
+								mathVerb = " multiple";<br>
+								break;<br></ul>
+							 case "divide":<br><ul>
+								mathOperator = " / ";<br>
+								mathVerb = " rate";<br>
+								break;<br></ul>
+							 case "percent":<br><ul>
+								mathOperator = " % ";<br>
+								mathVerb = " percent";<br>
+								break;<br></ul>
+							 default:<br><ul>
+								mathOperator = " ? ";<br>
+								mathVerb = " error";<br>
+								break;<br></ul>
+							</ul>}<br>
+				</ul></ul></ul></div>
+				<p>//The second half of column generation extracts the input headers, and populates the new output column name, before adding the new column.</p>
+				<div id="code07c" class="codeWrapper"><ul><ul><ul>
+							if (TableBid != "") {<br><ul>
+								if (TableAHead.children[0].children[inputACol].innerText == TableBHead.children[0].children[inputBCol].innerText) {<br><ul>
+									newOutColumnName = TableAHead.children[0].children[inputACol].innerText + mathVerb;<br>
+								</ul>}<br> else {<br><ul>
+									newOutColumnName = TableAHead.children[0].children[inputACol].innerText + mathOperator + TableBHead.children[0].children[inputBCol].innerText;<br>
+								</ul>}<br>
+							</ul>}<br> else {<br><ul>
+								newOutColumnName = TableAHead.children[0].children[inputACol].innerText + mathOperator + numToTextNotation(inputBCol);<br>
+							</ul>}<br>
+						</ul>}<br>
+						addColumn(TableOutid,newOutColumnName);<br>
+					</ul>}<br>
+				</ul></div>
+				<p>//This fourth section sets up the for loop to go row-by-row, transforming the inputs into the output. Step one is extracting the two values to transform - input A from TableA, and input B from either TableB or as a constant. The output row is also identified.</p>
+				<div id="code07d" class="codeWrapper"><ul>
+					for (var currentRow = (0-rowBAdj); currentRow &lt; TableA.children.length; currentRow++) {<br><ul>
+						var childrenOfA = TableA.children[currentRow];<br>
+						var childrenOfB;<br>
+						var childrenOfOut = TableOut.children[currentRow];<br>
+						
+						var InputAText = textToNumNotation(childrenOfA.children[inputACol].innerText);<br>
+						var InputBText;<br>
+						
+						if (TableBid != "") {<br><ul>
+							childrenOfB = TableB.children[currentRow+rowBAdj];<br>
+							InputBText = textToNumNotation(childrenOfB.children[inputBCol].innerText);<br>
+						</ul>}<br> else {<br><ul>
+							InputBText = textToNumNotation(inputBCol);<br>
+						</ul>}<br>
+				</ul></ul></div>
+				<p>//This part performs the math operation and writes to the output cell.</p>
+				<div id="code07e" class="codeWrapper"><ul><ul>
+						switch(mathOperation) {<br><ul>
+						 case "none":<br><ul>
+							childrenOfOut.children[outputCol].innerText = childrenOfA.children[inputACol].innerText;<br>
+							break;<br></ul>
+						 case "add":<br><ul>
+							childrenOfOut.children[outputCol].innerText = numToTextNotation((InputAText *1) + (InputBText*1)","roundDigits);<br>
+							break;<br></ul>
+						 case "subtract":<br><ul>
+							childrenOfOut.children[outputCol].innerText = numToTextNotation((InputAText *1) - (InputBText*1)","roundDigits);<br>
+							break;<br></ul>
+						 case "multiply":<br><ul>
+							childrenOfOut.children[outputCol].innerText = numToTextNotation((InputAText *1) * (InputBText*1)","roundDigits);<br>
+							break;<br></ul>
+						 case "divide":<br><ul>
+							if ((InputAText *1) / (InputBText*1) == Infinity) {<br><ul>
+								childrenOfOut.children[outputCol].innerText = 0;<br>
+							</ul>}<br> else {<br><ul>
+								childrenOfOut.children[outputCol].innerText = numToTextNotation((InputAText *1) / (InputBText*1)","roundDigits);<br>
+							</ul>}<br>
+							break;<br></ul>
+						 case "percent":<br><ul>
+							if (((InputAText *1) / (InputBText*1)) *100 == Infinity) {<br><ul>
+								childrenOfOut.children[outputCol].innerText = 0;<br>
+							</ul>}<br> else {<br><ul>
+								childrenOfOut.children[outputCol].innerText = numToTextNotation(((InputAText *1) / (InputBText*1)) *100 ","roundDigits);<br>
+							</ul>}<br>
+							break;<br></ul>
+						 default:<br><ul>
+							// No transform nor write<br>
+							break;<br></ul>
+						</ul>}<br>
+				</ul></ul></div>
+				<p>//Divide and Percent detect Infinity and replace with zero, which is the Javascript output for a divide-by-zero. This uses zero into an error numeral, as discussed at the <a href="#code04c">end of a previous post</a>. </p>
+				<p>//Finally, if this is the last row and formatMax is true, perform formatMax on the column. (Had to do this here to make it async.)</p>
+				<div id="code07f" class="codeWrapper"><ul><ul>
+						if (currentRow+1 == TableOut.children.length+rowBAdj &amp;&amp; formatMaxOutput == "true") {<br><ul>
+							formatMax(outputCol,TableAid);<br>
+						</ul>}<br>
+					</ul>} //end for TableA<br>
+				</ul>}<br>
+
+			</div>
+				<p>//Future updates will likely replace the TableOutid with the TableAid if it's omitted, try to merge the two switch sections in some way, and create the output table if it's not present.</p>
+				</div><br><br>
+<script>
+
+var wordList = ["TableAid","TableAHead","TableA","inputACol","TableBid","TableBHead","TableB","inputBCol","rowBAdj","TableOutid","TableOut","outputCol","mathOperation","roundDigits","formatMaxOutput","newOutColumnName","mathOperator","mathVerb","currentRow","childrenOfA","childrenOfB","childrenOfOut","InputAText","InputBText"];
+var divList = ["code07a","code07b","code07c","code07d","code07e","code07f"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['" \\+ "','" - "','" \\* "','" / "','" % "','" \\? "','""','"TBODY"','"THEAD"','"none"','"add"','"subtract"','"multiply"','"divide"','"percent"','" sum"','" change"','" multiple"','" rate"','" percent"','" error"','"true"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+</script>
+			
+			<div class="textBubbleBG">
+				<h2 id="01052022"><a href="#01052022">01/05/2022</a> - Programmatically add CSS styles.</h2>
+				<p>//Colorify Div wraps a search term in a span and applies a CSS class to it. The upper section creates the Regex variable","and removes from the search term the extra escaping necessary for dollar signs:</p>
+				<div id="code05a" class="codeWrapper">
+				function colorifyDiv(divid","replaceWord","replaceClass) {<br><ul>
+					var replaceRegex = new RegExp(replaceWord",""g");<br>
+						replaceWord = replaceWord.replace(<span class="codeQuote">"\\$"</span>,"$");<br>
+					</ul>
+				</div>
+				<p>//This section reads from the div and performs the replacing:</p>
+				<div id="code05b" class="codeWrapper"><ul>
+				var str = document.getElementById(divid).innerHTML;<br>
+				str = str.replace(replaceRegex","'&lt;span class="' + replaceClass + '"&gt;' + replaceWord + '&lt;/span&gt;');<br>
+				</div>
+				<p>//The last section cleans up any accidental duplicates and writes back to the div:</p>
+				<div id="code05c" class="codeWrapper"><ul>
+				str = str.replace('&lt;span class="&lt;span class="'","'&lt;span class="');<br>
+				str = str.replace('&lt;/span&gt;&lt;/span&gt;','&lt;/span&gt;');<br>
+				document.getElementById(divid).innerHTML = str;<br>
+			</ul>}; // end colorifyDiv<br>
+				</div>
+				<p>//That might clobber other spans","so caution if you're a heavy span user","or if you're also using my <a href="#01022022">popup</a> code. This replaces a over 100 span tags in this and the previous posts.</p>
+				</div>
+				</div><br><br>
+<script>
+
+var wordList = ["divid","replaceWord","replaceClass","replaceRegex","str"];
+var divList = ["code05a","code05b","code05c"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"g"','"\\$"',"'&lt;span class=\"'","'&lt;/span&gt;'","'&lt;span class=\"&lt;span class=\"'","'&lt;/span&gt;&lt;/span&gt;'","'\"&gt;'",'""'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+</script>
+
+			<div class="textBubbleBG">
+				<h2 id="01042022"><a href="#01042022">01/04/2022</a> - I've got your number.</h2>
+				<p>//As implied","here's Num to Text Notation. It takes a value (and rounding level) and outputs a textual number.</p>
+
+				<div id="code04a" class="codeWrapper">
+					function numToTextNotation($inputObject,round) {<br><ul>
+						var significand = ""<br />
+						var $outVal2<br />
+						if (typeof $inputObject == "string") {<br><ul>
+							$inputObject = $inputObject.replace(/,/g,"") *1;<br />
+						</ul>}<br>
+						</div>
+						<p>//The first section prepares a couple variables","and cleans up <a href="https://english.stackexchange.com/questions/110691/english-word-for-the-comma-between-three-digits">comma separators</a>.</p>
+						<div id="code04b" class="codeWrapper">
+						<ul>if ($inputObject >= $decillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$decillion,round);<br />
+							significand = " decillion";<br />
+						</ul>}<br>else if ($inputObject >= $nonillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$nonillion,round);<br />
+							significand = " nonillion";<br />
+						</ul>}<br>else if ($inputObject >= $octillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$octillion,round);<br />
+							significand = " octillion";<br />
+						</ul>}<br>else if ($inputObject >= $septillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$septillion,round);<br />
+							significand = " septillion";<br />
+						</ul>}<br>else if ($inputObject >= $sixtillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$sixtillion,round);<br />
+							significand = " sixtillion";<br />
+						</ul>}<br>else if ($inputObject >= $quintillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$quintillion,round);<br />
+							significand = " quintillion";<br />
+						</ul>}<br>else if ($inputObject >= $quadrillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$quadrillion,round);<br />
+							significand = " quadrillion";<br />
+						</ul>}<br>else if ($inputObject >= $trillion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$trillion,round);<br />
+							significand = " trillion";<br />
+						</ul>}<br>else if ($inputObject >= $billion){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$billion,round);<br />
+							significand = " billion";<br />
+						</ul>}<br>else if ($inputObject >= $million){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$million,round);<br />
+							significand = " million";<br />
+						</ul>}<br>else if ($inputObject >= $thousand){<br><ul>
+							$outVal2 = getRoundedNumber($inputObject/$thousand,round);<br />
+							significand = "k";<br />
+						</ul>}<br>else{<br><ul>
+							$outVal2 = getRoundedNumber($inputObject,round);<br />
+						</ul>}<br>
+						</ul></ul></div>
+						<p>//Like other middle sections,this is inelegant but functional. This takes the numerical value","divides by the next lowest numerical significand","and rounds to the specified level. (Some numbers might show oddly when the round level is set too low.)</p>
+						<div id="code04c" class="codeWrapper">
+						<ul>if (isNaN($outVal2) == true) {<br><ul>
+							$outVal2 = 0;<br />
+						</ul>}<br>
+						return $outVal2 + significand;<br />
+					</ul>}<br>
+				</div>
+				<p>//Lastly","if the above results in NaN somehow","return a zero so we don't gum up the table. This makes zero basically a numerical error","so keep this in mind if you frequently use zero.</p>
+				</div><br><br>
+<script>
+
+var wordList = ["\\$inputObject","\\$outVal2","significand","round"];
+var divList = ["code04a","code04b","code04c"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"string"','"k"','"bn"','"number"','" "','""'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+var wordList = ["\\$thousand","\\$million","\\$billion","\\$trillion","\\$quadrillion","\\$quintillion","\\$sixtillion","\\$septillion","\\$octillion","\\$nonillion","\\$decillion"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['" thousand"','" million"','" billion"','" trillion"','" quadrillion"','" quintillion"','" sixtillion"','" septillion"','" octillion"','" nonillion"','" decillion"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+</script>
+			<div class="textBubbleBG">
+				<h2 id="01032022"><a href="#01032022">01/03/2022</a> - Thou Sand [You tiny rocks].</h2>
+				<p>//Continuing the month's incidental theme of code sharing","here's a function that's seeing heavy use on the Ingame Item page - Text to Num Notation. This takes a textually-defined number","such as "10 million" and returns an integer","10000000. It has a partner function: Num to Text Notation","which reverses this","taking in i.e. 10000000 and outputting "10 million". Together","they allow using the same terminology as some games","removing confusion about which ingame item is which on the table.</p>
+				<p>//First is a short set of global variables to establish the value of each number name:</p>
+				<div id="code03a" class="codeWrapper">
+					$thousand = 1000;<br />
+					$million = $thousand *$thousand;<br />
+					$billion = $million *$thousand;<br />
+					$trillion = $billion *$thousand;<br />
+					$quadrillion = $trillion *$thousand;<br />
+					$quintillion = $quadrillion *$thousand;<br />
+					$sixtillion = $quadrillion *$thousand;<br />
+					$septillion = $sixtillion *$thousand;<br />
+					$octillion = $septillion *$thousand;<br />
+					$nonillion = $octillion *$thousand;<br />
+					$decillion = $nonillion *$thousand;<br />
+				</div>
+				<p>//This needs refactoring","as it's getting kinda long","but has a relatively low range for many games. I use the <a href="https://en.wikipedia.org/wiki/Long_and_short_scale#English-speaking">English-speaking Short Scale</a> because it's common where I live","but feel free to modify for your locality. Even though this is a Javascript function","I'm using the Powershell convention of dollar signs preceeding variable names is to maximize code portability","and these can be stripped from all code without issue.</p>
+				<p>//Now for the main event:</p>
+				<div id="code03b" class="codeWrapper">
+					<span class="codeType">function</span> textToNumNotation($inputObject) {<br><ul>
+						if (typeof $inputObject == <span class="codeQuote">string</span>) {<br><ul>
+							$inputObject = $inputObject.replace(/,/g,"");<br />
+							if ($inputObject.substring($inputObject.length -1,$inputObject.length) == "k") {<br><ul>
+								$inputObject = $inputObject.replace(/k/g," thousand");<br />
+							</ul>}<br>
+							if ($inputObject.substring($inputObject.length -2,2) == "bn") {<br><ul>
+								$inputObject = $inputObject.replace(/bn/g",""billion");<br />
+							</ul>}<br>
+							var $splitObject = $inputObject.split(" ");<br />
+							var $value = $splitObject[0]<br />
+							var $significand = $splitObject[1]<br />
+				</ul></ul></div>
+				<p>//This first section parses strings:</p><ul>
+				<li>//First","swap the trailing <span class="codeQuote">k</span> shorthand for the longer <span class="codeQuote">thousand</span>.</li>
+				<li>//Next","do the same for the <span class="codeQuote">bn</span> shorthand and lengthened <span class="codeQuote">billion</span>.</li>
+				<li>//Lastly","separate the numerical value from its textual significand","which will be replaced in the next section.</li>
+				</ul>
+				<div id="code03c" class="codeWrapper"><ul><ul>
+							switch ($significand){<br><ul>
+								case "decillion":<br />
+									$significand = $decillion;<br />
+									break;<br />
+								case "nonillion":<br />
+									$significand = $nonillion;<br />
+									break;<br />
+								case "octillion":<br />
+									$significand = $octillion;<br />
+									break;<br />
+								case "septillion":<br />
+									$significand = $septillion;<br />
+									break;<br />
+								case "sixtillion":<br />
+									$significand = $sixtillion;<br />
+									break;<br />
+								case "quintillion":<br />
+									$significand = $quintillion;<br />
+									break;<br />
+								case "quadrillion":<br />
+									$significand = $quadrillion;<br />
+									break;<br />
+								case "trillion":<br />
+									$significand = $trillion;<br />
+									break;<br />
+								case "billion":<br />
+									$significand = $billion;<br />
+									break;<br />
+								case "million":<br />
+									$significand = $million;<br />
+									break;<br />
+								case "thousand":<br />
+									$significand = $thousand;<br />
+									break;<br />
+								default:<br />
+									$significand = 1;<br />
+									break;<br />
+							</ul>}<br>
+							var $outputItem = $value * $significand;<br />
+							return $outputItem;<br />
+				</ul></ul></div>
+				<p>//This section swaps the textual significand with the numerical in the same variable. As with the short set of variables above","this section is functional but inelegant and needs refactoring. After that","it multiplies them and returns the output.</p>
+				<div id="code03d" class="codeWrapper"><ul><ul>
+						</ul>} else if (typeof $inputObject == "number") {<br><ul>
+							return $inputObject;<br />
+						</ul>} else {<br><ul>
+							return $inputObject;<br />
+						</ul>}<br>
+					</ul>}<br>
+				</div>
+				<p>//Finally","handle numerical input by passing straight through","and handle other input types","also by passing through here","but error handling or other code could extend that section.</p>
+				</div><br><br>
+<script>
+
+var wordList = ["\\$splitObject","\\$inputObject","\\$outVal2","\\$outputItem","\\$value","significand"];
+var divList = ["code03a","code03b","code03c","code03d"];
+
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"string"','"k"','"bn"','"number"','" "','""'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+
+
+var wordList = ["\\$thousand","\\$million","\\$billion","\\$trillion","\\$quadrillion","\\$quintillion","\\$sixtillion","\\$septillion","\\$octillion","\\$nonillion","\\$decillion"];
+colorifyMultipleWords (wordList,"codeVariable",divList)
+
+var wordList = ['"thousand"','"million"','"billion"','"trillion"','"quadrillion"','"quintillion"','"sixtillion"','"septillion"','"octillion"','"nonillion"','"decillion"'];
+colorifyMultipleWords (wordList,"codeQuote",divList)
+
+
+</script>
+			<div class="textBubbleBG">
+				<h2 id="01022022"><a href="#01022022">01/02/2022</a> - Tweaks to popup functionality.</h2>
+				<p>/* The .popup class allows content to be hidden until it is tapped or mouseovered. <a href="#01092022">01/09/2022 update.</a>*/</p>
+				<div class="codeWrapper">
+					.popup {<br><ul>
+						background: #6af;<br>
+					</ul>}<br>
+				</div>
+				<p>/* This section holds formatting for the visible text","with a strong blue background to stand out. (This is still being tweaked for better artistic effect.) */</p>
+				<div class="codeWrapper">
+					.popup span {<br><ul>
+						position: absolute;<br>
+						margin: 15px 5vw 0 -350px;<br>
+						<br>
+						padding: 3px 3px 3px 3px;<br>
+						border-style:solid;<br> 
+						border-color:black;<br> 
+						border-width:1px;<br> 
+						background: #ffffff;<br>
+						<br>
+						display: none;<br>
+					</ul>}<br>
+				</div>
+				<p>/* This section does 3 jobs: */</p><ol>
+				<li>/* The top lines specify the location. The position parameter needs to be set to absolute to separate from the parent div and be an actual popup. The vertical and horizontal locations are relative to the popup class's location on the page","and are supplemented by the margin:<ul>
+					<li>/* 15px sets the popup at the lower edge for the default font size","but this can be changed to 20px for a small gap. */</li>
+					<li>/* 5vw gives a nice gap from the side of the page","for all but the widest tables. (This controls how wide the item can be","but doesn't push it further left. */</li>
+					<li>/* A lower margin isn't used right now. */</li>
+					<li>/* That sentence below is about 350px long","so pulling the horizontal location back near the start of this sentence means subtracting this from the left margin. */</li>
+				</ul> */</li>
+				<li>/* The second section formats the popup box and text: solid black 1px border with a 3px buffer around the text","on a full-contrast background. */</li>
+				<li>/* The <span class="codeLine">display: none;</span> part in the third section hides the popup. */</li>
+				</ol>
+				<div class="codeWrapper">
+					.popup:hover span {<br><ul>
+						display: inherit;<br>
+					</ul>}<br>
+				</div>
+				<p>/* Using the same trick as in the menu in the previous post","where hover inherits the display parameter of the visible outer tag. It's simpler than the Z-index method that the original example used","and obviates 3 CSS sections. Here's the HTML code and a working example: */</p>
+				<div class="codeWrapper">
+					<span class="htmlTag">span class="popup"</span>Both visible text and popup text go within the outer span.<span class="htmlTag">span</span>Popup text goes within the inner span.<span class="htmlTag">/span</span><span class="htmlTag">/span</span>
+				</div>
+				<p>/* The original example was written for <span class="htmlTag">p</span> tags","but works great with <span class="htmlTag">span</span>: <span class="popup">Both visible text and popup text go within the outer span.<span>Popup text goes within the inner span.</span></span> */</p>
+			</div><br><br>
+
+			<div class="textBubbleBG">
+				<h2 id="01012022"><a href="#01012022">01/01/2022</a> - Updates to the menu.</h2>
+				<p>/* With the new year brings a new section for blog pages in the menu. This site's menu is <a href="https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp">entirely CSS-based</a>","using the HTML <span class="htmlTag">nav</span> tag as a container within which the location style tags display","and relocate the menu divs to their appropriate place on the screen. */</p>
+				<div class="codeWrapper">
+					nav {<br><ul>
+						margin: 0;<br>
+						background-color:#000;<br>
+					</ul>}<br>
+				</div>
+				<p>/* Nav defines the style for the entire navigation bar","everything within the <span class="htmlTag">nav</span> tag. */</p>
+				<div class="codeWrapper">
+					nav ul {<br><ul>
+						padding: 0;<br>
+						margin: 0 2vw; /*Space from left edge to first menu item*/<br>
+						list-style: none;<br>
+						position: relative;<br>
+					 </ul>}<br>
+				</div>
+				<p>/* Applies to all unordered lists inside the <span class="htmlTag">nav</span> tag. The <span class="codeLine">margin</span> parameter specifies how far to the right of its parent section the dropdown will appear. */</p>
+				<div class="codeWrapper">
+					nav ul li {<br><ul>
+						display:inline-block;<br>
+						background-color:#000;<br>
+					</ul>}<br>
+				</div>
+				<p>/* Applies to the list items within each unordered list. This one just provides formatting info","not modifying their position on the page","inherited from their <span class="htmlTag">ul</span> tag. */</p>
+				<div class="codeWrapper">
+					nav a {<br><ul>
+					 display:block;<br>
+					 padding:0 2vw; /*Space between menu items*/<br>
+					 color:#FFF;<br>
+					 font-size:3vw;<br>
+					 line-height: 6vw; /*how tall is the menu bar*/<br>
+					 text-decoration:none;<br>
+					</ul>}<br>
+				</div>
+				<p>/* Each menu item is wrapped in <span class="htmlTag">a</span> tags. This uses the <span class="codeLine">padding</span> parameter to pad between items","and <strong><span class="codeLine">line-height</span> to set the menu bar height","and the height of each dropdown menu item.</strong> */</p>
+				<div class="codeWrapper">
+					nav a:hover {<br><ul>
+					 background-color: #333; <br>
+					</ul>}<br>
+				</div>
+				<p>/* Format a menu item when hovered over","with dark grey instead of black. */</p>
+				<div class="codeWrapper">
+					nav ul ul {<br><ul>
+					 display: none;<br>
+					 position: absolute;<br>
+					 top: 6vw; /*Needs to match nav a line-height for menu to line up*/<br>
+					</ul>}<br>
+				</div>
+				<p>/* Second-level <span class="htmlTag">ul</span> tags contain the dropdown items","and so their top has to match the nav bar height. These are normally hidden by the <span class="codeLine">display: none;</span> parameter. */</p>
+				<div class="codeWrapper">
+					nav ul li:hover > ul {<br><ul>
+					 display:inherit;<br>
+					</ul>}<br>
+				</div>
+				<p>/* This is where the drop-down magic happens - when you mouseover a 2nd level <span class="htmlTag">li</span> tag","the <span class="codeLine">display: none;</span> parameter of the <span class="htmlTag">ul</span> tag within it is replaced with <span class="codeLine">display: inherit;</span>","letting that section inherit the <span class="codeLine">display: visible;</span> value and making them visible. Since the entire dropdown menu is contained within that <span class="htmlTag">li</span> tag","the visibility remains inherited until the mouse moves off the drop-down menu","or it's tapped off of. The drop-down items (with a ▼ down arrow symbol) have the hreference parameter omitted","to enable mobile functionality. */</p>
+				<div class="codeWrapper">
+					nav ul ul li {<br><ul>
+					 left:-9vw; /*Left edge of dropdown menu */<br>
+					 width:25vw; /*Width of dropdown menu section*/<br>
+					 float:none;<br>
+					 display:list-item;<br>
+					 position: relative;<br>
+					</ul>}<br>
+				</div>
+				<p>/* Second level <span class="htmlTag">li</span> tags contain the first level menus. The <span class="codeLine">left</span> parameter pulls the menu to the left edge of the drop-down item above it","and <strong><span class="codeLine">width</span> is where the dropdown menu's width is set.</strong> It's unusual but functional to have the width and height set in different CSS sections. */</p>
+				<div class="codeWrapper">
+					nav ul ul ul li {<br><ul>
+					 top: -6vw; /*Negative of nav ul ul top*/<br>
+					 left: 23vw; /*nav ul ul li width - nav a padding (2nd value)*/<br>
+					</ul>}<br>
+				</div>
+				<p>/* Third level <span class="htmlTag">ul</span> tags contain second level menus. These adjust the 2nd level menu to the side instead of below. */</p>
+
+				<div id="rgb"></div>
+				<script>addPage('rgb');</script>
+				<p>Needed the RGB calculator to write this post.</p>
+			</div><br><br>
+
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2022 Gilgamech Technologies - We are the gears that make our world go around.</p>
+			</div>
+		</div>
+	</body>
+</html>

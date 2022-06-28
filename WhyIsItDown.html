@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Gilgamech Technologies</title>
+		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+		<script src="https://www.gilgamech.com/js/WebCoif.js"></script>
+<script>
+function clickPress(event) {
+    if (event.keyCode == 13) {
+        loadPage();
+    }
+}
+
+function loadPage() {
+	var startTime = new Date();
+	document.getElementById('pageDisplay').src = readElement('pageSource');
+	xhrRequest('GET',readElement('pageSource'),(g,h)=>{
+		parsePageOutput(h);
+		var endTime = new Date();
+		appendElement('pageInfo',' ('+(endTime-startTime)+' ms)');
+	});
+}
+function parsePageOutput(g) {
+	showElement('PageInfoImage');
+	switch(g) {
+		case 0:
+			if (readElement('pageSource').split(':')[0] == 'http' && document.location.href.split(':')[0] == 'https') {
+				writeElement('pageInfo',"Blocked by browser - reload this page as HTTP. It's currently HTTPS, but your site is HTTP and so cannot load on this HTTPS page. Reloading this page as HTTP will let it load your HTTP page too.");
+				document.getElementById('pageDisplay').src = "";
+				hideElement('PageInfoImage');
+			}else{
+				writeElement('pageInfo',"No response - blocked either in browser extensions, router/firewall, or CORS policy. For testing, please allow at least this site to access your site in your Access-Control-Allow-Origin policy.");
+				document.getElementById('pageDisplay').src = "https://enable-cors.org/";
+				hideElement('PageInfoImage');
+			};
+			
+		break;
+		
+	  case 200:
+		writeElement('pageInfo',"Page loaded normally.");
+		hideElement('PageInfoImage');
+		break;
+		
+	  case 400:
+		writeElement('pageInfo',"Bad Request - your browser sent a malformed request or query string.");
+		hideElement('PageInfoImage');
+		break;
+	  case 401:
+		writeElement('pageInfo',"Unauthorized - No authentication provided. Try logging in first.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error401cause.png");
+		break;
+	  case 403:
+		writeElement('pageInfo',"Forbidden - Authentication provided but rejected. You're not allowed to access this file.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error403cause.png");
+		break;
+	  case 404:
+		writeElement('pageInfo',"Not Found - File is missing. (Is it on the server?)");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error404cause.png");
+		break;
+	  case 405:
+		writeElement('pageInfo',"Method Not Allowed - The method is known but not allowed, such as POST against a GET only file.");
+		hideElement('PageInfoImage');
+		break;
+	  case 406:
+		writeElement('pageInfo',"Not Acceptable - The server doesn't have a page allowed by the browser's user-agent.");
+		hideElement('PageInfoImage');
+		break;
+	  case 407:
+		writeElement('pageInfo',"Proxy Authentication Required - No authentication provided to proxy.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error407cause.png");
+		break;
+	  case 408:
+		writeElement('pageInfo',"Request Timeout - Server is closing this idle connection.");
+		hideElement('PageInfoImage');
+		break;
+	  case 409:
+		writeElement('pageInfo',"Conflict - Request conflicts with server state.");
+		hideElement('PageInfoImage');
+		break;
+	  case 410:
+		writeElement('pageInfo',"Gone - File not found with no forwarding address. Designed for limited-time promotional services.");
+		hideElement('PageInfoImage');
+		break;
+	  case 411:
+		writeElement('pageInfo',"Length Required - The Content-Length header field is required but not defined.");
+		hideElement('PageInfoImage');
+		break;
+	  case 412:
+		writeElement('pageInfo',"Precondition Failed - Server can't meet the preconditions specified in the client headers.");
+		hideElement('PageInfoImage');
+		break;
+	  case 413:
+		writeElement('pageInfo',"Payload Too Large - File is larger than the server can send.");
+		hideElement('PageInfoImage');
+		break;
+	  case 414:
+		writeElement('pageInfo',"URI Too Long - The client sent a URI longer than the server can interpret.");
+		hideElement('PageInfoImage');
+		break;
+	  case 415:
+		writeElement('pageInfo',"Unsupported Media Type - The server doesn't support this media format.");
+		hideElement('PageInfoImage');
+		break;
+	  case 416:
+		writeElement('pageInfo',"Range Not Satisfiable - The range in the Range header field can't be fulfilled, possibly because the server doesn't have the requested data.");
+		hideElement('PageInfoImage');
+		break;
+	  case 417:
+		writeElement('pageInfo',"Expectation Failed - The expectation in the Expect request header field cannot be met by the server.");
+		hideElement('PageInfoImage');
+	  case 418:
+		writeElement('pageInfo',"I'm a teapot - Device is teapot (1998 April Fool's joke)");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error418cause.png");
+		break;
+	  case 421:
+		writeElement('pageInfo',"Misdirected Request - Server isn't configured to respond.");
+		hideElement('PageInfoImage');
+	  case 422:
+		writeElement('pageInfo',"Unprocessable Entity (WebDAV) - The request was properly formatted but has semantic errors.");
+		hideElement('PageInfoImage');
+	  case 423:
+		writeElement('pageInfo',"Locked (WebDAV) - The requested resource is locked.");
+		hideElement('PageInfoImage');
+	  case 424:
+		writeElement('pageInfo',"Failed Dependency (WebDAV) - The request failed due to failure of a previous request.");
+		hideElement('PageInfoImage');
+	  case 425:
+		writeElement('pageInfo',"Too Early  - The server fears that the request might be replayed.");
+		hideElement('PageInfoImage');
+	  case 426:
+		writeElement('pageInfo',"Upgrade Required - The current protocol is insufficient.");
+		hideElement('PageInfoImage');
+	  case 428:
+		writeElement('pageInfo',"Precondition Required - The server requires the request to be conditional. This is to prevent clobbering another user's changes.");
+		hideElement('PageInfoImage');
+	  case 429:
+		writeElement('pageInfo',"Too Many Requests - The user has sent too many requests in a given amount of time. Intended for use with rate-limiting schemes.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error429cause.png");
+		break;
+	  case 431:
+		writeElement('pageInfo',"Request Header Fields Too Large - The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error431cause.png");
+		break;
+	  case 451:
+		writeElement('pageInfo',"Unavailable For Legal Reasons - legal hold or government censorship.");
+		hideElement('PageInfoImage');
+
+	  case 500:
+		writeElement('pageInfo',"Internal Server Error - A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error500cause.png");
+		break;
+	  case 502:
+		writeElement('pageInfo',"Bad Gateway - The server was acting as a gateway or proxy and received an invalid response from the upstream server.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error502Acause.png");
+		break;
+	  case 503:
+		writeElement('pageInfo',"Service Unavailable - The server cannot handle the request (because it is overloaded or down for maintenance).");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error503cause.png");
+		break;
+	  case 504:
+		writeElement('pageInfo',"Gateway Timeout - The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error504Acause.png");
+		break;
+	  case 505:
+		writeElement('pageInfo',"HTTP Version Not Supported - The server does not support the HTTP protocol version used in the request.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error505cause.png");
+		break;
+	  case 506:
+		writeElement('pageInfo',"Variant Also Negotiates - This server is a variant that negotiates content, so can't be a negotiation endpoint as requested.");
+		hideElement('PageInfoImage');
+		break;
+	  case 507:
+		writeElement('pageInfo',"Insufficient Storage (WebDAV) - the server HDD doesn't have the space to process the request, often for uploads. Delete other files (rotate logs) or extend the disk.");
+		hideElement('PageInfoImage');
+		break;
+	  case 508:
+		writeElement('pageInfo',"Loop Detected (WebDAV) - The server got stuck in an infinite loop while processing the request.");
+		hideElement('PageInfoImage');
+		break;
+	  case 510:
+		writeElement('pageInfo',"Not Extended - The server needs its code to be extended in order for it to fulfill this request.");
+		hideElement('PageInfoImage');
+		break;
+	  case 511:
+		writeElement('pageInfo',"Network Authentication Required - The client needs to authenticate to gain network access. Usually used with captive portals.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error511cause.png");
+		break;
+	  case 520:
+		writeElement('pageInfo',"(Cloudflare) Web Server Returned an Unknown Error - The origin server returned an empty, unknown, or unexplained response to Cloudflare.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error520cause.png");
+		break;
+	  case 521:
+		writeElement('pageInfo',"(Cloudflare) Web Server Is Down - The origin server has refused the connection from Cloudflare.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error521cause.png");
+		break;
+	  case 522 :
+		writeElement('pageInfo',"Cloudflare) Connection Timed Out - Cloudflare could not negotiate a TCP handshake with the origin server.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error522cause.png");
+		break;
+	  case 523:
+		writeElement('pageInfo',"(Cloudflare) Origin Is Unreachable - Cloudflare could not reach the origin server; for example, if the DNS records for the origin server are incorrect.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error523cause.png");
+		break;
+	  case 524:
+		writeElement('pageInfo',"(Cloudflare) A Timeout Occurred - Cloudflare was able to complete a TCP connection to the origin server, but did not receive a timely HTTP response.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error524cause.png");
+		break;
+	  case 525:
+		writeElement('pageInfo',"(Cloudflare) SSL Handshake Failed - Cloudflare could not negotiate a SSL/TLS handshake with the origin server.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error525cause.png");
+		break;
+	  case 526:
+		writeElement('pageInfo',"(Cloudflare) Invalid SSL Certificate - Cloudflare could not validate the SSL certificate on the origin web server.");
+		writeElement('PageInfoImage',"https://www.gilgamech.com/services/error526cause.png");
+		break;
+	  default:
+		writeElement('pageInfo',"Error processing page.");
+		hideElement('PageInfoImage');
+	}
+}
+
+</script>
+<style>
+#pageDisplay,#PageInfoImage {
+width: 45vw;
+height: 45vw;
+}
+#pageSource {
+width: 70vw
+}
+</style>
+		</div><!-- End Scripts-->
+		<div id="navContainer">
+			<nav>
+				<ul>
+					<li><a>Blog ▼</a>
+					<ul>
+						<li><a href="/blog.html">June 2022</a></li>
+						<li><a>2022 ▼</a><ul>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/April.html">Apr 2022</a></li>
+							<li><a href="/2022/March.html">Mar 2022</a></li>
+							<li><a href="/2022/February.html">Feb 2022</a></li>
+							<li><a href="/2022/January.html">Jan 2022</a></li>
+						</ul></li>
+						<li><a>2021 ▼</a><ul>
+							<li><a href="/2021/December.html">Dec 2021</a></li>
+							<li><a href="/2021/November.html">Nov 2021</a></li>
+							<li><a href="/2021/October.html">Oct 2021</a></li>
+							<li><a href="/2021/September.html">Sept 2021</a></li>
+							<li><a href="/2021/August.html">August 2021</a></li>
+							<li><a href="/2021/July.html">July 2021</a></li>
+						</ul></ul></li>
+					<li><a href="/history.html">World History</a></li>
+					<li><a>Stuff ▼</a><ul>
+						<li><a href="/Gillogisms.html">Gillogisms</a></li>
+						<li><a>Gaming ▼</a><ul>
+							<li><a href="/InGameItem.html">Ingame Items</a></li>
+							<li><a href="/Android.html">Android</a></li>
+						</ul></li>
+						<li><a>Tools ▼</a><ul>
+							<li><a href="/calc.html">Calculators</a></li>
+							<li><a href="/WhyIsItDown.html">Why's It Down?</a></li>
+							<li><a href="/errorcause.html">Error Causes</a></li>
+						</ul></li>
+					</ul></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul></li>
+			</nav>
+		</div>
+		<div id="content">
+<!-- CONTENT GOES HERE -->
+			<div class="textBubbleBG">
+				<h2 id="">Why's It Down?</h2>
+				<p id="pageInfo">This page will help you to understand why your page isn't working.</p>
+				<input id="pageSource" maxlength="120" autocapitalize="off" spellcheck="false" onkeypress="clickPress(event)" value="https://www.gilgamech.com/blog.html">
+				<button id="pageLoad" onclick="loadPage()">Load Page</button>
+				<br>
+				<iframe id="pageDisplay" readonly></iframe>
+				<img id="PageInfoImage" />
+			</div>
+		</div><!-- End Content-->
+ 		<div id="footWrapper">
+ 			<div class="container-fluid">
+ 			</div>
+ 			<div id="spacerName">
+ 				<br>
+ 				<br>
+ 			</div>
+ 			<div id="errDiv" class="row img-rounded">
+ 			</div>
+ 			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+ 				<p class="copyright">© 2013-2022 Gilgamech Technologies - We are the gears that make our world go around.</p>
+ 			</div>
+ 		</div>
+ 	</body>
+ </html>
