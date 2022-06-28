@@ -2,18 +2,19 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Gilgamech Technologies</title>
-			<script src="https://www.gilgamech.com/FruitBot/seedrandom.js"></script>
-			<script src="https://www.gilgamech.com/FruitBot/board.js"></script>
-			<script src="https://www.gilgamech.com/FruitBot/grid.js"></script>
-			<script src="https://www.gilgamech.com/FruitBot/mybot.js"></script>
-			<script src="https://www.gilgamech.com/FruitBot/simplebot.js"></script>
-			<script src="https://www.gilgamech.com/FruitBot/player.js"></script>
-			<script src="https://www.gilgamech.com/js/thirdparty/jquery.min.js"></script>
-		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
-		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+			<script src="/js/Gilgamech.js"></script>
+			<script src="/FruitBot/seedrandom.js"></script>
+			<script src="/FruitBot/board.js"></script>
+			<script src="/FruitBot/grid.js"></script>
+			<script src="/FruitBot/mybot.js"></script>
+			<script src="/FruitBot/simplebot.js"></script>
+			<script src="/FruitBot/player.js"></script>
+			<script src="/js/thirdparty/jquery.min.js"></script>
+		<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="/css/Gilgamech.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="titleParent" class="titleContainer">
@@ -76,6 +77,14 @@
 		</div>
 		-->
 			<script>GamePlay.init();</script>
+
+			<table>
+			<tr><th colspan=3>Global stats:</th></tr>
+			<tr><th>Wins</th><th>Losses</th><th>Ties</th></tr>
+			<tr><th><div id="scoreWins"></div></th>
+			<th><div id="scoreLoss"></div></th>
+			<th><div id="scoreTies"></div></th></tr>
+			</table>
 			
 		</div><!-- End Content-->
 		<div id="footWrapper">
