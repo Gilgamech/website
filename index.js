@@ -6,20 +6,20 @@
 //Notes: 
 
 const http = require("http");
+const https = require("https");
 const fs = require('fs');
 var url  = require('url');
 var serverPort = 80;
 
 var responseData = "Hola Mundo";
-var fourOhFour = "Hola Mundo";
+var error404 = "<HTML><body>404 Not Found</body><HTML>";
 var pagename = "index.html";
 var statusCode = 200;
 const files = fs.readdirSync("/home/app");
 
 fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
-	fourOhFour =  data;
+	error404 =  data;
 	if (err) {
-		"404 not found - "+err;
 		console.log(err);
 	}
 });
@@ -82,14 +82,14 @@ const server = http.createServer((request, response) => {
 				responseData =  data;
 				if (err) {
 					statusCode = 404;
-					responseData =  fourOhFour;
+					responseData =  error404;
 					console.log(err);
 				} 
 				response.writeHead(statusCode, {'Content-Type': contentType}); 
 				response.end(responseData);
 			});
 		} else {
-			responseData =  fourOhFour;
+			responseData =  error404;
 			console.log("404 error: "+pagename+" not found.");
 
 			response.writeHead(404, {'Content-Type': 'text/html'}); 
