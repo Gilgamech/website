@@ -132,22 +132,14 @@ const server = http.createServer((request, response) => {
 				responseData =  data;
 				if (err) {
 					statusCode = 404;
-<<<<<<< HEAD
-					responseData =  fourOhFour;
-=======
 					responseData =  error404;
->>>>>>> upstream/main
 					console.log(err);
 				} 
 				response.writeHead(statusCode, {'Content-Type': contentType}); 
 				response.end(responseData);
 			});
 		} else {
-<<<<<<< HEAD
-			responseData =  fourOhFour;
-=======
 			responseData =  error404;
->>>>>>> upstream/main
 			console.log("404 error: "+pagename+" not found.");
 
 			response.writeHead(404, {'Content-Type': 'text/html'}); 
@@ -159,7 +151,6 @@ const server = http.createServer((request, response) => {
   
 server.listen((serverPort), () => {
     console.log("Server is Running on port "+serverPort);
-<<<<<<< HEAD
 })
 
 /*
@@ -208,6 +199,3 @@ Get-Splitter (Filter-StringNums "10.20.30.40"|Filter-Rowboat) // User IP
 
 */
 
-=======
-})
->>>>>>> upstream/main
