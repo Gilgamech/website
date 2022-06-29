@@ -6,6 +6,7 @@
 //Notes: 
 
 const http = require("http");
+const https = require("https");
 const fs = require('fs');
 var url  = require('url');
 var serverPort = 80;
@@ -14,15 +15,14 @@ var FruitBotloss = 0;
 var FruitBottie = 0;
 
 var responseData = "Hola Mundo";
-var fourOhFour = "Hola Mundo";
+var error404 = "<HTML><body>404 Not Found</body><HTML>";
 var pagename = "index.html";
 var statusCode = 200;
 const files = fs.readdirSync("/home/app");
 
 fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
-	fourOhFour =  data;
+	error404 =  data;
 	if (err) {
-		"404 not found - "+err;
 		console.log(err);
 	}
 });
@@ -132,14 +132,22 @@ const server = http.createServer((request, response) => {
 				responseData =  data;
 				if (err) {
 					statusCode = 404;
+<<<<<<< HEAD
 					responseData =  fourOhFour;
+=======
+					responseData =  error404;
+>>>>>>> upstream/main
 					console.log(err);
 				} 
 				response.writeHead(statusCode, {'Content-Type': contentType}); 
 				response.end(responseData);
 			});
 		} else {
+<<<<<<< HEAD
 			responseData =  fourOhFour;
+=======
+			responseData =  error404;
+>>>>>>> upstream/main
 			console.log("404 error: "+pagename+" not found.");
 
 			response.writeHead(404, {'Content-Type': 'text/html'}); 
@@ -151,6 +159,7 @@ const server = http.createServer((request, response) => {
   
 server.listen((serverPort), () => {
     console.log("Server is Running on port "+serverPort);
+<<<<<<< HEAD
 })
 
 /*
@@ -199,3 +208,6 @@ Get-Splitter (Filter-StringNums "10.20.30.40"|Filter-Rowboat) // User IP
 
 */
 
+=======
+})
+>>>>>>> upstream/main
