@@ -8,12 +8,13 @@
 const http = require("http");
 const https = require("https");
 const fs = require('fs');
-var url  = require('url');
+const url  = require('url');
+
 var serverPort = 80;
 
 var responseData = "Hola Mundo";
 var error404 = "<HTML><body>404 Not Found</body><HTML>";
-var pagename = "index.html";
+var pagename = "/index.html";
 var statusCode = 200;
 const files = fs.readdirSync("/home/app");
 
@@ -27,7 +28,9 @@ fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
 
 const server = http.createServer((request, response) => {
 	statusCode = 200;
-	console.log("Request from "+request.socket.remoteAddress+" for page "+request.url);
+
+	console.log(request.method+" request from "+request.socket.remoteAddress+" for page "+pagename);
+
 	if (request.url=='/'){
 		pagename = "/index.html";
 	} else {
