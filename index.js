@@ -134,19 +134,17 @@ const server = http.createServer((request, response) => {
 				statusCode = 200;
 				responseData =  data;
 				if (err) {
-					statusCode = 404;
-					responseData =  error404;
-					console.log(err);
+					console.log("404 error: "+pagename+" not found.");
+					response.writeHead(404, {'Content-Type': 'text/html'}); 
+					response.end(error404);
 				} 
 				response.writeHead(statusCode, {'Content-Type': contentType}); 
 				response.end(responseData);
 			});
 		} else {
-			responseData =  error404;
 			console.log("404 error: "+pagename+" not found.");
-
 			response.writeHead(404, {'Content-Type': 'text/html'}); 
-			response.end(responseData);
+			response.end(error404);
 		}
 		break;
 	} // end switch pagename
