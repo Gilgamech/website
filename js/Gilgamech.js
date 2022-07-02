@@ -1,4 +1,5 @@
 //Gilgamech.js
+var lineBreak = "\n"
 
 //{region Marked for depreciation
 function getNumberFromDiv($numericDiv) {
@@ -123,7 +124,7 @@ function sortNumTable(currentColumn,tableid) {
 function returnAllValues(col,tableid) {
 	var subtotal = [];
 	var tbody = returnTablePart(tableid,'TBODY')
-  
+	
 	for (var j = 0; j < tbody.children.length; j++) {
 		var el = tbody.children[j];
 			for (var k = 0; k < el.children.length; k++) {
@@ -538,8 +539,8 @@ function addElement($elementParent,$innerText,$elementClass,$elementType,$elemen
 			document.getElementById($elementId).contentEditable = true;
 	}; // end if contentEditable	
 	if ($attributeType && $attributeAction) {
-			document.getElementById($elementId).setAttribute($attributeType, $attributeAction);
-	}; // end if attributeType	
+		document.getElementById($elementId).setAttribute($attributeType, $attributeAction);
+	}; // end if attributeType
 
 	return $elementId
 }; // end addElement	
@@ -1139,6 +1140,60 @@ function enigmaReciprocal(inputString,keyArray,swapArray){
 }
 
 //}endregion
+
+//region misc
+function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+};// end componentToHex
+
+function rgbToHex(r, g, b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+};// end rgbToHex
+
+function hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+};// end hexToRgb
+
+function getNumberFromDiv($numericDiv) {
+	return Math.round(
+		document.getElementById($numericDiv).innerText  *1
+	)
+};
+//endregion
+
+//region Enkida
+// wait on voices to be loaded before fetching list
+window.speechSynthesis.onvoiceschanged = function() {
+    // console.log(window.speechSynthesis.getVoices());
+};
+
+function SayThis(saythis) {
+	var msg = new SpeechSynthesisUtterance();
+	var voices = window.speechSynthesis.getVoices();
+	
+	msg.voice = voices[1]; // Note: some voices don't support altering params
+	msg.voiceURI = 'native';
+	msg.volume = 1; // 0 to 1
+	msg.rate = 1; // 0.1 to 10
+	msg.pitch = 0.5; //0 to 2
+	msg.text = saythis;
+	msg.lang = 'en-US';
+	
+	// console.log(msg);
+	// console.log(speechSynthesis);
+	// console.log(window.speechSynthesis.getVoices());
+	// console.log(speechSynthesis.getVoices());
+	// console.log(getVoices());
+	speechSynthesis.speak(msg)
+};
+
+//endregion
 
 //{region Rowboat Cipher
 function getRowboats(text="Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36") {
