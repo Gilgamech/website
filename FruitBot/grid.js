@@ -12,6 +12,6 @@ var Grid = {
                 }
             }
         }
-        img.src="https://www.gilgamech.com/FruitBot/images/FruitCell.png";
+        img.src="/images/FruitCell.png";
     }
 }
