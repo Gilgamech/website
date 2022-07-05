@@ -29,10 +29,6 @@ fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
 });
 
 const server = http.createServer((request, response) => {
-// const server = https.createServer((request, response) => {
-		// key: fs.readFileSync("/etc/letsencrypt/archive/example.com/privkey1.pem"),
-		// cert: fs.readFileSync("/etc/letsencrypt/archive/example.com/fullchain1.pem"),
-		// ca: fs.readFileSync("/etc/letsencrypt/archive/example.com/chain1.pem")
 	var statusCode = 200;
 	var responseData = "";
 	var contentType = 'text/plain';
@@ -156,48 +152,3 @@ const server = http.createServer((request, response) => {
 server.listen((serverPort), () => {
 	console.log("Server is Running on port "+serverPort);
 })
-
-/*
-function Filter-Rowboat(inVar) {
-	inVar = inVar.replace(0," ");
-	inVar = inVar.replace(1," ~");
-	inVar = inVar.replace(2," ~ ");
-	inVar = inVar.replace(3," ~~");
-	inVar = inVar.replace(4,"~ ");
-	inVar = inVar.replace(5,"~ ~");
-	inVar = inVar.replace(6,"~~ ");
-	inVar = inVar.replace(7,"~~~");
-	inVar = inVar.replace(8,"- ~");
-	inVar = inVar.replace(9,"-~ ");
-	return inVar
-}
-
-function Filter-StringNums (intxt){
-	([char[]]intxt | %{[int][char]$_ -65}) -replace "-","~" -join ""
-				 
-}
-
-function Get-Splitter (String, Index = 0, Offset = 52 ){
-	if (String.length -gt Offset) {
-		for(i=1; i -le [int](String.Length / Offset); i++){
-			String[Index..(Index+Offset)] -join "";
-			Index = Index + Offset+1;
-		}
-	} else {
-		$string
-	}
-}
-function Get-Rowboats {
-"Welcome to Rowboats.txt. Please be careful of"
-"the swimmers, and have a great day."
-Get-Splitter (Filter-StringNums "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"|Filter-Rowboat) //UserAgent
-"		c <	o	o	o	o			 " +(Get-Splitter (Filter-StringNums "hi t"|Filter-Rowboat)) // Message Chars 1-4
-"	 /\/ /\/) /\/) /\/) /\/)		" +(Get-Splitter (Filter-StringNums "here"|Filter-Rowboat)) // Message Chars 5-8
-"	__/_____/__/_/__/_/__/_/__/______"
-"-~-~ '-----/----/----/----/-------' "
-Get-Splitter (Filter-StringNums (get-date).toString()|Filter-Rowboat) // Current date string
-"o,	o__ -~-~ o_/| o_.	-~-~ o,	o__ -~-~"
-Get-Splitter (Filter-StringNums "10.20.30.40"|Filter-Rowboat) // User IP
-}
-
-*/
