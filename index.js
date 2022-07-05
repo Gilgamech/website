@@ -2,23 +2,23 @@
 //Title: Basic Webserver
 //Made by: Stephen Gillie
 //Created on: 6/17/2022
-//Updated on: 6/28/2022
+//Updated on: 7/5/2022
 //Notes: 
 
 const http = require("http");
 const https = require("https");
 const fs = require('fs');
 const url  = require('url');
+const serverPort = 80;
 
-var serverPort = 80;
 var FruitBotwin = 0;
 var FruitBotloss = 0;
 var FruitBottie = 0;
 
-var responseData = "Hola Mundo";
-var error404 = "<HTML><body>404 Not Found</body><HTML>";
+var error404 = "404 Not Found";
 var pagename = "/index.html";
-var statusCode = 200;
+var optionsData = 'HTTP/1.1 200 OK\nAllow: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS\nAccess-Control-Allow-Origin: https://Gilgamech.com\nAccess-Control-Allow-Methods: GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS\nAccess-Control-Allow-Headers: Content-Type'
+// Listing of files, to more safely check inputs.
 const files = fs.readdirSync("/home/app");
 
 fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
@@ -28,10 +28,15 @@ fs.readFile("/home/app/custerr/404.htm", 'utf8', function (err,data) {
 	}
 });
 
-
 const server = http.createServer((request, response) => {
-	statusCode = 200;
-
+// const server = https.createServer((request, response) => {
+		// key: fs.readFileSync("/etc/letsencrypt/archive/example.com/privkey1.pem"),
+		// cert: fs.readFileSync("/etc/letsencrypt/archive/example.com/fullchain1.pem"),
+		// ca: fs.readFileSync("/etc/letsencrypt/archive/example.com/chain1.pem")
+	var statusCode = 200;
+	var responseData = "";
+	var contentType = 'text/plain';
+	var encodingType = '';
 	console.log(request.method+" request from "+request.socket.remoteAddress+" for page "+pagename);
 
 	if (request.url=='/'){
@@ -40,8 +45,6 @@ const server = http.createServer((request, response) => {
 		pagename = request.url;
 	};
 
-	var contentType = 'text/plain';
-	var encodingType = '';
 	switch(pagename.split(".")[1]) {
 	  case "css":
 		contentType = 'text/css'
@@ -78,9 +81,10 @@ const server = http.createServer((request, response) => {
 		contentType = 'image/png'
 		break;
 	  default:
+		break;
 	}//end switch pagename
-
-	switch(request.url) {
+	
+	switch(pagename) {
 		case "/FruitBotwin":
 		FruitBotwin++;
 		var fruitResponse = [{
@@ -127,7 +131,6 @@ const server = http.createServer((request, response) => {
 		response.writeHead(statusCode, {'Content-Type': contentType});
 		response.end(JSON.stringify(responseData));
 		break;
-
 	  default:
 		  if (files.includes(pagename.split("/")[1])) {
 			fs.readFile("/home/app"+pagename, function (err,data) {
@@ -151,7 +154,7 @@ const server = http.createServer((request, response) => {
 })
   
 server.listen((serverPort), () => {
-    console.log("Server is Running on port "+serverPort);
+	console.log("Server is Running on port "+serverPort);
 })
 
 /*
@@ -171,6 +174,7 @@ function Filter-Rowboat(inVar) {
 
 function Filter-StringNums (intxt){
 	([char[]]intxt | %{[int][char]$_ -65}) -replace "-","~" -join ""
+				 
 }
 
 function Get-Splitter (String, Index = 0, Offset = 52 ){
@@ -182,9 +186,7 @@ function Get-Splitter (String, Index = 0, Offset = 52 ){
 	} else {
 		$string
 	}
-
 }
-
 function Get-Rowboats {
 "Welcome to Rowboats.txt. Please be careful of"
 "the swimmers, and have a great day."
@@ -199,4 +201,3 @@ Get-Splitter (Filter-StringNums "10.20.30.40"|Filter-Rowboat) // User IP
 }
 
 */
-
