@@ -10,7 +10,7 @@ function getNumberFromDiv($numericDiv) {
 
 function s3FileUpload($siteName,$fileDiv) { 
 var $file = document.getElementById($fileDiv).files[0]; 
-xhrRequest('POST','/s3url?siteName='+$siteName+'&fileName='+$file.name+'&contentType='+$file.type,function(key){ xhrRequest('PUT',key,function(e){ writeElement('errDiv',e) },'',$file )},'JSON') }; 
+webRequest('POST','/s3url?siteName='+$siteName+'&fileName='+$file.name+'&contentType='+$file.type,function(key){ webRequest('PUT',key,function(e){ writeElement('errDiv',e) },'',$file )},'JSON') }; 
 
 function parseJupyter2($cell) {
 			$stringVar = $stringVar.replace('# ','"          "elementType": "p",');
@@ -565,10 +565,10 @@ function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }; //end function onlyUnique
 
-function xhrRequest($verb,$location,$callback,$JSON,$file,$cached) {
+function webRequest($verb,$location,$callback,$JSON,$file,$cached) {
 	var $status;
 	var xhRequest = new XMLHttpRequest();
-	var $locationCache = $location.replace(/\//g,"").replace(/\./g,"").replace(/\:/g,"");
+	//var $locationCache = $location.replace(/\//g,"").replace(/\./g,"").replace(/\:/g,"");
 	var $returnVar;
 		if ($verb == "POST") {
 			xhRequest.overrideMimeType("text/plain");
@@ -610,7 +610,7 @@ function xhrRequest($verb,$location,$callback,$JSON,$file,$cached) {
 			}; // end try
 		}; // end xhRequest.onreadystatechange
 	xhRequest.send($file);
-};// end xhrRequest
+};// end webRequest
 
 function overlayOn(divId) {
   document.getElementById(divId).style.display = "block";
@@ -683,9 +683,9 @@ function cje($parentElement,$jsonVar) {
 		
 	try {
 /*	if ($jsonVar.split(':')[0] == 'http' || $jsonVar.split(':')[0] == 'https') {
-		xhrRequest("GET",$jsonVar,function(response) {
+		webRequest("GET",$jsonVar,function(response) {
 			cje(response,$parentElement);
-		},"JSON"); // end xhrRequest
+		},"JSON"); // end webRequest
 
 	}else */if ($jsonVar.elements) {
 		$rgxVar = new RegExp($jsonVar.elements[0].elementParent,'g');
