@@ -1,5 +1,5 @@
 //WebCoif
-// A lttle JS hat for your web browser, so it can read JSON sites too.
+// A little JS hat for your web browser, so it can read JSON sites too.
 
 
 var $WebcoifVer = 400;
@@ -122,3 +122,5 @@ window.onload = function(){
 				//addMenuItem("nav2ddc",$website.pages[$element].pageTitle,"rbp('" + $element + "');",$website.pages[$element].elementClass,$website.pages[$element].href);
 			// }; // end if GilJSVersion
 		// }); // end foreach jsonVar
+
+
