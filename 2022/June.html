@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging mathematically again." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
+<meta name="keywords" content="blog">
+<meta name="author" content="Gilgamech Technologies">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.gilgamech.com/js/rgb.js"></script>
+		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script type="application/javascript"> 
+const colors = [
+"#E50000", //red
+"#FF8D00",//orange 
+"#FFFF00", //yellow
+"#028121",//green 
+"#004CFF",//indigo 
+"#760088",//purple 
+"#FFFFFF",//white
+"#FFAFC7",//pink
+"#73D7EE",//teal
+"#000000"];//black
+
+window.addEventListener("mousedown", (e) => {
+	const color = colors.shift();
+	var foreground = "#000000"
+if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) < 500){
+	foreground = "#FFFFFF"
+}
+
+  document.documentElement.style.setProperty("--highlight-color", color);
+  document.documentElement.style.setProperty("--foreground-color", foreground);
+  colors.push(color);
+});
+</script>
+<style type="text/css"> 
+.floatingBubble {
+ display: inline-block;
+ max-width: 98%;
+}
+
+.validInput {
+	background-color:#d9ead3;
+}
+
+.saltine .house {
+	text-align:center;
+	vertical-align:center;
+	padding:2px 3px 2px 3px;
+}.saltine .house a {
+	color: inherit;
+} .s0{
+	background-color:#ffd966;
+}.s1{
+	background-color:#ffe599;
+} .s2{
+	background-color:#fff2cc;
+} .s3{
+	background-color:#ffff00;
+} .s4{
+	background-color:#ff9900;
+} .s5{
+	background-color:#c9daf8;
+} .s6{
+	background-color:#f1c232;
+} .s7{
+} .tableYes{
+	background-color:#D9EAD3;
+} .tableNo{
+	background-color:#F4CCCC;
+} .tableMaybe{
+	background-color:#FCE5CD;
+}
+
+.THeader {
+	width:52px;
+}
+.TRow  {
+	height: 45px;
+	line-height: 45px;
+}
+
+:root {
+  --highlight-color: null;
+  --foreground-color: null;
+}
+
+::selection {
+  background: var(--highlight-color);
+  color: var(--foreground-color);
+}
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+				<ul>
+					<li><a>Blog ▼</a>
+					<ul>
+						<li><a href="/blog.html">July 2022</a></li>
+						<li><a>2022 ▼</a><ul>
+							<li><a href="/2022/June.html">June 2022</a></li>
+							<li><a href="/2022/May.html">May 2022</a></li>
+							<li><a href="/2022/April.html">Apr 2022</a></li>
+							<li><a href="/2022/March.html">Mar 2022</a></li>
+							<li><a href="/2022/February.html">Feb 2022</a></li>
+							<li><a href="/2022/January.html">Jan 2022</a></li>
+						</ul></li>
+						<li><a>2021 ▼</a><ul>
+							<li><a href="/2021/December.html">Dec 2021</a></li>
+							<li><a href="/2021/November.html">Nov 2021</a></li>
+							<li><a href="/2021/October.html">Oct 2021</a></li>
+							<li><a href="/2021/September.html">Sept 2021</a></li>
+							<li><a href="/2021/August.html">August 2021</a></li>
+							<li><a href="/2021/July.html">July 2021</a></li>
+						</ul></ul></li>
+					<li><a href="/history.html">World History</a></li>
+					<li><a>Stuff ▼</a><ul>
+						<li><a href="/Gillogisms.html">Gillogisms</a></li>
+						<li><a>Gaming ▼</a><ul>
+							<li><a href="/InGameItem.html">Ingame Items</a></li>
+							<li><a href="/Android.html">Android</a></li>
+						</ul></li>
+						<li><a>Tools ▼</a><ul>
+							<li><a href="/calc.html">Calculators</a></li>
+							<li><a href="/WhyIsItDown.html">Why's It Down?</a></li>
+							<li><a href="/errorcause.html">Error Causes</a></li>
+						</ul></li>
+					</ul></li>
+					<li><a href="/contact.html">Contact</a></li>
+				</ul></li>
+			</nav>
+		</div>
+		<div id="content">
+			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
+			</div><br><br>
+
+<!-- Cryptid currency
+- Formal
+Lack of oversight allows market players to create volatility, and whole new currencies, at will. Market players set up and run countryless central banks as though they're businesses, including the massive marketing budgets to name sports stadiums. There is no consumer nor employee protection, so during downturns both parties are among the first to be pushed from the company. 
+- ForEx
+Volatile and not backed make it like investing in the Turkish Lira through a Chinese bank. (Investing in the RMB through a Turkish bank would be a less-questionable investment strategy. Even better, for those with the option, is investing in USD through an US American bank.)
+- Marketing
+Each new currency, and each wave of an existing currency, uses the marketing budget of a Disney movie. (Pay Youtubers to say "to the moon" a lot.)
+- Environment
+In 2022, most electricity on Earth is generated through carbon release and not a sustainable power source, and so the high electricity use of these devices (comparable to heating Sweden through the arctic winter) must be having a high environmental impact.
+- ROI
+Consumes enormous amounts of very expensive computational resources for questionable ROI, using electricity consumption comparable to Sweden. 
+Asset classes are entirely numerical hashes, for which an algorithmic hash-to-image function has been constructed - these people don't even own those ugly monkeys, as the monkey is just a drawing that a website makes based on the random-ish numbers that the person bought. Just like Robohash.com can do with any username.
+- Computational
+Reverse-engineering SHA256 (or similar) certificates to store data feels like a solution in search of a problem. Why not reverse-engineer SSL certificates or user passwords? SHA isn't technically reversible, so they're creating billions of certs per second, looking for one that already has the transaction details hashed within. And the more people looking, the harder it becomes to find.
+- Utility
+Markets often overinflates with speculative investors, causing too much volatility for the currency to be used for payment, and definitely too "interesting" to reliably store asset value. 
+In which situations do you need a volunteer-distributed append-only database that's weak against a 51% attack?
+More miners, instead of creating proportionately more capacity in the system, instead have the same capacity divided across them, causing miners to compete instead of creating more liquidity in the system just when you need it. This causes supply-side inflation, where high demand for the currency inflates its value unnaturally. Therefore it cannot store value, since transfer rates will always inflate alongside coin prices - an effective store of value has a low or static fee instead of this Adjustable Rate.
+- Psychological
+"Winning" a block has a very gacha feel, and the "line/number go up" effect is undeniable. (This effect is pronounced on highways as "car go forward", leading to both speeding and people scooting up on red lights - to tell the red light to hurry up.)
+Users are eager to look at ugly monkeys because they're a nice change of pace from the bar and line graphs. (This is the News Advertising cycle being played out in crypto)
+- Market effects
+Impacts gaming as both consume the same video cards. (Weren't ASICs supposed to help with this? Yeah but why buy an ASIC - if this currency goes bust you could go play Elden Ring instead.)
+- Career
+Giving a "cash prize" for performing work is much less ethical than having a labor contract, turning mining into the Gig Economy version of Data Centers. 
+Company employees experience rug-pulls during market downturns, since their employers sole value is psychological, and the industry has but one revenue stream: investors. 
+- Industry
+These are quintessential tech companies in a few ways, including their heavy use of scalable code, investor-driven Ponziesque profit model (where is the ad-supported Bitcon?), and disregard for employees with highly-valuable skills by treating them as disposable.
+There are no profit centers here, only cost centers.
+
+
+
+================================== Blog stuff ==================================
+<div class="textBubbleBG">
+	<h2 id="05292022"><a href="#05292022">05/29/2022</a> - Cloud watching.</h2>
+	<p>Like many industries, IT industries require continual education. But instead of mandating this through professional organizations or government regulations, technological evolution create material efficiencies and raw speed increases which drive the continual education need. If a worker doesn't keep learning, they quickly run out of employable skills.</p>
+	<p>Just as physical recovery for competition progresses from healing to therapy to training, so to should mental recovery progress from healing to therapy to training. If business is war, then you'll need to be well prepared for office combat if you expect to survive among a company's ranks.</p>
+	<table><thead>
+	<tr><th>Items v / Clouds &gt;</th><th>AWS</th><th>Azure</th><th>GCP</th><th>vSphere</th><th>Nutanix</th><th>Citrix</th></tr>
+	</thead><tbody>
+	<!	- General features 	->
+	<!	-
+	<tr><th>Locations</th><td>18 plus edges</td><td>14?</td><td>12?</td><td>BYO</td><td>BYO</td><td>BYO</td></tr>
+	<tr><th>Compute</th></tr>
+	<!	- AWS features 	->
+	<!	- Azure features 	->
+	<!	- GCP features 	->
+	<!	- vSphere features 	->
+	<!	- Nutanix features 	->
+	<!	- Citrix features 	->
+	<!	-
+	</tbody></table>
+</div><br><br>
+
+
+================================== 2017 falls apart ==================================
+Juicero
+Theranos
+Epstein/Maxwell unravels
+Divorces: Gates, Bezos, Musk
+Trump records and Jan6
+- GOP ties (Congress and Senate members, missing/destroyed calls and notes)
+- Fox News ties (Carlson, Hannity)
+- Financialj ties (NY AG & Mazars) and 10 years of financial documents restatements.
+Elon Musk
+- Solarcity merger lawsuits
+- Solarcity price hike lawsuits
+- Gigafactory scandals
+- SpaceX FAA environmental impact
+- SpaceX departures "threaten to bankrupt company" since the Falcon is now unviable.
+- Tesla cars called unreliable by Consumer Reports (They're as independent of Musk as they can be.)
+- Tesla racism lawsuit
+- Each company's loans use the other company's stocks as collateral, so the whole empire collapses if any stock price drops too far.
+Joe Rogan
+- 139 episodes pulled from Spotify for racist comments
+Crypto
+- Finally losing steam as it runs out of idiots
+
+How many solar panels to power X:
+- Container ship
+- USA's steel industry
+- SpaceX Boca Chica launch facilities (Why is "the king of rooftop solar power" burning methane for electricity? Are there too few houses in Boca Chica?)
+			
+Living on Mars:
+- Food - Mushrooms
+- Material - PVC frees up oxygen from percholrates and uses the chlorine. Also bring sodium to create salt.
+
+================================== GeoPol ==================================
+
+<div class="textBubbleBG">
+<h2 id="05142022"><a href="#05142022">05/14/2022</a> - WW3 - War is Business</h2>
+<p>Willingness to impose sanctions</p>
+<p>21st century interconnectedness</p>
+<p>Russia is losing because they're a 20th century fighting force, without drones or encryption.
+
+<p>Logistics of modern war: fuel, ammo, food, spare parts, all in massive quantities.</p>
+<p>Replacement of hardware, when the hardware is made by a country which have sanctioned you. Worse, replacement of hardware when you're attacking the country who made it and have bombed the factory which made it.</p>
+<p>Impact of sanctions on military ops</p>
+
+<p>Global impact of war on prices of basics like grain and gas</p>
+<p>Inability of some countries to meet obligations</p>
+<p>Worsening outlook for US economy, and other economies, if war continues. The world needs Both Sides of this conflict to start producing food and fuel again instead of fighting. But exit strategies remain unclear.</p>
+
+<p>Preemptive war to maintain our economy and lifestyle in general. </p>
+<p>Next time have a war of attrition, can we use a "planet war" with minimal economic output? Such as a desert in New Mexico, Utah, Mexico, Argentina, eastern China, Siberia, Sahara, or another suitable location?</p>
+</div><br><br>
+- 21st century weaponry
+- quadcopter-dropped mortars - you're watching the hud and video on a screen, like a videogame. As problematic as early sci-fi may be, this was the plot of Ender's Game. 
+- Electric motorcycles for snipers, to better move silently around enemy forces.
+- Hopefully we'll see an increase in interest in these sports in the future. (Water-balloon dropping drones, to attack a college campus?)
+
+
+- Food security 
+- Peak Oil turns into Peak Effective Oil. There will still be huge amounts of oil in the ground long after renewables have replaced petroleum systems.  The goal of renewables is not global warming reduction but energy sovereignety. 
+- Too much of the world is interconnected in fuel, which is a known issue fof geopolitical conllict. 
+- 21st century interconnectedness led to sanctions, and also boycotts. 
+- Russian propagamanda prevalent on news - it's like the last 4 years in the USA if there were no Democratic Party. Millions of Russians, mostly liberal, have left Russia recently. And Russia generally disperses liberals deep into Siberia, to be surrounded by conservatives, which has a chilling effect on liberal voices. 
+
+-->
+
+			<div class="textBubbleBG">
+				<h2 id="06212022"><a href="#06212022">06/21/2022</a> - Cost balancing.</h2>
+				<p>The first noticeable outcome is the pricing of ALBs - they cost almost as much as a small EC2 instance. The sole function provided by the ALB is to anchor the SSL cert and translate port 443, since SSL in Javascript is still somewhat undiscussed, Hopefully adding a Traefik instance to my container set will allow this to get its own SSL certs from Let's Encrypt.</p>
+				<ol>
+				<li>Pull together a small Node.js app to serve static files.</li>
+				<li>Dockerfile to declare Node.js version and start it.</li>
+				<li>Scripting Docker for quick local builds.</li>
+				<li>Upload to ECR, include in Task Definition, create Service.</li>
+				<li>Apply for ACM cert, add CNAME in Google Domains.</li>
+				<li>Add ACM cert to ALB, set up Target Group, point at the Task's internal IP.</li>
+				</ol>
+				<p>Larger breakdown still to come.</p>
+				</div><br><br>			
+
+			<div class="textBubbleBG">
+				<h2 id="06192022"><a href="#06192022">06/19/2022</a> - Blog in a box.</h2>
+				<p>Containerizing this site has been pretty easy. Containers are pretty powerful, and hosting static files is kinda overkill, but still seems much more efficient than renting a Windows server.</p>
+				<ol>
+				<li>Pull together a small Node.js app to serve static files.</li>
+				<li>Dockerfile to declare Node.js version and start it.</li>
+				<li>Scripting Docker for quick local builds.</li>
+				<li>Upload to ECR, include in Task Definition, create Service.</li>
+				<li>Apply for ACM cert, add CNAME in Google Domains.</li>
+				<li>Add ACM cert to ALB, set up Target Group, point at the Task's internal IP.</li>
+				</ol>
+				<p>Larger breakdown still to come.</p>
+				</div><br><br>			
+
+			<div class="textBubbleBG">
+				<h2 id="06162022"><a href="#06162022">06/16/2022</a> - Facsimileft.</h2>
+				<p>Learning Docker containers has reignited a desire for web development. They are like a missing puzzle piece. And a key part of modern web dev is licensing.</p>
+				<p>Here's a tabulation of software licenses from <a href="https://itsfoss.com/open-source-licenses-explained/">It's Foss</a>. All licenses have in common: "The Work is suitable for commercial use" and "Licensees can modify the work."</p>
+
+				<table><colgroup>
+				<col style="max-width: 35px; width: 25vw;"/> <!-- Name -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- GPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- LGPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- EPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- MPL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- ASL -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- MIT -->
+				<col style="max-width: 35px; width: 25vw;"/><!-- BSD -->
+				</colgroup><thead>
+				<tr><th>Term</th><th>GPL</th> <th>LGPL</th> <th>EPL 1.0</th> <th>MPL</th> <th>ASL 2.0</th> <th>MIT</th> <th>BSD</th></tr>
+				</thead><tbody>
+				<tr><td>Copyleft (generally unrestricted to use and redistribute)</td><td>Strong</td><td><div>Weak (bound to DLL)</div></td><td><div>Weak (bound to software "module")</div></td><td><div>Weak (bound to individual files)</div></td><td>Non-copyleft</td><td>Non-copyleft</td><td>Non-copyleft</td></tr>
+				<tr><td>Licensees must provide proper attribution for the Work.</td><td></td><td></td><td></td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td></tr>
+				<tr><td><div style="width:399px;left:-1px">Licensees must release the source alongside with Derivative Work.</div></td><td class="tableYes">Yes</td><td class="tableMaybe"><div>Only if you don&#39;t modify</div></td><td class="tableMaybe"><div>Only if you don&#39;t modify</div></td><td class="tableYes"><div>Yes (Licensees cannot relicense MPL-licensed source)</div></td><td class="tableNo">No</td><td class="tableNo">No</td><td class="tableNo">No</td></tr>
+				<tr><td><div style="width:399px;left:-1px">Licensees may redistribute Derivative Work under different terms</div></td><td class="tableNo">No</td><td></td><td></td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td><td class="tableYes">Yes</td></tr>
+				<tr><td><div>Commercial distributors of the software must defend or compensate original EPL contributors from lawsuits/damages caused by the commercial offering.</div></td><td></td><td></td><td class="tableYes">Yes</td><td></td><td></td><td></td><td></td></tr>
+				<tr><td><div>Licensees cannot use the original Author name or trademark to endorse Derivative Work (3- and 4- clause BSD)</div></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tableYes">Yes</td></tr>
+				<tr><td><div>Licensees must acknowledge the original Author in all advertising materials mentioning features or use of the Work (4-clause BSD)</div></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="tableYes">Yes</td></tr>
+				</tbody></table>
+
+				<p>In case the blog didn't make it obvious, the author isn't a lawyer, so be sure to check with one before making a business-impacting decision.</p>
+
+				</div><br><br>			
+			<div class="textBubbleBG">
+				<h2 id="06062022"><a href="#06062022">06/06/2022</a> - Pride in what you do.</h2>
+				<p>Found <a href="https://dev.to/braydoncoyer/change-text-highlight-color-with-css-80">CSS and JS to change highlight-color</a>. Each time you click, the color will change, moving through the Pride flag rainbow. As an upgrade to the original, this checks if the background color is within 500 "color points" of dark #000000 text. Back in my <a href="https://www.gilgamech.com/2021/August.html#08212021">8/21/2021</a> post, I discussed adding together all 3 color values to obtain a "color point" value, and how a value of 500 is considered the minimum value for readability. I got this from an accessability website and forgot to reference them 😞.</p>
+				<p>First, the CSS. The top section, :root, is where these variables are initialized with a null value. They'll get populated in the lower Javascript section then used in this ::selection section.</p>
+				<div class="codeWrapper">
+				:root {<ul>
+				  --foreground-color: null;<br>
+				  --highlight-color: null;<br>
+				</ul>}<br>
+				::selection {<ul>
+				  color: var(--foreground-color);<br>
+				  background: var(--highlight-color);<br>
+				</ul>}<br>
+				</div>
+				<p>Next, Javascript to setup the colors, from <a href="https://www.kapwing.com/resources/official-pride-colors-2021-exact-color-codes-for-15-pride-flags/">here</a>.</p>
+				<div class="codeWrapper">
+				const colors = [<br>
+				"#E50000", //red<br>
+				"#FF8D00",//orange <br>
+				"#FFFF00", //yellow<br>
+				"#028121",//green <br>
+				"#004CFF",//indigo <br>
+				"#760088",//purple <br>
+				"#FFAFC7",//pink<br>
+				"#73D7EE",//teal<br>
+				"#613915"];//brown<br>
+				</div>
+				<p>Then setup the mousedown event. Whenver the left mouse button is clicked on the webpage, it will detach the first color in the colors array, check its "color points" <a href="https://www.w3docs.com/snippets/javascript/how-to-convert-decimal-to-hexadecimal-in-javascript.html">by converting</a> and update the foreground color if necessary, then forward both values to the CSS variable above. Then it reattaches the color to the end of the colors array, effectively rotating it forward by one.</p>
+				
+				<div class="codeWrapper">
+				window.addEventListener("mousedown", (e) => {<ul>
+					const color = colors.shift();<br>
+					var foreground = "#000000";<br>
+				if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) &gt; 500){<ul>
+					foreground = "#FFFFFF";<br>
+				</ul>}<br>
+				  document.documentElement.style.setProperty("--highlight-color", color);<br>
+				  document.documentElement.style.setProperty("--foreground-color", foreground);<br>
+				  colors.push(color);<br>
+				</ul>});<br>
+				</div>				
+				<p></p>
+
+				</div><br><br>			
+								
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">Moving
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2022 Gilgamech Technologies - We are the gears that make our world go around.</p>
+			</div>
+		</div>
+	</body>
+</html>
