@@ -1,15 +1,9 @@
+//Requires <script src="https://www.gilgamech.com/js/Sparational.js"></script> above this script in the HTML page.
 //<script>addPage('divid');</script>
 
-/*	
-addElement($elementParent,$innerText,$elementClass,$elementType,$elementStyle,$href,$onChange,$onClick,$contentEditable,$attributeType,$attributeAction,$elementId)
-addDiv($elementClass,$elementStyle,$elementParent);
-addDiv($elementId,$elementStyle,$elementParent,$innerText,$elementType,$elementClass,$attributeType,$attributeAction);
-*/
-
 function addPage($hanger) {
-//addElement($elementParent,$innerText,$elementClass,$elementType,$elementStyle,$href,$onChange,$onClick,$contentEditable,$attributeType,$attributeAction,$elementId)	
-	$inputStyles = "img-rounded col-md-12 col-xs-12 "
-
+	$inputClasses = "img-rounded col-md-12 col-xs-12 "
+	$inputStyles = "font-size: 4vw; width: 50vw;"
 	//addElement($elementParent,$innerText,$elementClass,$elementType,$elementStyle,$href,$onChange,$onClick,$contentEditable,$attributeType,$attributeAction,$elementId)	
 	addElement($hanger,"","","","container img-rounded","","","","","","","wrapper")
 	addElement('wrapper',"","","","img-rounded col-md-3 hidden-xs","","","","","","","spacer")
@@ -37,21 +31,21 @@ function addPage($hanger) {
 
 function updateRgbColor() { 
 	
-	$hex = hexToRgb(document.getElementById("htmlRow").value);
-	document.getElementById("redRow").value = $hex.r;
-	document.getElementById("greenRow").value = $hex.g;
-	document.getElementById("blueRow").value = $hex.b;
+	$hex = hexToRgb(readElement("htmlRow"));
+	writeElement("redRow",$hex.r);
+	writeElement("greenRow",$hex.g);
+	writeElement("blueRow",$hex.b);
 	
 	document.getElementById("contentLabel").style.backgroundColor
-	= document.getElementById("htmlRow").value
+	= readElement("htmlRow");
 }; // end updateRgbColor
 
 function updateRgbDivColor($divId) { 
 	var $colorRatio = .25;
-	var $Color = (document.getElementById($divId).value * 1);
+	var $Color = getNumberFromDiv($divId);
 	if ($Color > 255) {
-		document.getElementById($divId).value = 255;
-		$Color = (document.getElementById($divId).value * 1);
+		writeElement($divId,255);
+		$Color = getNumberFromDiv($divId);
 	}; // end if Color
 	$Color2 = Math.round(($Color) * $colorRatio);
 	
@@ -73,13 +67,13 @@ function updateRgbDivColor($divId) {
 		break;
 	}; // end switch divColor
 
-    document.getElementById("htmlRow").value = rgbToHex(
-		(document.getElementById("redRow").value * 1), 
-		(document.getElementById("greenRow").value * 1),
-		(document.getElementById("blueRow").value * 1),
-	);
+	writeElement("htmlRow",rgbToHex(
+		getNumberFromDiv("redRow"),
+		getNumberFromDiv("greenRow"),
+		getNumberFromDiv("blueRow")
+	));
 	
-	document.getElementById("RGBCalcLabel").style.backgroundColor = document.getElementById("htmlRow").value
+	document.getElementById("RGBCalcLabel").style.backgroundColor = readElement("htmlRow");
 
 }; // end updateRedDivColor
 
