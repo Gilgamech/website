@@ -43,6 +43,10 @@ function updateRgbColor() {
 function updateRgbDivColor($divId) { 
 	var $colorRatio = .25;
 	var $Color = getNumberFromDiv($divId);
+	if ($Color < 0) {
+		writeElement($divId,0);
+		$Color = getNumberFromDiv($divId);
+	}; // end if Color
 	if ($Color > 255) {
 		writeElement($divId,255);
 		$Color = getNumberFromDiv($divId);
@@ -94,13 +98,4 @@ function hexToRgb(hex) {
         b: parseInt(result[3], 16)
     } : null;
 };// end hexToRgb
-
-/*
-window.onload = function(){ 
-	addHeader();
-	addNav();
-	addPage();
-	addFooter();
-}
-*/
 	
