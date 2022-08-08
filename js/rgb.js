@@ -9,20 +9,20 @@ function addPage($hanger) {
 	addElement('wrapper',"","","","img-rounded col-md-3 hidden-xs","","","","","","","spacer")
 	addElement('wrapper',"","","","img-rounded col-md-6 col-xs-12","","","","","","","RGBCalc")
 
-	addElement('RGBCalc',"RGB Calculator","contentTitles","","","img-rounded","","","","","","RGBCalcLabel")
-	addElement('RGBCalc',"","","","","","","","","","","coinArea")
+	addElement('RGBCalc',"RGB Calculator","contentTitles img-rounded ","",$inputStyles,"","","","","","","RGBCalcLabel")
+	addElement('RGBCalc',"","","","","","","","","","","calcArea")
 
-	addElement('coinArea',"","","","","","","","","","","htmlColorRow")
-	addElement('htmlColorRow',"",$inputStyles,"input","color: #000;","","updateRgbColor()","","","maxlength",  "7","htmlRow")
+	addElement('calcArea',"","","","","","","","","","","htmlColorRow")
+	addElement('htmlColorRow',"",$inputClasses,"input","color: #000;"+$inputStyles,"","updateRgbColor()","","","maxlength",  "7","htmlRow")
 
-	addElement('coinArea',"","","","","","","","","","","redCRow")
-	addElement('redCRow',171,$inputStyles,"input","color: #fff;","","updateRgbDivColor('redRow');","","","type","number","redRow")
+	addElement('calcArea',"","","","","","","","","","","redCRow")
+	addElement('redCRow',171,$inputClasses,"input","color: #fff;"+$inputStyles,"","updateRgbDivColor('redRow');","","","type","number","redRow")
 
-	addElement('coinArea',"","","","","","","","","","","greenCRow")
-	addElement('greenCRow',205,$inputStyles,"input","color: #fff;","","updateRgbDivColor('greenRow');","","","type","number","greenRow")	
+	addElement('calcArea',"","","","","","","","","","","greenCRow")
+	addElement('greenCRow',205,$inputClasses,"input","color: #fff;"+$inputStyles,"","updateRgbDivColor('greenRow');","","","type","number","greenRow")	
 	
-	addElement('coinArea',"","","","","","","","","","","blueCRow")
-	addElement('blueCRow',239,$inputStyles,"input","color: #fff;","","updateRgbDivColor('blueRow');","","","type","number","blueRow")
+	addElement('calcArea',"","","","","","","","","","","blueCRow")
+	addElement('blueCRow',239,$inputClasses,"input","color: #fff;"+$inputStyles,"","updateRgbDivColor('blueRow');","","","type","number","blueRow")
 	
 	updateRgbDivColor('redRow');
 	updateRgbDivColor('greenRow');
