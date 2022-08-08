@@ -553,29 +553,6 @@ function appendElement(elementId,source) {
 	writeElement(elementId,readElement(elementId) + source)
 };
 
-function toggleElement(divId) {
-	if (document.getElementById(divId).style.visibility == 'visible') {
-	document.getElementById(divId).style.visibility='hidden';
-	} else {
-		document.getElementById(divId).style.visibility='visible';
-	};
-};
-
-function hideElement(divId) {
-	document.getElementById(divId).style.visibility="hidden";
-}; // end toggleElement
-
-function showElement(divId) {
-	document.getElementById(divId).style.visibility="visible";
-}; // end toggleElement
-
-function removeElement(divID) {
-	var div = document.getElementById(divID);
-	if (div) {
-		div.parentNode.removeChild(div);
-	};
-};
-
 function overlayOn(divId) {
   document.getElementById(divId).style.display = "block";
 }
