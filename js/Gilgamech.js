@@ -6,27 +6,6 @@ var $cachingVar;
 var pageSettingsJson;
 var $timerInterval;
 
-//buildElementRow('advancedPageDiv',$GilMain,'',getKeys($GilMain),'delPage');
-function rebuildElement(elementId) {
-	var oldElement = document.getElementById(elementId);
-	var newElement = {};
-	newElement.elements = [];
-	newElement.elements[0] = {};
-	newElement.elements[0].id = elementId
-	if (oldElement.parentNode.id) {newElement.elements[0].elementParent = oldElement.parentNode.id}else(newElement.elements[0].elementParent = "body");
-	if (oldElement.type) {newElement.elements[0].elementType = oldElement.type};
-	if (oldElement.class) {newElement.elements[0].elementClass = oldElement.class};
-	//if (oldElement.style) {newElement.elements[0].elementStyle = oldElement.style};
-	//if (oldElement.href) {newElement.elements[0].href = oldElement.href};
-	//if (oldElement.onchange) {newElement.elements[0].onChange = oldElement.onchange};
-	//if (oldElement.onclick) {newElement.elements[0].onClick = oldElement.onclick};
-	//if (oldElement.contentEditable) {newElement.elements[0].contentEditable = oldElement.contentEditable};
-
-	console.log(JSON.stringify(newElement));
-	removeElement(elementId)
-	//cje(oldElement.parentNode,newElement);
-	cje(newElement.elements[0].elementParent,newElement);
-}
 
 function addMenuItem(elementParent,innerText,onClick,$class,href) {
 	var innerParent = getBadPW();
@@ -418,46 +397,6 @@ function prettyCode(divName) {
 function findJSONErr($errLoc){
 	var $outStr="";var $s = readElement('jmlTextArea');for ($u=$errLoc-25;$u<($errLoc*1+25);$u++){$outStr +=$s.charAt($u)};return $outStr
 };
-
-function parseJupyter($cell) {
-	var $out
-				console.log($cell);
-	var $stringVar = JSON.stringify($cell);
-				console.log($stringVar);
-	$stringVar = $stringVar.replace(/\["/g,'');
-	$stringVar = $stringVar.replace(/"\]/g,'');
-				console.log($stringVar);
-	
-	if ($stringVar.indexOf('#### ') > -1 ) {
-		$stringVar = $stringVar.replace(/#/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"h4"}]}
-	} else if ($stringVar.indexOf('### ') > -1 ) {
-		$stringVar = $stringVar.replace(/#/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"h3"}]}
-	} else if ($stringVar.indexOf('## ') > -1 ) {
-		$stringVar = $stringVar.replace(/#/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"h2"}]}
-	} else if ($stringVar.indexOf('# ') > -1 ) {
-		$stringVar = $stringVar.replace(/#/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"h1"}]}
-	} else if ($stringVar.indexOf('\**') > -1 ) {
-		$stringVar = $stringVar.replace(/\**/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"strong"}]}
-	} else if ($stringVar.indexOf('__') > -1 ) {
-		$stringVar = $stringVar.replace(/__/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"strong"}]}
-	} else if ($stringVar.indexOf('\*') > -1 ) {
-		$stringVar = $stringVar.replace(/\*/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"em"}]}
-	} else if ($stringVar.indexOf('_') > -1 ) {
-		$stringVar = $stringVar.replace(/_/g,'');
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar,"elementType":"em"}]}
-	} else {
-		$out = {"elements":[{"elementParent":"body","innerText":$stringVar}]}
-	}; // end if cell
-			console.log($out);
-	return $out;
-}; 
 
 function parseJupyter2($cell) {
 			$stringVar = $stringVar.replace('# ','"          "elementType": "p",');
