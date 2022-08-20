@@ -372,15 +372,22 @@ function copyToClipboard(text) {
     Copied.execCommand("Copy");
 }; // end copyToClipboard
 
-function prettyPrint(divName) {
+function prettyPrint(divName,errDiv) {
 	try {
-		writeElement(divName,JSON.stringify(JSON.parse(readElement(divName))).replace(/"},{"/g,'"},\n{"').replace(/","/g,'",\n"').replace(/{"/g,'{\n"').replace(/"}/g,'"\n}'));
-		writeElement("errDiv","")
+		var replaceItem = JSON.stringify(JSON.parse(readElement(divName))).replaceAll('"},{"','"},\n{"').replaceAll('","','",\n"').replaceAll('{"','{\n"').replaceAll('"}','"\n}')
+		writeElement(divName,replaceItem);
+		//writeElement(errDiv,"")
 	} catch($err) {
 		$errLoc = $err.message.split("in JSON at position ")[1];
-		colorifyDiv("errDiv",readElement("jmlTextArea")[$errLoc],"red");
-		appendElement("errDiv",$err+" - Text: "+findJSONErr($errLoc))
+		colorifyWords(errDiv,readElement("jmlTextArea")[$errLoc],"red");
+		appendElement(errDiv,$err+" - Text: "+findJSONErr($errLoc))
 	};
+}
+
+function addTextArea($parentElement) {
+	rebuildElement($parentElement);
+	var newDiv = addElement($parentElement)
+	addElement(newDiv,'{"test":"pass"}',"","textarea","width: 50vw; length: 30vh;","","","","","","","newTextArea")
 }
 
 function prettyCode(divName) {
@@ -395,7 +402,12 @@ function prettyCode(divName) {
 }
 
 function findJSONErr($errLoc){
-	var $outStr="";var $s = readElement('jmlTextArea');for ($u=$errLoc-25;$u<($errLoc*1+25);$u++){$outStr +=$s.charAt($u)};return $outStr
+	var $outStr="";
+	var $s = readElement('jmlTextArea');
+	for ($u=$errLoc-25;$u<($errLoc*1+25);$u++){
+		$outStr +=$s.charAt($u)
+	};
+	return $outStr
 };
 
 function parseJupyter2($cell) {
@@ -486,10 +498,6 @@ window.onload =function(){
 		};
 	});
 	rbp($spaRationalMain.pages.find(pageName => pageName=$spaRationalMain.startingpage));
-};
-
-function appendElement(elementId,source) {
-	writeElement(elementId,readElement(elementId) + source)
 };
 
 function overlayOn(divId) {
