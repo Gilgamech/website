@@ -279,12 +279,6 @@ function revertRowbet(col,row,rowBet=Rowbet) {
 }
 
 //Depreciation
-function getNumberFromDiv($numericDiv) {
-	return Math.round(
-		readElement($numericDiv) *1
-	)
-};
-
 function s3FileUpload($siteName,$fileDiv) { 
 var $file = document.getElementById($fileDiv).files[0]; 
 webRequest('POST','/s3url?siteName='+$siteName+'&fileName='+$file.name+'&contentType='+$file.type,function(key){ webRequest('PUT',key,function(e){ writeElement('errDiv',e) },'',$file )},'JSON') }; 
@@ -371,71 +365,6 @@ function copyToClipboard(text) {
     Copied = text.createRange();
     Copied.execCommand("Copy");
 }; // end copyToClipboard
-
-function prettyPrint(divName,errDiv) {
-	try {
-		var replaceItem = JSON.stringify(JSON.parse(readElement(divName))).replaceAll('"},{"','"},\n{"').replaceAll('","','",\n"').replaceAll('{"','{\n"').replaceAll('"}','"\n}')
-		writeElement(divName,replaceItem);
-		//writeElement(errDiv,"")
-	} catch($err) {
-		$errLoc = $err.message.split("in JSON at position ")[1];
-		colorifyWords(errDiv,readElement("jmlTextArea")[$errLoc],"red");
-		appendElement(errDiv,$err+" - Text: "+findJSONErr($errLoc))
-	};
-}
-
-function addTextArea($parentElement) {
-	rebuildElement($parentElement);
-	var newDiv = addElement($parentElement)
-	addElement(newDiv,'{"test":"pass"}',"","textarea","width: 50vw; length: 30vh;","","","","","","","newTextArea")
-}
-
-function prettyCode(divName) {
-	try {
-		writeElement(divName,(readElement(divName)).replace(/"},{"/g,'"},\n{"').replace(/","/g,'",\n"').replace(/{"/g,'{\n"').replace(/"}/g,'"\n}').replace(/;/g,';\n'));
-		writeElement("errDiv","")
-	} catch($err) {
-		$errLoc = $err.message.split("in JSON at position ")[1];
-		colorifyDiv("errDiv",readElement("jmlTextArea")[$errLoc],"red");
-		appendElement("errDiv",$err+" - Text: "+findJSONErr($errLoc))
-	};
-}
-
-function findJSONErr($errLoc){
-	var $outStr="";
-	var $s = readElement('jmlTextArea');
-	for ($u=$errLoc-25;$u<($errLoc*1+25);$u++){
-		$outStr +=$s.charAt($u)
-	};
-	return $outStr
-};
-
-function parseJupyter2($cell) {
-			$stringVar = $stringVar.replace('# ','"          "elementType": "p",');
-		$stringVar = $stringVar + '</h1>"';
-		$cell = JSON.parse($stringVar);
-		return $cell;
-}; 
-
-function rebuildElement(elementId) {
-	var oldElement = document.getElementById(elementId);
-	var newElement = {};
-	newElement.elements = [];
-	newElement.elements[0] = {
-		};
-	newElement.elements[0].id = elementId;
-	if (oldElement.parentNode.id) {
-		newElement.elements[0].elementParent = oldElement.parentNode.id}else(newElement.elements[0].elementParent = 'body');
-	if (oldElement.type) {
-		newElement.elements[0].elementType = oldElement.type
-	};
-	if (oldElement.class) {
-		newElement.elements[0].elementClass = oldElement.class
-	};
-	console.log(JSON.stringify(newElement));
-	removeElement(elementId);
-	cje(newElement.elements[0].elementParent,newElement);
-};
 
 function addMenuItem(elementParent,innerText,onclick,$class,href) {
 	var innerParent = getBadPW();
