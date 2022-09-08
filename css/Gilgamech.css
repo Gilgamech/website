@@ -134,6 +134,15 @@ object-fit: contain
 	border-radius: 15px;
 	overflow:  auto;
 }
+.flexBubbleBG {
+	padding: 10px;
+	background: #eee;
+	border: 1px solid #000;
+	border-radius: 15px;
+	display: inline-block;
+	max-width: 98%;
+	overflow-x: scroll;
+}
 
 textarea {
 	border-radius: 15px;
