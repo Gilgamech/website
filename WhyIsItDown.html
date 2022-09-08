@@ -17,12 +17,6 @@
 		<div id="headWrapper">
 		<script src="https://www.gilgamech.com/js/WebCoif.js"></script>
 <script>
-function clickPress(event) {
-    if (event.keyCode == 13) {
-        loadPage();
-    }
-}
-
 function loadPage() {
 	var startTime = new Date();
 	document.getElementById('pageDisplay').src = readElement('pageSource');
@@ -248,7 +242,7 @@ width: 70vw
 			<div class="textBubbleBG">
 				<h2 id="">Why's It Down?</h2>
 				<p id="pageInfo">This page will help you to understand why your page isn't working.</p>
-				<input id="pageSource" maxlength="120" autocapitalize="off" spellcheck="false" onkeypress="clickPress(event)" value="https://www.gilgamech.com/blog.html">
+				<input id="pageSource" maxlength="120" autocapitalize="off" spellcheck="false" onkeypress="detectEnter(event,function(){loadPage()}));" value="https://www.gilgamech.com/blog.html">
 				<button id="pageLoad" onclick="loadPage()">Load Page</button>
 				<br>
 				<iframe id="pageDisplay" readonly></iframe>
