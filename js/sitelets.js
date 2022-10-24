@@ -7,11 +7,12 @@ var blogLi = addElement(outerUL,"","","li")
 addElement(blogLi,"Blog ▼","","a")
 var blogUL = addElement(blogLi,"","","ul")
 
-addElement(addElement(blogUL,"","","li"),"Sept 2022","","a","","/blog.html")
+addElement(addElement(blogUL,"","","li"),"Oct 2022","","a","","/blog.html")
 
 var $2022Li = addElement(blogUL,"","","li")
 addElement($2022Li,"2022 ▼","","a")
 var $2022UL = addElement($2022Li,"","","ul")
+addElement(addElement($2022UL,"","","li"),"Sept 2022","","a","","/2022/September.html")
 addElement(addElement($2022UL,"","","li"),"Aug 2022","","a","","/2022/August.html")
 addElement(addElement($2022UL,"","","li"),"Jul 2022","","a","","/2022/July.html")
 addElement(addElement($2022UL,"","","li"),"Jun 2022","","a","","/2022/June.html")

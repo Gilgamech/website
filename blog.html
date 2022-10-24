@@ -4,18 +4,17 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging mathematically again." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
-<meta property="og:image" content="https://www.Gilgamech.com/images/BigG.jpg" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
 <meta name="keywords" content="blog">
-<meta name="author" content="Gilgamech Technologies">
+<meta name="author" content="Stephen Gillie">
 		<title>Gilgamech Technologies</title>
 		<script src="https://www.Sparational.com/Sparational.js"></script>
 		<script src="https://www.Gilgamech.com/js/sitelets.js"></script>
-		<script src="https://www.Sparational.com/sitelets/rgb.js"></script>
-		<script src="https://www.Sparational.com/sitelets/calc.js"></script>
-		<script src="https://www.Sparational.com/sitelets/sudokuSolver.js"></script>
-		<script src="https://www.Sparational.com/sitelets/textArea.js"></script>
 		<link href="https://www.Gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
 		<link href="https://www.Gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
 	</head>
@@ -25,17 +24,7 @@
 		</div>
 		<div id="headWrapper">
 <script type="application/javascript"> 
-const colors = [
-"#E50000", //red
-"#FF8D00",//orange 
-"#FFFF00", //yellow
-"#028121",//green 
-"#004CFF",//indigo 
-"#760088",//purple 
-"#FFFFFF",//white
-"#FFAFC7",//pink
-"#73D7EE",//teal
-"#000000"];//black
+const colors = ["#E50000", //red"#FF8D00",//orange "#FFFF00", //yellow"#028121",//green "#004CFF",//indigo "#760088",//purple "#FFFFFF",//white"#FFAFC7",//pink"#73D7EE",//teal"#000000"];//black
 
 window.addEventListener("mousedown", (e) => {
 	const color = colors.shift();
@@ -53,6 +42,10 @@ if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(col
 .floatingBubble {
  display: inline-block;
  max-width: 98%;
+}
+
+body {
+background-color: #F87217;
 }
 
 .validInput {
@@ -108,7 +101,20 @@ if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(col
 
 </style>
 		</div>
-		<div id="navContainer"></div><script>buildMenuPage("navContainer")</script>
+		<div id="navContainer">
+			<nav>
+                <ul>
+                    <li><a>Blog ▼</a><ul>
+                        <li><a href="/blog.html">August 2022</a></li>
+					</ul></li>
+                    <li><a href="/history.html">World History</a></li>
+                    <li><a>Stuff ▼</a><ul>
+                        <li><a href="/Gillogisms.html">Gillogisms</a></li>
+                    </ul></li>
+                    <li><a href="/contact.html">Contact</a></li>
+				</ul>
+            </nav>
+			</div><script>rebuildElement("navContainer");buildMenuPage("navContainer")</script>
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
@@ -119,15 +125,12 @@ Living on Mars:
 - Material - PVC frees up oxygen from perchlorate and uses the chlorine. Also bring sodium to create salt.
 
 - Religion as an answer to Shrodingerization, the obfuscation of state.
-- Organized religion can't exist without farming
-
 
 			<div id="0909Bubble" class="textBubbleBG">
 			<h1 id="09092022"><a href="#09092022">0909/2022</a> - Banking on China.</h1>
 			</div>
 
-Rally - Here to Clarkston (250 mi) to Ilwaco (350 mi) to Clinton (300 mi) to Colville (350 mi) to Sekiu (600 mi) to here (200 mi). Total 2050 mi.
--->
+After Jack Ma's influential speech, the CCP started cracking down on tech giants - how much has that impacted China's GDP?
 <script>
 addElement("0909Bubble","History:","","h2")
 
@@ -135,7 +138,11 @@ addElement("0909Bubble","History:","","h2")
 var outerUL = addElement("0909Bubble","","","ul")
 
 addElement(outerUL,"Local governments control local banks.","","li")
-addElement(outerUL,"Governments issue debt bonds to raise money.","","li")
+addElement(outerUL,"Local governments issue debt bonds to raise money.","","li")
+addElement(outerUL,"Asset sales can be kept by the local gov, while tax revenue must be shared with the national gov.","","li")
+
+Since 1994, province and city governments have to pay for their own social services, but can't take out loans, and have to pass most taxes straight through to their national government. LGFVs meet the financing need, where province and city governments get land (through eminent domain? or they buy the farmer's lease?) and gift it to the LGFV for no cost nor tax. Then the LGFV leverages or sells the land to generate profits, which are gifted back to the LGFV's local government. LGFV loans are counted as private debt, not government debt, and so isn't tracked as easily. Estimates put this at 30% of local government revenue aka 40% of GDP, about 30 trillion yuan ($4.21 trillion). Land sales falling by 72% lowered local government revenue by 20%.  
+
 addElement(outerUL,"Banks use money raised from citizens (bank account deposits?) to buy local government's debt.","","li")
 addElement(outerUL,"Governments uses basically Eminent Domain to buy farmland from farmers. Structures increase how much the government pays the farmer, so farmers put up 'nail houses' which are unsafe multi-floor structures. (How do the farmers own the land? Or did they get the land from the local government with some type of long-term lease, for maybe 50, 70, or 99 years?)","","li")
 addElement(outerUL,"Governments 'sell' (aka long-term lease) land through bids to property developers.","","li")
@@ -150,168 +157,208 @@ addElement(outerUL,"Chinese home sales and construction account for 25% of China
 addElement(outerUL,"Property prices peaked, so citizens stop buying, and wait to see if prices will go down more.","","li")
 addElement(outerUL,"If property doesn't sell, property developers can't repay government. This turns the government debt into a Collateralized Debt Obligation.","","li")
 addElement(outerUL,"Reductions in property value reduce the amount of money that banks will lend to property developers, preventing them from getting the funds needed to complete (or start) their existing projects. ","","li")
-addElement(outerUL,"3 Red Lines regulation prevents property developers from borrowing more if they had already borrowed too much, or had too many liabilities. ","","li")
+
+addElement(outerUL,"3 Red Lines regulation prevents property developers from borrowing more if they had already borrowed too much, or had too many liabilities. This was supposed to bring them in line, but instead it pushed them into default.","","li")
 addElement(outerUL,"Zero-Covid policies shut down major cities for months, closing many businesses and forcing most people to spend through their personal savings. So they don't really have the money to be making payments for a place they're not living in and whose value is going down. ","","li")
 addElement(outerUL,"Rich citizens take $48 billion in assets as they leave. ","","li")
 addElement(outerUL,"Citizens form 300+ protests in 90+ cities, because the condominiums aren't getting completed, and they aren't paying. 10% of properties sold last year weren't finished. $297 billion of loans are boycotted, 4.2% of the $7 trillion Chinese mortgage market. ","","li")
-addElement(outerUL,"Undercover police and travel bans set up to prevent protests.","","li")
-addElement(outerUL,"Some banks are unable to cover citizen withdrawals. This collides with a separate scam where bank employees lied to citizens, and sold them an investment disguised as a checking or savings account.","","li")
+addElement(outerUL,"Undercover police and travel bans set up to prevent protests. Covid health code system used to prevent travel, calling the system's legitimacy into question.","","li")
+addElement(outerUL,"Some banks are unable to cover citizen withdrawals. This collides with a separate scam where bank employees lied to citizens, and sold them an investment disguised as a checking or savings account - basically a non-crypto rug pull.","","li")
 addElement(outerUL,"Local banks start failing. (the Lehman Brothers moment)","","li")
 addElement(outerUL,"Governments tell citizens to 'buy' (aka lease for 70-ish years) condominiums. The limit of one per citizen is removed, and people are told to buy one more regardless of how many the already own.","","li")
 addElement(outerUL,"Central government starts making 'eat the rich' moves under banner of 'common prosperity', stealing assets from affluent citizens to repay debts taken out by other citizens. ","","li")
 addElement(outerUL,"Central government proposing banks write-off $4.3 billion in loans.","","li")
 addElement(outerUL,"Central government demolishes 3 billion sq meters of ghost towns to keep housing prices high - enough to house 75 million people if they were finished. (Were the mortgage holders compensated in some way?)","","li")
 addElement(outerUL,"33% contraction predicted in the market.","","li")
-addElement(outerUL,"Local governments at all levels begin selling off assets. Asset sales can be kept by the local gov, while tax revenue must be shared with the national gov. Asset sales reduces the tax revenue that local govs can generate.","","li")
-addElement(outerUL,"Massive Covid testing - companies financial records show that local govs haven't repaid them yet.","","li")
+addElement(outerUL,"Local governments at all levels begin selling off assets. Asset sales reduces the tax revenue that local govs can generate, which reduces national gov income.","","li")
+addElement(outerUL,"Covid testing companies financial records show that local govs haven't repaid them for the massive testing.","","li")
+
+- In USA 2008, prices were still increasing as people defaulted, so they could still sell the house. 
+- In China 2022, prices collapsed before people started defaulting, so they can't effectively sell. 
+
+BRI projects suffer the same half-done situation as the tofu buildings. 
+
+So the CCP let this bubble grow by not requiring developer audits, then accidentally cuts off developers with the 3 red lines, causing the developers to default on other loans. This caused developer credit ratings to tumble to where bondholders, banks and buyers won't touch them. And the CCP's response is their usual carrot-and-disappear, forcing developers to scramble to be one of the lucky few to pass the audits and receive the precious government loans needed to restart work and avoid jail time. This is not only needlessly penalizing, but also disregards market impact of the bailouts - it's possible that these bailouts could be wildly successful and that the market could still entirely tank, since the largest developers are probably also the least likely to pass the audits. Almost like instead of Too Big To Fail, it's Too Big Goto Jail. It's Jack Ma all over again, but with so much more lost face for the CCP. 
+
+XJP demands local govs meet growth targets, so they loosen both restrictions on developer and buyer borrowing, only to have their central gov demand these be reverted within 24 hours. This essentially turns into a prison sentence for the leaders of those local govs. 
+
+
+
+- Local governments need to sell land to retain LGFV investor confidence, by maintaining a large enough revenue stream to support or bail out the LGFV. 
+- LGFVs (58.5%) have overtaken other sources (41.5%) as the main revenue source for local governments, funding this by taking out loans and bonds with other national(ized) companies and banks. 
+Isn't this a governmental Ponzi scheme? 
+- Prices need to continue to rise, to increase local government profits from land sales, so LGFVs can sell properties for higher in the future, justifying their current borrowing. 
+Is this cyclical or structural? Structural would be hitting a fundamental limit, like everyone who can long-term lease an apartment has done so. Because a person can only live in one apartment, especially in travel-restrictive China. One clue to this is the recent reversal of the one-apartment policy into a strong suggestion to buy several. Cyclical would imply being tied to a seasonal, business, or recession cycle, and while we are entering a recession cycle, a strong housing market doesn't really see strong cyclical downturns like this. Construction is time consuming, so housing demand tends to be somewhat inelastic and constant.
 
 addLinkToWord("0909Bubble","09/09/2022","#09092022")
 addElement("content","","","br")
 addElement("content","","","br")
 </script>
 
-			<div id="0908Bubble" class="textBubbleBG">
-			<h1 id="09082022"><a href="#09082022">09/08/2022</a> - Pollute-off.</h1>
+
+Adding business services
+Front page of the blog will move under Stuff
+-->
+
+
+
+			<div id="1022Bubble" class="textBubbleBG">
+			<h1 id="1022Bubble"><a href="#10222022">10/22/2022</a> - Hostile Computing Initiative.</h1>
 			</div>
 <script>
-addElement("0908Bubble","Making batteries for 1 BEV car is about the same as an ICE car driving 55k miles, or 3.75 years at the USA average of 15k miles/year. So the BEV has to drive for 3.75 years (while charging from renewable energy not coal power plants) to equal an ICE car in pollution - after the 3.75 years, the BEV pollutes less.","","p")
-addElement("0908Bubble","But a hybrid has about 1/200 as much battery as the BEV, and so only needs to drive 275 miles or about a week. After that, the hybrid is polluting less than the ICE car. Usually about 1/2 as much, based on gasoline savings.","","p")
-addElement("0908Bubble","And this means it takes the BEV car 7.5 years of charging entirely from renewables to match a hybrid in pollution. After 7.5 years, the BEV pollutes less than a hybrid.","","p")
+addElement("1022Bubble","The HCI's mission is to develop computing solutions that do not need to trust their storage, network, or compute. The goal is to provide normal operation on nefarious or compromised services. The HCI has 3 principles: ","","p")
 
-addElement("0908Bubble","Graph of pounds of CO2 released. These assume 55k mi of driving at 20 MPG equivalent to assemble the BEV battery. Engine and body values made up but assumed to be close.","","p")
+var firstUL = addElement("1022Bubble","","","ul")
+addElement(firstUL,"You can't trust your storage host.","","li")
+addElement(firstUL,"You can't trust your network provider.","","li")
+addElement(firstUL,"You can't trust your compute source.","","li")
+addElement("1022Bubble","This isn't to blame any cloud provider, nor the industry. Cloud providers work very hard to meet regulatory and security requirements needed to pass SOC and other audits, which are required by the SEC and other regulatory agencies for publicly-traded companies. Instead, this is a dystopian cyberpunk nightmare where regulations are a memory and no cloud provider can be trusted. On the surface, this means expecting your storage to actively copy your data, expecting your network to inject malware, and expecting your compute source to modify or add commands.","","p")
+addElement("1022Bubble","It's cheaper and easier to not need to trust. Trust has 2 levels: that it works at all, and that it works correctly. The service has to be somewhere on a spectrum from incompetent to evil, assuming this is a profit-seeking situation. Further implications will reveal themselves as we dig deeper. On the way will be intersections with serverless website hosting, left shifting, and more. Grab your bit bucket and let's get started.","","p")
 
-mdArrayToTable("0908Bubble","carAssemblyTable",[
-	["Input","Battery","Engine","Body","Rate","Year0","Year1","Year2","Year3","Year4","Year5","Year6","Year7","Year8"],
-	["Mileage",0,0,0,"15k"],
-	["BEV","55k",0,"3k",0],
-	["Hybrid",55000/200,"2k","3k","7.5k"],
-	["ICE",0,"2k","3k","15k"]
-]) 
-columnMath("carAssemblyTable",1,"carAssemblyTable",2,0,"carAssemblyTable",5,"add",4,"true","Sum")
-columnMath("carAssemblyTable",3,"carAssemblyTable",5,0,"carAssemblyTable",5,"add",4,"true","Sum")
+addElement("1022Bubble","You can (not) trust your storage host.","","h2")
+addElement("1022Bubble","First, encrypt and hash all data, to prevent host-based surveilance and tampering. Compute logic should be stored within a hardened container such as Bottlerocket at a minimum, and preferrably within a hardened VM. Lambda-style server or edge scripts should not be used in a hostile environment, as there's no protection from modification or injection. Here is presented a tradeoff between security and cost, convenience, & complexity.","","p")
+addElement("1022Bubble","Another solution is storing encrypted files and decrypting them at compute, or even on the client. We separate files into a few classes: ","","p")
+var thirdUL = addElement("1022Bubble","","","ol")
+var thirdULsub1 = addElement(thirdUL,"Files where injections will work.","","li")
+var thirdULsub1UL = addElement(thirdULsub1,"","","ul")
+addElement(thirdULsub1UL,"These have to be encrypted.","","li")
+var thirdULsub2 = addElement(thirdUL,"Files where injections will break them.","","li")
+var thirdULsub2UL = addElement(thirdUL,"","","ul")
+addElement(thirdULsub2UL,"These should also be encrypted, but since they act like they are hashed in that modifying them breaks them, any interference will break that part of the site.","","li")
+var thirdULsub2 = addElement(thirdUL,"Files where injections won't modify the output.","","li")
+var thirdULsub3UL = addElement(thirdUL,"","","ul")
+addElement(thirdULsub3UL,"These would be ideal for bootstrapping a website, and would have to provide the decryption means for the other types.","","li")
 
-for (var carRow = 5;carRow< 13;carRow++) {
-	columnMath("carAssemblyTable",4,"carAssemblyTable",carRow,0,"carAssemblyTable",carRow+1,"add",4,"true","Sum")
-}
+addElement("1022Bubble","You can (not) trust your network provider.","","h2")
+addElement("1022Bubble","As a minumum, SSL or other in-flight encryption at all times. IPSEC VPN if possible, with a double-layer of encryption around each packet. Again, security is placed against the trifecta of cost, convenience and complexity. Combining this with the at-rest encryption from the storage section may create an even more difficult barrier to surveil or inject through.","","p")
+addElement("1022Bubble","Incoming connections must be restricted by address and port at all points - internet to cloud, cloud to OS, OS to application. Encrypting data before storing in databases et cetera is preferred, with info like usernames, street addresses, credit cards being randomish strings within the data structure, and only decrypted on the client's device. Databases should be password-protected and tables should be restricted to specific accounts. If possible, the database files should be encrypted at rest as well. Client updates would be encrypted before being transmitted and stored.","","p")
+addElement("1022Bubble","Authentication mechanisms should rotate bearer tokens more frequently - on every request if possible. Use an algorithm for the client to transform the bearer token for return, to prevent direct sniffing reuse.","","p")
 
-addLinkToWord("0908Bubble","09/08/2022","#09082022")
+addElement("1022Bubble","You can (not) trust your compute source.","","h2")
+addElement("1022Bubble","Compute isn't always necessary - you'll always have some flat files. And compute doesn't have to happen on the hostile host - it can happen on the client's device. You don't worry about the client's device being hostile - that's the user's problem. You don't need to trust anonymous client GETs, obviating this whole section. And this is the intersection with serverless hosting.","","p")
+addElement("1022Bubble","When compute IS necessary, we return to the choice of security vs the trifecta. Compute logic is more secure when contained within a hardened container such as Bottlerocket, and even moreso within a hardened VM. Ultimate compute security would be your own OS on your own bare metal, which is the trifecta at extreme: the most expensive, most complicated, and least convenient.","","p")
+
+addElement("1022Bubble","This gives some options:","","h3")
+var secondUL = addElement("1022Bubble","","","ul")
+addElement(secondUL,"Encrypted data and encrypted site files, bootstrapped by an empty shell that gets removed during the sitebuilding process. This allows you to not need to trust the storage host nor network provider.","","li")
+addElement(secondUL,"Hardened compute as a secure bastion, serving data through VPN connections. This is a costly solution that doesn't scale well, but works out at specific usage levels.","","li")
+addElement(secondUL,"Multiple sites served by multiple hosts, compared TOR style. This again maximizes the trifecta.","","li")
+addElement(secondUL,"Your own bare metal servers, running the OS of your choice, in your own physical data centers, over your own network circuits, to your own devices. This is usually cost prohibitive and eliminated in the first step post-greenfielding.","","li")
+
+addElement("1022Bubble","Everyone's guilty of something, right? What's it matter if they get hacked for the wrong crime, so long as they get hacked.","","h3")
+addElement("1022Bubble","A main theme of cyberpunk dystopias revolves around the Catholic notion that we're all sinners deserving of punishment. Extending this to technology, each site is a disgrace deserving of being hacked. This can only be prepared for and mitigated effectively from the beginning, in the design and architecture of the site. Here is the intersection with Shift Left, embodied across the 3 layers above. By receiving the blessings of encryption, verification, and hardened compute, a website can remain untained from creation through delivery.","","p")
+
+addLinkToWord("1022Bubble","SOC","https://us.aicpa.org/content/aicpa/interestareas/frc/assuranceadvisoryservices/sorhome.html")
+addLinkToWord("1022Bubble","Everyone's guilty of something, right\\?","https://www.gilgamech.com/Android.html")
+addLinkToWord("1022Bubble","Bottlerocket","https://www.offeringoverview.com/Bottlerocket")
+addLinkToWord("1022Bubble","10/22/2022","#10222022")
 addElement("content","","","br")
 addElement("content","","","br")
 </script>
 
 
-			<div id="0907Bubble" class="textBubbleBG">
-			<h1 id="09072022"><a href="#09072022">09/07/2022</a> - CCP 20th party congress selections.</h1>
+
+			<div id="1007Bubble" class="textBubbleBG">
+			<h1 id="1007Bubble"><a href="#10072022">10/07/2022</a> - Server vs Serverless in a no-holds barred showdown.</h1>
 			</div>
 <script>
-addElement("0907Bubble","Notes from Lei's Real Talk video about the upcoming political event in Asia:","","p")
+addElement("1007Bubble","From a recent LinkedIn post about StackOverflow's architecture.","","p")
+addLinkToWord("1007Bubble","StackOverflow's architecture","https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-6983452178417860608-YGFP")
+addElement("1007Bubble","","","img","","https://www.gilgamech.com/images/1664984745133.jfif")
+addElement("1007Bubble","Monolith Design","","h2")
+addElement("1007Bubble","The system design specifies 9 bare metal servers to support 100 million unique users per month, without more details. So assuming these are the old Dell or HP industry workhorse 2U rackmount server, this would all fit nicely into 1/2 rack. Ongoing Operations lists racks as still between $1000-$1500 per month.","","p")
+addElement("1007Bubble","At a previous employer, back in 2014, we had 40 million unique users/month across 4 large (24 core) and 6 small (4 core) webservers, one large (24 core) SQL server, and a few utility servers - spread across 7 Sabey cabinets but could have squeezed into 3. We were paying $1500/month/cabinet, which included electricity and cooling but not Internet.","","p")
 
-var outerUL = addElement("0907Bubble","","","ul")
-addElement(outerUL,"Selections begin the congress? They happen every 5 years. Top-down selection process, not bottom-up elections.","","li")
-addElement(outerUL,"Centralized Democracy: Democracy is an illusion, and centralized means central political agency.","","li")
-addElement(outerUL,"Age is important because the maximum age for Politburo members (other than the party leader) is 67 - if a Politburo member is 68 or older during a congress, they have to step down during that congress. This is called '7-up 8-down'.","","li")
+addElement("1007Bubble","Those servers tend to cost around $5000 each from Supermicro, so you're looking at $45k amortized across 5 years for $9000 per year or $750/month. Total $750 + $1k = $1750 per month to support 100 million unique users/month.","","p")
+addElement("1007Bubble","This is basically $0.0175 per 1000 page loads.","","p")
 
+addElement("1007Bubble","Serverless Design","","h2")
+addElement("1007Bubble","When looking at taking this serverless, the first question is 'how many users are logging in?' This is usually much lower, so the first advice would be to store these files on S3 and accelerate. S3 Get fees would be around $1000/month, replacing the rack fees. Additionally S3 has a bandwidth fee that we'll omit in place of the omitted Internet circuit from an ISP. CloudFront allows the first 10 TB free and charges $0.85 per 10 TB after, so you'd be looking at around $2 to cover the 31.35 TB transferred as the 313k site is transferred 100 million times.","","p")
+addElement("1007Bubble","This puts monthly fees around $1002 for the read-only users. Let's say there are 10 million unique writes per month, costing $20. Each write lasts 0.25 seconds, for a total of 2.5 million seconds of compute, at around $5.","","p")
+addElement("1007Bubble","Total $1k + $2 + $20 + $5 = $1027 per month to support 100 million unique users/month.","","p")
+addElement("1007Bubble","This is basically $0.01027 per 1000 page loads, or about 60% of the above rackmount example.","","p")
+addElement("1007Bubble","And this solution can scale down to 100 users and become free, which the rackmount solution cannot do. This is why this solution is recommended and the rackmount is not.","","p")
 
-addElement(outerUL,"Process","","h3")
-var processUL = addElement(outerUL,"","","ul")
-addElement(processUL,"90 million CCP members from across China's 34 admin regions, and Taiwanese party members, select 2000 vetted delegates, 10 of which are from Taiwan, but with family on the mainland.","","li")
-addElement(processUL,"Delegates select 200 central committee members and 160 alternates. This year some are saying to select a Taiwanese to the central committee for once.","","li")
-addElement(processUL,"200 central committee members select 25 to form the Politburo. (Is 'Politburo' Newspeak for 'Political Bureau'?)","","li")
-addElement(processUL,"25 Politburo members select 7 to form Politburo Standing Committee (PSC).","","li")
-addElement(processUL,"PSC member count has varied. Mao had 5, 6, 7, then 9. In 1987 it went to 5, then 7 for the following 2, then Deng Xiaoping increased to 9 to 'pack the PSC' with his supporters. XI Jinping reduced to 7, and might reduce to 5 to centralize political agency.","","li")
-addElement(processUL,"Votes used as reference. Sometimes a successor gets few votes, and this embarassment is ignored.","","li")
-addElement(processUL,"","","br")
-
-var chinaPop = "1.4 billion"
-var taiwanPop = "23.57 million"
-
-mdArrayToTable(outerUL,"processTable",[
-	["Step","Mainland","Taiwan","Sum","Selected","Per selected","China Rep","Taiwan Rep"],
-	["Members select citizens",chinaPop,taiwanPop,"","90 million"],
-	["Members select delegates","90 million","235.7k","","2k"],
-	["Delegates select committee",2000-10,10,"",200],
-	["Committee selects Politburo",200-1,1,"",25],
-	["Politburo selects PSC",25,"","",7]
-]) 
-columnMath("processTable",2,"processTable",1,0,"processTable",3,"add",4,"false","Sum")
-columnMath("processTable",3,"processTable",4,0,"processTable",5,"divide",4,"false","Per Selected")
-columnMath("processTable",1,"",chinaPop,0,"processTable",6,"divide",9,"false","China Rep")
-columnMath("processTable",2,"",taiwanPop,0,"processTable",7,"divide",9,"false","Taiwan Rep")
-
-addElement(outerUL,"Process Analysis","","h3")
-var processAnalysisUL = addElement(outerUL,"","","ul")
-addElement(processAnalysisUL,"90 million CCP members? Rumors suggest fewer. With China's reported population of about 1.4 billion, with rumors also suggesting fewer, this would be 1 party member for every 15 or 16 people, or about 6% of the population.","","li")
-addElement(processAnalysisUL,"Assuming both figures are inflated 10% gives us 81 million CCP members and 1.26 billion total population, which is still just 6%.","","li")
-addElement(processAnalysisUL,"Taiwan's potential influence is greatly diluted relative to its size, and in a democratic government wouldn't be accepted as proper representation. The graph above shows Taiwan's representation in the CCP is an order of magnitude less than the rest of China.","","li")
-var processAnalysisUL2 = addElement(processAnalysisUL,"","","ul")
-addElement(processAnalysisUL,"2000 vetted delegates are split between 10 Taiwanese and 1900 from Mainland China. This gives 1 central committe member per 736,842 Chinese citizens but only 1 per 2.36 million Taiwanese. This means the Taiwanese selection is only 31.22% as powerful as a mainlander's selection.","","li")
-addElement(processAnalysisUL,"200 central committe members might have 1 Taiwanese member. This would give 1 central committe member per 7.3 million Chinese citizens but only 1 per "+taiwanPop+" Taiwanese. Likewise, this means the Taiwanese selection is only 30.97% as powerful as a mainlander's selection.","","li")
-
-
-addElement(outerUL,"PSC Roles","","h3")
-var pscRolesUL = addElement(outerUL,"","","ul")
-addElement(pscRolesUL,"CCP Secretary - De facto leader of nation.","","li")
-addElement(pscRolesUL,"Premier - Role has heavy financial responsibility building the economy. Members in this role are unlikely to become the CCP Secretary.","","li")
-addElement(pscRolesUL,"First Vice Premier - A person will usually fill this role before being selected for Premier.","","li")
-addElement(pscRolesUL,"Central Secretariat - Unsure of the duities of this role.","","li")
-addElement(pscRolesUL,"Central Committee for Discipline Inspection - Most important role for XJP's anti-corruption campaign, the tool he's using to remove political enemies. Very sensitive position, all predecessors only had 1 term because of all the 'dirty laundry'.","","li")
-addElement(pscRolesUL,"Political Consultative Conference - 'leisure job' without much power.","","li")
-addElement(pscRolesUL,"People's Congress - 'leisure job' without much power.","","li")
-
-
-addElement(outerUL,"PSC Players","","h3")
-mdArrayToTable(outerUL,"playerTable",[
-	["Pinyin Name","Phonetic Name","Age","Faction","19th PSC Role","20th PSC Role","Notes"],
-	["Xi Jinping","Shi Jinping",69,"XJP","CCP Secretary","CCP Secretary","Called XJP here because his name comes up too often. A benefit of the role is that 7-up 8-down doesn't apply."],
-	["Li Keqiang","Lee Ke'chang",67,"Hu Jintau","Premier","People's Congress or retire","Unlikely to become CCP Secretary. Doesn't want to be Premier again."],
-	["Wang Yang","Wong Yong",67,"Hu Jintau","Political Consultative Conference","Premier?","Many believe Wang Yang's relationship with XJP is better than Li Keqiang's, but Wang Yang has a 'leisure job' and isn't earning much trust, so probably won't. Hu Jintau's previous chosen successor for XJP."],
-	["Han Zheng","Han Jeng",68,"Jiang Zemin","First Vice Premier","Retire","Expected to retire due to 7-up 8-down."],
-	["Wang Huning","Wong Hooning",67,"Jiang Zemin","Central Secretariat","Central Secretariat?","The 'CCP leadership's makeup artist' and the one who steered XJP to the 'left' (away from business investment?). He was a scholar before joining the Politburo, which really breaks protocol. Jiang Zemin faction's best weapon against XJP, as an advisor to stay close and control the political direction. Called the 'most dangerous man in the world', but lately has been marginalized by XJP as he realizes he's been 'shifting left' too fast."],
-	["Zhao Leji","Jolly Ji",65,"XJP","Central Committee for Discipline Inspection","Unclear","His father was subordinate to XJP's father, so they're 'more equal' than others. Youngest in the PSC, unimpressive abilities but role gives him dirty laundry, so he might be moved around instead of retired."],
-	["Li Zhanshu","Lee Janshoo",72,"Unknown","People's Congress","Retire","Expected to retire due to 7-up 8-down."],
-	
-	["Hu Chunhua","Hoo Chunhua",59,"Unknown","Politburo","Premier?","Hu Jintau's chosen successor for XJP, but his ranking in the Politburo isn't very high, so moving him up to CCP #2 is rare."],
-	["Ding Xuexiang","Ding ShueeShiang",59,"Unknown","Politburo","Premier?","Runs the daily CCP business. Went to college at 16 to study material science, then left university research for politics in his 30s. Had a 6-month internship and really impressed XJP with his low-key pragmatic approach."],
-	["Huang Kunming","Huang Kunming",65,"Unknown","Politburo","Might join if Li Keqiang retires","Minister of Propaganda, another important apparatus for XJP. Started in the military. From Fujian Province where XJP started his career, so they have worked together for a long time."],
-	["Chen Xi","Chen She",68,"Unknown","Politburo","Retire?","Runs CCP HR, and the CCP party school, so knows all the dirty laundry. Was XJP's roommate in 1975 at Tsinghua University and they studied chemical engineering together. XJP had trouble joining the CCP because his dad was in an anti-CCP clique, and had applied 9 times, then Chen Xi got XJP admitted as a member. Can't join PSC due to 7-up 8-down."],
-
-	["Hu Jintau","Hoo Jintau",80,"Hu Jintau","Faction Leader","Faction Leader","The PSC's kingmaker, chooses party secretary successors. Leads the Youth Faction."],
-	["Jiang Zemin","Jiang Zemin",96,"Jiang Zemin","Faction Leader","Faction Leader",""]
+mdArrayToTable("1007Bubble","1007Table",[
+	["Monthly","100","100k","100 million","100 billion"],
+	["Server per user","$17.50","$0.0175","0.0000175","(site down)"],
+	["Server total","$1750","$1750","$1750","$1750"],
+	["Serverless per user","$0","$0.0000001","$0.00001","$0.00001"],
+	["Serverless total","$0","$0.01","$1027","$1,026,814"],
 ]) 
 
-addElement(outerUL,"PSC Factions:","","h3")
-var innerUL5 = addElement(outerUL,"","","ul")
-addElement(innerUL5,"Reducing PSC members to 5 could either remove one faction completely or kneecap both other factions down to a single member.","","li")
-addElement(innerUL5,"Harmony and discord between XJP Faction and Hu Jintau's Youth League. Hu put XJP on the throne, and supported him, so XJP wants to accept Hu Jintau's chosen successor as payback. But they have different goals?","","li")
+//Price per user
+//Price for overall system
+//Capacity in some way
 
+//for (var carRow = 2;carRow< 6;carRow++) {
+	//columnMath("1007Table",4,"1007Table",carRow,0,"1007Table",carRow+1,"add",4,"true","Sum")
+//}
 
-addElement(outerUL,"USSR impact:","","h3")
-var innerUL6 = addElement(outerUL,"","","ul")
-addElement(innerUL6,"Mikhail Gorbechav banned censorship, restored political victims, granted rights to start organizations. CCP news hardly covered his uninstall because he really touched a nerve.","","li")
-addElement(innerUL6,"Since the USSR fell, the CCP have been studying why, to try to avoid the same fate.","","li")
-addElement(innerUL6,"The CCP see the fall of the USSR not as a failure of communist ideology as a bad path, but a failure of implementation as an inability to stay on the path. It's like driving into a dirt trail and high centering, saying that you high centered because you're so bad at keeping your car on the road - when in reality, the road you're on has ruts so deep that even the most lifted truck would high center.","","li")
-addElement(innerUL6,"The Li/Xi dichotomy stems from Li trying to build an economically impressive China (like a nice car), but Xi (the driver) seems to be tearing it apart with Zero Covid and other political platforms. So it doesn't matter that the car is nice because the driver is crashing so much.","","li")
-addElement(innerUL6,"Zero Covid has become a very convenient scapegoat for local governments not meeting financial goals.","","li")
+addElement("1007Bubble","The moral of the story is that serverless is extremely cheap if you don't use compute where you don't need it. Why pay for the compute to serve a file when your file storage service does this natively? Just accelerate the file storage. Or do things that don't scale, if that's your thing.","","p")
 
-addElement("0907Bubble","The first step to defeating an opponent in a game is understanding them.","","p")
-
-addLinkToWord("0907Bubble","09/07/2022","#09072022")
-addLinkToWord("0907Bubble","Lei's Real Talk video","https://www.youtube.com/watch?v=16-obNP1zJo")
+addLinkToWord("1007Bubble","10/07/2022","#10072022")
 addElement("content","","","br")
 addElement("content","","","br")
 </script>
 
 
+			<div id="1001Bubble" class="textBubbleBG">
+			<h1 id="1001Bubble"><a href="#10012022">10/01/2022</a> - The price of war.</h1>
+			</div>
 <script>
-addElement("content","","textBubbleBG","","","","","","","","","09012022")
-addElement("09012022","09/01/2022 - Menu sitelet.","","h1")
-addElement("09012022","Sitelet is live. Login may be next.","","p")
+addElement("1001Bubble","Ukraine had just started allowing private individuals to own land in 2021, and the average price was $1420/hectare. Specific regions have more specific pricing from another site. Hectare areas from Wikipedia.","","p")
+addLinkToWord("1001Bubble","Specific regions","https://www.globalpropertyguide.com/Europe/Ukraine/Price-History")
+addLinkToWord("1001Bubble","average price","https://kyivindependent.com/business/ukraine-land-sales-reach-200-million-six-months-after-launch")
+addLinkToWord("1001Bubble","Hectare areas","https://en.wikipedia.org/wiki/Oblasts_of_Ukraine")
 
-addLinkToWord("09012022","09/01/2022","#09012022")
+let oblasts = [
+	["Region","Hectares","USD per hectare","USD for region","Days of war","Sum"],
+	["Cherkasy Oblast",2089100,1420],
+	["Chernihiv Oblast",31851300,1420],
+	["Chernivtsi Oblast",8093600,1420],
+	["Dnipropetrovsk Oblast",31900500,120900],
+	["Donetsk Oblast",26505700,115100],
+	["Ivano-Frankivsk Oblast",13894000,1420],
+	["Kharkiv Oblast",31401600,99300],
+	["Kherson Oblast",2844900,1420],
+	["Khmelnytskyi Oblast",20636200,1420],
+	["Kyiv Oblast",28118900,158500],
+	["Kirovohrad Oblast",24577500,1420],
+	["Luhansk Oblast",26672500,1420],
+	["Lviv Oblast",218237,00102100],
+	["Mykolaiv Oblast",24587400,1420],
+	["Odesa Oblast",33295900,246800],
+	["Poltava Oblast",28735800,1420],
+	["Rivne Oblast",20038500,1420],
+	["Sumy Oblast",23823900,1420],
+	["Ternopil Oblast",13817100,1420],
+	["Vinnytsia Oblast",26501600,1420],
+	["Volyn Oblast",20135300,1420],
+	["Zakarpattia Oblast",12771500,1420],
+	["Zaporizhzhia Oblast",27168500,1420],
+	["Zhytomyr Oblast",29819200,1420],
+	["Total",509498737,45566]
+]
+mdArrayToTable("1001Bubble","1001Table",oblasts)
+columnMath("1001Table",1,"1001Table",2,0,"1001Table",3,"multiply",4,"")
+columnMath("1001Table",3,"","900 million",0,"1001Table",4,"divide",4,"true")
+columnMath("1001Table",4,"1001Table",5,-1,"1001Table",5,"add",4,"")
+var divList = ["1001Table"];
+var wordList = ["Donetsk Oblast","Luhansk Oblast","Zaporizhzhia Oblast","Kherson Oblast"];
+colorifyMultipleWords(divList,wordList,"codeVariable")
+
+addElement("1001Bubble","Sum","","button","","","","columnMath('1001Table',4,'1001Table',5,-1,'1001Table',5,'add',4,'')")
+
+
+addElement("1001Bubble","Russia are spending an estimated $900 million a day on Putin's War in Ukraine. After 220 days, they could have bought Cherkasy, Chernivtsi, Ivano-Frankivsk, Kherson, Lviv, Rivne, Ternopil, Volyn, and Zakarpattia Oblasts. And they're just 6 days away from buying Khmelnytskyi too.To see this on the graph, sort by 'Days of war' and hit the 'Sum' button under the graph.","","p")
+addLinkToWord("1001Bubble","estimated [$]900 million a day","https://www.newsweek.com/russia-spending-estimated-900-million-day-ukraine-war-1704383")
+addElement("1001Bubble","The whole country would cost over $23 trillion, based on this data, with the most expensive Oblasts being the capital Kyiv and the main shipping hub Odesa. Buying the whole nation would take 70.66 years.","","p")
+
+addLinkToWord("1001Bubble","10/01/2022","#10012022")
 addElement("content","","","br")
 addElement("content","","","br")
 </script>
-
 
 		
 		</div><!-- End Content-->
