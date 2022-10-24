@@ -1,4 +1,3 @@
-
 name: Example workflow for S3 Deploy
 on: 
   push:
