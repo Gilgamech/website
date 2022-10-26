@@ -200,6 +200,63 @@ Adding business services
 Front page of the blog will move under Stuff
 -->
 
+			<div id="1026Bubble" class="textBubbleBG">
+			<h1 id="1026Bubble"><a href="#10262022">10/26/2022</a> - Automating uploads with GitHub Actions.</h1>
+			</div>
+<script>
+addElement("1026Bubble","Quick and easy automation to push a GitHub repo to an S3 folder, flush the CloudFront cache, then ping Discord, the best of all modern collaboration software. First, add these to your GitHub Secrets Actions:","","p")
+var fourthUL = addElement("1026Bubble","","","ul")
+addElement(fourthUL,"Access Key","","li")
+addElement(fourthUL,"Access Secret Key","","li")
+addElement(fourthUL,"Bucket","","li")
+addElement(fourthUL,"Bucket Region","","li")
+addElement(fourthUL,"Distribution ID","","li")
+
+
+addElement("1026Bubble","Create a webhook in Discord, and add this to Github. Send as JSON and send everything.","","p")
+addElement("1026Bubble","Then add this file to your repo as .github/workflows/main.yml: (example, copy from the link for YAML formatting.)","","p")
+
+var code = addElement("1026Bubble","","code")
+addElement(code,"name: CI")
+addElement(code,"on: ")
+var in1 = addElement(code,"","","ul")
+addElement(in1,"  push:")
+var in2 = addElement(in1,"","","ul")
+addElement(in2,"    branches:")
+var in3 = addElement(in2,"","","ul")
+addElement(in3,"      - main #here we choose to deploy only when a push is detected on the main branch")
+addElement(code,"jobs:")
+var in4 = addElement(code,"","","ul")
+addElement(in4,"  build:")
+var in5 = addElement(in4,"","","ul")
+addElement(in5,"    runs-on: ubuntu-latest")
+addElement(in5,"    steps:")
+addElement(in5,"    - uses: actions/checkout@v3")
+addElement(in5,"    - name: Configure AWS Credentials")
+addElement(in5,"      uses: aws-actions/configure-aws-credentials@v1")
+addElement(in5,"      with:")
+var in6 = addElement(in5,"","","ul")
+addElement(in6,"    aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}")
+addElement(in6,"        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}")
+addElement(in6,"        aws-region: ${{ secrets.S3_BUCKET_REGION }} # Use your bucket region here")
+addElement(in5,"","","br")
+addElement(in5,"    # Here you could add some building steps if you were dealing with some angular/react/Vue...")
+addElement(in5,"    # - name: Build static site")
+addElement(in5,"    #  run: yarn install && npm run-script build")
+addElement(in5,"","","br")
+addElement(in5,"    - name: Deploy static site to S3 bucket")
+var in7 = addElement(in5,"","","ul")
+addElement(in7,"      run: aws s3 sync ./ s3://${{ secrets.S3_BUCKET }} --delete; aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths \"/*\"")
+
+addElement("1026Bubble","First, on every commit the file tells GitHub to gather your credentials, and after skipping tests, pushes the whole repo into the bucket with the AWS CLI. Then using the same it flushes the whole CloudFront distribution. Second, GitHub calls the webhook with the results of the first operation. Thus we have a simple serverless CI/CD pipeline.","","p")
+
+addLinkToWord("1026Bubble","automation to push a","https://towardsaws.com/build-a-simple-devops-pipeline-from-github-to-aws-s3-for-static-website-911c620dce31")
+addLinkToWord("1026Bubble","Create a webhook","https://ardalis.com/integrate-github-and-discord-with-webhooks/")
+addLinkToWord("1026Bubble",".github/workflows/main.yml","https://github.com/Gilgamech/website/blob/main/.github/workflows/main.yml")
+addLinkToWord("1026Bubble","10/26/2022","#10262022")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
 
 
 			<div id="1022Bubble" class="textBubbleBG">
