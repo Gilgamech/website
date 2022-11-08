@@ -15,6 +15,7 @@
 		<title>Gilgamech Technologies</title>
 		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
 		<script src="https://www.Sparational.com/Sparational.js"></script>
+		<script src="https://www.Gilgamech.com/js/cryptography.js"></script>
 		<script src="https://www.gilgamech.com/js/sitelets.js"></script>
 		<script src="https://www.gilgamech.com/js/rgb.js"></script>
 		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
@@ -244,22 +245,11 @@ sortNumTable(5,"kcals")
 				<h2 id="02222022"><a href="#02222022">02/22/2022</a> - An Enigma, Sold by a Riddle, Built into a Mystery: Part 5 - Enigma Man.</h2>
 				<p>To cap off this enigmatic journey, here is Enigma Man, a cipher which performs my <a href="#02172022">Running Man</a> cipher 9 times:</p>
 				
-				//Message: <textarea id="enigmaManMessage" oninput='doEnigmaMan(0)'>Are you decrypted yet because my legs are tired</textarea><br />
-				//Encrypted: <textarea id="enigmaManEncrypted" oninput='doEnigmaMan(1)'></textarea><br />
-				//Reverted: <textarea id="enigmaManReverted" oninput='doEnigmaMan(2)'></textarea><br />
+				//Message: <textarea id="enigmaManMessage" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(0,readElement("enigmaManMessage")));'>Are you decrypted yet because my legs are tired</textarea><br />
+				//Encrypted: <textarea id="enigmaManEncrypted" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(1,readElement("enigmaManMessage")));'></textarea><br />
+				//Reverted: <textarea id="enigmaManReverted" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(2,readElement("enigmaManMessage")));'></textarea><br />
 <script>
-function doEnigmaMan(inputNumber) {
-	if (inputNumber != 1) {writeElement("enigmaManEncrypted",doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(readElement("enigmaManMessage")))))))))));}
-	if (inputNumber != 2) {writeElement("enigmaManReverted",revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(readElement("enigmaManEncrypted")))))))))));}
-}
-function doRunningMan(inputString) {
-	return getRunningKey(getInverseRunningKey(inputString))
-}
-function revertRunningMan(inputString) {
-	return revertInverseRunningKey(revertRunningKey(inputString))
-}
-doEnigmaMan(5);
-
+writeElement("enigmaManEncrypted",doEnigmaMan(5,readElement("enigmaManMessage")));
 </script>				
 				<p>This cipher ran 9 times is probably more secure than the 9 ciphers in Enigma, plus no key is required, just the message. Indeed, the number of encryption rotations could be viewed as a type of key. It's more secure because adding or removing a pair of letters from the end of the message changes the entire encrypted output, since removing letters shifts the midpoint of the message, which moves the first letter of the key. A downside is that message length must be even or lose a character.</p>
 				<p>Enigma was somewhat overengineered on the encryption side, but was a nifty application-specific mechanical computer. The faulty philosophy of "nobody could reverse engineer something this overengineered" ignored Polish ingenuity.</p>

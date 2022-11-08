@@ -177,3 +177,18 @@ function enigmaReciprocal(inputString,keyArray,swapArray){
 	return inputString;
 }
 
+function doRunningMan(inputString) {
+	return getRunningKey(getInverseRunningKey(inputString))
+}
+function revertRunningMan(inputString) {
+	return revertInverseRunningKey(revertRunningKey(inputString))
+}
+function doEnigmaMan(inputNumber,inputString) {
+	if (inputNumber != 1) {
+		return doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(inputString)))))))));
+	}
+	if (inputNumber != 2) {
+		return revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(revertRunningMan(inputString)))))))));
+	}
+}
+
