@@ -216,39 +216,24 @@ addElement("content","","","br")
 </script>
 -->
 
+			<div id="1119Bubble" class="textBubbleBG">
+			<h1 id="1119Bubble"><a href="#11192022">11/19/2022</a> - So WW3 is going to look mostly like WW2?</h1>
+			</div>
+<script>
+addElement("1119Bubble","Found I had written this essay on Invasion USA a couple of months ago.","","p")
+addElement("1119Bubble","Business is war, and it's looking more like any future WW3 will be fought mostly through sanctions and boycotts. War today is much more Warcraft than Battlefield, where assembling and maintaining the military industrial complex to feed the war beast becomes as essential as good propaganda, innovative strategies, and creative tactics. Napoleon's Third Law says that \"an army travels on its belly\", referring to the vast logistics needed to supply a mobilized force, and this logistical need must be backed by sufficient production facilities. As we evolve from industrial warfare to electronic warfare, this involves more and more semiconducting microprocessors, aka \"computer chips\". These sophisticated devices require a vast supply chain, but enable GPS accuracy, and sometimes do not even carry an explosive warhead - giving incredible destructive control, allowing removal of military targets with a minimum (or maximum) amount of collateral and material damage. Some nations participating in this futuristic type of warfare do not even have their own troops on the battlefield.","","p")
+
+addLinkToWord("1119Bubble","Invasion USA","https://www.youtube.com/watch?v=DK8GZxUEXeM")
+addLinkToWord("1119Bubble","11/02/2022","#11192022")
+addElement("content","","","br")
+addElement("content","","","br")
+
+</script>
+
 			<div id="1108Bubble" class="textBubbleBG">
 			<h1 id="1108Bubble"><a href="#11082022">11/08/2022</a> - Mockingbird Cipher.</h1>
 			</div>
 <script>
-addElement("1108Bubble","Got the idea from a recent FitMC video about a distributed stash that used the same name on all Shulkers, but varied the caps to identify the shulker in their database. This brings to mind a cipher based on caps.","","p")
-addElement("1108Bubble","Each letter has an uppercase and lowercase state. This allows each letter two states for a binary effect. The lower value, such as \"a\" = 65 would be zero, and \"A\" = 97 would be 1. Consider the 8-letter word 'encoding' with little-endian:","","p")
-var cipherArr = [
-["Word","Binary","Value"],
-["encoding","00000000","zero"],
-["encodinG","00000001","one"],
-["encodiNg","00000010","two"],
-["encodiNG","00000011","three"],
-["encodIng","00000100","four"],
-["eNcOdInG","01010101","85"]
-]
-mdArrayToTable("1108Bubble","",cipherArr)
-
-
-var txtArea = addElement("1108Bubble","","","")
-addElement(txtArea,"Input","","h2")
-addElement(txtArea,"Key:")
-var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher()","","","value","HELLOWORLD")
-addElement(txtArea,"","","br")
-addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
-var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher()")
-
-addElement(txtArea,"","","br")
-addElement(txtArea,"Encryption","","h2")
-addElement(txtArea,"Text:")
-var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher()")
-addElement(txtArea,"Encrypted:")
-var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher()")
-
 function toBinary(num) {
 	return num.toString(2);
 }//https://topitanswers.com/post/convert-number-to-binary-in-js
@@ -300,7 +285,34 @@ function outputMockingCipher() {
 	writeElement(txtEnc,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(txtMid))));
 }
 
+addElement("1108Bubble","Got the idea from a recent FitMC video about a distributed stash that used the same name on all Shulkers, but varied the caps to identify the shulker in their database. This brings to mind a cipher based on caps.","","p")
+addElement("1108Bubble","Each letter has an uppercase and lowercase state. This allows each letter two states for a binary effect. The lower value, such as \"a\" = 65 would be zero, and \"A\" = 97 would be 1. Consider the 8-letter word 'encoding' with little-endian:","","p")
+var cipherArr = [
+["Word","Binary","Value"],
+["encoding","00000000","zero"],
+["encodinG","00000001","one"],
+["encodiNg","00000010","two"],
+["encodiNG","00000011","three"],
+["encodIng","00000100","four"],
+["eNcOdInG","01010101","85"]
+]
+mdArrayToTable("1108Bubble","",cipherArr)
 
+
+var txtArea = addElement("1108Bubble")
+addElement(txtArea,"Input","","h2")
+addElement(txtArea,"Key:")
+var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher()","","","value","HELLOWORLD")
+addElement(txtArea,"","","br")
+addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
+var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher()")
+
+addElement(txtArea,"","","br")
+addElement(txtArea,"Encryption","","h2")
+addElement(txtArea,"Text:")
+var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher()")
+addElement(txtArea,"Encrypted:")
+var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher()")
 
 addElement("1108Bubble","Next up is decryption.","","p")
 
@@ -312,20 +324,29 @@ addElement("content","","","br")
 outputMockingCipher(keyInput,txtInput);
 </script>
 
+			<div id="1110Bubble" class="textBubbleBG">
+			<h1 id="1110Bubble"><a href="#11110022">11/10/2022</a> - Mockingbird Decipher.</h1>
+			</div>
+<script>
 
-		<!--
-addElement(txtArea,"","","br")
-addElement(txtArea,"Decryption","","h2")
-addElement(txtArea,"Key:")
-var txtOutput = addElement(txtArea,"","","input","","","outputMockingCipher()")
-addElement(txtArea,"Text:")
-var keyOutput = addElement(txtArea,"","","textarea","","","outputMockingCipher()")
-addElement("1102Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
+var txtArea2 = addElement("1110Bubble")
+addElement(txtArea2,"","","br")
+addElement(txtArea2,"Decryption","","h2")
+addElement(txtArea2,"Key:")
+var txtOutput = addElement(txtArea2,"","","input","","","outputMockingCipher()")
+addElement(txtArea2,"Text:")
+var keyOutput = addElement(txtArea2,"","","textarea","","","outputMockingCipher()")
+addElement("1110Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
 
 //Handle key overflow better
 //Increase key precision
 //Decrypt key - will require diffing middle vs original text, or specifying an encoding pattern.
 //Auto-Enigma Man
+
+//War as a process of burning bridges 
+
+</script>
+		<!--
 		-->
 
 		
