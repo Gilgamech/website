@@ -1,3 +1,10 @@
+//Copyright 2013-2022 Gilgamech Technologies
+//cryptography.js
+//Author: Stephen Gillie
+//Created on: ‎10/24/2022
+//Last updated: 11/30/2022
+//Notes: 
+
 var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M"];
 var bet = ["N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
@@ -165,6 +172,7 @@ function revertInverseRunningKey(message) {
 	return out;
 }
 
+//Enigma Man
 function enigmaReciprocal(inputString,keyArray,swapArray){
 	var inputString = inputString.toUpperCase().replace(/ /g,"")
 	for (index = 0;index<keyArray.length;index++) {
@@ -180,9 +188,11 @@ function enigmaReciprocal(inputString,keyArray,swapArray){
 function doRunningMan(inputString) {
 	return getRunningKey(getInverseRunningKey(inputString))
 }
+
 function revertRunningMan(inputString) {
 	return revertInverseRunningKey(revertRunningKey(inputString))
 }
+
 function doEnigmaMan(inputNumber,inputString) {
 	if (inputNumber != 1) {
 		return doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(doRunningMan(inputString)))))))));
