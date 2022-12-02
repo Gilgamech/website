@@ -7,7 +7,7 @@ var blogLi = addElement(outerUL,"","","li")
 addElement(blogLi,"Blog ▼","","a")
 var blogUL = addElement(blogLi,"","","ul")
 
-addElement(addElement(blogUL,"","","li"),"Nov 2022","","a","","/blog.html")
+addElement(addElement(blogUL,"","","li"),"Dec 2022","","a","","/blog.html")
 
 var $2022Li = addElement(blogUL,"","","li")
 addElement($2022Li,"2022 ▼","","a")
