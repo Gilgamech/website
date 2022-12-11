@@ -216,3 +216,92 @@ function doEnigmaMan(inputNumber,inputString) {
 	}
 }
 
+//Mockingbird
+function toBinary(num) {
+	return num.toString(2);
+}//https://topitanswers.com/post/convert-number-to-binary-in-js
+
+function toDecimal(num) {
+	return parseInt(num, 2);
+}//https://www.codespeedy.com/how-to-convert-binary-to-decimal-in-javascript-easily/
+
+function isCapital(letter){
+    return letter === letter.toUpperCase();
+}//https://stackabuse.com/javascript-check-if-first-letter-of-a-string-is-upper-case/
+
+function splitInto(str, len) {
+    var regex = new RegExp('.{' + len + '}|.{1,' + Number(len-1) + '}', 'g');
+    return str.match(regex );
+}
+
+function swapCaps(letter) {
+	if (isCapital(letter)){
+		letter = letter.toLocaleLowerCase();
+	} else {
+		letter = letter.toLocaleUpperCase();
+	}
+	return letter;
+}
+
+function doMockingCipher(keyString,inputString) {
+	var keyBin = Array(keyString.length).fill(0);
+
+	var inputString = inputString.split("");
+	//Convert each key letter to ASCII then binary
+	for (var key = 0; key < keyString.length; key++) {
+		keyBin[key] = toBinary(keyString.charCodeAt(key).toString(2))
+	}
+
+	keyBin = keyBin.join("").split("")
+	var binStart = inputString.length - keyBin.length;
+
+	//var binStart = inputString.length - keyBin.length;
+
+	//console.log("num: "+toDecimal(keyBin.join(""))+" maxNum: "+toDecimal(inputString.join("").replace(/[a-zA-Z]/g,1).replaceAll(" ","1").replaceAll(".","1").replaceAll(",","1")));
+	
+	//console.log("binStart: "+binStart+" of "+inputString.length)
+	//Go through each letter, and if the key is 1, swap caps.
+	for (n=0;n<inputString.length;n++){
+		var nBin = n//-binStart;
+		if (keyBin[nBin] == 1) {
+			//console.log("n: "+n+" of "+inputString.length+" nBin " +nBin+" is "+keyBin[nBin]+" at "+inputString[n])
+			inputString[n] = swapCaps(inputString[n]);
+		}
+	}
+	return inputString.join("");
+}
+
+function revertMockingCipher(inputString) {
+	var keyBin = ""
+	var keyOutput = ""
+	//Go through each letter, and if the letter is caps, add 0, else add 1.
+	inputString = inputString.replace(/ /g,"").split("");
+	//console.log(inputString);
+	for (n=0;n<inputString.length;n++){
+		if (isCapital(inputString[n])) {
+			keyBin+="0"
+		}else{
+			keyBin+="1"
+		}
+	}
+
+	//console.log(keyBin);
+	//Split into 7-digit segments, convert back to letters, and add to the keyOutput.
+	for (letter of splitInto(keyBin,7)) {
+		if (letter != "0000000") {
+			keyOutput += String.fromCharCode(toDecimal(letter).toString())
+		}
+	//console.log(keyOutput);
+	}
+	
+	return keyOutput;
+}
+
+function outputMockingCipher(keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
+	writeElement(txtMid,doMockingCipher(readElement(keyInput),readElement(txtInput)));
+	writeElement(txtEnc,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(mocked))));
+	if	(decrypted) {
+		writeElement(keyOutput,revertMockingCipher(readElement(encrypted)));
+		writeElement(txtDecrypt,doEnigmaMan(2,readElement(encrypted)));
+	}
+}

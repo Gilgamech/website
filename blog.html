@@ -109,7 +109,7 @@ body {
 			<nav>
                 <ul>
                     <li><a>Blog ▼</a><ul>
-                        <li><a href="/blog.html">August 2022</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
 					</ul></li>
                     <li><a href="/history.html">World History</a></li>
                     <li><a>Stuff ▼</a><ul>
@@ -194,12 +194,62 @@ Isn't this a governmental Ponzi scheme?
 - Prices need to continue to rise, to increase local government profits from land sales, so LGFVs can sell properties for higher in the future, justifying their current borrowing. 
 Is this cyclical or structural? Structural would be hitting a fundamental limit, like everyone who can long-term lease an apartment has done so. Because a person can only live in one apartment, especially in travel-restrictive China. One clue to this is the recent reversal of the one-apartment policy into a strong suggestion to buy several. Cyclical would imply being tied to a seasonal, business, or recession cycle, and while we are entering a recession cycle, a strong housing market doesn't really see strong cyclical downturns like this. Construction is time consuming, so housing demand tends to be somewhat inelastic and constant.
 
-Add business services from the back of the business card.
-Fruitbots will move under Stuff
-
 
 
 -->
+
+	
+	
+			<div id="1211Bubble" class="textBubbleBG">
+			<h1 id="1211Bubble"><a href="#11211022">12/11/2022</a> - Mockingbird Decipher.</h1>
+			</div>
+<script>
+addElement("1211Bubble","Bringing back the encryption inputs, so everything is in the same place.","","p")
+
+var txtArea = addElement("1211Bubble")
+addElement(txtArea,"Input","","h2")
+addElement(txtArea,"Key:")
+var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)","","","value","HELLOWORLD")
+addElement(txtArea,"","","br")
+addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
+var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+
+addElement(txtArea,"","","br")
+addElement(txtArea,"Encryption","","h2")
+addElement(txtArea,"Text:")
+var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement(txtArea,"Encrypted:")
+var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+
+addLinkToWord("1211Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
+addLinkToWord("1211Bubble","11/02/2022","#12112022")
+addElement("content","","","br")
+addElement("content","","","br")
+
+
+
+var txtArea3 = addElement("1211Bubble")
+addElement(txtArea3,"","","br")
+addElement(txtArea3,"Decryption","","h2")
+addElement(txtArea3,"Key:")
+var keyOutput = addElement(txtArea3,"","","input","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement(txtArea3,"Text:")
+var txtDecrypt = addElement(txtArea3,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement("1211Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
+
+//Handle key overflow better
+//Increase key precision
+//Decrypt key - will require diffing middle vs original text, or specifying an encoding pattern.
+//Auto-Enigma Man
+
+addLinkToWord("1211Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
+addLinkToWord("1211Bubble","11/02/2022","#12112022")
+addElement("content","","","br")
+addElement("content","","","br")
+
+outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput);
+</script>
+
 
 			<div id="1202Bubble" class="textBubbleBG">
 			<h1 id="1202Bubble"><a href="#12022022">12/02/2022</a> - Winter recipes.</h1>
@@ -278,70 +328,6 @@ addLinkToWord("1201Bubble","12/01/2022","#12012022")
 addElement("content","","","br")
 addElement("content","","","br")
 </script>
-
-
-<!-- 
-
-			<div id="1126Bubble" class="textBubbleBG">
-			<h1 id="1126Bubble"><a href="#11126022">11/26/2022</a> - Mockingbird Decipher.</h1>
-			</div>
-<script>
-
-var txtArea3 = addElement("1126Bubble")
-addElement(txtArea3,"","","br")
-addElement(txtArea3,"Decryption","","h2")
-addElement(txtArea3,"Key:")
-var keyOutput = addElement(txtArea3,"","","input","","","decryptMockingCipher()")
-addElement(txtArea3,"Text:")
-var txtDecrypt = addElement(txtArea3,"","","textarea","","","decryptMockingCipher()")
-addElement("1126Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
-
-//Handle key overflow better
-//Increase key precision
-//Decrypt key - will require diffing middle vs original text, or specifying an encoding pattern.
-//Auto-Enigma Man
-
-
-function undoMockingCipher(inputString) {
-	var keyBin = Array(inputString.length).fill(0);
-	inputString = inputString.split("");
-	
-	//Check if caps
-	//Check if should be caps?
-/*
-	for (var key = 0; key < keyString.length; key++) {
-		keyBin[key] = toBinary(keyString.charCodeAt(key).toString(2))
-	}
-
-	keyBin = keyBin.join("").split("")
-	var binStart = inputString.length - keyBin.length;
-
-	console.log("num: "+toDecimal(keyBin.join(""))+" maxNum: "+toDecimal(inputString.join("").replace(/[a-zA-Z]/g,1).replaceAll(" ","1").replaceAll(".","1").replaceAll(",","1")));
-	
-	console.log("binStart: "+binStart+" of "+inputString.length)
-	for (n=binStart;n<inputString.length;n++){
-		var nBin = n-binStart;
-		if (keyBin[nBin] == 1) {
-			console.log("n: "+n+" of "+inputString.length+" nBin " +nBin+" is "+keyBin[nBin]+" at "+inputString[n])
-			inputString[n] = swapCaps(inputString[n]);
-		}
-	}
-*/	
-	return inputString.join("");
-}
-function decryptMockingCipher() {
-	writeElement(txtDecrypt,undoMockingCipher(readElement(txtEnc)));
-	writeElement(keyOutput,undoMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(txtMid))));
-}
-
-addLinkToWord("1126Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
-addLinkToWord("1126Bubble","11/02/2022","#11262022")
-addElement("content","","","br")
-addElement("content","","","br")
-
-</script>
--->
-
 		
 		</div><!-- End Content-->
 		<div id="footWrapper">
