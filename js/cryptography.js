@@ -297,11 +297,13 @@ function revertMockingCipher(inputString) {
 	return keyOutput;
 }
 
-function outputMockingCipher(keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
+function outputMockingCipher(keyInput,txtInput,mocked) {
 	writeElement(txtMid,doMockingCipher(readElement(keyInput),readElement(txtInput)));
 	writeElement(txtEnc,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(mocked))));
-	if	(decrypted) {
-		writeElement(keyOutput,revertMockingCipher(readElement(encrypted)));
-		writeElement(txtDecrypt,doEnigmaMan(2,readElement(encrypted)));
-	}
 }
+
+function outputMockingCipher2(encrypted,decrypted,keyOutput) {
+	writeElement(keyOutput,revertMockingCipher(readElement(encrypted)));
+	writeElement(txtDecrypt,doEnigmaMan(2,readElement(encrypted)));
+}
+

@@ -209,17 +209,17 @@ addElement("1211Bubble","Bringing back the encryption inputs, so everything is i
 var txtArea = addElement("1211Bubble")
 addElement(txtArea,"Input","","h2")
 addElement(txtArea,"Key:")
-var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)","","","value","HELLOWORLD")
+var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher(keyInput,txtInput,txtMid);outputMockingCipher2(txtEnc,txtDecrypt,keyOutput);","","","value","HELLOWORLD")
 addElement(txtArea,"","","br")
 addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
-var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid);outputMockingCipher2(txtEnc,txtDecrypt,keyOutput);")
 
 addElement(txtArea,"","","br")
 addElement(txtArea,"Encryption","","h2")
 addElement(txtArea,"Text:")
-var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid);outputMockingCipher2(txtEnc,txtDecrypt,keyOutput);")
 addElement(txtArea,"Encrypted:")
-var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher2(txtEnc,txtDecrypt,keyOutput);")
 
 addLinkToWord("1211Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
 addLinkToWord("1211Bubble","11/02/2022","#12112022")
@@ -232,9 +232,9 @@ var txtArea3 = addElement("1211Bubble")
 addElement(txtArea3,"","","br")
 addElement(txtArea3,"Decryption","","h2")
 addElement(txtArea3,"Key:")
-var keyOutput = addElement(txtArea3,"","","input","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+var keyOutput = addElement(txtArea3,"","","input","","","outputMockingCipher2(txtEnc,txtDecrypt,keyOutput)")
 addElement(txtArea3,"Text:")
-var txtDecrypt = addElement(txtArea3,"","","textarea","","","outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+var txtDecrypt = addElement(txtArea3,"","","textarea","","","outputMockingCipher2(txtEnc,txtDecrypt,keyOutput)")
 addElement("1211Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
 
 //Handle key overflow better
@@ -247,7 +247,8 @@ addLinkToWord("1211Bubble","11/02/2022","#12112022")
 addElement("content","","","br")
 addElement("content","","","br")
 
-outputMockingCipher(keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput);
+outputMockingCipher(keyInput,txtInput,txtMid);
+outputMockingCipher2(txtEnc,txtDecrypt,keyOutput);
 </script>
 
 
