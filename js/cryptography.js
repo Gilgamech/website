@@ -2,7 +2,7 @@
 //cryptography.js
 //Author: Stephen Gillie
 //Created on: ‎10/24/2022
-//Last updated: 11/30/2022
+//Last updated: 12/11/2022
 //Notes: 
 
 var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M"];
@@ -15,7 +15,9 @@ var alphArray = [
     ["P","Q","R","S","T"],
     ["U","V","W","X","Y"]]
 
+//Porta
 function getPorta(message,key = "PORTA"){
+	//Set message and key all uppercase, var out.
 	message = message.toUpperCase().replace(/ /g,"");
 	key = key.toUpperCase();
 	var out = "";
@@ -24,18 +26,23 @@ function getPorta(message,key = "PORTA"){
 
 	for (messageIndex=0;messageIndex<message.length;messageIndex++) {
 		//console.log("messageIndex: "+messageIndex);
+		//Get the message letter.
 		var msgLetter = message.substring(messageIndex,messageIndex+1)
+		//Get the key letter's keycode, less 65 to make it the alphanumeric. Move forward on the key the messageLength number of times, modulus the key length, aka wrap around the key. This obviates a nested loop.
 		var keyLetterCode = Math.floor((key.substring(messageIndex%key.length,messageIndex%key.length+1).codePointAt(0)-65)/2);
+		//Get the message letter's keycode, less 65 to make it alphanumeric.
 		var msgLetterCode = msgLetter.codePointAt(0)-65;
+		//Rotate portaBeta to the key letter's keycode.
 		var portaBeta = bet.slice(keyLetterCode, bet.length);
 		for (arrayFillIndex=0;arrayFillIndex<keyLetterCode;arrayFillIndex++) {
 			portaBeta.push(bet[arrayFillIndex]);
 		}
-
 		if (msgLetterCode >12) {
+		//If the letter is N-Z, return alpha at letter's the index in portaBeta 
 			out += alpha[portaBeta.indexOf(msgLetter)];
 		//console.log("messageIndex: "+messageIndex+" alpha "+keyLetterCode+" out: "+out);
 		}else {
+		//else if the letter is A-M, return portaBeta at the letter's index in alpha
 			out += portaBeta[alpha.indexOf(msgLetter)];
 		//console.log("messageIndex: "+messageIndex+" beta "+keyLetterCode+" out: "+out);
 		}// end if keyLetterCode
@@ -43,22 +50,27 @@ function getPorta(message,key = "PORTA"){
 	return out;
 }; //end getPorta
 
+//Myszkowski
 function getMyszkowski(message,key="banana") {
+	//Set message and key all uppercase, var out.
 	message = message.toUpperCase().replace(/ /g,"");
 	key = key.toUpperCase();
 	var out = "";
 
 	//Foreach A-Z
 	for (messageChunkIndex = 0;messageChunkIndex<message.length;messageChunkIndex+=key.length) {
+		//Work in key-length message chunks. 
 		var currentMessageChunk = message.substring(messageChunkIndex,messageChunkIndex+key.length);
 		for (currentAlphaCode = 65;currentAlphaCode<91;currentAlphaCode++) {
+			//Cycle through every letter
 			var currentAlpha = String.fromCodePoint(currentAlphaCode);
 			for (messageIndex=0;messageIndex<currentMessageChunk.length;messageIndex++) {
-
+				//Cycle through every letter in the chunk, getting the letter at that location, and the key at that location modulus the key length.
 				var msgLetter = currentMessageChunk.substring(messageIndex,messageIndex+1);
 				var keyLetter = key.substring(messageIndex%key.length,messageIndex%key.length+1);
 				
 				if (keyLetter == currentAlpha){
+					//if the key matches the current letter, add the message's letter to the output.
 					out += msgLetter;
 				}// end if keyLetter
 			}// end for messageIndex
@@ -108,7 +120,9 @@ function revertMyszkowski(message,key="banana") {
 	
 }; //end getMyszkowski
 
+//Runnking Key
 function getRunningKey(message) {
+	//First half is message, second half is key. So only the first half is encrypted.
 	message = message.toUpperCase().replace(/ /g,"");
 	var msg = message.substring(0, (message.length/2));
 	var key = message.substring((message.length/2),message.length);
