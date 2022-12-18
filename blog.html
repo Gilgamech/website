@@ -123,82 +123,72 @@ body {
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
 
-<!-- 
-Living on Mars:
-- Food - Mushrooms
-- Material - PVC frees up oxygen from perchlorate and uses the chlorine. Also bring sodium to create salt.
 
-- Religion as an answer to Shrodingerization, the obfuscation of state.
-
-			<div id="0909Bubble" class="textBubbleBG">
-			<h1 id="09092022"><a href="#09092022">0909/2022</a> - Banking on China.</h1>
+			<div id="1218Bubble" class="textBubbleBG">
+			<h1 id="1218Bubble"><a href="#12182022">12/18/2022</a> - Electricity consumption cost calculator.</h1>
 			</div>
-
-After Jack Ma's influential speech, the CCP started cracking down on tech giants - how much has that impacted China's GDP?
 <script>
-addElement("0909Bubble","History:","","h2")
+addElement("1218Bubble","Given the propensity to supplement the meager solar illumination with domestic illumination, a calculator to compute 'how much will this light strand cost me per day' seemed apropos.","","p")
 
 
-var outerUL = addElement("0909Bubble","","","ul")
+var calcArea = addElement("1218Bubble")
+addElement(calcArea,"Electricty cost calculator","","h2")
 
-addElement(outerUL,"Local governments control local banks.","","li")
-addElement(outerUL,"Local governments issue debt bonds to raise money.","","li")
-addElement(outerUL,"Asset sales can be kept by the local gov, while tax revenue must be shared with the national gov.","","li")
+addElement(calcArea,"Cost of electricity: $","","span")
+var CostInput = addElement(calcArea,"0.10","","input","","","calcElec();","","","value","0.10")
+addElement(calcArea,"/kWh","","span")
+addElement(calcArea,"","","br")
 
-Since 1994, province and city governments have to pay for their own social services, but can't take out loans, and have to pass most taxes straight through to their national government. LGFVs meet the financing need, where province and city governments get land (through eminent domain? or they buy the farmer's lease?) and gift it to the LGFV for no cost nor tax. Then the LGFV leverages or sells the land to generate profits, which are gifted back to the LGFV's local government. LGFV loans are counted as private debt, not government debt, and so isn't tracked as easily. Estimates put this at 30% of local government revenue aka 40% of GDP, about 30 trillion yuan ($4.21 trillion). Land sales falling by 72% lowered local government revenue by 20%.  
+addElement(calcArea,"Amperage of device: ","","span")
+var AmpInput = addElement(calcArea,".25","","input","","","calcElec();","","","value",".25")
+addElement(calcArea," Amps","","span")
+addElement(calcArea,"","","br")
 
-addElement(outerUL,"Banks use money raised from citizens (bank account deposits?) to buy local government's debt.","","li")
-addElement(outerUL,"Governments uses basically Eminent Domain to buy farmland from farmers. Structures increase how much the government pays the farmer, so farmers put up 'nail houses' which are unsafe multi-floor structures. (How do the farmers own the land? Or did they get the land from the local government with some type of long-term lease, for maybe 50, 70, or 99 years?)","","li")
-addElement(outerUL,"Governments 'sell' (aka long-term lease) land through bids to property developers.","","li")
-addElement(outerUL,"Property developers borrow from local banks, who approve the loans because they're controlled by the government and can't not loan to the winning bidder.","","li")
-addElement(outerUL,"Property developers use their size and government-backed funding to get loans from other financial institutions, including international banks.","","li")
-addElement(outerUL,"Property developers 'sell' (aka long-term lease) condominiums to citizens. These assets are called 'houses' despite not being a separate structure and involving no land rights beyond the structure.","","li")
-addElement(outerUL,"Property developers use funds to buy more land from governments, becoming Ponzi Schemes.","","li")
-addElement(outerUL,"Property prices keep going up so citizens feel pressured to 'buy' now before prices raise even more. Citizens buy condominiums that aren't finished, or sometimes aren't even built yet. (There's supposed to be a limit of one per citizen, but many citizens find loopholes to buy more.) ","","li")
-addElement(outerUL,"Property developers collapse. Evergrande is the largest, has $300 billion in debt - almost as much as is boycotted in protests. ","","li")
-addElement(outerUL,"Property developers employ 250 million Chinese workers, or close to 1/3 of the 784 million Chinese labor force.","","li")
-addElement(outerUL,"Chinese home sales and construction account for 25% of China's GDP.","","li")
-addElement(outerUL,"Property prices peaked, so citizens stop buying, and wait to see if prices will go down more.","","li")
-addElement(outerUL,"If property doesn't sell, property developers can't repay government. This turns the government debt into a Collateralized Debt Obligation.","","li")
-addElement(outerUL,"Reductions in property value reduce the amount of money that banks will lend to property developers, preventing them from getting the funds needed to complete (or start) their existing projects. ","","li")
+addElement(calcArea,"Wattage of device at 120v: ","","span")
+var WattCalc = addElement(calcArea,"30","","input","","","calcElec(1);","","","value","30")
+addElement(calcArea," Watts","","span")
+addElement(calcArea,"","","br")
 
-addElement(outerUL,"3 Red Lines regulation prevents property developers from borrowing more if they had already borrowed too much, or had too many liabilities. This was supposed to bring them in line, but instead it pushed them into default.","","li")
-addElement(outerUL,"Zero-Covid policies shut down major cities for months, closing many businesses and forcing most people to spend through their personal savings. So they don't really have the money to be making payments for a place they're not living in and whose value is going down. ","","li")
-addElement(outerUL,"Rich citizens take $48 billion in assets as they leave. ","","li")
-addElement(outerUL,"Citizens form 300+ protests in 90+ cities, because the condominiums aren't getting completed, and they aren't paying. 10% of properties sold last year weren't finished. $297 billion of loans are boycotted, 4.2% of the $7 trillion Chinese mortgage market. ","","li")
-addElement(outerUL,"Undercover police and travel bans set up to prevent protests. Covid health code system used to prevent travel, calling the system's legitimacy into question.","","li")
-addElement(outerUL,"Some banks are unable to cover citizen withdrawals. This collides with a separate scam where bank employees lied to citizens, and sold them an investment disguised as a checking or savings account - basically a non-crypto rug pull.","","li")
-addElement(outerUL,"Local banks start failing. (the Lehman Brothers moment)","","li")
-addElement(outerUL,"Governments tell citizens to 'buy' (aka lease for 70-ish years) condominiums. The limit of one per citizen is removed, and people are told to buy one more regardless of how many the already own.","","li")
-addElement(outerUL,"Central government starts making 'eat the rich' moves under banner of 'common prosperity', stealing assets from affluent citizens to repay debts taken out by other citizens. ","","li")
-addElement(outerUL,"Central government proposing banks write-off $4.3 billion in loans.","","li")
-addElement(outerUL,"Central government demolishes 3 billion sq meters of ghost towns to keep housing prices high - enough to house 75 million people if they were finished. (Were the mortgage holders compensated in some way?)","","li")
-addElement(outerUL,"33% contraction predicted in the market.","","li")
-addElement(outerUL,"Local governments at all levels begin selling off assets. Asset sales reduces the tax revenue that local govs can generate, which reduces national gov income.","","li")
-addElement(outerUL,"Covid testing companies financial records show that local govs haven't repaid them for the massive testing.","","li")
+addElement(calcArea,"Hourly electricity consumption: ","","span")
+var ConsCalc = addElement(calcArea,"0.03","","input","","","calcElec();","","","value","0.03")
+addElement(calcArea," kWh","","span")
+addElement(calcArea,"","","br")
 
-- In USA 2008, prices were still increasing as people defaulted, so they could still sell the house. 
-- In China 2022, prices collapsed before people started defaulting, so they can't effectively sell. 
+addElement(calcArea,"Cost of 1 hour of operation: $","","span")
+var HourCost = addElement(calcArea,"0.003","","input","","","calcElec();","","","value","0.003")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
 
-BRI projects suffer the same half-done situation as the tofu buildings. 
+addElement(calcArea,"Cost per day of operation: $","","span")
+var DayCost = addElement(calcArea,"0.072","","input","","","calcElec();","","","value","0.072")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
 
-So the CCP let this bubble grow by not requiring developer audits, then accidentally cuts off developers with the 3 red lines, causing the developers to default on other loans. This caused developer credit ratings to tumble to where bondholders, banks and buyers won't touch them. And the CCP's response is their usual carrot-and-disappear, forcing developers to scramble to be one of the lucky few to pass the audits and receive the precious government loans needed to restart work and avoid jail time. This is not only needlessly penalizing, but also disregards market impact of the bailouts - it's possible that these bailouts could be wildly successful and that the market could still entirely tank, since the largest developers are probably also the least likely to pass the audits. Almost like instead of Too Big To Fail, it's Too Big Goto Jail. It's Jack Ma all over again, but with so much more lost face for the CCP. 
+addElement(calcArea,"Cost per month (30 days) of operation: $","","span")
+var MonthCost = addElement(calcArea,"2.16","","input","","","calcElec();","","","value","2.16")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
 
-XJP demands local govs meet growth targets, so they loosen both restrictions on developer and buyer borrowing, only to have their central gov demand these be reverted within 24 hours. This essentially turns into a prison sentence for the leaders of those local govs. 
-
-
-
-- Local governments need to sell land to retain LGFV investor confidence, by maintaining a large enough revenue stream to support or bail out the LGFV. 
-- LGFVs (58.5%) have overtaken other sources (41.5%) as the main revenue source for local governments, funding this by taking out loans and bonds with other national(ized) companies and banks. 
-Isn't this a governmental Ponzi scheme? 
-- Prices need to continue to rise, to increase local government profits from land sales, so LGFVs can sell properties for higher in the future, justifying their current borrowing. 
-Is this cyclical or structural? Structural would be hitting a fundamental limit, like everyone who can long-term lease an apartment has done so. Because a person can only live in one apartment, especially in travel-restrictive China. One clue to this is the recent reversal of the one-apartment policy into a strong suggestion to buy several. Cyclical would imply being tied to a seasonal, business, or recession cycle, and while we are entering a recession cycle, a strong housing market doesn't really see strong cyclical downturns like this. Construction is time consuming, so housing demand tends to be somewhat inelastic and constant.
+function calcElec(op) {
+	if (op ==1) {
+		writeElement(AmpInput,getRoundedNumber(readElement(WattCalc)/120,2))
+	} else {
+		writeElement(WattCalc,getRoundedNumber(readElement(AmpInput)*120,2))
+	}
+	writeElement(ConsCalc,getRoundedNumber(readElement(WattCalc)/1000,4))
+	writeElement(HourCost,getRoundedNumber(readElement(CostInput)*readElement(ConsCalc),4))
+	writeElement(DayCost,getRoundedNumber(readElement(HourCost)*24,4))
+	writeElement(MonthCost,getRoundedNumber(readElement(DayCost)*30,2))
+}
+calcElec();
+/*
+*/
 
 
-
--->
-
-	
+addLinkToWord("1218Bubble","12/01/2022","#12182022")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
 	
 			<div id="1211Bubble" class="textBubbleBG">
 			<h1 id="1211Bubble"><a href="#11211022">12/11/2022</a> - Mockingbird Decipher.</h1>
