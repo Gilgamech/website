@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging mathematically again." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
+<meta name="keywords" content="blog">
+<meta name="author" content="Stephen Gillie">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.Sparational.com/Sparational.js"></script>
+		<script src="https://www.Gilgamech.com/js/sitelets.js"></script>
+		<script src="https://www.Gilgamech.com/js/cryptography.js"></script>
+		<link href="https://www.Gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.Gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script type="application/javascript"> 
+const colors = ["#E50000", //red"#FF8D00",//orange "#FFFF00", //yellow"#028121",//green "#004CFF",//indigo "#760088",//purple "#FFFFFF",//white"#FFAFC7",//pink"#73D7EE",//teal"#000000"];//black
+
+window.addEventListener("mousedown", (e) => {
+	const color = colors.shift();
+	var foreground = "#000000"
+if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) < 500){
+	foreground = "#FFFFFF"
+}
+
+ document.documentElement.style.setProperty("--highlight-color", color);
+ document.documentElement.style.setProperty("--foreground-color", foreground);
+ colors.push(color);
+});
+</script>
+<style type="text/css"> 
+body {
+	background: #700;
+}
+.textBubbleBG {
+	background: #efe;
+	border: 1px solid #0f0;
+}
+.floatingBubble {
+ display: inline-block;
+ max-width: 98%;
+}
+
+.validInput {
+	background-color:#d9ead3;
+}
+
+.saltine .house {
+	text-align:center;
+	vertical-align:center;
+	padding:2px 3px 2px 3px;
+}.saltine .house a {
+	color: inherit;
+} .s0{
+	background-color:#ffd966;
+}.s1{
+	background-color:#ffe599;
+} .s2{
+	background-color:#fff2cc;
+} .s3{
+	background-color:#ffff00;
+} .s4{
+	background-color:#ff9900;
+} .s5{
+	background-color:#c9daf8;
+} .s6{
+	background-color:#f1c232;
+} .s7{
+} .tableYes{
+	background-color:#D9EAD3;
+} .tableNo{
+	background-color:#F4CCCC;
+} .tableMaybe{
+	background-color:#FCE5CD;
+}
+
+.THeader {
+	width:52px;
+}
+.TRow {
+	height: 45px;
+	line-height: 45px;
+}
+
+:root {
+ --highlight-color: null;
+ --foreground-color: null;
+}
+
+::selection {
+ background: var(--highlight-color);
+ color: var(--foreground-color);
+}
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+                <ul>
+                    <li><a>Blog ▼</a><ul>
+                        <li><a href="/blog.html">Blog</a></li>
+					</ul></li>
+                    <li><a href="/history.html">World History</a></li>
+                    <li><a>Stuff ▼</a><ul>
+                        <li><a href="/Gillogisms.html">Gillogisms</a></li>
+                    </ul></li>
+                    <li><a href="/contact.html">Contact</a></li>
+				</ul>
+            </nav>
+			</div><script>rebuildElement("navContainer");buildMenuPage("navContainer")</script>
+		<div id="content">
+			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
+			</div><br><br>
+
+
+			<div id="1218Bubble" class="textBubbleBG">
+			<h1 id="1218Bubble"><a href="#12182022">12/18/2022</a> - Electricity consumption cost calculator.</h1>
+			</div>
+<script>
+addElement("1218Bubble","Given the propensity to supplement the meager solar illumination with domestic illumination, a calculator to compute 'how much will this light strand cost me per day' seemed apropos.","","p")
+
+
+var calcArea = addElement("1218Bubble")
+addElement(calcArea,"Electricty cost calculator","","h2")
+
+addElement(calcArea,"Cost of electricity: $","","span")
+var CostInput = addElement(calcArea,"0.10","","input","","","calcElec();","","","value","0.10")
+addElement(calcArea,"/kWh","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Amperage of device: ","","span")
+var AmpInput = addElement(calcArea,".25","","input","","","calcElec();","","","value",".25")
+addElement(calcArea," Amps","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Wattage of device at 120v: ","","span")
+var WattCalc = addElement(calcArea,"30","","input","","","calcElec(1);","","","value","30")
+addElement(calcArea," Watts","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Hourly electricity consumption: ","","span")
+var ConsCalc = addElement(calcArea,"0.03","","input","","","calcElec();","","","value","0.03")
+addElement(calcArea," kWh","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Cost of 1 hour of operation: $","","span")
+var HourCost = addElement(calcArea,"0.003","","input","","","calcElec();","","","value","0.003")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Cost per day of operation: $","","span")
+var DayCost = addElement(calcArea,"0.072","","input","","","calcElec();","","","value","0.072")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
+
+addElement(calcArea,"Cost per month (30 days) of operation: $","","span")
+var MonthCost = addElement(calcArea,"2.16","","input","","","calcElec();","","","value","2.16")
+addElement(calcArea,"","","span")
+addElement(calcArea,"","","br")
+
+function calcElec(op) {
+	if (op ==1) {
+		writeElement(AmpInput,getRoundedNumber(readElement(WattCalc)/120,2))
+	} else {
+		writeElement(WattCalc,getRoundedNumber(readElement(AmpInput)*120,2))
+	}
+	writeElement(ConsCalc,getRoundedNumber(readElement(WattCalc)/1000,4))
+	writeElement(HourCost,getRoundedNumber(readElement(CostInput)*readElement(ConsCalc),4))
+	writeElement(DayCost,getRoundedNumber(readElement(HourCost)*24,4))
+	writeElement(MonthCost,getRoundedNumber(readElement(DayCost)*30,2))
+}
+calcElec();
+/*
+*/
+
+
+addLinkToWord("1218Bubble","12/01/2022","#12182022")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
+	
+			<div id="1211Bubble" class="textBubbleBG">
+			<h1 id="1211Bubble"><a href="#11211022">12/11/2022</a> - Mockingbird Decipher.</h1>
+			</div>
+<script>
+function outputMockingCipher2(process,keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
+	writeElement(txtMid,doMockingCipher(readElement(0,keyInput),readElement(txtInput)));
+	writeElement(txtEnc,doMockingCipher(readElement(0,keyInput),doEnigmaMan(1,readElement(mocked))));
+	writeElement(keyOutput,revertMockingCipher(readElement(encrypted)))
+	writeElement(txtDecrypt,doEnigmaMan(2,readElement(encrypted)))
+}
+
+addElement("1211Bubble","Bringing back the encryption inputs, so everything is in the same place.","","p")
+
+var txtArea = addElement("1211Bubble")
+addElement(txtArea,"Input","","h2")
+addElement(txtArea,"Key:")
+var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)","","","value","HELLOWORLD")
+addElement(txtArea,"","","br")
+addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
+var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+
+addElement(txtArea,"","","br")
+addElement(txtArea,"Encryption","","h2")
+addElement(txtArea,"Text:")
+var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement(txtArea,"Encrypted:")
+var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+
+var txtArea3 = addElement("1211Bubble")
+addElement(txtArea3,"","","br")
+addElement(txtArea3,"Decryption","","h2")
+addElement(txtArea3,"Key:")
+var keyOutput = addElement(txtArea3,"","","input","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement(txtArea3,"Text:")
+var txtDecrypt = addElement(txtArea3,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addElement("1211Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
+
+//Handle key overflow better
+//Increase key precision
+//Decrypt key - will require diffing middle vs original text, or specifying an encoding pattern.
+//Auto-Enigma Man
+
+addLinkToWord("1211Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
+addLinkToWord("1211Bubble","11/02/2022","#12112022")
+addElement("content","","","br")
+addElement("content","","","br")
+
+outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput);
+</script>
+
+
+			<div id="1202Bubble" class="textBubbleBG">
+			<h1 id="1202Bubble"><a href="#12022022">12/02/2022</a> - Winter recipes.</h1>
+			</div>
+<script>
+addElement("1202Bubble","Breakfast","","h1")
+addElement("1202Bubble","Egg monster","","h2")
+var UL1 = addElement("1202Bubble","","","ul")
+addElement(UL1,"Egg portal is a Ziploc Small Round (short round) 4oz container.","","li")
+addElement(UL1,"Microwave 1-2 patties or 3-5 links of sausage in your egg portal for 1 minute or until done. Transfer to plate. ","","li")
+addElement(UL1,"Crack one egg into egg portal. Add seasonings (salt, pepper, and paprika recommended) and another egg. You'll have to watch it cook. Microwave for 2 minutes or until done. ","","li")
+addElement(UL1,"Watch it closely and stop it if it's about to fall over, to cut off the top half and restart the bottom half to finish cooking.","","li")
+addElement(UL1,"It's done when the liquid egg mixture has completely solidified. Usually it will rise out of the egg portal menacingly. Don't be afraid - be hungry.","","li")
+
+addElement("1202Bubble","Thanksgiving Dinner","","h1")
+addElement("1202Bubble","Cranberry sauce:","","h2")
+var UL2 = addElement("1202Bubble","","","ul")
+addElement(UL2,"Microsteam 1 bag of raw cranberries until most of them have popped open, serve. ","","li")
+addElement(UL2,"The overwhelming sourness is a feature to be offset by other foods.","","li")
+
+addElement("1202Bubble","Mashed potatoes:","","h2")
+var UL7 = addElement("1202Bubble","","","ul")
+addElement(UL7,"Cube and microsteam 3.5 cups of potatoes and 0.5 cups of either yam or sweet potato for about 10 minutes or until soft to a fork.","","li")
+addElement(UL7,"Mix with 1/2 cup (or full cup?) half and half and 1-2 Tbsp butter and like a dozen shakes of the salt shaker.","","li")
+addElement(UL7,"Mash by cutting with knife, then fluff with fork.","","li")
+
+addElement("1202Bubble","Dressing:","","h2")
+var UL3 = addElement("1202Bubble","","","ul")
+addElement(UL3,"Dice 1 cup shallots and 1 cup celery. Caramelize with butter, or at least microsteam.","","li")
+addElement(UL3,"Microsteam giblets and neck. Save drippings. Dice giblets.","","li")
+addElement(UL3,"Mix shallots, celery, giblets, and stuffing bread. ","","li")
+addElement(UL3,"Cover mix with the drippings you saved earlier. Use normal turkey drippings if you run out.","","li")
+addElement(UL3,"Bake 40 minutes at 350F covered with aluminum foil.","","li")
+
+addElement("1202Bubble","Green Bean Casserole","","h2")
+var UL4 = addElement("1202Bubble","","","ul")
+addElement(UL4,"Microsteam 4 cups raw green beans, cleaned and cut to under 2 inches.","","li")
+addElement(UL4,"Mix with 1 container unsalted cream of mushroom soup, 1/2 container of fried onions, and like a dozen shakes of the pepper shaker. ","","li")
+addElement(UL4,"Bake 40 minutes at 350F.","","li")
+addElement(UL4,"Top with the other 1/2 container of fried onions.","","li")
+
+addElement("1202Bubble","Pumpkin Pie","","h2")
+var UL5 = addElement("1202Bubble","","","ul")
+addElement(UL5,"Open 1 can of pumpkin, OR clean and microsteam 2 cups of raw pumpkin squash.","","li")
+addElement(UL5,"Beat (thoroughly combine yolk and albumen) 2 eggs.","","li")
+addElement(UL5,"Mix with 1 cup of half-and-half and the 2 defeated eggs. ","","li")
+addElement(UL5,"Pour mix into crust. (Store brand graham cracker crust got soggy.)","","li")
+addElement(UL5,"Bake 40 minutes at 350F.","","li")
+
+addElement("1202Bubble","Leftovers","","h1")
+addElement("1202Bubble","Cranberry Turkey Crossants:","","h2")
+var UL6 = addElement("1202Bubble","","","ul")
+addElement(UL6,"Leftover turkey","","li")
+addElement(UL6,"Cranberry sauce (above)","","li")
+addElement(UL6,"Brie cheese","","li")
+addElement(UL6,"Crescent rolls. (Store brand oven-baked cresecent rolls were small, crumbly, and difficult to fill with cranberry, Brie, & turkey.)","","li")
+
+addLinkToWord("1202Bubble","12/02/2022","#12022022")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
+
+			<div id="1201Bubble" class="textBubbleBG">
+			<h1 id="1201Bubble"><a href="#12012022">12/01/2022</a> - Steaming mad at food.</h1>
+			</div>
+<script>
+addElement("1201Bubble","Consider \"micro-steaming\" - microwaving food inside a Rubbermaid brilliance 4.7 cup glass container. Put meat over veggies in the glass container, push the lid all the way on but don't snap the seals (so steam can escape). Due to a relocation complication, plastic wrap is being substituted for the lid.","","p")
+var img1alt = "Glass container with food inside."
+addElement("1201Bubble",img1alt,"","img","","/images/MicrosteamCooking.jpg","","","","alt",img1alt)
+addElement("1201Bubble","Microwave until the meat is 165F inside, or 145F for beef (about 10 minutes - in a 750 watt microwave at 100%, 1000 watt microwave at 60%, scaling power with bigger microwaves. You can let it sit & keep cooking for 2-5 minutes after), at which point the meat should be cooked but juicy, and the veggies soft from being boiled and steamed in the meat's juices.","","p")
+var img1alt = "Plate with steak and cubed vegetables."
+addElement("1201Bubble",img1alt,"","img","","/images/MicrosteamServed.jpg","","","","alt",img1alt)
+addElement("1201Bubble","After removing meat and veggies, feel free to sprinkle a few spoonfuls of flour into the drippings to make a simple roux gravy. This works better without vegetables.","","p")
+
+addLinkToWord("1201Bubble","12/01/2022","#12012022")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
+		
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2023 Gilgamech Technologies - Powered by <a href="https://www.Sparational.com/">Sparational.js</a>.</p>
+			</div>
+		</div>
+	</body>
+</html>

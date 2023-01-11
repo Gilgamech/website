@@ -1,17 +1,19 @@
-function buildMenuPage($parentElement) {
 //addElement($elementParent,innerText,$elementClass,$elementType,$elementStyle,$href,$onChange,$onClick,$contentEditable,$attributeType,$attributeAction,$elementId)
+//addElement("elementParent","innerText","elementClass","elementType","elementStyle","href","onChange","onClick","contentEditable","attributeType","attributeAction","elementId")
 
+function buildMenuPage($parentElement) {
 var outerUL = addElement(addElement($parentElement,"","","nav"),"","","ul")
 
 var blogLi = addElement(outerUL,"","","li")
 addElement(blogLi,"Blog ▼","","a")
 var blogUL = addElement(blogLi,"","","ul")
 
-addElement(addElement(blogUL,"","","li"),"Dec 2022","","a","","/blog.html")
+addElement(addElement(blogUL,"","","li"),"Jan 2023","","a","","/blog.html")
 
 var $2022Li = addElement(blogUL,"","","li")
 addElement($2022Li,"2022 ▼","","a")
 var $2022UL = addElement($2022Li,"","","ul")
+addElement(addElement($2022UL,"","","li"),"Dec 2022","","a","","/2022/December.html")
 addElement(addElement($2022UL,"","","li"),"Nov 2022","","a","","/2022/November.html")
 addElement(addElement($2022UL,"","","li"),"Oct 2022","","a","","/2022/October.html")
 addElement(addElement($2022UL,"","","li"),"Sept 2022","","a","","/2022/September.html")
