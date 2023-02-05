@@ -117,94 +117,82 @@ body {
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
- 
- 
-
-			<div id="0129Bubble" class="textBubbleBG">
-			<h1 id="0129Bubble"><a href="#01292023">01/29/2023</a> - Temporal Dominoes.</h1>
+		   
+			<div id="0204Bubble" class="textBubbleBG">
+			<h1 id="0204Bubble"><a href="#02042023">02/04/2023</a> - Neural Net Toy.</h1>
 			</div>
 <script>
-addElement("0129Bubble","Exploring a Gillogism: People commit illegal activities *despite* the activity being illegal, not *because* the activity is illegal. (People who commit crimes specifically to break the law either have a mental condition like kleptomania, or a grudge against a specific jurisdiction.)","","p")
+addElement("0204Bubble","What is a neural network? Here is a miniature 'neural network in a spreadsheet' upgraded to a JS-driven table. It came from a Medium article by MoralRobots that has since been deleted by its author.","","p")
+addElement("0204Bubble","Here you can control both inputs, the synapse weight, and the threshold.","","p")
 
-var list_0129_1 = addElement("0129Bubble","","","ul")
-addElement(list_0129_1,"Why are they performing these activities?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because there are no jobs in some parts of the central USA, so the only ways to make enough money to buy a house and have kids are either military service or illegal farming.","","li")
-addElement(list_0129_1,"Why is the farming illegal?","","li")
+var table = addElement("0204Bubble","","","table")
+var thead = addElement(table,"","","thead")
+var theadrow = addElement(thead,"","","tr")
+addElement(theadrow,"Title","","th")
+addElement(theadrow,"A","","th")
+addElement(theadrow,"B","","th")
+addElement(theadrow,"Synapse Weight","","th")
+var tbody = addElement(table,"","","tbody")
 
-addElement(addElement(list_0129_1,"","","ul"),"So it doesn't compete with medical opium sales.","","li")
-addElement(list_0129_1,"Why are there no jobs?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because to ensure world peace, we exported all of our medium-paying laboring jobs to other nations, so they'd be on \"our side\" during the Cold War.","","li")
-addElement(list_0129_1,"Why were we fighting the Cold War?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because Stalin didn't like not getting war reparations out of all of Germany after WW2, and also just to be contrary to another world power with a different set of popular political philosophies.","","li")
-addElement(list_0129_1,"What caused WW2?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Extensive WW1 reparations caused an intense surge in both nationalism and socialism within the recently-formed German nation, and these merged into the greatest moral evil of the modern era.","","li")
-addElement(list_0129_1,"Why were Germany paying WW1 reparations?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because they lost WW1 and their monarch Hohenzolleren disappeared. (Everybody lost WW1, in one way or another - nobody was a real winner in that war. A lot of authors and idealists lost their innocence.)","","li")
-addElement(list_0129_1,"Why were they fighting WW1?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because Europeans were hungry for a good war, as they hadn't had one in a while, and since there wasn't always an exchange rate set between 2 nations, there might be no mechanism other than post-war looting to get what another nation had. The Archduke's assassination was as good of a reason as any.","","li")
-addElement(list_0129_1,"Why were Europeans hungry for a good war?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because before then, \"war\" meant melees with clubs and maybe swords, and glorious commanders on valiant steeds - not too different from modern amateur sportsball teams, especially with scrums. WW1 was the world's introduction to industrial combat.","","li")
-addElement(list_0129_1,"Why was house of Hohenzolleren the monarch?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"Because the house was formed after Grand Master Albert of the Teutonic Order converted to Lutheranism, to steal the Catholic Church's riches.","","li")
-addElement(list_0129_1,"Why was the Renaissance-era Catholic Church so rich?","","li")
-addElement(addElement(list_0129_1,"","","ul"),"They had become corrupt, and were selling \"get out of Hell free\" cards in exchange for enough money to buy, like, a horse - and aristocrats were buying these for each of their deceased relatives - partly out of moral duty, partly to \"keep up with the Joneses\".","","li")
+var Inputsrow = addElement(tbody,"","","tr")
+addElement(Inputsrow,"Inputs","","th")
+var inputA = addElement(addElement(Inputsrow,"","","td"),"1","","input","","","runSynapses()","","","type","number")
+var inputB = addElement(addElement(Inputsrow,"","","td"),"0","","input","","","runSynapses()","","","type","number")
+
+var Synapsesrow = addElement(tbody,"","","tr")
+addElement(Synapsesrow,"Synapses","","th")
+var synapseA = addElement(Synapsesrow,"","","td")
+var synapseB = addElement(Synapsesrow,"","","td")
+var synapseWeight = addElement(addElement(Synapsesrow,"","","td"),"0.6","","input","","","runSynapses()","","","type","number")
+
+var Weightedrow = addElement(tbody,"","","tr")
+addElement(Weightedrow,"Weighted Output","","th")
+var outputA = addElement(Weightedrow,"","","td")
+var outputB = addElement(Weightedrow,"","","td")
+
+var Activationrow = addElement(tbody,"","","tr")
+addElement(Activationrow,"Activation","","th")
+var activation = addElement(Activationrow,"","","td")
+
+var Thresholdrow = addElement(tbody,"","","tr")
+addElement(Thresholdrow,"Threshold","","th")
+var threshold = addElement(addElement(Thresholdrow,"","","td"),"1","","input","","","runSynapses()","","","type","number")
+
+var Outputrow = addElement(tbody,"","","tr")
+addElement(Outputrow,"Output","","th")
+var outputFinal = addElement(Outputrow,"","","td")
+		   
+addElement("0204Bubble","The article offered 2 simple modes of operation: ","","p")
+var list0204 = addElement("0204Bubble","","","ul")
+addElement(list0204,"Synapse weight set to 1 - OR circuit","","li")
+addElement(list0204,"Synapse weight set to 0.6 - AND circuit","","li")
+addElement("0204Bubble","Setting the weight to 1 makes this circuit into an OR circuit, where setting either input to 1 will set the output to 1. Only when both are set to 0 will the output be 0, so it's not an XOR. And setting the weight to 0.6 turns this into an AND circuit, where both inputs must be 1 to turn the output to 1.","","p")
+addElement("0204Bubble","When you start playing with it, you may start using decimal numbers to get more fine-tuned results. This sorta works in simulation, but not with individual bits - these must be 0s or 1s. But there is a quantum solution for this as well. Readers of my Gillogisms know where this is going.","","p")
 
 
-
-addLinkToWord("0129Bubble","01/29/2023","#01292023")
 addElement("content","","","br")
 addElement("content","","","br")
-</script>
 
-			<div id="0122Bubble" class="textBubbleBG">
-			<h1 id="0122Bubble"><a href="#01222023">01/22/2023</a> - Kierkegaardian Motion.</h1>
-			</div>
-<script>
-addElement("0122Bubble","What's better than INTJ? Well, start with what is INTJ?","","p")
-var list_0122_1 = addElement("0122Bubble","","","ul")
-addElement(list_0122_1,"Introvert - Limits external data sources, giving internal data sources relatively more influence.","","li")
-addElement(list_0122_1,"iNtuition - Internal data moving outward.","","li")
-addElement(list_0122_1,"Thinking - Internal data moving outward.","","li")
-addElement(list_0122_1,"Judging - Internal data moving outward.","","li")
-addElement("0122Bubble","Next, what is opposite of INTJ? ESFP:","","p")
-var list_0122_2 = addElement("0122Bubble","","","ul")
-addElement(list_0122_2,"Extrovert - Adds external data sources, giving internal data sources relatively less influence.","","li")
-addElement(list_0122_2,"Sensing - External data moving inward.","","li")
-addElement(list_0122_2,"Feeling - External data moving inward.","","li")
-addElement(list_0122_2,"Perceiving - External data moving inward.","","li")
-addElement("0122Bubble","What is better than either one, according to Kierkegaard? Both, oscillating between them. This gives a receive-send loop where you receive from others and then provide it back to them, often transformed in some value-adding way.","","p")
+function runSynapses(){
+	writeElement(synapseA,(readElement(synapseWeight)*1))
+	writeElement(synapseB,(readElement(synapseWeight)*1))
 
-
-addLinkToWord("0122Bubble","01/22/2023","#01222023")
-addElement("content","","","br")
-addElement("content","","","br")
-</script>
-
-			<div id="0118Bubble" class="textBubbleBG">
-			<h1 id="0118Bubble"><a href="#01182023">01/18/2023</a> - White Horse.</h1>
-			</div>
-<script>
-addElement("0118Bubble","Why do so many senior US politicians store classified or sensitive documents in their homes? This has been a major controversy spanning at least the past 3 Presidential terms. Yet the two political sports teams can only see it happening in the other team's dugout. So nobody actually wants to solve the problem, just prevent the other side from batting.","","p")
-addElement("0118Bubble","Referring to a Gillogsim: 'Members of one political party will intentionally hurt themselves during the other party's turn, so they can truthfully say that people got hurt during the other party's turn. Like if the Dodgers were hosting the Astros, and during the bottom of every inning, a bunch of Astros fans started a fight, every inning, until the 5th inning when security cleared out a huge chunk of the stands. And the Astros fans did this so they could talk about how unsafe it is when the Dodgers are at bat, because of all the fights in the stands - therefore the Dodgers shouldn't be allowed to bat anymore, and only the Astros should bat. Where's the political equivalent of unsportspersonlike conduct? Ethics lol. Where's the political equivalent of a fiduciary?'","","p")
-
-addLinkToWord("0118Bubble","01/18/2023","#01182023")
-addLinkToWord("0118Bubble","OpenDND","https://www.cbr.com/dnd-fans-demand-opendnd-wotc-revoke-new-ogl/")
-addElement("content","","","br")
-addElement("content","","","br")
-</script>
+	writeElement(outputA,readElement(inputA)*readElement(synapseA))
+	writeElement(outputB,readElement(inputB)*readElement(synapseB))
 	
-			<div id="0111Bubble" class="textBubbleBG">
-			<h1 id="0111Bubble"><a href="#01112023">01/11/2023</a> - C Wot they did there.</h1>
-			</div>
-<script>
-addElement("0111Bubble","In response to Wizards of the Coast performing a rug-pull with their content license, all Gilgamech Technologies content that was D&D content is now stand-alone content. We no longer endorse or support D&D, as the developers have revealed that they're untrustworthy, and instead recommend an OpenDND system.","","p")
+	writeElement(activation,(readElement(outputA)*1)+(readElement(outputB)*1))
+	if (readElement(activation) >= readElement(threshold)) {
+		writeElement(outputFinal,1)
+	} else {
+		writeElement(outputFinal,0)
+	}
+	
+}
 
-addLinkToWord("0111Bubble","01/11/2023","#01112023")
-addLinkToWord("0111Bubble","OpenDND","https://www.cbr.com/dnd-fans-demand-opendnd-wotc-revoke-new-ogl/")
-addElement("content","","","br")
-addElement("content","","","br")
+runSynapses();
+
 </script>
-		
+		   
 		</div><!-- End Content-->
 		<div id="footWrapper">
 			<div class="container-fluid">
