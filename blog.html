@@ -117,12 +117,68 @@ body {
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
-		   
-			<div id="0204Bubble" class="textBubbleBG">
-			<h1 id="0204Bubble"><a href="#02042023">02/04/2023</a> - Neural Net Toy.</h1>
+			<div id="0205Bubble" class="textBubbleBG">
+			<h1 id="0205Bubble"><a href="#02052023">02/05/2023</a> - Neural Net Toy - Part 2: Hardware is king..</h1>
 			</div>
 <script>
-addElement("0204Bubble","What is a neural network? Here is a miniature 'neural network in a spreadsheet' upgraded to a JS-driven table. It came from a Medium article by MoralRobots that has since been deleted by its author.","","p")
+addElement("0205Bubble","What is a neural network?","","h2")
+addElement("0205Bubble","Right now, neural networks are arrays stored and computed on massive GPUs in cloud servers.","","p")
+
+addElement("0205Bubble","How much would one server cost?","","h2")
+addElement("0205Bubble","Tom estimates that 'A100 GPU costs about $3/hr to rent on Azure.'","","p")
+mdArrayToTable("0205Bubble","0205Table2",[
+["Model", "#A100s", "HW/mo", "OS/mo", "Total/mo", "Total/day", "Total/hour", "Total/hour/A100"],
+["Standard_ND96amsr_A100_v4",8, 10525.72, 3223.68],
+["1/8 server (represents 1x A100)",1, 1315.715, 402.96]
+])
+columnMath("0205Table2",2,"0205Table2",3,0,"0205Table2",4,"add",2,"") //Total/mo
+columnMath("0205Table2",4,"",30,0,"0205Table2",5,"divide",2,"") //Total/day
+columnMath("0205Table2",5,"",24,0,"0205Table2",6,"divide",2,"") //Total/hour
+columnMath("0205Table2",6,"0205Table2",1,0,"0205Table2",7,"divide",2,"") //Total/hour/A100
+
+addElement("0205Bubble","To verify, we can find the specific model of server that comes with 8x A100 GPUs: 'Standard_ND96amsr_A100_v4'. This model isn't available in all regions, but it *is* available in the East US region. With a 3 year reservation, the Azure Pricing Calculator says this class of server costs $13,749.40 per month, which is close. This is just for the server, and not for bandwidth.","","p")
+
+
+addElement("0205Bubble","How many queries can one server answer?","","h2")
+mdArrayToTable("0205Bubble","0205Table1",[
+["Model", "Parameters", "ms", "sec/ms", "#A100s","Param/ms","Param/ms/#A100s","words/sec","words/day","queries/day"],
+["3 billion", "3 billion", 6, 1000, 1],
+["ChatGPT 1GPU", "175 billion", 350, 1000, 1],
+["ChatGPT", "175 billion", 50, 1000, 8],
+["BLOOM 176B", "176 billion", 45, 1000, 8]
+])
+columnMath("0205Table1",1,"0205Table1",2,0,"0205Table1",5,"divide",2,"true") //Param/ms
+columnMath("0205Table1",5,"0205Table1",4,0,"0205Table1",6,"divide",2,"true") //Param/ms/#A100s
+columnMath("0205Table1",3,"0205Table1",2,0,"0205Table1",7,"divide",2,"true") //words/sec
+columnMath("0205Table1",7,"",86400,0,"0205Table1",8,"multiply",2,"true") //words/day
+columnMath("0205Table1",8,"",30,0,"0205Table1",9,"divide",2,"true") //queries/day
+addElement("0205Bubble","When compared in terms of parameters per millisecond per A100, these estimations become somewhat consistent. Each GPU can process about 400-500 million parameters per millisecond, and this rate lets the 175-176 billion parameter models produce about 20 words per second. At 86400 seconds/day, 20 words/sec gives 1.73 million words/day. At 30 words/query, this gives 57,670 queries/day per server. ","","p")
+
+addElement("0205Bubble","How much would one day cost?","","h2")
+addElement("0205Bubble","Tom estimates (and I agree) that 1 million users could easily average 10 queries per day, so 10 million queries/day isn't unreasonable. To support 10 million queries/day, 174 instances are needed. Tom estimates this costs $100k/day or $3 million/month.","","p")
+
+mdArrayToTable("0205Bubble","0205Table3",[
+["ND96amsr", "1 server", "174 servers"],
+["Month","13.75k"],
+["Year","165k"],
+])
+columnMath("0205Table3",1,"",174,0,"0205Table3",2,"multiply",2,"") //174 servers
+addElement("0205Bubble","So again, this is a fairly accurate estimate.","","p")
+
+addLinkToWord("0205Bubble","02/05/2023","#02052023")
+addLinkToWord("0205Bubble","Tom Goldstein","https://twitter.com/tomgoldsteincs/status/1600296981955050694")
+addLinkToWord("0205Bubble","Azure pricing calculator","https://azure.microsoft.com/en-us/pricing/calculator/")
+addLinkToWord("0205Bubble","Mayank Mishra","https://huggingface.co/blog/bloom-inference-pytorch-scripts")
+addLinkToWord("0205Bubble","specific model of server","https://azureprice.net/vm/Standard_ND96amsr_A100_v4")
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
+		   
+			<div id="0204Bubble" class="textBubbleBG">
+			<h1 id="0204Bubble"><a href="#02042023">02/04/2023</a> - Neural Net Toy - Part 1: Neuron.</h1>
+			</div>
+<script>
+addElement("0204Bubble","What is a neural network? Here is a neuron from a miniature 'neural network in a spreadsheet' upgraded to a JS-driven table. It came from a Medium article by MoralRobots that has since been deleted by its author.","","p")
 addElement("0204Bubble","Here you can control both inputs, the synapse weight, and the threshold.","","p")
 
 var table = addElement("0204Bubble","","","table")
