@@ -117,6 +117,95 @@ body {
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
+			<div id="0206Bubble" class="textBubbleBG">
+			<h1 id="0206Bubble"><a href="#02062023">02/06/2023</a> - Neural Networks - Part 3: Tying together a small net.</h1>
+			</div>
+<script>
+addElement("0206Bubble","What is a neural network? Several neurons connected output to inputs. Building off Part 1, what is a neuron? Weighted inputs (synapses) that sum to an activation value, which modify an output if the activation value is greater than an threshold value.","","p")
+addElement("0206Bubble","In a neural network, neurons are stratified into layers:","","p")
+var list0206 = addElement("0206Bubble","","","ul")
+addElement(list0206,"In the input layer, each input neuron needs one synapse per input. More input neurons will give more input granularity.","","li")
+addElement(list0206,"In the middle and output layers, each neuron needs one synapse foreach neuron of the layer above.","","li")
+addElement(list0206,"More middle neurons, and more layers will again give more granularity.","","li")
+addElement(list0206,"In the output layer, one neuron is needed foreach output value.","","li")
+addElement("0206Bubble","Here is the Part 1 neuron condensed into a row, and copied. The mid layer synapses are fed from the input layer, and the output layer's synapses are fed from the mid layer. This network is too small to really be useful, but it gives a functional concept of what larger models are doing.","","p")
+
+
+//Input array
+//weight array
+//
+
+addElement("0206Bubble","Inputs","","span")
+var inputA_0206 = addElement("0206Bubble","1","","input","","","propagateValues();")
+var inputB_0206 = addElement("0206Bubble","0","","input","","","propagateValues();")
+mdArrayToTable("0206Bubble","table",[["Title","Synapses","Weights","Threshold","Output"]])
+var tbody = returnTablePart("table","TBODY").id
+
+addElement("0206Bubble","There's one more part omitted from Part 1 - the memory and weight update. These are a function that look at the output, and the history, and determine how to modify the weights of each synapse. If increasing the weight increases progress towards the desired goal (aka good) the weight will continue getting increased. But if not, the weight will become decreased.","","p")
+
+
+//addElement("elementParent","innerText","elementClass","elementType","elementStyle","href","onChange","onClick","contentEditable","attributeType","attributeAction","elementId")
+
+function addNeuronRow(rowName) {
+	var neuronRow = addElement(tbody,"","","tr")
+	addElement(neuronRow,rowName,"","th")
+	addElement(addElement(neuronRow,"","","td"),"[0,0]","","input","","","updateRow('"+rowName+"');propagateValues();","","","","",rowName+"inputs")
+	addElement(addElement(neuronRow,"","","td"),"[0.6,0.6]","","input","","","updateRow('"+rowName+"');propagateValues();","","","","",rowName+"weights")
+	addElement(addElement(neuronRow,"","","td"),"1","","input","","","updateRow('"+rowName+"');propagateValues();","","","","",rowName+"threshold")
+	addElement(addElement(neuronRow,"","","td"),"","","","","","","","","","",rowName+"output")
+	updateRow(rowName);
+}
+function updateRow(rowName){
+	writeElement(rowName+"output",doNeuron(readElement(rowName+"inputs"),readElement(rowName+"weights"),readElement(rowName+"threshold")));
+}
+
+function propagateValues() {
+	writeElement("InputAinputs","["+readElement(inputA_0206)+","+readElement(inputB_0206)+"]")
+	updateRow("InputA")
+	writeElement("InputBinputs","["+readElement(inputA_0206)+","+readElement(inputB_0206)+"]")
+	updateRow("InputB")
+
+	writeElement("MidAinputs","["+readElement('InputAoutput')+","+readElement('InputBoutput')+"]")
+	updateRow("MidA")
+	writeElement("MidBinputs","["+readElement('InputAoutput')+","+readElement('InputBoutput')+"]")
+	updateRow("MidB")
+
+	writeElement("OutAinputs","["+readElement('MidAoutput')+","+readElement('MidBoutput')+"]")
+	updateRow("OutA")
+	writeElement("OutBinputs","["+readElement('MidAoutput')+","+readElement('MidBoutput')+"]")
+	updateRow("OutB")
+}
+
+addNeuronRow("InputA")
+addNeuronRow("InputB")
+addNeuronRow("MidA")
+addNeuronRow("MidB")
+addNeuronRow("OutA")
+addNeuronRow("OutB")
+
+addElement("content","","","br")
+addElement("content","","","br")
+
+function doNeuron(inputArray,weightArray,threshold){
+	var accumulate = 0;
+	inputArray = eval(inputArray)
+	weightArray = eval(weightArray)
+	threshold = eval(threshold)
+	for (var i = 0;i<inputArray.length;i++) {
+		accumulate += inputArray[i]*weightArray[i]
+	}
+	if (accumulate >= threshold) {
+		return accumulate//1
+	} else {
+		return 0
+	}
+	
+}
+
+propagateValues();
+</script>
+					
+					
 			<div id="0205Bubble" class="textBubbleBG">
 			<h1 id="0205Bubble"><a href="#02052023">02/05/2023</a> - Neural Networks - Part 2: Hardware is king.</h1>
 			</div>
