@@ -128,7 +128,7 @@ addElement("0209Bubble","A very apparent technology goal is to reduce the power 
 addElement("0209Bubble","How do these stack up against the A100?","","h2")
 mdArrayToTable("0209Bubble","0209Table2",[
 ["Processor","Date Introduced","Process node(nm)","Die size (mm²)","On-chip Memory","Clock Speed (MHz)","Smallest Memory Configuration (GB)","TDP (Watts)","TOPS","TOPS/W"],
-["TPUv1",2016,28,"331",28,700,"8 DDR3",23,75],
+["TPUv1",2016,28,"331",28,700,"8 DDR3",230,75],
 ["TPUv2",2017,16,"<625",32,700,"16 HBM",280,45],
 ["TPUv3",2018,16,"<700",32,940,"32 HBM",450,90],
 ["TPUv4",2021,7,"<400",144,1050,"32 HBM",175,"?"],
@@ -137,7 +137,7 @@ mdArrayToTable("0209Bubble","0209Table2",[
 ["*A100*",2020,7,826,80,1215 ,"80 HBM2 ",400,1248]
 ])
 columnMath("0209Table2",8,"0209Table2",7,0,"0209Table2",9,"divide",2,"") //Total/mo
-addElement("0209Bubble","(Note here that the TPUv1 has a TOPS/W of 3.26, but the article lists it as 0.3.)","","p")
+addElement("0209Bubble","(Note here that the TPUv1 has a -correction- TDP of 230, but the article lists it as 23.)","","p")
 
 addElement("0209Bubble","In his Twitter thread, Tom Goldstein remarked that ChatGPT wouldn't fit on a single A100, but instead you'd need at least 5, implying the model is between 350-400 GB. This means the model's power requirements are a minimum of 2 kW just for A100s, and probably closer to 3.5 kW for the full ND96amsr mentioned in Sunday's blog post. Across one hour, this is 3.5 kWh, or about 1-2 days of electricity use for the average American. For 174 servers, this is close to 1 American's annual electrical use per hour. For this to work on a Boston Dynamics robot, the brains would have to be in a rackmount tower.","","p")
 addElement("0209Bubble","Ergo's tremendous TOPS/Watts makes it a great next step. (Note here again that the Ergo has a TOPS/W of 200 based on the numbers provided by the article, but the article lists it as merely 54.) It's 64 (or 17) times more efficient than the A100, meaning that if they were able to scale it up 100 times - from 4 GB to 400 GB, it could operate ChatGPT for about 54.6 (or 202) Watts - for one hour would be 54.6 (or 202) Watt-hours, which is equal to 1 (or 4) high-end battery laptop(s). This package would be trivial to stuff inside a Boston Dynamics robot, and the real difficulty then would be instrumenting the robot and feeding the sensor inputs into the chip.","","p")
