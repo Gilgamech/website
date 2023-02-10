@@ -117,6 +117,46 @@ body {
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
+			<div id="0209Bubble" class="textBubbleBG">
+			<h1 id="0209Bubble"><a href="#02092023">02/09/2023</a> - Neural Networks - Part 4: Accumulated multiplication.</h1>
+			</div>
+<script>
+addElement("0209Bubble","What is a neural network?","","h2")
+addElement("0209Bubble","The near future of neural networks involves a new type of compute hardware. Instead of CPUs with massive very-general-purpose compute units, or GPUs with massive pipelines of compute units, AI will need TPUs (as AIPU was already taken), which have specialized Multiply-Accumulate compute areas. These are a much more complex mix of very small and specialized compute and memory units, tied together in a physical network that begins to resemble brain neurons in construction. These have greatly reduced power consumption requirements for matrix multiplication.","","p")
+addElement("0209Bubble","A very apparent technology goal is to reduce the power and processing requirements down to where the processors and power supply for ChatGPT could fit within a Boston Dynamics robot. This would put our society at about the point of Issac Newton's I, Robot, where general-purpose robots become a common utility.","","p")
+
+addElement("0209Bubble","How do these stack up against the A100?","","h2")
+mdArrayToTable("0209Bubble","0209Table2",[
+["Processor","Date Introduced","Process node(nm)","Die size (mm²)","On-chip Memory","Clock Speed (MHz)","Smallest Memory Configuration (GB)","TDP (Watts)","TOPS","TOPS/W"],
+["TPUv1",2016,28,"331",28,700,"8 DDR3",23,75],
+["TPUv2",2017,16,"<625",32,700,"16 HBM",280,45],
+["TPUv3",2018,16,"<700",32,940,"32 HBM",450,90],
+["TPUv4",2021,7,"<400",144,1050,"32 HBM",175,"?"],
+["Edgev1",2018,"","","","","",2,4],
+["Ergo",2020,"",49,"","","",0.020,4],
+["*A100*",2020,7,826,80,1215 ,"80 HBM2 ",400,1248]
+])
+columnMath("0209Table2",8,"0209Table2",7,0,"0209Table2",9,"divide",2,"") //Total/mo
+addElement("0209Bubble","(Note here that the TPUv1 has a TOPS/W of 3.26, but the article lists it as 0.3.)","","p")
+
+addElement("0209Bubble","In his Twitter thread, Tom Goldstein remarked that ChatGPT wouldn't fit on a single A100, but instead you'd need at least 5, implying the model is between 350-400 GB. This means the model's power requirements are a minimum of 2 kW just for A100s, and probably closer to 3.5 kW for the full ND96amsr mentioned in Sunday's blog post. Across one hour, this is 3.5 kWh, or about 1-2 days of electricity use for the average American. For 174 servers, this is close to 1 American's annual electrical use per hour. For this to work on a Boston Dynamics robot, the brains would have to be in a rackmount tower.","","p")
+addElement("0209Bubble","Ergo's tremendous TOPS/Watts makes it a great next step. (Note here again that the Ergo has a TOPS/W of 200 based on the numbers provided by the article, but the article lists it as merely 54.) It's 64 (or 17) times more efficient than the A100, meaning that if they were able to scale it up 100 times - from 4 GB to 400 GB, it could operate ChatGPT for about 54.6 (or 202) Watts - for one hour would be 54.6 (or 202) Watt-hours, which is equal to 1 (or 4) high-end battery laptop(s). This package would be trivial to stuff inside a Boston Dynamics robot, and the real difficulty then would be instrumenting the robot and feeding the sensor inputs into the chip.","","p")
+
+addElement("0209Bubble","Beyond Ergo","","h2")
+addElement("0209Bubble","This is the first of many new potentially post-MAC chip designs, and the first of many new AI models. And probably just scratching the surface of efficiency for this mathematical model.","","p")
+
+addLinkToWord("0209Bubble","AIPU was already taken","https://ubhc.rutgers.edu/clinical/inpatient/adult-inpatient-services.xml")
+addLinkToWord("0209Bubble","Ergo's tremendous","https://www.embedded.com/edge-ai-chip-forgoes-multiply-accumulate-array-to-reach-55-tops-w/")
+addLinkToWord("0209Bubble","TOPS/Watts","http://topsperwatt.com/")
+addLinkToWord("0209Bubble","2 kW just for A100s","https://developer.nvidia.com/blog/nvidia-ampere-architecture-in-depth/")
+addLinkToWord("0209Bubble","need TPUs","https://www.makeuseof.com/what-is-tpu-how-is-it-used/")
+addLinkToWord("0209Bubble","more efficient than the A100","https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-us-nvidia-1758950-r4-web.pdf")
+
+addElement("content","","","br")
+addElement("content","","","br")
+</script>
+		   
+					
 			<div id="0206Bubble" class="textBubbleBG">
 			<h1 id="0206Bubble"><a href="#02062023">02/06/2023</a> - Neural Networks - Part 3: Tying together a small net.</h1>
 			</div>
