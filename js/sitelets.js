@@ -64,3 +64,10 @@ addElement(addElement(toolsUL,"","","li"),"Error Analyzer","","a","","/errorcaus
 
 addElement(addElement(outerUL,"","","li"),"Contact","","a","","/contact.html")
 }
+
+function buildFooterPage($parentElement) {
+	rebuildElement($parentElement);
+	var footerNav = addElement($parentElement,"","navbar-static-bottom","","text-align: center;");
+	addElement(footerNav,"© 2013-2023 Gilgamech Technologies - Powered by Sparational.js.","copyright","p");
+	addLinkToWord(footerNav,"Sparational.js","https://www.Sparational.com/");
+}
