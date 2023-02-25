@@ -2,6 +2,7 @@
 //addElement("elementParent","innerText","elementClass","elementType","elementStyle","href","onChange","onClick","contentEditable","attributeType","attributeAction","elementId")
 
 function buildMenuPage($parentElement) {
+rebuildElement($parentElement)
 var outerUL = addElement(addElement($parentElement,"","","nav"),"","","ul")
 
 var blogLi = addElement(outerUL,"","","li")

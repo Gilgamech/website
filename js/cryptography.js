@@ -1,4 +1,4 @@
-//Copyright 2013-2022 Gilgamech Technologies
+//Copyright 2013-2023 Gilgamech Technologies
 //cryptography.js
 //Author: Stephen Gillie
 //Created on: ‎10/24/2022
