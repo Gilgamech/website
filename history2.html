@@ -118,13 +118,9 @@
 
 
 */
-let historyData = ""
-webRequest("GET","https://www.gilgamech.com/data/historyData.json",(callback => historyData = callback),"JSON","",60) 
-
 let classList = ["dateTimeCol","dateTimeCol","dateTimeCol","eventOrNote","reference","reference","reference","eventOrNote","copyright"]
 let styleList = ["max-width: 35px; width: 1vw;","max-width: 52px; width: 1vw;","max-width: 115px; width: 2vw;","width: 35vw;","width: 35vw;","width: 35vw;","width: 10vw;","width: 50vw;",""]
-buildScrollingTable("historyChart",'historyTable',historyData,40,"textBubbleBG",classList,styleList)
-
+webRequest("GET","https://www.gilgamech.com/data/historyData.json",(callback => buildScrollingTable("historyChart",'historyTable',callback,40,"textBubbleBG",classList,styleList)),"JSON","",60) 
 </script>
  		</div><!-- End Content-->
  		<div id="footWrapper">
