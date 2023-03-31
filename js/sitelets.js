@@ -14,7 +14,7 @@ addElement(addElement(blogUL,"","","li"),"Mar 2023","","a","","/blog.html")
 var $2023Li = addElement(blogUL,"","","li")
 addElement($2023Li,"2023 ▼","","a")
 var $2023UL = addElement($2023Li,"","","ul")
-addElement(addElement($2022UL,"","","li"),"Feb 2023","","a","","/2023/February.html")
+addElement(addElement($2023UL,"","","li"),"Feb 2023","","a","","/2023/February.html")
 addElement(addElement($2023UL,"","","li"),"Jan 2023","","a","","/2023/January.html")
 
 var $2022Li = addElement(blogUL,"","","li")
