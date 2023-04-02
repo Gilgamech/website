@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width","initial-scale=1">
+<meta property="og:title" content="Gilgamech's blogging mathematically again." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
+<meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
+<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
+<meta name="keywords" content="blog">
+<meta name="author" content="Stephen Gillie">
+		<title>Gilgamech Technologies</title>
+		<script src="https://www.Sparational.com/Sparational.js"></script>
+		<script src="https://www.Gilgamech.com/js/sitelets.js"></script>
+		<script src="https://www.Gilgamech.com/js/cryptography.js"></script>
+		<link href="https://www.Gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.Gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="titleParent" class="titleContainer">
+			<a class="pageTitle " href="/">Gilgamech Technologies</a>
+		</div>
+		<div id="headWrapper">
+<script type="application/javascript"> 
+const colors = [	"#E50000", //red	"#FF8D00",//orange 	"#FFFF00", //yellow	"#028121",//green 	"#004CFF",//indigo 	"#760088",//purple 	"#FFFFFF",//white	"#FFAFC7",//pink	"#73D7EE",//teal	"#000000"//black
+];
+
+window.addEventListener("mousedown", (e) => {
+	const color = colors.shift();
+	var foreground = "#000000"
+if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(color.substr(5,2), 16) < 500){
+	foreground = "#FFFFFF"
+}
+
+ document.documentElement.style.setProperty("--highlight-color", color);
+ document.documentElement.style.setProperty("--foreground-color", foreground);
+ colors.push(color);
+});
+
+
+function addBlogPost(parentElement,dateText,dateLink,inputArray) {
+	let innerElement = addElement(parentElement,"","textBubbleBG")
+	for (var i = 0; i < inputArray.length; i++) {
+		addElement(innerElement,inputArray[i][0],"",inputArray[i][1],"",inputArray[i][3],"","","","","",inputArray[i][2]);
+//addElement("elementParent","inputArray[0]","","inputArray[1]","","","inputArray[3]","","","","","2")
+	}
+	addLinkToWord(parentElement,dateText,dateLink)
+	addElement(parentElement,"","","br")
+	addElement(parentElement,"","","br")
+}
+
+
+</script>
+<style type="text/css"> 
+body {
+}
+.floatingBubble {
+ display: inline-block;
+ max-width: 98%;
+}
+
+.validInput {
+	background-color:#d9ead3;
+}
+
+.saltine .house {
+	text-align:center;
+	vertical-align:center;
+	padding:2px 3px 2px 3px;
+}.saltine .house a {
+	color: inherit;
+} .s0{
+	background-color:#ffd966;
+}.s1{
+	background-color:#ffe599;
+} .s2{
+	background-color:#fff2cc;
+} .s3{
+	background-color:#ffff00;
+} .s4{
+	background-color:#ff9900;
+} .s5{
+	background-color:#c9daf8;
+} .s6{
+	background-color:#f1c232;
+} .s7{
+} .tableYes{
+	background-color:#D9EAD3;
+} .tableNo{
+	background-color:#F4CCCC;
+} .tableMaybe{
+	background-color:#FCE5CD;
+}
+
+.THeader {
+	width:52px;
+}
+.TRow {
+	height: 45px;
+	line-height: 45px;
+}
+
+:root {
+ --highlight-color: null;
+ --foreground-color: null;
+}
+
+::selection {
+ background: var(--highlight-color);
+ color: var(--foreground-color);
+}
+
+</style>
+		</div>
+		<div id="navContainer">
+			<nav>
+                <ul>
+                    <li><a>Blog ▼</a><ul>
+                        <li><a href="/blog.html">Blog</a></li>
+					</ul></li>
+                    <li><a href="/history.html">World History</a></li>
+                    <li><a>Stuff ▼</a><ul>
+                        <li><a href="/Gillogisms.html">Gillogisms</a></li>
+                    </ul></li>
+                    <li><a href="/contact.html">Contact</a></li>
+				</ul>
+            </nav>
+			</div><script>rebuildElement("navContainer");buildMenuPage("navContainer")</script>
+		<div id="content">
+			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
+			</div><br /><br />
+<script>
+//Back in my day, we had leg races, not arms races. 
+addBlogPost("content","03/30/2023","#03302023",[
+	["03/30/2023 - Base bracelet.","h1"],
+	["Made a base bracelet to build from and modify. It's designed for my wrist, which is basically an oval of 55 mm in one dimension and 65 mm in the other.","p"],
+	["","img","","/images/baseBracelet.jpg"],
+	["","div"],
+	["The shape files can be found, like usual, ","span"],
+	["on GitHub.","a","","https://github.com/Gilgamech/ShapeCache/blob/main/Toys/baseBracelet.scad"],
+]);
+
+</script>
+
+		   
+		</div><!-- End Content-->
+		<div id="footWrapper">
+			<div class="container-fluid">
+			</div>
+			<div id="spacerName">
+				<br>
+				<br>
+			</div>
+			<div id="errDiv" class="row img-rounded">
+			</div>
+			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
+				<p class="copyright">© 2013-2023 Gilgamech Technologies - Powered by <a href="https://www.Sparational.com/">Sparational.js</a>.</p>
+			</div>
+		</div>
+	</body>
+</html>
