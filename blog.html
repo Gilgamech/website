@@ -41,18 +41,6 @@ if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(col
 });
 
 
-function addBlogPost(parentElement,dateText,dateLink,inputArray) {
-	let innerElement = addElement(parentElement,"","textBubbleBG")
-	for (var i = 0; i < inputArray.length; i++) {
-		addElement(innerElement,inputArray[i][0],"",inputArray[i][1],"",inputArray[i][3],"","","","","",inputArray[i][2]);
-//addElement("elementParent","inputArray[0]","","inputArray[1]","","","inputArray[3]","","","","","2")
-	}
-	addLinkToWord(parentElement,dateText,dateLink)
-	addElement(parentElement,"","","br")
-	addElement(parentElement,"","","br")
-}
-
-
 </script>
 <style type="text/css"> 
 body {
@@ -133,15 +121,25 @@ body {
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br /><br />
 <script>
-addBlogPost("content","03/30/2023","#03302023",[
-	["03/30/2023 - Base bracelet.","h1"],
-	["Made a base bracelet to build from and modify. It's designed for my wrist, which is basically an oval of 55 mm in one dimension and 65 mm in the other.","p"],
-	["","img","","/images/baseBracelet.jpg"],
-	["","div"],
-	["The shape files can be found, like usual, ","span"],
-	["on GitHub.","a","","https://github.com/Gilgamech/ShapeCache/blob/main/Toys/baseBracelet.scad"],
+//Back in my day, we had leg races, not arms races. 
+addBlogPost("content","04/02/2023","#04022023",[
+	["04/02/2023 - Volumetric output.","h1"],
+	["Did you know Scheduled Tasks can change your Windows volume? If you live in an apartment or other community with quiet hours, consider using the new GT Automation scheduled tasks:","p"],
+	["","div","list0402"],
+	["These are Scheduled Tasks that run PowerShell scripts to perform the above tasks. Imagine never having to update software, and always having an optimized system. Never worry about waking your neighbors with loud music again.","p"],
+	["As usual, the code can be found on ","span"],
+	["Github.","a","","https://github.com/Gilgamech/GTAutomation"],
 ]);
+
+mdArrayToTable("list0402","",[
+	["Task Name","Runs at time","Performs tasks"],
+	["Auto.ps1","Daily at 3am","WinGet upgrade --all, update Defender signatures and quick scan, and optimize storage drives."],
+	["LoudHours.ps1","Daily at 8pm","Volume to 50%"],
+	["QuietHours.ps1","Daily at 10pm","Volume to 20%"],
+]);
+
 </script>
+
 		   
 		</div><!-- End Content-->
 		<div id="footWrapper">
