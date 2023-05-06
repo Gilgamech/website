@@ -123,17 +123,92 @@ body {
 			</div><br /><br />
 <script>
 //Back in my day, we had leg races, not arms races. 
-addBlogPost("content","05/06/2023","#05062023",[
-	["05/06/2023 - Amps and volts.","h1"],
-	["Electricity as volts and amps, in being pressure and capacity.","p"],
-	["","iframe-container","iframe0506"],
+addBlogPost("content","04/19/2023","#04192023",[
+	["04/19/2023 - Entangling Boltzmann.","h1"],
+	["2 ideas that have been rattling around in my head:","p"],
+	["","iframe-container","iframe0419"],
 ]);
-addElement("iframe0506","","","iframe","width='560'; height='315'","https://www.youtube.com/embed/AI8tUHUas7U","","","","allowfullscreen","true","")
+addElement("iframe0419","","","iframe","width='560'; height='315'","https://www.youtube.com/embed/cLAE-YNgshc","","","","allowfullscreen","true","")
 
+addBlogPost("content","04/16/2023","#04162023",[
+	["04/16/2023 - Gildegrees.","h1"],
+	["Each Gildegree is 5 degrees Celsius and 9 degrees Fahrenheit...plus 32 for Fahrenheit's offset. This uses programming technology to simplify the conversions between the 2 formats. So:","p"],
+	["","ul","list0416"],
+	["Here's a calculator to play with and help explain the concept:","p"],
+	["","span","calc0416"],
+]);
+addList("list0416",[
+["68 °F - 32 = 36 / 9  = 4 °G * 5 = 20 °C .","li"],
+["20 °C / 5 = 4 °G * 9 = 36 + 32 = 68 °F.","li"],
+["104 °F - 32 = 72 / 9  = 8 °G * 5 = 40 °C .","li"],
+["40 °C / 5 = 8 °G * 9 = 72 + 32 = 104 °F.","li"],
+])
 
+//Fahrenheit onchange adds mult and divis, Celsius onchange adds divis and mult.
 
+addElement("calc0416","72","","input","","","calcTemp('f')","","","type","number","inputFahrenheit")
+addElement("calc0416","°F - 32  = ","","span","","","","","","","","mod32")
+addElement("calc0416","40","","input","","","calcTemp('f32')","","","type","number","inputFahrenheit32")
+addElement("calc0416","/ 9 = ","","span","","","","","","","","modNine")
+addElement("calc0416","8","","input","","","calcTemp('g')","","","type","number","inputGil")
+addElement("calc0416","°G * 5 = ","","span","","","","","","","","modFive")
+addElement("calc0416","20","","input","","","calcTemp('c')","","","type","number","inputCelsius")
+addElement("calc0416","°C","","span")
+//addElement("elementParent","innerText","elementClass","elementType","elementStyle","href","onChange","onClick","contentEditable","attributeType","attributeAction","elementId")
+
+function calcTemp(x){
+	var thirtytwo = 32;
+	var five = 5;
+	var nine = 9;
+	var  firstOpA = "/"
+	var  firstOpB = "="
+	var secondOpA = "*"
+	var secondOpB = "="
+	var ttOpA = "="
+	var ttOpB = "+"
 	
+	switch (x) {
+	case 'f':
+		ttOpA = "-"
+		ttOpB = "="
+		writeElement("inputFahrenheit32",eval(readElement("inputFahrenheit",2)+ttOpA+thirtytwo))
+		writeElement("inputGil",eval(readElement("inputFahrenheit32",2)+firstOpA+nine))
+		writeElement("inputCelsius",eval(readElement("inputGil",2)+secondOpA+five))
+		break;
+	  case 'f32':
+		firstOpA = "/"
+		secondOpA = "*"
+		writeElement("inputFahrenheit",eval(readElement("inputFahrenheit32",2)+ttOpB+thirtytwo))
+		writeElement("inputGil",eval(readElement("inputFahrenheit32",2)+firstOpA+nine))
+		writeElement("inputCelsius",eval(readElement("inputGil",2)+secondOpA+five))
+		break;
+	  case 'g':
+		firstOpA = "="
+		firstOpB = "*"
+		writeElement("inputFahrenheit32",eval(readElement("inputGil",2)+firstOpB+nine))
+		writeElement("inputFahrenheit",eval(readElement("inputFahrenheit32",2)+ttOpB+thirtytwo))
+		writeElement("inputCelsius",eval(readElement("inputGil",2)+secondOpA+five))
+		break;
+	  case 'c':
+		firstOpA = "="
+		firstOpB = "*"
+		secondOpA = "="
+		secondOpB = "/"
+		writeElement("inputGil",eval(readElement("inputCelsius",2)+secondOpB+five))
+		writeElement("inputFahrenheit32",eval(readElement("inputGil",2)+firstOpB+nine))
+		writeElement("inputFahrenheit",eval(readElement("inputFahrenheit32",2)+ttOpB+thirtytwo))
+		break;
+	  default:
+		writeElement("inputFahrenheit","72")
+		writeElement("inputFahrenheit32","40")
+		writeElement("inputGil","8")
+		writeElement("inputCelsius","104")
+	}
+	writeElement("mod32","°F "+ttOpA+" "+thirtytwo+"  "+ttOpB+" ")
+	writeElement("modNine",firstOpA+" "+nine+" "+firstOpB+" ")
+	writeElement("modFive","°G "+secondOpA+" "+five+" "+secondOpB+" ")
 
+}
 
 calcTemp();
 
@@ -141,6 +216,7 @@ addBlogPost("content","04/04/2023","#04042023",[
 	["04/04/2023 - Change of colors.","h1"],
 	["In lieu of a full site redesign, testing out a more neutral background.","p"],
 ]);
+
 addBlogPost("content","04/02/2023","#04022023",[
 	["04/02/2023 - Volumetric output.","h1"],
 	["Did you know Scheduled Tasks can change your Windows volume? If you live in an apartment or other community with quiet hours, consider using the new GT Automation scheduled tasks:","p"],
@@ -149,13 +225,13 @@ addBlogPost("content","04/02/2023","#04022023",[
 	["As usual, the code can be found on ","span"],
 	["Github.","a","","https://github.com/Gilgamech/GTAutomation"],
 ]);
-
 mdArrayToTable("list0402","",[
 	["Task Name","Runs at time","Performs tasks"],
 	["Auto.ps1","Daily at 3am","WinGet upgrade --all, update Defender signatures and quick scan, and optimize storage drives."],
 	["LoudHours.ps1","Daily at 8am","Volume to 50%"],
 	["QuietHours.ps1","Daily at 10pm","Volume to 20%"],
 ]);
+
 
 </script>
 
