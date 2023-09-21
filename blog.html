@@ -122,6 +122,19 @@ body {
 			</div><br /><br />
 <script>
 //Back in my day, we had leg races, not arms races. 
+	function addInputField(parentElement,preInput,Input,PostInput,onChange,varName){
+		addElement(parentElement,preInput+": ","","span")
+		addElement(parentElement,Input,"","input","","",onChange,"","","value",Input,varName)
+		addElement(parentElement,PostInput,"","span")
+		addElement(parentElement,"","","br")
+	}
+
+	addBlogPost("content","09/20/2022","#09202022",[
+		["09/20/2022 -  Neural Networks part 6: Culture is King","h1"],
+		[" AI are for content like those crypto currency money launderers like Tornado Cash. The idea is to throw everyone's stuff in a blender, and everyone gets to take out what they want, and that belongs to them. At first, this starts to sound like Swinging, a Liberal married person's game. But keep going and it all just starts to sound like communism - the incomplete collection of ideals masquerading as an economic system, where everyone is an identical, fungible blob, nobody knows anything, and everyone's wholly dependent on the government. ","p"],
+		["That paragraph starts to sound like an extension of De Tocqueville's observations that were written by George Orwell. A sick end-game of capitalism and free markets where only the ultra-rich cabal of elite politicians, tech boards, and A-list celebrities have any money or influence, and we're all their serfs - owning nothing and just happy that they haven't decided to remove us yet.","p"],
+	]);
+
 addBlogPost("content","09/03/2022","#09032022",[
 	["09/03/2022 -  The Stiffening","h1"],
 	["From a video (put link here later.)","li"],
