@@ -25,7 +25,10 @@
 		</div>
 		<div id="headWrapper">
 <script type="application/javascript"> 
-const colors = ["#E50000", //red"#FF8D00",//orange "#FFFF00", //yellow"#028121",//green "#004CFF",//indigo "#760088",//purple "#FFFFFF",//white"#FFAFC7",//pink"#73D7EE",//teal"#000000"];//black
+const colors = [	"#FF0000", //red
+	"#FFFFFF",//white
+	"#0000FF",//blue
+]
 
 window.addEventListener("mousedown", (e) => {
 	const color = colors.shift();
@@ -130,55 +133,27 @@ body {
 <script>
 addElement("1218Bubble","Given the propensity to supplement the meager solar illumination with domestic illumination, a calculator to compute 'how much will this light strand cost me per day' seemed apropos.","","p")
 
-
+//addInputField(parentElement,preInput,Input,PostInput,onChange,varName)
 var calcArea = addElement("1218Bubble")
 addElement(calcArea,"Electricty cost calculator","","h2")
-
-addElement(calcArea,"Cost of electricity: $","","span")
-var CostInput = addElement(calcArea,"0.10","","input","","","calcElec();","","","value","0.10")
-addElement(calcArea,"/kWh","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Amperage of device: ","","span")
-var AmpInput = addElement(calcArea,".25","","input","","","calcElec();","","","value",".25")
-addElement(calcArea," Amps","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Wattage of device at 120v: ","","span")
-var WattCalc = addElement(calcArea,"30","","input","","","calcElec(1);","","","value","30")
-addElement(calcArea," Watts","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Hourly electricity consumption: ","","span")
-var ConsCalc = addElement(calcArea,"0.03","","input","","","calcElec();","","","value","0.03")
-addElement(calcArea," kWh","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Cost of 1 hour of operation: $","","span")
-var HourCost = addElement(calcArea,"0.003","","input","","","calcElec();","","","value","0.003")
-addElement(calcArea,"","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Cost per day of operation: $","","span")
-var DayCost = addElement(calcArea,"0.072","","input","","","calcElec();","","","value","0.072")
-addElement(calcArea,"","","span")
-addElement(calcArea,"","","br")
-
-addElement(calcArea,"Cost per month (30 days) of operation: $","","span")
-var MonthCost = addElement(calcArea,"2.16","","input","","","calcElec();","","","value","2.16")
-addElement(calcArea,"","","span")
-addElement(calcArea,"","","br")
+addInputField(calcArea,"Cost of electricity: $","0.10","/kWh","calcElec();","CostInput")
+addInputField(calcArea,"Amperage of device: ",".25"," Amps","calcElec()","AmpInput")
+addInputField(calcArea,"Wattage of device at 120v: ","30"," Watts","calcElec(1)","WattCalc")
+addInputField(calcArea,"Hourly electricity consumption: ","0.03"," kWh","calcElec()","ConsCalc")
+addInputField(calcArea,"Cost of 1 hour of operation: $","0.003","","calcElec()","HourCost")
+addInputField(calcArea,"Cost per day of operation: $","0.072","","calcElec()","DayCost")
+addInputField(calcArea,"Cost per month (30 days) of operation: $","2.16","","calcElec()","MonthCost")
 
 function calcElec(op) {
 	if (op ==1) {
-		writeElement(AmpInput,getRoundedNumber(readElement(WattCalc)/120,2))
+		writeElement("AmpInput",getRoundedNumber(readElement("WattCalc")/120,2))
 	} else {
-		writeElement(WattCalc,getRoundedNumber(readElement(AmpInput)*120,2))
+		writeElement("WattCalc",getRoundedNumber(readElement("AmpInput")*120,2))
 	}
-	writeElement(ConsCalc,getRoundedNumber(readElement(WattCalc)/1000,4))
-	writeElement(HourCost,getRoundedNumber(readElement(CostInput)*readElement(ConsCalc),4))
-	writeElement(DayCost,getRoundedNumber(readElement(HourCost)*24,4))
-	writeElement(MonthCost,getRoundedNumber(readElement(DayCost)*30,2))
+	writeElement("ConsCalc",getRoundedNumber(readElement("WattCalc")/1000,4))
+	writeElement("HourCost",getRoundedNumber(readElement("CostInput")*readElement("ConsCalc"),4))
+	writeElement("DayCost",getRoundedNumber(readElement("HourCost")*24,4))
+	writeElement("MonthCost",getRoundedNumber(readElement("DayCost")*30,2))
 }
 calcElec();
 /*
@@ -194,37 +169,27 @@ addElement("content","","","br")
 			<h1 id="1211Bubble"><a href="#11211022">12/11/2022</a> - Mockingbird Decipher.</h1>
 			</div>
 <script>
-function outputMockingCipher2(process,keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
-	writeElement(txtMid,doMockingCipher(readElement(0,keyInput),readElement(txtInput)));
-	writeElement(txtEnc,doMockingCipher(readElement(0,keyInput),doEnigmaMan(1,readElement(mocked))));
+function outputMockingCipher2(keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
+	writeElement(mocked,doMockingCipher(readElement(keyInput),readElement(txtInput)));
+	writeElement(encrypted,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(mocked))));
 	writeElement(keyOutput,revertMockingCipher(readElement(encrypted)))
-	writeElement(txtDecrypt,doEnigmaMan(2,readElement(encrypted)))
+	writeElement(decrypted,doEnigmaMan(2,readElement(encrypted)))
 }
 
 addElement("1211Bubble","Bringing back the encryption inputs, so everything is in the same place.","","p")
 
 var txtArea = addElement("1211Bubble")
 addElement(txtArea,"Input","","h2")
-addElement(txtArea,"Key:")
-var keyInput = addElement(txtArea,"HELLOWORLD","","input","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)","","","value","HELLOWORLD")
-addElement(txtArea,"","","br")
-addElement(txtArea,"Text (publicly seen, use a meme or random strings):")
-var txtInput = addElement(txtArea,"This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other text.","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
-
-addElement(txtArea,"","","br")
+addInputField(txtArea,"Key:","HELLOWORLD","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')",'keyInput')
+addInputField(txtArea,"Text (publicly seen, use a meme or random strings):","This lets you hide info in what looks like mocking text, Lorem Ipsum, Sagan Ipsum, or other texts","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')",'txtInput',"textarea")
 addElement(txtArea,"Encryption","","h2")
-addElement(txtArea,"Text:")
-var txtMid = addElement(txtArea,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
-addElement(txtArea,"Encrypted:")
-var txtEnc = addElement(txtArea,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
+addInputField(txtArea,"Text:","","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')","txtMid","textarea")
+addInputField(txtArea,"Encrypted:","","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')","txtEnc","textarea")
+addElement(txtArea,"Decryption","","h2")
+addInputField(txtArea,"Key output:","","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')","keyOutput","textarea")
+addInputField(txtArea,"Text:","","","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')","txtDecrypt","textarea")
+//addInputField(txtArea,"preInput","Input","PostInput","outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput')","varName")
 
-var txtArea3 = addElement("1211Bubble")
-addElement(txtArea3,"","","br")
-addElement(txtArea3,"Decryption","","h2")
-addElement(txtArea3,"Key:")
-var keyOutput = addElement(txtArea3,"","","input","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
-addElement(txtArea3,"Text:")
-var txtDecrypt = addElement(txtArea3,"","","textarea","","","outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput)")
 addElement("1211Bubble","And it could be mixed with another cipher like Running Man cipher to further obfuscate your message. This would be the Other Roadrunner Cipher. Another way to obfuscate is to add some kind of key or default. Consider if the starting text were aLtErRnAtInG cApS, and the cipher were applied. This allows one-time pads and other standard enhancements to work on this cipher as well.","","p")
 
 //Handle key overflow better
@@ -232,12 +197,9 @@ addElement("1211Bubble","And it could be mixed with another cipher like Running 
 //Decrypt key - will require diffing middle vs original text, or specifying an encoding pattern.
 //Auto-Enigma Man
 
-addLinkToWord("1211Bubble","FitMC video","https://www.youtube.com/watch?v=TMBHP9FDqHI")
-addLinkToWord("1211Bubble","11/02/2022","#12112022")
 addElement("content","","","br")
 addElement("content","","","br")
-
-outputMockingCipher2(0,keyInput,txtInput,txtMid,txtEnc,txtDecrypt,keyOutput);
+outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput');
 </script>
 
 
