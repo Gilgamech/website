@@ -9,11 +9,12 @@ var blogLi = addElement(outerUL,"","","li")
 addElement(blogLi,"Blog ▼","","a")
 var blogUL = addElement(blogLi,"","","ul")
 
-addElement(addElement(blogUL,"","","li"),"Sept 2023","","a","","/blog.html")
+addElement(addElement(blogUL,"","","li"),"Oct 2023","","a","","/blog.html")
 
 var $2023Li = addElement(blogUL,"","","li")
 addElement($2023Li,"2023 ▼","","a")
 var $2023UL = addElement($2023Li,"","","ul")
+addElement(addElement(blogUL,"","","li"),"Sept 2023","","a","","/2023/September.html")
 addElement(addElement($2023UL,"","","li"),"Aug 2023","","a","","/2023/August.html")
 addElement(addElement($2023UL,"","","li"),"July 2023","","a","","/2023/July.html")
 addElement(addElement($2023UL,"","","li"),"June 2023","","a","","/2023/June.html")
