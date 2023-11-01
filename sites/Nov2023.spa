@@ -16,7 +16,7 @@
 					{"elementParent": "1101h1","elementType":"a","innerText": "11/01/2023","href":"#11012023"},
 					{"elementParent": "1101h1","elementType":"span","innerText": " - All Sites Day."},
 				{"elementParent": "11012023","elementType":"p","innerText":"Shifted the menu and footer into the format described in ","id": "1101p"},
-					{"elementParent": "1101p","elementType":"a","innerText": "yesterday's blog","href":"https://www.gilgamech.com/blog.html#10302023"},
+					{"elementParent": "1101p","elementType":"a","innerText": "yesterday's blog","href":"https://www.gilgamech.com/October.html#10302023"},
 					{"elementParent": "1101p","elementType":"span","innerText": "."},
 				{"elementParent": "11012023","elementType":"p","innerText": "More to come!"}
 			]
