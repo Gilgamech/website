@@ -11,7 +11,7 @@
 			"elements": [
 				{"elementParent": "parentElement","elementClass":"navbar-static-bottom","elementStyle":"text-align: center","id": "footerNav"},
 				{"elementParent": "footerNav","innerText":"© 2013-2023 Gilgamech Technologies - Powered by ","elementClass":"copyright","elementType":"span","id": "copyright"},
-				{"elementParent": "copyright","innerText":"Sparational.js.","elementClass":"copyright","elementType":"a","href":"https://www.Sparational.com/"},
+				{"elementParent": "copyright","innerText":"Sparational.js.","elementClass":"copyright","elementType":"a","href":"https://www.Sparational.com/"}
 			]
 		}
 	}
