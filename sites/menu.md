@@ -41,4 +41,4 @@
     [Calculators](/calc.html)
     [Why's It Down?](/WhyIsItDown.html)
     [Error Analyzer](/errorcause.html)
-  [Contact](/contact.html"}
+  [Contact](/contact.html)
