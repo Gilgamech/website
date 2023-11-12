@@ -188,6 +188,7 @@ nav {
 	background-color:#000;
 }
 nav ul {
+	display:inline;
 	padding: 0;
 	margin: 0 2vw; /*Space from left edge to first menu item*/
 	list-style: none;
@@ -211,7 +212,7 @@ nav a:hover {
 nav ul ul {
  display: none;
  position: absolute;
- top: 6vw; /*Needs to match nav a line-height for menu to line up*/
+ top: 2.5vw; /*Needs to match nav a line-height for menu to line up*/
 } 
 nav ul li:hover > ul {
  display:inherit;
