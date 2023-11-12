@@ -23,7 +23,7 @@
 td { height: 40px; width: 80px; text-align: center; vertical-align: middle; }
 </style>
 		</div>
-		<div id="navContainer"></div><script>buildMenuPage("navContainer")</script>
+		<nav id="navContainer"></nav><script>convertWebElement('navContainer',"https://www.Gilgamech.com/sites/menu.md")</script>
 		<div id="content">
 			<div class="textBubbleBG">
 				<h1>Android by Fantasy Flight Games</h1>
@@ -301,18 +301,6 @@ td { height: 40px; width: 80px; text-align: center; vertical-align: middle; }
 			</ul>
 		</div>
 	</div><!-- End Content-->
-		<div id="footWrapper">
-			<div class="container-fluid">
-			</div>
-			<div id="spacerName">
-				<br>
-				<br>
-			</div>
-			<div id="errDiv" class="row img-rounded">
-			</div>
-			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
-				<p class="copyright">© 2013-2023 Gilgamech Technologies - We are the gears that make our world go around.</p>
-			</div>
-		</div>
+		<div id="footer" class="copyright"></div><script>convertWebElement('footer',"https://www.sparational.com/sites/footer.md")</script>
 	</body>
 </html>

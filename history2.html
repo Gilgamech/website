@@ -32,7 +32,7 @@
 <!-- CSS CLASSES GO HERE -->
 </style>
 		</div>
-		<div id="navContainer"></div><script>buildMenuPage("navContainer")</script>
+		<nav id="navContainer"></nav><script>convertWebElement('navContainer',"https://www.Gilgamech.com/sites/menu.md")</script>
 		<div id="content">
 			<div class="textBubbleBG">
 				<h1>The past and future history of the modern world</h1>
@@ -123,18 +123,6 @@ let styleList = ["max-width: 35px; width: 1vw;","max-width: 52px; width: 1vw;","
 webRequest("GET","https://www.gilgamech.com/data/historyData.json",(callback => buildScrollingTable("historyChart",'historyTable',callback,40,"textBubbleBG",classList,styleList)),"JSON","",60) 
 </script>
  		</div><!-- End Content-->
- 		<div id="footWrapper">
- 			<div class="container-fluid">
- 			</div>
- 			<div id="spacerName">
- 				<br>
- 				<br>
- 			</div>
- 			<div id="errDiv" class="row img-rounded">
- 			</div>
- 			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
- 				<p class="copyright">© 2013-2023 Gilgamech Technologies - We are the gears that make our world go around.</p>
- 			</div>
- 		</div>
+ 		<div id="footer" class="copyright"></div><script>convertWebElement('footer',"https://www.sparational.com/sites/footer.md")</script>
  	</body>
 </html>
