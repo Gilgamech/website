@@ -101,20 +101,7 @@ background-color: #F87217;
 
 </style>
 		</div>
-		<div id="navContainer">
-			<nav>
-                <ul>
-                    <li><a>Blog ▼</a><ul>
-                        <li><a href="/blog.html">August 2022</a></li>
-					</ul></li>
-                    <li><a href="/history.html">World History</a></li>
-                    <li><a>Stuff ▼</a><ul>
-                        <li><a href="/Gillogisms.html">Gillogisms</a></li>
-                    </ul></li>
-                    <li><a href="/contact.html">Contact</a></li>
-				</ul>
-            </nav>
-			</div><script>rebuildElement("navContainer");buildMenuPage("navContainer")</script>
+		<nav id="navContainer"></nav><script>convertWebElement('navContainer',"https://www.Gilgamech.com/sites/menu.md")</script>
 		<div id="content">
 			<div class="textBubbleBG"><h4>From the <a href="https://www.youtube.com/watch?v=CNUTlKqSO-I">sublime</a> to the <a href="https://www.youtube.com/watch?v=zy9FkAXMBfk">ridiculous</a>.</h4>
 			</div><br><br>
@@ -356,18 +343,6 @@ addElement("content","","","br")
 
 		
 		</div><!-- End Content-->
-		<div id="footWrapper">
-			<div class="container-fluid">
-			</div>
-			<div id="spacerName">
-				<br>
-				<br>
-			</div>
-			<div id="errDiv" class="row img-rounded">
-			</div>
-			<div id="footerStatic" class="navbar-static-bottom" style="text-align: center;">
-				<p class="copyright">© 2013-2023 Gilgamech Technologies - Powered by <a href="https://www.Sparational.com/">Sparational.js</a>.</p>
-			</div>
-		</div>
+		<div id="footer" class="copyright"></div><script>convertWebElement('footer',"https://www.sparational.com/sites/footer.md")</script>
 	</body>
 </html>
