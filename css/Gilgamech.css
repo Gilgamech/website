@@ -419,5 +419,8 @@ input {
  background: var(--highlight-color);
  color: var(--foreground-color);
 }
+span.Earth {background: aqua; color: forestgreen;}
 
+span.PowershellBlue {background: #012456; color: #fff;}
+span.PowershellBlack {background: #0c0c0c; color: #ccc;}
 -->
