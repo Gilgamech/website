@@ -672,27 +672,6 @@ Solutions Architecture is just Cloud Bannering.
 1. Socialism is usually a response to a lack of funding. The less we have, the more we share. Selfishness complicates scaling this beyond a family unit or small party.
 1. Socialism wasn't Chinese enough for North China's CCP. They wanted "socialism with Chinese characteristics" aka fit with one-party rule, which wasn't Socialism but State Capitalism. Likewise, cooperative international space exploration isn't Chinese enough - they want State Capitalism In Space. (Has every implementation of communism been tied with one-party rule? Have there been any multi-party communist systems?)
 1. Super-dehydrangia (go drink some water)- 2023
-<!-- 
-1. North China's CCP's don't practice Communism with Chinese characteristics, but Communism with Stalinistic traits. Including overwhelming violence, a hallmark of the Great Sadist. Chinese characteristics are much more interesting and less violent. Calling these Stalinistic traits "Chinese characteristics" is racist against the Chinese people and their heritage.
-
-Games people play
-Taking what seems like accurate information and disputing the source to win the argument. (Ad hominem attack.)
-Argument ad absurdio - slippery slope
-
-
-I've always had a different calling.
-- I need to minister to myself and other secular people, because other religious people cannot. 
-- I need to help myself and others to understand what a loving God means to a secular person. 
-
-
-//They're not actually interested, but they're lying to you because you're so pretty. 
-//The only reason people ask for stuff is to see how far they can push you.
-//Barista is like a pun on Barrister, as both are "bar" tenders  - "I also work at the bar."
-//The mode we're in now is "Leaving  your best friend's funeral, and needing to get their family home in the heavy snowfall." (Caution: This is a limit break. It's not safe to remain in this mental space for very long.)
-//Get stronger, last longer. Make the limit break a new normal, and develop a new limit break.
-//Because the EM fields are like one giant telephone wire, so anything you do in EM is felt across the entire field. Gravity too.
--->
-
 1. Sociology is an emergent phenomenon of grouped humans.
 1. Sometimes, all you can do is shake your fist at the sky.
 1. Sometimes, customers cost a business more than they pay. Don't be that customer.
