@@ -91,7 +91,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Being bigger than the limiting funding and beliefs that hold us back from being faithful to the Truth of who our bank accounts are.
 1. Being happy is part of being healthy. It's unhealthy to be unhappy most of the time, since mental health is part of a person's health. And it's difficult to make good health decisions when your decision-making organ isn't working well.
 1. Being of House of Gay does not make you a homosexual.
-1. Being of House of Black does not make you an African American or highly mylenated individual.- 2023
+1. Being of House of Black does not make you an African American or highly my lenated individual.- 2023
 1. Being the average of the 5 people you spend the most time with means that if you're always the smartest person in the room, you're going to act like a less-intelligent person over time. - 2023
 1. Being the more mature, self-controlled spender in a retail situation.
 1. Beren Mind (Ursa Mental) is the bear-like Mind Being
