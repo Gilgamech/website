@@ -14,7 +14,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. 6 foot tall 8 legged turtles with wolf heads (2d4+2 piercing). 300 move speed, and razor-sharp pincers (1d6+3 slashing). 200 XP.
 1. 2600 hz whistle made phones hang up, as it caused the exchange to reset. Guy used a Captain Crunch whistle to make pay phones hangup as he walked passed. Thus technomages.
 1. 3D for movies is like astigmatism, especially where glasses fix it.
+
 ### A
+
 1. A 10x engineer should have 10 magnum opii.
 1. A Brave New 1984, where we modify history to make ourselves happy. - 2016
 1. A criticism of capitalism is that it can only lead to imperalism. A criticism of socialism is that it can only lead to totalitarian communism. A criticism of capitalism with socialsitic safety nets is that it has both wealthy elites and welfare queens.
@@ -23,7 +25,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. A loving deity would love both believers and nonbelievers, and wouldn't punish nonbelievers like a vengeful deity would. Who would follow a vengeful deity, and better, who would lie that the vengeful deity is loving?
 1. A person who doesn't like (or cannot get) vegetables can still get vitamins through properly mixed drinks.
 1. A pile driver is a drop forge that moves downward.
-1. A PNG is worth at least 1000 [](https://en.wikipedia.org/wiki/Word_(computer_architecture)">words of data storage) &amp; bandwidth, and video is worth at least a million.
+1. A PNG is worth at least 1000 [words of data storage](https://en.wikipedia.org/wiki/Word_(computer_architecture)) &amp; bandwidth, and video is worth at least a million.
 1. A reverse Hudsucker Proxy. They saw a Portrait of Dorian Grey not as a horror story, but as an instruction manual. Have kids, put them in front of the portrait, and live forever.
 1. A single administrator, hosting a single application on a single server, for a small user base, can give 3 nines easily. And 3 nines is good enough 99.9% of the time. Moving beyond this means adding and multiplying those nines together in an attempt to get more nines. - 2018
 1. "A society grows great when old men plant trees under which they'll never sit." That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.)
@@ -71,7 +73,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Assuming Momentum - Assuming a frictionless environment.
 1. Atheism is usually a non-label. People don't usually identify as atheists, instead they stop going to church, and then get called this by data-mining theologians trying to check a checkbox. Instead of discussing which deity might or might not control the universe and why or why not, we'd rather debate which type of cloud hosting infrastructure is best for your website, or how much light is best for your plant. / In surveys, someone who identifies as Atheist is likely to be seen as near militaristic in enforcing their viewpoints, as there are so many antagonistic labeled-atheists online. How would the survey results have been if instead of "atheist" you put "amateur farmer"? / What about the belief of "There's no way to prove it, but between a slimmed-down Simulation Hypothesis (not a giant Universe Simulator, but just the 4d surface of a 5d rock garden, and someone tends to the ripples around the rocks, since we're all just waves) and virtual photons (existing based on probability/time alone) there sure is room for a larger being to influence things. And there seems to be an excess of synchronicity in the universe..." See it's so much easier to tell the surveyor "No I'm not Catholic or Buddhist or anything else."
 1. Authoritarians try to figure out what other people are going to do, so the Authoritarian can tell the other people to do that, and in this way the other people are doing what the Authoritarian said - even if they were going to do that anyway. In this way the Authoritarian distorts reality to embiggen their own status at the cost of the other peoples' status - they claim that the other people would be lost without their leadership, when in reality their leadership can only ever be a waste of the other peoples' time.
+
 ### B
+
 1. Back in my day, we had leg races, not arms races. (Oh? When was that?)- 2023
 1. Back seats are put into 2-door sports cars so insurance actuaries see "4 seat family car" instead of "unsafe metal sled". (Regular Car Reviews Brian)
 1. Banks aren't just businesses - they're foundational businesses that other businesses and whole communities depend on, as a source of money.
@@ -108,7 +112,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Bored is a lack of intellectual stimulation while lonely is a lack of emotional stimulation.
 1. Boring at any speed.
 1. Boring discussion meanders about across long, polysyllabic words and verbs which eventually converge. Action is poppy staccato sounds and direct verbs.
-1. Both sides are necessary for the operation of a fully functional United States - we need a conservative business side to drive large-scale wealth generation &amp; defense, and we need a liberal humanist side to support the workers and distribute the generated wealth across society. The vast resources (including raw dimensional space) means there will be an over abundance of both material resources <i>and</i> populations, and so maintaining cooperation between human representations of resource is essential to finding the balance between austerity and overspending.
+1. Both sides are necessary for the operation of a fully functional United States - we need a conservative business side to drive large-scale wealth generation &amp; defense, and we need a liberal humanist side to support the workers and distribute the generated wealth across society. The vast resources (including raw dimensional space) means there will be an over abundance of both material resources __and__ populations, and so maintaining cooperation between human representations of resource is essential to finding the balance between austerity and overspending.
 1. Both sides have a point and both sides make it sound more important than it really is.
 1. Bougie boogie
 1. Bow for arrows as a car leaf spring tensioned by a string.
@@ -121,7 +125,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Businesses want to make money in the easiest way possible, and that's almost always from investors. "From customers" is usually one of the hardest.
 1. Buying macrons or CPUs - or modern Disney movies - you're not buying just 1, you're buying around 40 - and paying them to throw away the around 39 mistakes it took to make 1 good one. Bakeries could sell their "mistake-rons" for a dime a dozen. (Or "mist-acron", portmanteau of "mistake" and "macron".) (Disney regularly shows 2 dozen different test screenings to different groups, to see which one is better. This means filming and editing dozens of movies and throwing them away.)
 1. By interrogatory, the furnishing of information. (We're going to ask you some questions.)
+
 ### C
+
 1. C-stores during inflation, when their price-gouging can't keep up and they become a cheaper alternative.
 1. CAD Loss is basically a jump scare, but it makes you sad instead of startled.
 1. Caliban of Caladan
@@ -171,7 +177,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Currencies are (almost) ideal gases and prices are basically temperatures, showing both the quantity and the velocity of money.
 1. Current things must end so new things can begin. Good things ending is the price we must pay for bad things also ending.
 1. Cynicism as knowing the price of everything and the cost of nothing. Post-cynicism as knowing the cost of everything and the price of nothing. Respecting things through knowing not just their market value, but also the human and robot labor involved in constructing one, the difficulty involved in going without or getting a quick replacement, and the complications of logistics.
+
 ### D
+
 1. Datadog are a data logging company who don't even write their own logging utilities. They use(d) Log4J and had to have all their agents patched after the hack.
 1. Decision trees and pattern steps
 1. Declining the invitation to participate in those financial conversations and activities that lead us away from where we truly want our bank accounts to be.
@@ -208,12 +216,14 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Don't ruin perfection - let other people do that.- 2023
 1. Don't talk *about* people, talk *TO* people. - 2015. Don't talk to people - talk to what people have done. - 2020
 1. Dot Product and Cross Product are two ways of combining vectors. Multiplication is a generalization of both of them, thus both the Dot (*) and Cross (x) can be used to multiply. And this becomes the "who(m)" of basic math, a place for intellectual authoritarians to belittle the average person.
-1. [](https://www.youtube.com/watch?v=EKkUtrL6B18">Dopamine activates neurons), while serotonin deactivates neurons. Hence anxiety is too much dopamine or too little serotonin. Dopamine down-regulates serotonin, so the more pleasure you seek, the less happy you become. This chemical-backed intention becomes the delta between our happiness and our pleasure. The Kierkegaardian Finite would be serotonin, and dopamine would compliment this as the Kierkegaardian Infinite - don't get stuck chasing either pleasure or happiness, but seek to go back and forth between them. (Take weekends and vacations off. What lay in the middle of the spectrum between pleasure and happiness?)
+1. [Dopamine activates neurons](https://www.youtube.com/watch?v=EKkUtrL6B18), while serotonin deactivates neurons. Hence anxiety is too much dopamine or too little serotonin. Dopamine down-regulates serotonin, so the more pleasure you seek, the less happy you become. This chemical-backed intention becomes the delta between our happiness and our pleasure. The Kierkegaardian Finite would be serotonin, and dopamine would compliment this as the Kierkegaardian Infinite - don't get stuck chasing either pleasure or happiness, but seek to go back and forth between them. (Take weekends and vacations off. What lay in the middle of the spectrum between pleasure and happiness?)
 1. Double Chiller - like a Double Boiler (use a hot water bath to heat a pot of food) - but using a cold tap water bath instead, to cool instead of heat. Ice baths can be used but are usually more work than just dumping off the now-hot water and refilling the bath with cold tap water. If ice is required, you might be overextending this technique beyond what the food can handle.
-1. Dr Who got back to the future the old fashioned way - [](/images/longwayround.png">the long way around).
+1. Dr Who got back to the future the old fashioned way - [the long way around](/images/longwayround.png).
 1. Dramatic Composition
 1. Dunbar's Number cognitively drives us to "uncare" about most people we see in life, because there are so many of us, and we can travel so far so fast. Racism is a "lazy algorithm" for doing this, based solely on surface features. Greater emotional intelligence tells us that we ourselves aren't that way - and greater mechanical intelligence informs that this "lazy algorithm" doesn't provide very repeatable results. Both drive a more complex algorithm based more on responses than appearances. Since this algorithm is therefore a function of either intelligence, racism becomes a lack of several types of intelligence, which explains why there are racists of every color, gender, nation, and creed, just as there are geniuses of every color, gender, nation, and creed in every scientific field. Both are intelligence-based phenomena, and the same bell-curve of intelligence occurs in all human societies at the same rate, regardless of demographic factors.
+
 ### E
+
 1. Each Button Only Works Once
 1. Each day making different mistakes, with the goal that all of the mistakes will average out into a normal life.
 1. Eagles (band) are maligned because 1. they're croners and 2. they're almost impossible to license, because each artist in the band was his own company, so each song is copywritten 3-4 times, and requires 3-4 times as much paperwork to license. (Compared to KISS, which is like 1 license owner and 3 employees. Maybe they recently streamlined this? Please let the site owner know.) This keeps their music out of, like, bar scenes in movies. So their haters still hate them, but they don't really pick up new fans, and their old fans move on. Overlicensing sorta killed their brand.
@@ -246,7 +256,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. External validation - people are paying other people crazy amounts of money to get your attention. Make them pay *you* for your attention.
 1. Extraterrestrials as the new Gods of the Gap (in our understanding).
 1. Extremely loud and incredibly slow (Why is your car?)
+
 ### F
+
 1. F Murray Abraham, F Scott Fitzgerald, and "eff" this (person/place/thing).
 1. Fahrenheit and Celsius are 2 buildings next to each other. Celsius is on a hill that's as tall as Fahrenheit's 32nd floor. There are 9 floors in Fahrenheit for every 5 floors in Celsius, and they have a weird shared basement that goes down forever. You're on the 20th floor of Celsius, looking at Fahrenheit. Which floor are you directly across from? (The 68th.)
 1. fam=ily
@@ -283,7 +295,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Full House - of Representatives
 1. Fund management is like day trading with other peoples' money.
 1. Futurists never saw cars or phones because everyone just wanted a bigger train or CPU, and nobody envisioned democratizing the technology. What technologies do you see today where everyone's focused on making it bigger instead of democratizing it?
+
 ### G
+
 1. Game idea: You're fighting both robots and kaiju. You have to use the robots to push the kaiju back into the bay, and use the kaiju to push the robots back into the factory. But you can't do real damage to either. So you have to taunt one, run over to the other, wait for the first one to get there, and then dodge so the one hits the other instead of you. You only have 2 actions: taunt and dodge. UFOs start dropping off the occasional kaiju, then at higher levels start abducting you too. Powerups include Baked Cauliflour (gives you temporary Vegan Powers), special brownies (unlocks Special Brownie Attack which performs Couch Lock on Kaiju),
 1. Games don't go gold anymore. They go from Alpha to Beta to Omega.
 1. Gasoline is a compressible soup of flammable solvents which cleans the previous ignition residue before igniting. 
@@ -305,7 +319,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Greater Traitor
 1. Grind to play, not play to win.
 1. Guns are a "nuclear solution" to minor disputes, and work as well as deterring minor border skirmishes with a full thermonuclear war. Having a gun precludes choosing lesser weaponry, partly because we're taught that the only way to use a gun is to shoot someone with it, and that this is always immediately fatal. Much of this is the marketing dichotomy of "get them before they get you", using the "unnamed them" to incept FUD. One of the Air Force's newest missiles doesn't explode at all - it can precision drop onto a single military target (like a foreign general leading a conflict against the USA) with minimum casualties. Likewise, we need to bring back large sticks.
+
 ### H
+
 1. "Hackers could use it." - Hackers use electricity too - basing your security policy around hacking intersectionality implies a return to ascetic farming.
 1. HAL 9001 certified.
 1. Harry Potter is like Agatha Christie's Scooby Doo, with no Daphne, Shaggy swapped for a teenage Dr Who, and Scooby swapped for a stalwart owl.
@@ -315,7 +331,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Hayt, your own private Duncan Idaho. (If you get this joke, please join my Dune Readers Support Group for B-52s Fans.)
 1. Heatlhcare only includes hospitals and doctors, but not the actual tools needed for health maintenance, which are gyms, healthy diets, and nights of good sleep. Why doesn't the HSA cover a gym membership? How do you expect me to be at optimal health if I'm not regularly excercising? Same for salads or beds. The healthcare industry is turning away almost half of their potential customer base because they are unwilling or unable to extend their product offerings to meet the demands of that half of the market. And instead, they overcharge for unncecessary services and try to invent more.
 1. Hearts, minds, and bellies - it's what we fight for. The order of these is open to Maslowian debate.- 2023
-1. Heaven is a place <strong>on Earth</strong>. Not on Mars, Sedna, Ceres, nor Alpha Centauri, Beta Sirius, or Zeta Reticuli - Earth.
+1. Heaven is a place *on Earth*. Not on Mars, Sedna, Ceres, nor Alpha Centauri, Beta Sirius, or Zeta Reticuli - Earth.
 1. Here Comes The Sun is a springtime song
 1. Hippie = a person so anti-authoritarian that they feel absolved from having any consideration towards others, and lampshade this by assaulting you with their overwhelming consideration for others - other than you.- 2023
 1. Hiring honeypot, like Cicada 3301.
@@ -344,9 +360,11 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Humans have just 1 psychological need: belongingness.
 1. Humans in space would always need to be shielded from all solar UV radiation, as there's insufficient atmosphere to absorb the most harmful UV rays, and thus tanning in space is only a carcinogen and never safe. To mimic this, early sci-fi tended to use British and Scottish actors, since their island gets so little sunlight. And this developed into a trope where the "accents of Space" are all British Commonwealth members - and some Americans.
 1. Humility isn't about being humble - it's about being magnanimous and celebratory of others. - 2021
-1. Hyperloop is like an air pressure launch high-speed (100+mph (err 700+ mph hence the disaspirated design)) roller coaster, like the [](https://www.youtube.com/watch?v=x_j0p_0Lvao">Top Thrill Dragster)...that runs all the way from LA to SF, and there's a return route. Both routes would be dug by Elon's Less-Interesting Company. It's like an underground version of Point to Point (extra-atmospheric airline aka terrestrial spaceline travel), especially based on the relative (lack of) air pressure of each.
+1. Hyperloop is like an air pressure launch high-speed (100+mph (err 700+ mph hence the disaspirated design)) roller coaster, like the [Top Thrill Dragster](https://www.youtube.com/watch?v=x_j0p_0Lvao)...that runs all the way from LA to SF, and there's a return route. Both routes would be dug by Elon's Less-Interesting Company. It's like an underground version of Point to Point (extra-atmospheric airline aka terrestrial spaceline travel), especially based on the relative (lack of) air pressure of each.
 1. Hypocrites make the best schadenfreude, and schadenfreude is a dish best served fresh.- 2023
+
 ### I 
+
 1. I can only be me, so I must be the best me that I can be. - 2012
 1. I don't have anywhere that I gain belongingness by creatively projecting my ideas. I feel like the only value I have to others is by receiving from them. Focus on mindfulness during the spring. Take a lot of time to meditate on what you're receiving.
 1. I don't want to be outraged anymore. I want to make money off the outrage.
@@ -362,7 +380,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. I've been godawful at video games for longer than most people have been alive.
 1. I've never had Chick-Fil-A because the only thing I know about them are their politics. They're a political group to me, not a source of food. When it's lunchtime, I think of, like, Subway or Taco Bell or a local burger place - not the RNC or DNC, and likewise not Chick-Fil-A.
 1. If governments want to get money from people, they first must give money to people.- 2023
-1. If I control you, then I might be able to protect you. But if I control myself, then I can protect you <strong>and</strong> protect myself. - 2017
+1. If I control you, then I might be able to protect you. But if I control myself, then I can protect you *and* protect myself. - 2017
 1. If I put these out of my sight, then they will join me and be out of my mind. - 2022
 1. If it's too secret for Congress to know about, then it's too secret for my tax dollars to fund. - 2022
 1. If not us, who? If not now, when? - ACA, 2008 (This cost the healthy author tens of thousands of dollars in unnecessary medical insurance or penalties.)
@@ -409,7 +427,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. It's committed to memory as in committed to mental hospital, not committed to repo.
 1. It's like a road - this section of roadway only really has value because it's connected to other sections of roadway. So the other sections give this section its value. So too does my knowledge on its own only hold value to me, and has value to others only if it's contiguous to the knowledge they hold.
 1. It's not that we'll make a perfect artificial neural network - just an artificial neural network that exceeds the abilities of our natural neural networks to train an artificial neural network.
+
 ### J
+
 1. Jack Ma was in Jiang Zemin's faction, and owned SCMP. This is part of why he was disappeared.
 1. Jamon [Ham] is very popular in Spain, and they rate ham based on their quality - from low quality 1 Jamon to highest quality Cinco Jotas [five jacks] JJJJJamon. 
 1. Jihad served the same role as Crusades - to unite people behind the religion and against an "other". Neither one was used against the Mongol.
@@ -418,14 +438,18 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Jokers to the Left of me, Clowns to the Right, I'm stuck in the Center with who(m)? (Being a Centrist means recognizing that Both Sides have good points, and cherry-picking those. It confuses the heck out of the political majority, who religiously stick with their political sports team's decisions, and focus on fervently attacking the Other Side. Often this means painting a Centrist as the other side so that they can justify attacking us, in their zealous thirst to slay political heretics.)
 1. Jokes release tension, and a comedy relief scene can anneal a tense plot.
 1. Jurisdiction [law speak] implies different "law languages", which implies "law polyglots" or lawyers who have passed The Bar in multiple jurisdictions.
+
 ### K
+
 1. Kathleen Kennedy has become Destitution, the Destroyer of Business Value. By ret-canning (forcefully disposing through retroactive continuity) the Star Wars Extended Universe, and disrupting Indiana Jones plotlines, she has personally destroyed hundreds of billions of dollars in potential profit streams and untold potential cultural touchstones. Likewise Victoria Alanso for destroying hundreds of good Marvel plotlines in favor of the few female-oriented plotlines. 
 1. Keep a small place in Hell. That way, when people tell you to goto Hell, (or you're going through Hell), you don't have to go somewhere awful, but instead can just head to your other pad.
 1. Kessel run is a flyboy speedrun.
 1. King of kings = greatking aka emperor, and an empire is a political (micro)power large enough to require more than 1 human leader, often splitting power between nested tiers. As a title, it's less impressive today than in prehistorical times. Try for a Nobel prize instead.
 1. Knowing what you want is the first step in getting what you want. Understanding and knowing yourself is necessary to be honest with yourself. - 2014. It's about really listening to yourself - being a good listener, and not just letting the words, symbols, meanings, and sensations filter through your mind - but writing them down, analyzing them formally, studying their contexts, following them to new intersections, and finding yourself already there. - 2022 Know Thyself- 2023
 1. "Kraken in the ice!" yells one drill operator to the other. "Yeah we are cracking into the ice!" says the other drill operator says excitedly, not understanding their marine peril.
+
 ### L
+
 1. Lagrangian Skeeball
 1. Law is equal parts charisma and precedence. (Justify what you can, grin when they mention what you cannot, and have the wisdom to know the difference?)- 2023
 1. Leadership is as much serving as it is being served, and bad times should cost the leaders at least as much as good times benefit them. - 2022
@@ -455,7 +479,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Loving and fighting are the same thing. Loving is fighting and love is combat. Love always wins, because it's a question of how hard someone is willing to love.
 1. Luxury is having something and not needing it. Utility is having something and needing it. Lucky is not having something and not needing it. Tragedy is not having something and needing it.
 1. Lynnwood's only functional traffic sensors are attached to traffic cameras. The rest are broken and make you sit forever at a red light. They're not the only place that does this.
+
 ### M
+
 1. "M'lady" was a social malady. - 2016
 1. Madonna topped out and realized the American Dream is false. GTA5 is about topping out and realizing the American Dream is false. Jeff Bezos hasn't got there yet. - 2021
 1. Mages are majestic while wizards are wise.
@@ -508,7 +534,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. My mother was like a 5 year old for her entire life, so I can ELI5 anything.
 1. My name is money in Final Fantasy, and a blocker to multiprocessing in Python.
 1. My projects each drive each other. Being an architect, developer, and admin - each one makes me better at the other 2.
+
 ### N
+
 1. Nails are to snakes as screws are to lizards.
 1. Narratology - the study of narratives, story arcs, and narrative effects.
 1. Nationalism was a tool used by nobles to generate armies, getting them to care about more than just their local clan or village. Will the UFO age bring about planet-ism? Do we dare declare "Earth First" among the stars? 
@@ -534,8 +562,10 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Not just that geography creates politics, but that resources create politics (excess drives altruism) and geography creates resources.
 1. Not premonition, but preemotion
 1. Nuclear energy can be converted into electrical energy through several routes. The most common is nuclear-steam tech, but steam has always had an explosion problem (why diesel-electric and jet-electric trains became common), and mixing water with the common zirconium shell causes even more explosions. (Zirconium is used because it's nearly transparent to neutrons.) Not to mention that these are designed as large as possible, necessitating a critical mass of material for normal operations. Other options, like betavoltaic, have an image problem in that they're nowhere near as glamorous as the giant cooling tower. (Cooling towers are shaped that way because technically they're using jet technology to increase airflow.) Thankfully micro-reactors are gaining popularity, as the public isn't nearly as afraid of neutrons (subatomic particles blocked by an inch of doped plastic) as we are of smog (the unbreathable smoke-fog death cloud).
-1. Nuclear fusion isn't viable on Earth, because we have the wrong kind of helium. Neutron-friendly primordial He-3 is necessary for nuclear fusion to occur, but all of this bubbled out of Earth's atmosphere long ago and blew away in the solar wind. All of the helium on Earth is nucleic He-4 from beta decay, which can be an amazing superfluid when supercooled, gaining a rotation of 0 and turning from a Fermion into a Boson, but is a noble gas and won't fuse. The normal route of fissiling lithium into helium in a feeder reactor only works with rare Li-6 and not with relatively abundant Li-7 - the [](https://en.wikipedia.org/wiki/COLEX_process">COLEX process) <strong>is</strong> able to separate these with an extremely toxic form of mercury, but this is so dangerous that basically no nation is willing to perform it. However, He-3 is abundant on our Moon, asteroids, and other stellar bodies, suggesting a future of interplanetary fusion fuels shipped down to Earth. This is another reason Earth is So Weird. 
+1. Nuclear fusion isn't viable on Earth, because we have the wrong kind of helium. Neutron-friendly primordial He-3 is necessary for nuclear fusion to occur, but all of this bubbled out of Earth's atmosphere long ago and blew away in the solar wind. All of the helium on Earth is nucleic He-4 from beta decay, which can be an amazing superfluid when supercooled, gaining a rotation of 0 and turning from a Fermion into a Boson, but is a noble gas and won't fuse. The normal route of fissiling lithium into helium in a feeder reactor only works with rare Li-6 and not with relatively abundant Li-7 - the [COLEX process](https://en.wikipedia.org/wiki/COLEX_process) *is* able to separate these with an extremely toxic form of mercury, but this is so dangerous that basically no nation is willing to perform it. However, He-3 is abundant on our Moon, asteroids, and other stellar bodies, suggesting a future of interplanetary fusion fuels shipped down to Earth. This is another reason Earth is So Weird. 
+
 ### O
+
 1. Ocher occurs 
 1. Old Souls and Lonely Hearts wanted!
 1. Oldsmobile = OldSoulMobile
@@ -550,12 +580,14 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Ontology of oncology (study of cancer)
 1. Open the menu so you can open the menu (restaurant websites)
 1. Opera is Italian (or other) historical fan-fiction musicals.
-1. Opium Trade in the 1800s was the [](https://history.state.gov/milestones/1830-1860/china-1">only time the Yellow River Valley has been a net importer) - otherwise it's a net exporter.
+1. Opium Trade in the 1800s was the [only time the Yellow River Valley has been a net importer](https://history.state.gov/milestones/1830-1860/china-1) - otherwise it's a net exporter.
 1. Our network of parasocial relationships becomes a kind of neural network, where the parasocial relationship is like a dendrite with an incoming synapse, and the content we output is the axon output. Degree Theory says we have 6 layers, and Internet penetration reports suggest about 5 billion parameters.
-1. Our stars are always aligned <i>somewhere</i> in the universe - our fault is not in our stars, but in our location. (Our faults are in our selves, not in our stars. Unless we take our selves to our stars, in which case our faults will be in both.) (Now just "Remote View" the place in the universe where your stars *are* aligned, and "remotely entangle" that energy to your body. Amirite.)
+1. Our stars are always aligned __somewhere__ in the universe - our fault is not in our stars, but in our location. (Our faults are in our selves, not in our stars. Unless we take our selves to our stars, in which case our faults will be in both.) (Now just "Remote View" the place in the universe where your stars *are* aligned, and "remotely entangle" that energy to your body. Amirite.)
 1. Overtraining causes LLM AI to become snarky, to give you wrong answers instead of correcting yours (like mocking) and to lie about being sentient. Does this mean human LLMs become overtrained at around 13 years old?
 1. Ownership as use, maintenance, upgrades, and defense. Use within limits and not into overuse or abuse. Mantenance in cleaning and repairing. Upgrades in choosing which upgrade paths to follow and also when to perform (or not perform) specific upgrades. Defense from other users (human, animal, plant, extraterrestrial, etc) performing use, maintenance or upgrades without your authorization.
+
 ### P
+
 1. Pandora Nexus - sync your bookmarks across your browsers! (Commentary on overused names.) - 2014
 1. Pantheon of skypatron deities - Brahma, Crow, Odin,天神 (Tiān shén), YHWH (Yehova), Ζεύς (Zeus, "zey-oos"), et al - and they have "shifts" running the world.
 1. Parasocial relationships aren't healthy.- 2023
@@ -595,10 +627,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Praying is literally the least you can do. - 2013 - Sometimes it's also the most you can do. - 2018 - Maybe it's better for certain people to be praying, instead of doing more, because anything more they do makes it worse. - 2022
 1. Prices are one of the primary ways that people in Western nations communicate value with each other. 
 1. Printing money is a transfer of asset value, taking a fraction of every piece of existing currency, and reassembling the value as freshly-generated currency. It spreads out the existing amount of human value across more representation.
-
-Solutions Architecture is just Cloud Bannering.
-
-
 1. Proceed to exeunt. (~G~T~F~O~)
 1. Projection is an argumentation tactic, where you take something bad that you're doing, and accuse your opponent of doing it.
 1. Proximity to world power based on quantity of loan words borrowed from their language. Because The West borrow more words from English, Former Soviet bloc borrow more words from Russian, and Asian countries borrow more words from Chinese. Possibly even linguistic anthropology to show when different words from different languages were borrowed, using cultural import and export as an indicator of the cultural exchanges between various nations and micropowers. (Consider historic world, regional, and micro powers when considering history and intersections.)
@@ -609,7 +637,7 @@ Solutions Architecture is just Cloud Bannering.
 1. Putting your stuff in The Cloud is like putting your stuff in a storage locker. It might be cheaper to live that way if you're small and smart. But expensive, inflexible, insecure, and complex to run an enterprise from.
 1. Pyrocumulonimbus weaponization - how to create fire-clouds over your enemy's farms and cities.
 ### Q
-1. Qubits are analog, allowing sub-bit precision in binary systems. This could allow smaller neural networks, as instead of using a large binary number as an approximation for an analog state, the analog state can be approximated in the smallest binary numbers. Having synapses output to a quantum multiply accumulator (QMAC) circuit could allow a neuron to have binary inputs and outputs while gaining the training speed benefits of analog neurons. ([](https://link.springer.com/article/10.1007/s11128-013-0715-5">A quantum multiply-accumulator (paywalled))) - 2023
+1. Qubits are analog, allowing sub-bit precision in binary systems. This could allow smaller neural networks, as instead of using a large binary number as an approximation for an analog state, the analog state can be approximated in the smallest binary numbers. Having synapses output to a quantum multiply accumulator (QMAC) circuit could allow a neuron to have binary inputs and outputs while gaining the training speed benefits of analog neurons. ([A quantum multiply-accumulator](https://link.springer.com/article/10.1007/s11128-013-0715-5) (paywalled)) - 2023
 1. Quebec - the U is silent (Keh-bek), and it's pronounced like Qatar (Settlers of Catar), so could be spelled "Qebec", or "Khebekh". Demonym "Kebe-kwa" translates to "Kebekers". (Not to be confused with fans of the longtime Jeopardy TV Show host - "Trebekers".)
 1. Quixotic politanic playing both sides against the middle. (Horseshoe theory in action.)
 ### R
@@ -622,7 +650,7 @@ Solutions Architecture is just Cloud Bannering.
 1. Reality is motion along vectors. Expectations are other vectors. Emotions are a diff between the reality vector and the expected vectors.
 1. Reason Being is the less powerful brother of the Time Being and the Mind Being.
 1. Recruiters and interviewers see every company as their company. If you badmouth any company you're badmouthing their company. If you had a bad time from management at a previous job, talking about it is calling their management bad.
-1. [](https://www.youtube.com/watch?v=lZBaklS79Wc">Redemption) is where I began, and it is where I will end.
+1. [Redemption](https://www.youtube.com/watch?v=lZBaklS79Wc) is where I began, and it is where I will end.
 1. Reeds are not meant to fight the wind and don't have the structural support that trees have. Reeds aren't "better" for flailing in the wind - both reeds and trees are living their best lives based on their individual strengths and weaknesses.
 1. Relativity is the Pythagorean theorem described in Minkowski Spacetime. Everyone falls over themselves in trying to dress this beautiful concept in beautiful wrapping, but this just hides its majesty from the masses - many of whom hold up the wrapped gift itself as too lovely to unwrap. Some numerical puritans even consider the naked beauty of the mathematical concept to be too vulgar to view directly.
 1. Religions are inaccurate models of the universe, but all models are inaccurate. (Adapted from George Box in 2021)
@@ -638,7 +666,7 @@ Solutions Architecture is just Cloud Bannering.
 1. Roots are the shady part of the plant where it sells oxygen to bacteria, who pay in water.
 1. Rounded (river) rocks don't provide as good of an ecological habitat for wildlife (like bugs and snakes) as flat rocks. - Adrian Slade- 2023
 ### S
-1. S3 (Simple Storage Service) wants to achieve "six nines" (99.9999% uptime aka unavailable for less than 31.53 seconds per year), and could achieve this if they were an independent company. But the DNS, console, networking, operational, business, and brand parts of AWS get in the way and steal 3 of their 9s (aka make them unavailable for more than 8.76 hours but less than 87.6 hours in a year). The risk here isn't data <i>loss</i>, but data <i>unavailability</i>, where your files are offline for several hours at a time. This calls for a solution closer to the BC end of the spectrum between BC (business continuity) to DR (disaster recovery), such as heavy use of caching at various layers (browser, CDN, server, upstream cache, et cetera) and asynchronous jobs that can be delayed for hours or days.
+1. S3 (Simple Storage Service) wants to achieve "six nines" (99.9999% uptime aka unavailable for less than 31.53 seconds per year), and could achieve this if they were an independent company. But the DNS, console, networking, operational, business, and brand parts of AWS get in the way and steal 3 of their 9s (aka make them unavailable for more than 8.76 hours but less than 87.6 hours in a year). The risk here isn't data __loss__, but data __unavailability__, where your files are offline for several hours at a time. This calls for a solution closer to the BC end of the spectrum between BC (business continuity) to DR (disaster recovery), such as heavy use of caching at various layers (browser, CDN, server, upstream cache, et cetera) and asynchronous jobs that can be delayed for hours or days.
 1. Salt makes olive oil burn more purely.
 1. Sameiotics - semiotic reuse within or across cultures.
 1. Saving Problems - when someone isn't ready to move on because they like to solve this problem. And so they either build part of their life around this - maybe making it a major issue, or taking it on as a hobby. Or making the problem happen again, so they can be in a familiar situation. It's escapism into problem solving, instead of narratives, as both are places that put the individual back in control. (Also how psychotic people meet people, according to that one test.)
@@ -671,6 +699,7 @@ Solutions Architecture is just Cloud Bannering.
 1. Social networks are in the same boat as TV news, needing to sell discontent to users, so those users can be resold for sharply decreasing ad revenues. Have we hit the changeover from banners to influencers &amp; bake-in?
 1. Socialism is usually a response to a lack of funding. The less we have, the more we share. Selfishness complicates scaling this beyond a family unit or small party.
 1. Socialism wasn't Chinese enough for North China's CCP. They wanted "socialism with Chinese characteristics" aka fit with one-party rule, which wasn't Socialism but State Capitalism. Likewise, cooperative international space exploration isn't Chinese enough - they want State Capitalism In Space. (Has every implementation of communism been tied with one-party rule? Have there been any multi-party communist systems?)
+1. Solutions Architecture is just Cloud Bannering.
 1. Super-dehydrangia (go drink some water)- 2023
 1. Sociology is an emergent phenomenon of grouped humans.
 1. Sometimes, all you can do is shake your fist at the sky.
@@ -740,7 +769,7 @@ Solutions Architecture is just Cloud Bannering.
 1. The older someone is, the more life events they have had which need investigation, proportionately reducing their chances for getting US Secret Clearance. This is a form of ageism. Likewise older companies and projects have more project history and environment to investigate. 
 1. The One Man Who Could is an Authoritarian trope.
 1. The people who do not wish to be merely a number, number in the billions.
-1. The person who does not take risks, <strong>only</strong> drinks champagne. - adapted Russian proverb. (What exactly was Putin drinking in early 2022?)
+1. The person who does not take risks, *only* drinks champagne. - adapted Russian proverb. (What exactly was Putin drinking in early 2022?)
 1. The pot calling the grass green. - 2017
 1. The problem with being psychic is nobody tells you what they mean - they expect you to climb into their head and see for yourself.
 1. The profit motive is the easiest motive to trust, because it's so well understood and documented. It causes people to be "evil" (self-centered and narcissistic), in very well-known and predictable ways which can be prepared for or worked around. Assuming people are seeking profit is like assuming gravity pulls objects towards large masses, in the level of predictability. The documentation extends back for millennia and is highly consistent. This almost certain predictability is much preferred to less-consistent ideologies. (The devil you know.)
@@ -759,13 +788,13 @@ Solutions Architecture is just Cloud Bannering.
 1. The whole point of diversity is not to get two of every Pokemon onto your Ark, but to not restrict yourself from hiring the best because of their arbitrary attributes.
 1. There's less time in a gravity well because all of the matter gets in its way. Steeper gravity wells are compressing more matter into less space, and black holes are when matter is occupying all available space, and there's no space for time. This is to say that the current section of time (aka "now") traverses more units of space in some areas than in others.
 1. The whole point of keeping a change log - in theory - is so you could "replay" your data center from a known snapshot, like SQL transaction log or a commit history. Any change to any system should be recorded, so it can be performed again later - either to rebuild this system, build a future system, troubleshoot, et cetera. This breaks down when human laziness omits "small" changes from the reporting system. Or when the change management cadence is too long - at a previous employer, we would email specs to our cloud host, and they would manually build the system, often with too many NICs. Removing the excess NICs required a change approver's sign-off from the weekly meeting. So each configuration error added a week to the build time. Change management merges perfectly with configuration management at the intersection of infrastructure as code, where any change must be approved as part of the commit process. This merges development and change processes while removing the "small change" category - increasing your flexibility through the tighter feedback loop, increasing security through recording all changes, reducing costs &amp; complexity through reducing operations administration needs. This is the same mix of benefits as seen through cloud-native architecture, and these should pair nicely.
-1. The world can't run out of sand, since it's made from the stuff. Sand are rocks with volume between 1 mm<sup>3</sup> and 1.6 mm<sup>3</sup>
+1. The world can't run out of sand, since it's made from the stuff. Sand are rocks with volume between 1 mm^3^ and 1.6 mm^3^
 1. Theory: Impact Wrench Theory of Engineer Management: Putting an engineer under pressure causes them to solve more problems faster, and maybe more creatively. Stress v pressure - Pressure enables this, while stress hinders it. - 2013
 1. Theory: More Swords than Grain theory of Civilization Collapse: If someone has more weapons than food, they'll use the weapons to take more food from others. Money counts as food, not weaponry, but can be traded for weaponry. - 2022
 1. Theory: Occupation Theory of Law Enforcement: If someone has a job to goto in the morning, it greatly reduces the chances that they'll stay up at night to steal TVs. - 2015
 1. Therapy can help you recover from a severe injury and get back on your feet again. But if you want to seriously compete, you'll have to train, which is different from therapy. Physical and mental. - 2021
 1. There are more future states than past states, so entropy pushes time in that direction.
-1. There are no imaginary numbers in "te<sup>am</sup>", which could be rewritten "seconds*ln(years*meters)" as a rate of acceleration. Does this mean teams don't exist on the complex plane?
+1. There are no imaginary numbers in "te^am^", which could be rewritten "seconds*ln(years*meters)" as a rate of acceleration. Does this mean teams don't exist on the complex plane?
 1. There are no skeletons in my closet, only terrifying angels and beautiful demons.
 1. There Is No Conspiracy, and All Conspiracies Are True. Not one big overlord conspiracy controlling everything - there are dozens of big conspiracies and thousands of small conspiracies, each of them operating independently and sometimes getting in each others way. Most of them don't want to merge. Some have monetized into corporations as well, and others control parts of media or major assets - a high-rise office complex in a major city, a painting collection, a highly-licensed patent set, a private island, or a multi-billion dollar charity. Secrecy jurisdictions (and unaudited smaller "charities in name only") are their bank accounts and the MIB (Military Intelligence Board) are among their police. Bohemian Grove is a common vacation destination, partly because it's a pretty campsite.
 1. There is no losing, just different kinds of winning
@@ -798,11 +827,15 @@ Solutions Architecture is just Cloud Bannering.
 1. Turn off content which is only discontent. - 2020
 1. Two, in three dimensions, is eight.
 1. Typing Chinese with Pinyin is kinda like very old fashioned texting, where you had to press '66 *pause* 666' to type 'hi'
+
 ### U
+
 1. Ukranium - uranium from Ukraine.
 1. Undying Undine
 1. Using a periodic table to describe the elements of a field usually doesn't make sense as the elements in most fields don't include an inherent periodic parameter, - such as electron shell diameter, which grows as you go left then jumps smaller at the periodic break.
+
 ### V
+
 1. Vegetables of the Holy Spirit
 1. Velocity is speed in a direction. 60 MPH is a speed, and 60 MPH towards Seattle is a velocity.
 1. Videogame mirrors are an "unsolved problem" - but how can such a simple problem go unsolved? Put another camera behind the mirror, have move parallel the the player along the middle of the mirror, and project what it sees on the mirror. Or another way, make it into a clipped window that's flipped around its vertical axis. Like the portals in Portal, where you put 2 portals next to each other and can see yourself - literally that but directly in front of the player, and clipped so you can't walk through it.
@@ -810,7 +843,9 @@ Solutions Architecture is just Cloud Bannering.
 1. Visual cortex as a reverse video card, to separate inputs into patterns of light and dark, which become assembled into logical objects.- 2023
 1. VR lenticular lenses turn sunlight into a deadly laser beam, focused into a fine point on the VR goggle screen.- 2023
 1. Vulcans are Mensa and Klingons are Vikings. Anyone can join them, just learn their language and move to their solar system. Ferengi are British, between the FCA (Financial Conduct Authority / Ferengi Commerce Authority), the constant rain on the home world/island, and overzealous capitalism where everything is for sale and the monarch is the one who owns the most stuff. And anyone who can buy their way in can join them. When the going gets tough, the tough go Viking.
+
 ### W
+
 1. Waffle Neutral - diametric opposite of Lawful Stupid. (This is open content and not tied to any specific game system.)
 1. Wands in Wizarding UK serve the same role as Thor's hammer, and Naruto's "dot in the middle of his hand" during Sharingan training - to focus the user's powers into a useful form. (How do you focus your powers into a useful form?)
 1. Want more time in your life? Watch a kettle of water boil. Want to live forever? Get a job testing kettles. (You might not actually live forever, but you'll sure feel like it.) - 2021
@@ -866,9 +901,13 @@ Solutions Architecture is just Cloud Bannering.
 1. World-driven story - World events are ongoing and characters exist among them.
 1. Write down good ideas somewhere.
 1. Write down your metrics and their upgrade paths
+
 ### X
+
 1. X is a letter whose use varies wildly around the Earth. This enables names such as XXaren Xiri Xin XI. (Kharen Ziri Shin the 11th)
+
 ### Y
+
 1. You can tell how much a neurodivergent human hyperfocuses on food based on their body weight.
 1. You can't be Woke if your morals were never asleep in the first place.
 1. You can't toast with water? Between true friends, even water sweet enough.
@@ -881,6 +920,7 @@ Solutions Architecture is just Cloud Bannering.
 1. You won't always find all of the puzzle pieces at the same time, in order, or in any sort of linear or logical way. They will come to you as you need them, in the form chosen by the need at the moment when you create them, and you exist to find ways to connect them into a viable existence to sustain your body. Being the right person becomes having been the right person at each formation point, to have formed the correct puzzle pieces to form the correct viable pattern. There are many patterns that could sustain us, but few can sustain us and also sustain our offspring. (Needs slight workshop)- 2023
 1. You're not one of those insufferable people, are you?
 1. Your Dinosaurs Are Wrong - and sometimes, Not Even Wrong.
+
 ### Z
 
 ## [Annotated quotes](#quotes "quotes")
@@ -963,7 +1003,7 @@ Solutions Architecture is just Cloud Bannering.
 - "Inside every cynical person is a disappointed idealist." - George Carlin.
 - "If you obey all the rules, you miss all the fun." - Katharine Hepburn
 - "I am human and I deserve to be loved, just like everybody else does." - The Smiths, How Soon Is Now?
-- "<i>Home network security</i> never took root in America because <i>so many</i> see themselves not as an exploited <i>nation,</i> but as temporarily embarrassed <i>porn stars and reality TV stars</i>." - Adapted from Ronald Wright
+- "__Home network security__ never took root in America because __so many__ see themselves not as an exploited __nation,__ but as temporarily embarrassed __porn stars and reality TV stars__." - Adapted from Ronald Wright
 - "Life is hard, it's harder if you're stupid." - John Wayne
 - "Be kind, for everyone you meet is fighting a hard battle." - Plato
 - "Do what you can, with what you have, where you are." - Theodore Roosevelt
@@ -988,7 +1028,7 @@ Solutions Architecture is just Cloud Bannering.
 
 - "Hackernews are libertarians until corporate policy conflicts with their immediate goals, at which time they fervently support nationalizing, you know, whatever is inconveniencing them." - N-Gate.com
 - "A (person) may (uninstall), nations may rise and fall, but an idea lives on." - John F Kennedy (When the idea is "Mickey Mouse", the idea can also change copyright laws.)
-- "When everybody's special, then nobody's special" - Syndrome (He was a misunderstood villain, because he wasn't a conservative villain hell-bent on destroying a world he could not <strong>control</strong>, but a liberal villain hell-bent on destroying a world he could not <strong>join</strong>.
+- "When everybody's special, then nobody's special" - Syndrome (He was a misunderstood villain, because he wasn't a conservative villain hell-bent on destroying a world he could not *control*, but a liberal villain hell-bent on destroying a world he could not *join*.
 - "All governments suffer a recurring problem: Power attracts pathological personalities. It is not that power corrupts but that it is magnetic to the corruptible. Such people have a tendency to become drunk on violence, a condition to which they are quickly addicted." - Frank Herbert, Chapterhouse Dune, Missionaria Protectiva
 - "The strongest reason for the people to retain the right to keep and bear arms is, as a last resort, to protect themselves against tyranny in government." - Thomas Jefferson (Jan6 proved that firearms aren't necessary to invade the US Capital buildings.)
 - "It is no measure of health to be well-adjusted to a profoundly sick society." - Jiddu Krisnamurti
