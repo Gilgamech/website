@@ -8,6 +8,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 ### Numbering subject to change.
 
 ### #
+
 1. 12 Angry Men wouldn't be so angry if they were a 'hung' jury. (This joke is so bad that it should goto jail.)
 1. 1000g e-waste = 300-400g gold (30-40%) - NileRed
 1. 31 Jul 1970 - Black Tot Day
