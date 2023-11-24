@@ -1,9 +1,8 @@
-
 ### [Gillogisms](#Gillogisms)
 
 ### [Quotes](#quotes)
 
-## [Gillogisms](#Gillogisms)
+# [Gillogisms](#Gillogisms)
 The words of the prophets are written on abandoned buildings, bathroom walls, and grain trains.
 ### Numbering subject to change.
 
@@ -108,6 +107,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Bill Maher practices Kierkegaardian Centrism.
 1. Bingo Fuel is the Aviation version of Range Anxiety.
 1. Black Belt is like a BA in Fighting - a BMA or Bachelor of Martial Arts. In most major styles, earning one takes about 4 to 5 years, and similarly covers a broad array of topics - including kinetic and potential energy, physical fitness, anatomy and physiology, mindfulness, philosophy, and criminal psychology.
+1. Blaming forest fires on global warming is like blaming arson on global warming.
 1. Blood transports *heat* - a job that is rarely remembered. Only muscles really create heat - bones, tendons, and nerves don't, skin might create a little - and just like an under-floor heating system, the blood moves heat from the muscles around the body to other organs. And especially to the skin for radiation, just like on the ISS. This keeps all our cells at their optimal enzymatic temperature.
 1. Books can only be judged by their covers - that's how you choose which one to open.
 1. Bored is a lack of intellectual stimulation while lonely is a lack of emotional stimulation.
@@ -262,6 +262,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 1. F Murray Abraham, F Scott Fitzgerald, and 'eff' this (person/place/thing).
 1. Fahrenheit and Celsius are 2 buildings next to each other. Celsius is on a hill that's as tall as Fahrenheit's 32nd floor. There are 9 floors in Fahrenheit for every 5 floors in Celsius, and they have a weird shared basement that goes down forever. You're on the 20th floor of Celsius, looking at Fahrenheit. Which floor are you directly across from? (The 68th.)
+1. Fail safe not fail dangerous.
 1. fam=ily
 1. Family are a primary source of belongingness.
 1. Family means Forever when you're a suburban mother who's trying to get your kids to eat their vegetables instead of yell at each other. Once you're an adult, like how age is just a number, family is just a name.
@@ -453,6 +454,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 1. Lagrangian Skeeball
 1. Law is equal parts charisma and precedence. (Justify what you can, grin when they mention what you cannot, and have the wisdom to know the difference?)- 2023
+1. Lawyers don't have ethiscs so much as they study and practice moral and ethical capture.
 1. Leadership is as much serving as it is being served, and bad times should cost the leaders at least as much as good times benefit them. - 2022
 1. Learn from idiots - bring others to your level and defeat them with experience. - 2013 (Reply to 'Don't argue with idiots - they'll bring you down to their level and defeat you with experience.') (Also, 'If it's stupid and it works, it's not stupid.')
 1. Learn the same lesson from 10 different teachers and you'll learn 10 different ways to look at the world.
@@ -539,6 +541,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 ### N
 
 1. Nails are to snakes as screws are to lizards.
+1. Name something that you've been on the wrong side of but don't want to admit it. How can you get on the right side of it without losing much face, if any? 
 1. Narratology - the study of narratives, story arcs, and narrative effects.
 1. Nationalism was a tool used by nobles to generate armies, getting them to care about more than just their local clan or village. Will the UFO age bring about planet-ism? Do we dare declare 'Earth First' among the stars? 
 1. Need to teach Civics and Physics to Liberals so they know how societies work, and their ideologies make more sense. 
@@ -595,7 +598,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Parents are 'at that age where everyone around them is dying' and the child can't accept this - makes up a fantasy that the parents are killing the extended family and using random illnesses and injuries as a cover.
 1. Particle means the self-propagating set of transverse waves in 2 media. We only see the one path actually occur.
 1. Parting fools from their money - it's like fools line up for the honor, treat the parting as an admission fee, and the fools just hope for a good show. (Does this put Stater &amp; Waldorf on the same footing as crypto nerds?)
-1. Peace through victory.
+1. Peace Through Victory. Because anything less is just a participation trophy.
 1. Pentagonia
 1. People are attracted to what they fear (because fear is a lack of information often supplemented by invented information, so this is a dopamine-validation loop), try to correct what they think is wrong, and fight against what they don't understand. Often fighting to correct, what they think is wrong about who or what they're attracted to, out of a lack of accurate information. Have the courage to academically study your fears, the inner peace to accept what you think is wrong in the world, and honesty about these with yourself and others. - 2022 (Fear is a partial model, wrong is having 2 models and wanting the other one, and not understand is having no (viable) model. So fear is having 2 incomplete models, and wanting the other one because it has more desirable imagined statistics.)
 1. People are only looking to project, and not accept, because everyone is emotionally 'full'. - 2020
@@ -875,11 +878,13 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. We can be bitter, or we can be better. - 2022
 1. We cannot go back(wards in time), but we can go anywhere again. (Will we ever go to Washtucna again and see that bus?)
 1. We enjoy narrative straight lines, but reality is based much more in narrative waves, as most people live a random walk between optimal states.
+1. We have this sword here, to protect us from bandits. But it's made from uranium among other metals, so it's slowly killing us. 
 1. We live in 'the gap', a Goldilocks-like zone between the Rock of Not Enough and Hard Place of Too Much.
 1. We may lose, ..., but we'll never be here again. (Paraphrase Edit of Eagles, Take It Easy. We aren't going to win - there will be no winning involved, just more loss or less. The locals won't even remember an easy win against some vainglorious loser on a random Taco Tuesday.)
 1. We're losing technologies in the fields of videogame development and forest fighting, among others.
 1. Wealth is Owner's Equity in one's personal life. The opposite of equity is debt, and the opposite of wealth is poverty. (Otherwise, 'wealth' means 'a lot of something'.)
 1. Werewolf is past tense of Iswolf.
+1. What dressing do you like on your word salad?
 1. What makes a computer tick? The computer's clock makes it tick. Kernels are the base-level programs that run on (micro)processors. The difference between a simple kernel and a full OS is like the difference between an application and a web browser - make (application programming) interfaces to load other software into local memory and give them compute time on your CPUs.
 1. What to get someone for Christmas when they like to fight with people over dumb things.
 1. What you want is not (the thing) - what you want is how you feel about (the thing), and you want someone else to feel that way about you.
@@ -932,7 +937,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 ### Z
 
-## [Annotated quotes](#quotes)
+# [Annotated quotes](#quotes)
 
 ### Generalized where possible
 
