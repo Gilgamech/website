@@ -932,3 +932,128 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 ### Z
 
+## [Annotated quotes](#quotes)
+
+### Generalized where possible
+
+### Creativity
+
+- The Feynman Algorithm:
+  1. Write down the problem.
+  1. Think real hard.
+  1. Write down the solution.
+  - (Everyone thinks the secret here is the 2nd step - but really, it's the 1st step, where the problem is defined. Once you have any problem clearly defined in a sentence, or even a paragraph, it's pretty easy to find solutions.)
+- 'Don't let schooling interfere with your education.' - Mark Twain
+- 'All the world's a stage.' - William Shakespeare (Who owns the stage? Who are the actors and who are the stagehands?)
+- 'Cosmos is also within us. We're made of star stuff. We are a way for the cosmos to know itself.' - Carl Sagan
+- 'Creativity takes courage.' - Henri Matisse
+- ''Farquaad' from Shrek is a non-rhotic joke.' - Th3Birdman
+- 'We don't make mistakes, just happy little accidents.' - Bob Ross
+- 'It’s not the note you play that’s the wrong note - it’s the note you play afterwards that makes it right or wrong.' - Miles Davis
+- 'Anyone can make the simple complicated. Making the complicated simple, that's real creativity, man.' - Charles Mingus (His quote varies in specific construction.)
+- 'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.' -Martin Fowler, 'Refactoring: Improving the Design of Existing Code'
+- 'Inspiration exists, but it has to find you (while you are) working.' - Pablo Picasso
+- 'We wanted flying cars, instead we got 140 characters.' - Peter Thiel
+- 'Opportunity is missed by most people because it is dressed in overalls and looks like work.' - Thomas Edison.
+- 'I saw the best minds of our generation writing spam filters.' - Neal Stephenson
+- 'I'm a greater believer in luck, and I find the harder I work the more I have of it.' - Thomas Jefferson
+
+### Uninstallation
+
+- 'Every (human) (uninstalls), but not every (human) truly (installs and plays the game).' - William Wallace
+- 'Mere (install) is not a victory. Mere (uninstall) is not defeat.' - Kahless
+- 'If you're frightened of (uninstalling), and you're holding on, you'll feel devils tearing your life away; If you've made your peace, then the devils are really angels, freeing you from the earth' - ???
+- '(Uninstall) comes for us all. Even for kings (thee) comes.' - Robert Bolt
+- 'Ego facti mortis, Pestifer Mundi, et in Arcadia Ego' - 'I am become Death, the Destroyer of worlds' - J Robert Oppenheimer (Sanskrit quote) / 'And in Paridise I am.' - Ancient Greek saying.
+- 'Chance is irrelevant. We will succeed.' - Seven of Nine, Star Trek Voyager.
+
+### Intelligence
+
+- 'The ability to speak does not make you intelligent.' - Qui Gon Jinn (Jedi Knight, Phantom Menace)
+- 'Some people (uninstall) at 25 and aren't buried until 75.' - Benjamin Franklin
+- 'Ninety percent of everything is crap.' - Sturgeon's Law.
+- 'If only there were evil people somewhere insidiously committing evil deeds and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart? -Alexander Solzhenitsyn
+- 'And when you gaze long enough into the abyss, the abyss will gaze back into you.' - Friedrich Nietzsche (It's a staring contest.)
+- 'There is nothing noble in being superior to your fellow (human). True nobility lies in being superior to your former self.' - Ernest Hemingway
+- 'If you got imitators, I feel bad for you, son - I got 99 problems, but competition ain't one.' - Adapted from Jay-Z' - 2015 (can't generalize or it breaks the rhyme)  
+- '(Progress) should be the only study of a (human). (They) should consider (plateauing) only as a breathing-time, which gives them leisure to contrive, and furnishes as ability to execute, (further progress).' - Niccolo Machiavelli. (Persistence is stagnation.) - 2018)
+- 'Great spirits have often encountered violent opposition from mediocre minds.' - Albert Einstein (About Nikola Tesla, Ada Lovelace, Martin Luther King, Jr., John Kennedy, Nelson Mandela, Charles Xavier, et cetera.)
+
+### Maturity
+
+- 'A witty saying proves nothing' -Voltaire
+- 'Quotation is a serviceable substitute for wit.' - Oscar Wilde
+- 'Pain is inevitable. Suffering is optional.' - Haruk Murakami
+- 'Litany against fear, Dune.' 
+  - 'I must not fear.'
+  - 'Fear is the mind-killer.' - (Including Fomo)
+  - 'Fear is the little-(uninstall) that brings total obliteration.'
+  - 'I will face my fear.'
+  - 'I will permit it to pass over me and through me.' (Missing out lets me get other things done, or experience other things.)
+  - 'And when it has gone past I will turn the inner eye to see its path.'
+  - 'Where the fear has gone there will be nothing. Only I will remain.'
+  - (Say Nomo to Fomo. Fomo? Yagni!)  
+- 'The market can remain irrational longer than you can stay solvent.' - John Maynard Keynes
+- 'It is possible to commit no mistakes and still lose. That is not weakness, that is life.' - Jean-Luc Picard
+- 'Fortune may hold you, but she's not your friend.' -Devil Makes Three, 'Paint Your Face'
+- 'I'm not upset that you lied to me, I'm upset that from now on I can't believe you.' - Friedrich Nietzsche
+- 'Some cause happiness wherever they go, others whenever they go.' - Oscar Wilde
+- 'Do I not destroy my enemies when I make them my friends?' - Abraham Lincoln
+- 'When you reach for the stars, you may not quite get one, but you won't come up with a handful of mud either.' - Leo Burnett
+- 'When I became a(n adult) I put away childish things, including the fear of childishness and the desire to be very grown up.' - C.S. Lewis
+- 'Most people are other people. Their thoughts are someone else's opinions. Their lives are a mimicry. Their passions are a quotation.' - Oscar Wilde (This is because Machiavelli said that wise people should follow in the footsteps of great people, to at least sip at their greatness.)
+- '...having been born on 3rd base, they grew up thinking they had hit a triple...' - (Various, 2013)
+- 'Don't try to be a great (human). Just be a (human), and let history make its own judgments.' - Zefram Cochrane, attributed in Star Trek: First Contact.
+- 'When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ‘happy’. They told me I didn’t understand the assignment, and I told them they didn’t understand life.' - John Lennon
+- 'Everyone thinks of changing the world, but no one thinks of changing himself.' - Leo Tolstoy
+- 'There are only bad options. It's about finding the best one.' - Tony Mendez, Argo (Ben Affleck, 2012)
+- 'Seek freedom and become captive of your desires. Seek discipline and find your liberty.' - Frank Herbert
+- 'I'm starting with the (person) in the mirror...' - Michael Jackson, Man in the Mirror
+- 'Inside every cynical person is a disappointed idealist.' - George Carlin.
+- 'If you obey all the rules, you miss all the fun.' - Katharine Hepburn
+- 'I am human and I deserve to be loved, just like everybody else does.' - The Smiths, How Soon Is Now?
+- '__Home network security__ never took root in America because __so many__ see themselves not as an exploited __nation,__ but as temporarily embarrassed __porn stars and reality TV stars__.' - Adapted from Ronald Wright
+- 'Life is hard, it's harder if you're stupid.' - John Wayne
+- 'Be kind, for everyone you meet is fighting a hard battle.' - Plato
+- 'Do what you can, with what you have, where you are.' - Theodore Roosevelt
+- 'You see us doing crazy martial arts kicks and rolls on the training room floor. Do what you can do - don't do things that you can't do.' - Randy Canifax
+- 'Remember, I'm pulling for you. We're all in this together.' - Red Green
+- 'The journey is the worthier part' Serenity: The Shepherd's Tale
+- 'Live long and prosper' - Vulcan proverb.
+
+### Jobs &amp; Hobbies
+
+- 'Therein lies the best (career/life) advice I could possibly dispense: just DO things. Chase after the things that interest you and make you happy. Stop acting like you have a set path, because you don't. No one does. You shouldn't be trying to check off the boxes of life; they aren't real and they were created by other people, not you. There is no explicit path I'm following, and I'm not walking in anyone else's footsteps. I'm making it up as I go.' - Charlie Hoehn
+- 'A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, (uninstall) gallantly. Specialization is for insects.' - Robert Heinlein, Time Enough For Love
+- 'An expert is a (person) who has made all the mistakes, which can be made, in a very narrow field.' - Niels Bohr
+- 'I fear not the (human) who has practiced 10,000 kicks, but I do fear the (human) who has practiced one kick 10,000 times.' - Bruce Lee
+- 'Business is built by (people) who care—care enough to disagree, fight it out to a finish, get facts. When two (people) always agree, one of them is unnecessary.' - William Wrigley Jr., 1931
+- 'Brand the customer because they're more likely to stray' - Malcom Reynolds, Firefly
+- 'Hence the ways of (humans) part: if you wish to strive for peace of soul and pleasure, then believe; if you wish to be a devotee of truth, then inquire...' - from Nietzsche to his sister.
+- 'And (people), remember, if the (people you're trying to attract) don't find you (attractive), they should at least find you handy.' - Red Green
+- 'Roller coasters should exist for everyone, not just enthusiasts.' -ElToroRyan on Youtube
+
+### Human Governance
+
+- 'Hackernews are libertarians until corporate policy conflicts with their immediate goals, at which time they fervently support nationalizing, you know, whatever is inconveniencing them.' - N-Gate.com
+- 'A (person) may (uninstall), nations may rise and fall, but an idea lives on.' - John F Kennedy (When the idea is 'Mickey Mouse', the idea can also change copyright laws.)
+- 'When everybody's special, then nobody's special' - Syndrome (He was a misunderstood villain, because he wasn't a conservative villain hell-bent on destroying a world he could not *control*, but a liberal villain hell-bent on destroying a world he could not *join*.
+- 'All governments suffer a recurring problem: Power attracts pathological personalities. It is not that power corrupts but that it is magnetic to the corruptible. Such people have a tendency to become drunk on violence, a condition to which they are quickly addicted.' - Frank Herbert, Chapterhouse Dune, Missionaria Protectiva
+- 'The strongest reason for the people to retain the right to keep and bear arms is, as a last resort, to protect themselves against tyranny in government.' - Thomas Jefferson (Jan6 proved that firearms aren't necessary to invade the US Capital buildings.)
+- 'It is no measure of health to be well-adjusted to a profoundly sick society.' - Jiddu Krisnamurti
+- 'In its majestic equality, the law forbids rich and poor alike to sleep under bridges, beg in the streets and steal loaves of bread.' - Anatole France (These days, the law encourages the rich and poor alike to do drugs in public, to the detriment of society.)
+- 'The most common way people give up their power is by thinking they don't have any.' - Alice Walker
+- 'The most expensive part of an American car is the health insurance.' - Ross Perot
+
+### Science &amp; Technology
+
+- 'Armor turns sharp clubs (aka swords) into dull clubs, dull clubs &amp; arrows (&amp; bullets) into mild bodyslams, and fighters into statues.' -Shadiversity
+- 'Two possibilities exist: Either we are alone in the universe or we are not. Both are equally terrifying.' - Arthur C Clarke.
+- 'Having oil to fuel modern forts, navies, and infantry transports is a strategic national defense concern, and thus any threat to the supply of oil to the country is a threat to the security of the country. One of the defining features of this age is that oil is the resource of the day, not grass, farmland, saltpeter, unstable nuclei, or antimatter.' - Peter Zeihan
+- 'Organized religion can't exist without farming.' - Peter Zeihan
+- 'Any sufficiently advanced (robotics) is indistinguishable from (life).' - Adapted from Arthur C Clarke
+- 'Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway.' - Andrew S. Tanenbaum
+- 'Study the past if you would define the future.' - Confucius
+
+
+
