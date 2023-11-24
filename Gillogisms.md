@@ -739,7 +739,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Subscreen is what sailors use to prevent subburn.
 1. Sunlight is actually a terrible disinfectant, and greatly encourages bacteria growth.
 1. Supersize your nothing burger.
+
 ### T
+
 1. T-Rex had arms solely for male-male combat, because they would perform the male combat mating display by chest-bumping each other and flailing with their sharp claws against the other's chest, until one admitted defeat. (from YDAW? Also this sounds like Dino Sumo.) Hunting was entirely different: chasing prey jaws-first. (Is the mating display always so different from an interspecies hunting attack? Also, is this supported by dimorphism on female claws? Or did the females also chest-bump to fight over resources?)
 1. Talking about the x-direction is an x-position exposition.
 1. Tankie = a person so authoritarian that they would literally send a tank to run you over if they don't like what you're doing.- 2023
@@ -834,102 +836,3 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Turn off content which is only discontent. - 2020
 1. Two, in three dimensions, is eight.
 1. Typing Chinese with Pinyin is kinda like very old fashioned texting, where you had to press '66 *pause* 666' to type 'hi'
-
-### U
-
-1. Ukranium - uranium from Ukraine.
-1. Undying Undine
-1. Using a periodic table to describe the elements of a field usually doesn't make sense as the elements in most fields don't include an inherent periodic parameter, - such as electron shell diameter, which grows as you go left then jumps smaller at the periodic break.
-
-### V
-
-1. Vegetables of the Holy Spirit
-1. Velocity is speed in a direction. 60 MPH is a speed, and 60 MPH towards Seattle is a velocity.
-1. Videogame mirrors are an 'unsolved problem' - but how can such a simple problem go unsolved? Put another camera behind the mirror, have move parallel the the player along the middle of the mirror, and project what it sees on the mirror. Or another way, make it into a clipped window that's flipped around its vertical axis. Like the portals in Portal, where you put 2 portals next to each other and can see yourself - literally that but directly in front of the player, and clipped so you can't walk through it.
-1. Vidjae is plural for vidja.
-1. Visual cortex as a reverse video card, to separate inputs into patterns of light and dark, which become assembled into logical objects.- 2023
-1. VR lenticular lenses turn sunlight into a deadly laser beam, focused into a fine point on the VR goggle screen.- 2023
-1. Vulcans are Mensa and Klingons are Vikings. Anyone can join them, just learn their language and move to their solar system. Ferengi are British, between the FCA (Financial Conduct Authority / Ferengi Commerce Authority), the constant rain on the home world/island, and overzealous capitalism where everything is for sale and the monarch is the one who owns the most stuff. And anyone who can buy their way in can join them. When the going gets tough, the tough go Viking.
-
-### W
-
-1. Waffle Neutral - diametric opposite of Lawful Stupid. (This is open content and not tied to any specific game system.)
-1. Wands in Wizarding UK serve the same role as Thor's hammer, and Naruto's 'dot in the middle of his hand' during Sharingan training - to focus the user's powers into a useful form. (How do you focus your powers into a useful form?)
-1. Want more time in your life? Watch a kettle of water boil. Want to live forever? Get a job testing kettles. (You might not actually live forever, but you'll sure feel like it.) - 2021
-1. Wanting to remove pain/discomfort, even in oneself, is a sign of compassion.
-1. War as a series of burned bridges.
-1. Wars are almost entirely conducted to resolve disputes over dimensional resources - underground resources or tunnels, surface land area, buildings &amp; improvements, flowing or standing water, airspace, orbitspace, et cetera. - 1989 (with later updates).
-1. Was One Punch Man minmaxed into a glass cannon?- 2023
-1. Water isn't really H2O, but a mixture of hydroxide (OH-) and hydronium (H3O+), with the oxygen atoms moving back and forth between molecules, as a function of temperature. The Sour Taste Bud directly detects hydronium. and since there's more of both hydroxide and hydronium when water is hotter, this is how we can taste the temperature of water.- 2023
-1. Watermelon Man's name is Urizane.
-1. Wave-particle duality is actually wave function - wave location duality.
-1. We-a-pwn
-1. We are all alone, but you can be alone with me, at least for a little while. My Blank Space spans Half The Sky and my domain includes all that the moonlight touches.
-1. We are all going to die - slowly, one at a time, across many decades.
-1. we are each a shallow pond, an oasis in the desert of the cold and unfeeling interstellar wilderness.
-1. We are each the wrong person, in the wrong place, at the wrong time, doing the wrong thing, to the wrong people, for the wrong reasons. Don't let (the forces freeing you from that with which doesn't harmonize with you) limit you. - 2017.
-1. We are the electromagnetic force, suspended between saline packets of self-expanding lipid-polymer foam, floating along geodesics in 4d spacetime near large gravity masses, navigating a sociopolitical maze of ever-increasing complexity, just trying to get along. - 2018
-1. We are vectors in life-space. Collectively, we form a torus.
-1. We can be bitter, or we can be better. - 2022
-1. We cannot go back(wards in time), but we can go anywhere again. (Will we ever go to Washtucna again and see that bus?)
-1. We enjoy narrative straight lines, but reality is based much more in narrative waves, as most people live a random walk between optimal states.
-1. We live in 'the gap', a Goldilocks-like zone between the Rock of Not Enough and Hard Place of Too Much.
-1. We may lose, ..., but we'll never be here again. (Paraphrase Edit of Eagles, Take It Easy. We aren't going to win - there will be no winning involved, just more loss or less. The locals won't even remember an easy win against some vainglorious loser on a random Taco Tuesday.)
-1. We're losing technologies in the fields of videogame development and forest fighting, among others.
-1. Wealth is Owner's Equity in one's personal life. The opposite of equity is debt, and the opposite of wealth is poverty. (Otherwise, 'wealth' means 'a lot of something'.)
-1. Werewolf is past tense of Iswolf.
-1. What makes a computer tick? The computer's clock makes it tick. Kernels are the base-level programs that run on (micro)processors. The difference between a simple kernel and a full OS is like the difference between an application and a web browser - make (application programming) interfaces to load other software into local memory and give them compute time on your CPUs.
-1. What to get someone for Christmas when they like to fight with people over dumb things.
-1. What you want is not (the thing) - what you want is how you feel about (the thing), and you want someone else to feel that way about you.
-1. Whataboutism is an argumentation tactic, where one party asks a tangential question, with an answer too long for the other party to fully respond in their allotted debate time or post character limit. 
-1. 'When everyone's Super, then noone will be.' - Syndrome, Incredibles. If everyone's special, then nobody's special. Marxism (a philosophy so full of logic holes that it's like Swiss cheese) calls on workers to steal their workplaces from the business owners, continue operations, and divide stock and dividends amongst themselves. in ideological fervor, it embraces the fallacious notion of Tabula Rasa, and based on this calls on erasing culture to erase selfishness from people so everyone will live together in tiny apartments with shared kitchens, forgetting or ignoring that selfishness is an instinctive survival trait. Syndrome is so misunderstood because he's not a conservative villain, hell-bent on destroying the world that he cannot control - instead he is a liberal villain, hell-bent on destroying the world that he cannot join.
-1. When I learned that GOTO was considered harmful, it felt like someone was attacking my lifestyle. - 2022
-1. When in danger or in doubt, run in circles, scream and shout. (MST3k)
-1. When the going gets tough, the tough 'go Viking'.- 2023
-1. When the 'Great Person''s 'Only Option' is to 'Self Martyr' - Like Gene Roddenberry kept doing for Star Trek.
-1. When they call it the Empire State, they're serious about the Empire part.
-1. When you Arrive, you find that you have to work even harder to stay there. Or constantly work to learn and reinvent yourself.
-1. When you talk about someone else, don't talk about them, but the part of you that you see reflected in them.
-1. 'Who Are You?' / 'What Do You Want?' - Babylon 5 (Questions of the Vorlons and Shadows respectively.)
-1. Why buy what you can make? (There are many good reasons, such as mass production. Still something to consider.)
-1. Why doesn't the NSA provide an MFA app for all US Citizens? Why doesn't the Post Office offer a free email address for every US Citizen? Why doesn't the US Treasury update their archaic website that doesn't allow you to type your password, and instead have to click it from a Javascript keyboard?
-1. Why don't woke characters use sex as a weapon?
-1. Why drive people crazy when you can make them walk?
-1. Why rent an apartment if you're allowed to sleep in your office? If you move into your office, you'd be working from home while being 100% in-office.
-1. With the (uninstall) of the American Dream, so many are looking for a replacement dream.
-1. Woke Hollywood is like getting a cheese pizza and asking for pepperoni. SO they take it back and make an all-pepperoni pizza. Pepperoni crust, pepperoni sauce, pepperoni cheese. Oops all pepperoni. Like, no I enjoy crust and cheese and sauce, but just want an extra topping. Can't talk to these entertainment extremists like normal people - they intentionally misunderstand.
-1. Woke is like remaking A Bugs Life with only ladybugs.
-1. Woke is like trying to replace all Fermions with Bosons, 'for representation'. (Because Enrico Fermi was European while Satyenda Nath Bose was Indian.)
-1. Women and children = females and wee-males
-1. Words that are incredibly vague and convey a surface-level understanding and lack of deep knowledge - be more skeptical and discerning when reading these: Scientist. Power. Wealth. Truth(s). Lie(s).
-1. Workshop is where someone works. Laboratory is where someone labors.
-1. Workshopping as a process that advances the pattern.- 2023
-1. World is polluted with too many complaints. - 2020
-1. World-driven story - World events are ongoing and characters exist among them.
-1. Write down good ideas somewhere.
-1. Write down your metrics and their upgrade paths
-
-### X
-
-1. X is a letter whose use varies wildly around the Earth. This enables names such as XXaren Xiri Xin XI. (Kharen Ziri Shin the 11th)
-
-### Y
-
-1. You can tell how much a neurodivergent human hyperfocuses on food based on their body weight.
-1. You can't be Woke if your morals were never asleep in the first place.
-1. You can't toast with water? Between true friends, even water sweet enough.
-1. You either die the misunderstand villain, or live long enough to see yourself redeemed through others understanding your motivations.
-1. You have the right to feel secure in your person and papers. You have the right to associate and not associate with whom you choose. Based on these, you are not legally required to endure abusive language from legal professionals. You can require that a more-civil individual handle the correspondence with you.
-1. You have to drive halfway the wrong way before you can turn around to go the right way by half again.
-1. 'You know nothing, Jon Snow' - including that you know more than nothing. 
-1. You never get what you paid for. Either you got an amazing deal, or you paid too much.
-1. You wear what you eat. Literally, if you have bad table manners.
-1. You won't always find all of the puzzle pieces at the same time, in order, or in any sort of linear or logical way. They will come to you as you need them, in the form chosen by the need at the moment when you create them, and you exist to find ways to connect them into a viable existence to sustain your body. Being the right person becomes having been the right person at each formation point, to have formed the correct puzzle pieces to form the correct viable pattern. There are many patterns that could sustain us, but few can sustain us and also sustain our offspring. (Needs slight workshop)- 2023
-1. You're not one of those insufferable people, are you?
-1. Your Dinosaurs Are Wrong - and sometimes, Not Even Wrong.
-
-### Z
-
-## [Annotated quotes](#quotes)
-
-### Generalized where possible
