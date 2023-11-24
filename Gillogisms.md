@@ -930,6 +930,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 ### Z
 
-## [Annotated quotes](#quotes 'quotes')
+## [Annotated quotes](#quotes)
 
 ### Generalized where possible
