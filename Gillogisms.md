@@ -733,7 +733,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Stunning, Brave, and True (Current Year) - Styled after a true story tale, hear about 1 woman who struggles to overcome everything - illiteracy, sickness, poverty, sickness, a diversity of -isms, sickness, family drama around her sexuality, sickness, an invented patriarchy, sickness, a nonexistant fanbase, and sickness - to make a movie - about 1 woman who struggles to overcome everything... Stunning, Brave, and True (She sure gets sick a lot.)
 1. Sticks and stones might only break my bones, but certain words will ensure I never eat again.
 1. Study science and engineering in your 20s, art history in your 30s, &amp; geopolitics in your 40s.
-1. Stunt-driven story - stunts occur and characters\plot points are written to connect them. (This is Tom Cruise's Mission Impossible franchise.)
+1. Stunt-driven story - stunts occur and characters/plot points are written to connect them. (This is Tom Cruise's Mission Impossible franchise.)
 1. Stupidity is exhausting because it means doing everything the hard way, and sometimes twice or more.
 1. Subluminal subliminal - a message traveling slower than the speed of light, but faster than average human awareness.
 1. Subscreen is what sailors use to prevent subburn.
