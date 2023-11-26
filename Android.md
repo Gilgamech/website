@@ -2,7 +2,7 @@
 ### In [Android](https://www.fantasyflightgames.com/en/products/android/), players take the role of a troubled detective, willing to do almost anything - undercut another detective, plant evidence to create a murder case they can solve, even creating a conspiracy out of circumstance and paranoia - to cover up and deal with the personal demons that haunt them.
 
 # The Game Round
-### Android is played across 13 rounds, or Days, each consisting of Daytime and End of Day phases. The last 2 phases are the "Climax", and always come too soon. Players are guided by Hunches in planting evidence and creating conspiracies, while at the mercy of Plots and Events larger than they can control. 
+### Android is played across 13 rounds, or Days, each consisting of Daytime and End of Day phases. The last 2 phases are the 'Climax', and always come too soon. Players are guided by Hunches in planting evidence and creating conspiracies, while at the mercy of Plots and Events larger than they can control. 
 
 ## Daytime
 Players receive a certain amount of Time, which they can use in a number of ways:
@@ -11,7 +11,7 @@ Players receive a certain amount of Time, which they can use in a number of ways
 - Investigate leads either plant evidence, or build a Conspiracy puzzle. 
 - Draw and play Twilight cards.
 - Draw or discard any light or dark card, or play any light card.
-- Get a jump on the case claim "First Player"ship on the next turn.
+- Get a jump on the case claim 'First Player'ship on the next turn.
 - Use Location Abilities  
 - Use Event Abilities  
 - Other's turn:  
@@ -85,7 +85,7 @@ Players receive a certain amount of Time, which they can use in a number of ways
 - Any other card may be discarded to subtract 1 light or dark shift from the cost, down to 0.
 - Cards matching the plot color let you add or subtract 1 light or dark shift from the cost. 
 ### Get a jump on the case.  
-- Claim "First Player"ship on the next turn.
+- Claim 'First Player'ship on the next turn.
 ### Use Location Abilities    
 - Major Locations allow Favors to be exchanged for other items.
 ### Use Event Abilities    
@@ -103,7 +103,7 @@ Players receive a certain amount of Time, which they can use in a number of ways
 ### First Player token gets passed to the last person to Get a jump on the case.  
 ### Events    
 - New General Event bumps any current General Event to the 2nd space, and any 2nd General Event off the board, unresolved. 
-- Resolved Events and "fall off the board" events go in the same face-down pile. 
+- Resolved Events and 'fall off the board' events go in the same face-down pile. 
 - Specific events rearrange all the leads. 
   -  If a lead is already there, swap them. 
   -  If the suspect dies, the Specific Event ends and goes back in the box.
