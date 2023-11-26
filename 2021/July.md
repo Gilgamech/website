@@ -4,7 +4,7 @@
 
 ### Bibliography:
 
-- [Styling with col (and without col)](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- [Styling with col](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) (and without col)
 - [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 - [How to merge table cells](https://www.computerhope.com/issues/ch001655.htm)
 - [How to Center the Text in the HTML Table Row](https://www.w3docs.com/snippets/css/how-to-center-the-text-in-html-table-row.html)
