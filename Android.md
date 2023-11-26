@@ -1,5 +1,5 @@
 # Android by Fantasy Flight Games
-### In <a href="https://www.fantasyflightgames.com/en/products/android/">Android</a>, players take the role of a troubled detective, willing to do almost anything - undercut another detective, plant evidence to create a murder case they can solve, even creating a conspiracy out of circumstance and paranoia - to cover up and deal with the personal demons that haunt them.
+### In [Android](https://www.fantasyflightgames.com/en/products/android/), players take the role of a troubled detective, willing to do almost anything - undercut another detective, plant evidence to create a murder case they can solve, even creating a conspiracy out of circumstance and paranoia - to cover up and deal with the personal demons that haunt them.
 
 # The Game Round
 ### Android is played across 13 rounds, or Days, each consisting of Daytime and End of Day phases. The last 2 phases are the "Climax", and always come too soon. Players are guided by Hunches in planting evidence and creating conspiracies, while at the mercy of Plots and Events larger than they can control. 
@@ -42,10 +42,7 @@ Players receive a certain amount of Time, which they can use in a number of ways
 |12|6th|Plot Resolves|
 |13|6th|(Climax) Case Closes|
 
-
-
 ## Daytime - Your turn
-
 ### Move around the game board - any location within your vehicle ruler. 
 - Beanstalk has to be traversed to get from Earth to Moon and back - can only enter from Starport Kaguya on Moon, and The Root on Earth, and spend 1 time to move through each location (5 total). 
 - Dropship Pass lets you travel anywhere on the board, even skipping the Beanstalk.
