@@ -32,9 +32,11 @@
 - The rainfall that Noah recorded might have been caused by vaporized glacier condensing as rainfall - torrential rain flash flooding for over a month could have been supplemented by drastically rising local sea levels due to an influx of freed glacial water.
 - These same glaciers were sending walls of water westwards over Washington State, from Lake Missoula.
 
+
 # [09/21/2022](#09212022) - Neural Networks part 6: Culture is King.
 AI are for content like those crypto currency money launderers like Tornado Cash. The idea is to throw everyone's stuff in a blender, and everyone gets to take out what they want, and that belongs to them. At first, this starts to sound like Swinging, a Liberal married person's game. But keep going and it all just starts to sound like communism - the incomplete collection of ideals masquerading as an economic system, where everyone is an identical, fungible blob, nobody knows anything, and everyone's wholly dependent on the government.
 That paragraph starts to sound like an extension of De Tocqueville's observations that were written by George Orwell. A sick end-game of capitalism and free markets where only the ultra-rich cabal of elite politicians, tech boards, and A-list celebrities have any money or influence, and we're all their serfs - owning nothing and just happy that they haven't decided to remove us yet.
+
 
 # [09/03/2022](#09032022) -  The Stiffening
 - From a video (put link here later.)
