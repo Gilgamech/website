@@ -4,7 +4,7 @@ Site frames are a way to fully isolate site data from the HTML bootstrap. A site
 - Drop your load in the road! Leave a URL at the start of any line to have the page eventually load and display that data.
 
 Also the variable system is fully functional:
-- Replace-o-rama! Full SPA pages - now in JML or YAML - can support $_ "dollarsign-underscore" variable replacement from anywhere within the document.
+- Replace-o-rama! Full SPA pages - now in JML or YAML - can support $_ 'dollarsign-underscore' variable replacement from anywhere within the document.
 
 [OfferingOverview](https://www.OfferingOverview.com) is now fully Markdown and operating off a Page Frame, which has all of the instructions to load the other page elements. Including the footer, which is retrieved via URL replacement.
 
