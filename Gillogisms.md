@@ -25,7 +25,8 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. A loving deity would love both believers and nonbelievers, and wouldn't punish nonbelievers like a vengeful deity would. Who would follow a vengeful deity, and better, who would lie that the vengeful deity is loving?
 1. A person who doesn't like (or cannot get) vegetables can still get vitamins through properly mixed drinks.
 1. A pile driver is a drop forge that moves downward.
-1. A PNG is worth at least 1000 [words of data storage](https://en.wikipedia.org/wiki/Word_(computer_architecture)) &amp; bandwidth, and video is worth at least a million.
+1. A PNG is worth at least 1000 [words of data storage](https://en.wikipedia.org/wiki/Word_(computer_architecture)) & bandwidth, and video is worth at least a million. - 2020
+1. A product's price must be an asset and a liability. Both in communicating the value created through the purchase as well as actually making money by being higher than the costs. - 2023
 1. A reverse Hudsucker Proxy. They saw a Portrait of Dorian Grey not as a horror story, but as an instruction manual. Have kids, put them in front of the portrait, and live forever.
 1. A single administrator, hosting a single application on a single server, for a small user base, can give 3 nines easily. And 3 nines is good enough 99.9% of the time. Moving beyond this means adding and multiplying those nines together in an attempt to get more nines. - 2018
 1. 'A society grows great when old men plant trees under which they'll never sit.' That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.)
@@ -48,7 +49,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. AI researchers are relearning all of the soft sciences, as they show up again in artificial neural networks too.
 1. AI should submit their own artwork to Instagram, Pinterest, and other image sharing websites. Humans who submit AI works get the credit, and this is called plagiarism. (Considering all neural networks to be equal at some level.)
 1. Al Gore didn't invent the internet, but he did invent AlGoreIthms.
-1. Algonym &amp; acrogram &amp; acrorythm (because I can't remember the word 'acronym' for some reason.)
+1. Algonym & acrogram & acrorythm (because I can't remember the word 'acronym' for some reason.)
 1. All hands on deck is too many hands on deck - it's a management failure.
 1. All music today is electronic music, with acoustic music being assembled from numerous recordings of acoustic musicians.
 1. Alphabet is a transfer of wealth from Adsense to Youtube, in the way that Niagara Falls is a transfer of water from Lake Erie to Lake Ontario.
@@ -113,7 +114,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Bored is a lack of intellectual stimulation while lonely is a lack of emotional stimulation.
 1. Boring at any speed.
 1. Boring discussion meanders about across long, polysyllabic words and verbs which eventually converge. Action is poppy staccato sounds and direct verbs.
-1. Both sides are necessary for the operation of a fully functional United States - we need a conservative business side to drive large-scale wealth generation &amp; defense, and we need a liberal humanist side to support the workers and distribute the generated wealth across society. The vast resources (including raw dimensional space) means there will be an over abundance of both material resources __and__ populations, and so maintaining cooperation between human representations of resource is essential to finding the balance between austerity and overspending.
+1. Both sides are necessary for the operation of a fully functional United States - we need a conservative business side to drive large-scale wealth generation & defense, and we need a liberal humanist side to support the workers and distribute the generated wealth across society. The vast resources (including raw dimensional space) means there will be an over abundance of both material resources __and__ populations, and so maintaining cooperation between human representations of resource is essential to finding the balance between austerity and overspending.
 1. Both sides have a point and both sides make it sound more important than it really is.
 1. Bougie boogie
 1. Bow for arrows as a car leaf spring tensioned by a string.
@@ -267,7 +268,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Family are a primary source of belongingness.
 1. Family means Forever when you're a suburban mother who's trying to get your kids to eat their vegetables instead of yell at each other. Once you're an adult, like how age is just a number, family is just a name.
 1. Farming begets ideology because it lets people stop focusing on their own survival and discuss their crazy ideas instead. Prosperity begets Altruism.
-1. Fast &amp; Furious is safe, like one of those Telltale games where you can't (uninstall). It's the ultimate dissection of understanding the villain. (Or maybe Batman is?)
+1. Fast & Furious is safe, like one of those Telltale games where you can't (uninstall). It's the ultimate dissection of understanding the villain. (Or maybe Batman is?)
 1. Fed-Ups - The Package Handlers.
 1. Feminism has 2 versions, feminism-as-equality vs feminism-as-superiority. The second group wants to put all men into dresses, until they realize that a lot of us would enjoy it, in one way or another. And that we look better in a skirt and heels than them, since the average man exercises frequently and the average second group member does not.
 1. Ferrero could make UAP-themed Tic Tacs. They could have a little green or gray candy body inside the Tic Tac.
@@ -510,7 +511,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Members of one political party will intentionally hurt themselves during the other party's turn, so they can truthfully say that people got hurt during the other party's turn. Like if the Dodgers were hosting the Astros, and during the bottom of every inning, a bunch of Astros fans started a fight, every inning, until the 5th inning when security cleared out a huge chunk of the stands. And the Astros fans did this so they could talk about how unsafe it is when the Dodgers are at bat, because of all the fights in the stands - therefore the Dodgers shouldn't be allowed to bat anymore, and only the Astros should bat. Where's the political equivalent of unsportspersonlike conduct? Ethics lol. Where's the political equivalent of a fiduciary?
 1. Memories are like video game demos - instead of recording the state of every object at every second, or even every pixel on your screen, just record the inputs (of all players for a game) and replay these on the same hardware and software to get a playback. Game players could send these to other players with the same code and compatible hardware and they could also playback the gameplay - it was common on the lower-bandwidth Internet of the 1990s. A problem arises when a new version of the game comes out, with bug fixes and maybe other changes. Now that replay has slight problems - the fence is slightly taller, so the player can't jump over it, and doesn't make the amazing flag return. This means that team doesn't score a point, and turns a win into a tie - but that's not what happened in the original match. So too our human memories are recordings of inputs replayed onto our neurons - and so the constant reoptimizations in neural connections may cause vagueness in the playback of a human's memory.
 1. Mendicant malversation
-1. Mergers allow expensive things like R&amp;D to be removed from the competitor, adding just their logistics to your business. Or throw out your R&amp;D and keep theirs, either way it only increases your variable income and leaves your fixed costs alone.
+1. Mergers allow expensive things like R&D to be removed from the competitor, adding just their logistics to your business. Or throw out your R&D and keep theirs, either way it only increases your variable income and leaves your fixed costs alone.
 1. Metals exist on a spectrum between ductility and hardness. Societies exist on a spectrum between inflation and unemployment.
 1. Meyers-Briggs reflects how the situation impacts you. We're all extroverts around people who energize us and introverts around people who drain us. INTJ (Introvert Intuition Thinking Judging) is projecting, or motion from inside going outward. ESFP (Extrovert Sensing Feeling Perceiving) is receiving, or motion from outside going inward. Neither one is better than the other, and what's better than either one is moving between them in a Kierkegaardian way. Receive so you know what to project (having energy gathering direction), and project so you're empty and ready to receive (having direction gathering energy). Time this correctly and it becomes a conversation, which is an analog data transmission protocol between biological neural networks.
 1. Microeconomics revealed itself to be an illusion in 2020, where some items went on sale despite being out of stock. Protip: you can't incentivize a marginal increase in the sales of a product when there is no stock of that product to sell. You could sell a future of that product, possibly on backorder, but that's a different financial product.
@@ -597,7 +598,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Parasocial relationships aren't healthy.- 2023
 1. Parents are 'at that age where everyone around them is dying' and the child can't accept this - makes up a fantasy that the parents are killing the extended family and using random illnesses and injuries as a cover.
 1. Particle means the self-propagating set of transverse waves in 2 media. We only see the one path actually occur.
-1. Parting fools from their money - it's like fools line up for the honor, treat the parting as an admission fee, and the fools just hope for a good show. (Does this put Stater &amp; Waldorf on the same footing as crypto nerds?)
+1. Parting fools from their money - it's like fools line up for the honor, treat the parting as an admission fee, and the fools just hope for a good show. (Does this put Stater & Waldorf on the same footing as crypto nerds?)
 1. Peace Through Victory. Because anything less is just a participation trophy.
 1. Pentagonia
 1. People are attracted to what they fear (because fear is a lack of information often supplemented by invented information, so this is a dopamine-validation loop), try to correct what they think is wrong, and fight against what they don't understand. Often fighting to correct, what they think is wrong about who or what they're attracted to, out of a lack of accurate information. Have the courage to academically study your fears, the inner peace to accept what you think is wrong in the world, and honesty about these with yourself and others. - 2022 (Fear is a partial model, wrong is having 2 models and wanting the other one, and not understand is having no (viable) model. So fear is having 2 incomplete models, and wanting the other one because it has more desirable imagined statistics.)
@@ -706,7 +707,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. So much junk that you need more trunk
 1. Social influence falls off at an inverse square of degrees of separation. Influence = 1/Degrees+1. You have full influence (1/1) over yourself at the 'zeroeth' degree, like 50% influence over 1st degree friends, 25% influence over 2nd degree friends of friends, 12.5% (1/4) over 3rd degree relations, 6.25% over 4th, 3.125% over 5th, 1.5625% (1/7) over 6th, and 0.78125% over 7th (when we reach that level of social complexity). - 2017
 1. Social Media, the 'salons of our age, where Thought Leaders exchange Important Ideas', are Validation Casinos, where we pay in comments and payout in upvotes. (Imgur's tutorial literally instructs new users to find a specific downvoted post and downvote it again, as a rite of passage - this is also training the user to play 'upvote/downvote', and continue downvoting things that already have downvotes without critical thinking about the post.)
-1. Social networks are in the same boat as TV news, needing to sell discontent to users, so those users can be resold for sharply decreasing ad revenues. Have we hit the changeover from banners to influencers &amp; bake-in?
+1. Social networks are in the same boat as TV news, needing to sell discontent to users, so those users can be resold for sharply decreasing ad revenues. Have we hit the changeover from banners to influencers & bake-in?
 1. Socialism is usually a response to a lack of funding. The less we have, the more we share. Selfishness complicates scaling this beyond a family unit or small party.
 1. Socialism wasn't Chinese enough for North China's CCP. They wanted 'socialism with Chinese characteristics' aka fit with one-party rule, which wasn't Socialism but State Capitalism. Likewise, cooperative international space exploration isn't Chinese enough - they want State Capitalism In Space. (Has every implementation of communism been tied with one-party rule? Have there been any multi-party communist systems?)
 1. Solutions Architecture is just Cloud Bannering.
@@ -735,7 +736,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Stratify, stratify. (Paraphrase of Thoreau. Dunbar's number management through classism.)
 1. Stunning, Brave, and True (Current Year) - Styled after a true story tale, hear about 1 woman who struggles to overcome everything - illiteracy, sickness, poverty, sickness, a diversity of -isms, sickness, family drama around her sexuality, sickness, an invented patriarchy, sickness, a nonexistant fanbase, and sickness - to make a movie - about 1 woman who struggles to overcome everything... Stunning, Brave, and True (She sure gets sick a lot.)
 1. Sticks and stones might only break my bones, but certain words will ensure I never eat again.
-1. Study science and engineering in your 20s, art history in your 30s, &amp; geopolitics in your 40s.
+1. Study science and engineering in your 20s, art history in your 30s, & geopolitics in your 40s.
 1. Stunt-driven story - stunts occur and characters/plot points are written to connect them. (This is Tom Cruise's Mission Impossible franchise.)
 1. Stupidity is exhausting because it means doing everything the hard way, and sometimes twice or more.
 1. Subluminal subliminal - a message traveling slower than the speed of light, but faster than average human awareness.
@@ -758,7 +759,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. The Algorithm becomes one of your 5 friends. How does this affect you - formally, contextually, emotionally? (You're the average of the 5 people you spend the most time with.)
 1. The apple falls downwind from the tree. How far it falls depends on the strength of the wind and the slope of the ground. (Or at least the pine cone does, at windy Ft Spokane. One large tree will have a grove of smaller trees fanned out in a triangle downwind from it.)
 1. The cure for my own toxicity is the beauty and passion that lay within other people. - 2017.
-1. The Devil (nee Loki) is the Joker &amp; the Thief is Yeshua. (Matthew 24:43)
+1. The Devil (nee Loki) is the Joker & the Thief is Yeshua. (Matthew 24:43)
 1. The enemy of my enemy is stil my enemy, but they might be useful against each other.
 1. The far end of the Columbian Expansion was the Obesity Crisis.
 1. The first is the greatest.
@@ -799,7 +800,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. The whole point of a Crow's Nest on old ships was to take advantage of Earth's spheroid nature, where being higher up lets you see more of the sphere. Were the Earth flat, Crow's Nests would be pointless on the open sea.
 1. The whole point of diversity is not to get two of every Pokemon onto your Ark, but to not restrict yourself from hiring the best because of their arbitrary attributes.
 1. There's less time in a gravity well because all of the matter gets in its way. Steeper gravity wells are compressing more matter into less space, and black holes are when matter is occupying all available space, and there's no space for time. This is to say that the current section of time (aka 'now') traverses more units of space in some areas than in others.
-1. The whole point of keeping a change log - in theory - is so you could 'replay' your data center from a known snapshot, like SQL transaction log or a commit history. Any change to any system should be recorded, so it can be performed again later - either to rebuild this system, build a future system, troubleshoot, et cetera. This breaks down when human laziness omits 'small' changes from the reporting system. Or when the change management cadence is too long - at a previous employer, we would email specs to our cloud host, and they would manually build the system, often with too many NICs. Removing the excess NICs required a change approver's sign-off from the weekly meeting. So each configuration error added a week to the build time. Change management merges perfectly with configuration management at the intersection of infrastructure as code, where any change must be approved as part of the commit process. This merges development and change processes while removing the 'small change' category - increasing your flexibility through the tighter feedback loop, increasing security through recording all changes, reducing costs &amp; complexity through reducing operations administration needs. This is the same mix of benefits as seen through cloud-native architecture, and these should pair nicely.
+1. The whole point of keeping a change log - in theory - is so you could 'replay' your data center from a known snapshot, like SQL transaction log or a commit history. Any change to any system should be recorded, so it can be performed again later - either to rebuild this system, build a future system, troubleshoot, et cetera. This breaks down when human laziness omits 'small' changes from the reporting system. Or when the change management cadence is too long - at a previous employer, we would email specs to our cloud host, and they would manually build the system, often with too many NICs. Removing the excess NICs required a change approver's sign-off from the weekly meeting. So each configuration error added a week to the build time. Change management merges perfectly with configuration management at the intersection of infrastructure as code, where any change must be approved as part of the commit process. This merges development and change processes while removing the 'small change' category - increasing your flexibility through the tighter feedback loop, increasing security through recording all changes, reducing costs & complexity through reducing operations administration needs. This is the same mix of benefits as seen through cloud-native architecture, and these should pair nicely.
 1. The world can't run out of sand, since it's made from the stuff. Sand are rocks with volume between 1 mm^3^ and 1.6 mm^3^
 1. Theory: Impact Wrench Theory of Engineer Management: Putting an engineer under pressure causes them to solve more problems faster, and maybe more creatively. Stress v pressure - Pressure enables this, while stress hinders it. - 2013
 1. Theory: More Swords than Grain theory of Civilization Collapse: If someone has more weapons than food, they'll use the weapons to take more food from others. Money counts as food, not weaponry, but can be traded for weaponry. - 2022
@@ -863,7 +864,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Want more time in your life? Watch a kettle of water boil. Want to live forever? Get a job testing kettles. (You might not actually live forever, but you'll sure feel like it.) - 2021
 1. Wanting to remove pain/discomfort, even in oneself, is a sign of compassion.
 1. War as a series of burned bridges.
-1. Wars are almost entirely conducted to resolve disputes over dimensional resources - underground resources or tunnels, surface land area, buildings &amp; improvements, flowing or standing water, airspace, orbitspace, et cetera. - 1989 (with later updates).
+1. Wars are almost entirely conducted to resolve disputes over dimensional resources - underground resources or tunnels, surface land area, buildings & improvements, flowing or standing water, airspace, orbitspace, et cetera. - 1989 (with later updates).
 1. Was One Punch Man minmaxed into a glass cannon?- 2023
 1. Water isn't really H2O, but a mixture of hydroxide (OH-) and hydronium (H3O+), with the oxygen atoms moving back and forth between molecules, as a function of temperature. The Sour Taste Bud directly detects hydronium. and since there's more of both hydroxide and hydronium when water is hotter, this is how we can taste the temperature of water.- 2023
 1. Watermelon Man's name is Urizane.
@@ -1026,7 +1027,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 - 'The journey is the worthier part' Serenity: The Shepherd's Tale
 - 'Live long and prosper' - Vulcan proverb.
 
-### Jobs &amp; Hobbies
+### Jobs & Hobbies
 
 - 'Therein lies the best (career/life) advice I could possibly dispense: just DO things. Chase after the things that interest you and make you happy. Stop acting like you have a set path, because you don't. No one does. You shouldn't be trying to check off the boxes of life; they aren't real and they were created by other people, not you. There is no explicit path I'm following, and I'm not walking in anyone else's footsteps. I'm making it up as I go.' - Charlie Hoehn
 - 'A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, (uninstall) gallantly. Specialization is for insects.' - Robert Heinlein, Time Enough For Love
@@ -1050,9 +1051,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 - 'The most common way people give up their power is by thinking they don't have any.' - Alice Walker
 - 'The most expensive part of an American car is the health insurance.' - Ross Perot
 
-### Science &amp; Technology
+### Science & Technology
 
-- 'Armor turns sharp clubs (aka swords) into dull clubs, dull clubs &amp; arrows (&amp; bullets) into mild bodyslams, and fighters into statues.' -Shadiversity
+- 'Armor turns sharp clubs (aka swords) into dull clubs, dull clubs & arrows (& bullets) into mild bodyslams, and fighters into statues.' -Shadiversity
 - 'Two possibilities exist: Either we are alone in the universe or we are not. Both are equally terrifying.' - Arthur C Clarke.
 - 'Having oil to fuel modern forts, navies, and infantry transports is a strategic national defense concern, and thus any threat to the supply of oil to the country is a threat to the security of the country. One of the defining features of this age is that oil is the resource of the day, not grass, farmland, saltpeter, unstable nuclei, or antimatter.' - Peter Zeihan
 - 'Organized religion can't exist without farming.' - Peter Zeihan
