@@ -2,24 +2,24 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="https://www.Gilgamech.com/images/favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="width=device-width","initial-scale=1">
 <meta property="og:title" content="Gilgamech's blogging mathematically again." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
 <meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
-<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta property="og:image" content="https://www.Gilgamech.com/images/BigG.jpg" />
 <meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
 <meta name="keywords" content="blog">
 <meta name="author" content="Gilgamech Technologies">
 		<title>Gilgamech Technologies</title>
-		<script src="https://www.gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.Gilgamech.com/js/Gilgamech.js"></script>
 		<script src="https://www.Sparational.com/Sparational.js"></script>
-		<script src="https://www.Gilgamech.com/js/cryptography.js"></script>
-		<script src="https://www.gilgamech.com/js/sitelets.js"></script>
-		<script src="https://www.gilgamech.com/js/rgb.js"></script>
-		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
-		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+		<script src="https://www.Gilgamech.com/js/cryptography2.js"></script>
+		<script src="https://www.Gilgamech.com/js/Gilgamech.js"></script>
+		<script src="https://www.Gilgamech.com/js/rgb.js"></script>
+		<link href="https://www.Gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.Gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="titleParent" class="titleContainer">
@@ -73,7 +73,7 @@ How many solar panels to power X:
 				<h2 id="02282022"><a href="#02282022">02/28/2022</a> - How snow do you go?</h2>
 				<p>Discussing snow with the <a href="https://twitter.com/SnoqualmiePass/status/1498388689331785728">Snoqualmie Pass WSDOT</a> account on Twitter - the passes appear to clear and wet, but avalanche risk keeps them closed. They just had a big slide fall on the road:</p>
 				<img src="https://pbs.twimg.com/media/FMtXZM6VIAAm-5h?format=jpg&name=900x900" />
-				<img src="https://www.gilgamech.com/images/Twitter-SnoqualmiePass-Feb28.png" />
+				<img src="https://www.Gilgamech.com/images/Twitter-SnoqualmiePass-Feb28.png" />
 				<p>And this seems like a good opportunity to make a calculator:</p>
 				Width (ft): <input id="snowWidth" type="number" oninput='doSnowMath()' value='30'/><br />
 				Length (ft): <input id="snowLength" type="number" oninput='doSnowMath()'  value='20'/><br />
@@ -198,7 +198,7 @@ sortNumTable(5,"kcals")
 			</div><br><br>
 			<div class="textBubbleBG">
 				<h2 id="02232022"><a href="#02232022">02/23/2022</a> - Stay Frosty.</h2>
-				<p>A correction to the <a href="https://www.gilgamech.com/blog.html#02132022">Phil</a> blog entry - it snowed! We switched from the warmish drear of constant overcast and are into the chilly beauty of wintertime sunshine. So maybe other people really do understand Phil's meteorological prognostications better than I.</p>
+				<p>A correction to the <a href="https://www.Gilgamech.com/blog.html#02132022">Phil</a> blog entry - it snowed! We switched from the warmish drear of constant overcast and are into the chilly beauty of wintertime sunshine. So maybe other people really do understand Phil's meteorological prognostications better than I.</p>
 			</div><br><br>
 			<div class="textBubbleBG">
 				<h2 id="02222022"><a href="#02222022">02/22/2022</a> - An Enigma, Sold by a Riddle, Built into a Mystery: Part 5 - Enigma Man.</h2>
@@ -457,7 +457,7 @@ enigmaMachine(2);
 </script>
 			<div class="textBubbleBG">
 				<h2 id="02172022"><a href="#02172022">02/17/2022</a> - Interlude - Running Man Cipher.</h2>
-				<p>Using both Running Key and my <a href="https://www.gilgamech.com/blog.html#02012022">Inverse Running key</a> will encrypt both halves of a message - first the last half with the first, then the first half with the last. Err...this will encrypt the first half first, then the last half, because that's how the original function was written.</p>
+				<p>Using both Running Key and my <a href="https://www.Gilgamech.com/blog.html#02012022">Inverse Running key</a> will encrypt both halves of a message - first the last half with the first, then the first half with the last. Err...this will encrypt the first half first, then the last half, because that's how the original function was written.</p>
 
 				//Message: <textarea id="runningManMessage" oninput='doRunningManReplace(0)'>This reciprocal cipher needs to have an even length to prevent errors</textarea><br />
 				//RunningKey: <textarea id="runningManRunningKey" oninput='doRunningManReplace(1)'></textarea><br />
@@ -521,7 +521,7 @@ doRunningManReplace(5);
 					<li>ACE RCJ</li>
 					<li>CAT JAR</li>
 				</ul>
-				<p>The wheel can be reciprocal because it passes through the hub before reciprocating, which makes the reciprocation run into a 3rd round of encryption. This means that each wheel can be defined in Javascript by the same enigmaReciprocal function from <a href="https://www.gilgamech.com/blog.html#02152022">yesterday's post</a>, using <a href="https://www.gilgamech.com/2022/January.html#01172022">Porta's</a> Alpha and Bet for the keyArray and swapArray respectively. Or the keys could be randomized - Alpha and Bet give a good starting place, since all 26 letters in the alphabet should be paired for the wheels, not just the 10 or less for the front panel.</p>
+				<p>The wheel can be reciprocal because it passes through the hub before reciprocating, which makes the reciprocation run into a 3rd round of encryption. This means that each wheel can be defined in Javascript by the same enigmaReciprocal function from <a href="https://www.Gilgamech.com/blog.html#02152022">yesterday's post</a>, using <a href="https://www.Gilgamech.com/2022/January.html#01172022">Porta's</a> Alpha and Bet for the keyArray and swapArray respectively. Or the keys could be randomized - Alpha and Bet give a good starting place, since all 26 letters in the alphabet should be paired for the wheels, not just the 10 or less for the front panel.</p>
 				<p>This also means the hub can also use this same setup as the wheels. The hub keyArray and swapArray would remain static, while the wheel arrays would change daily.</p>
 				<h4>Next up: Assembling all the wheels.</h4>
 
@@ -886,7 +886,7 @@ function docarEnergyGraph() {
 </script>
 			<div class="textBubbleBG">
 				<h2 id="02032022"><a href="#02032022">02/03/2022</a> - Update to Horsepower and Torque.</h2>
-				<p>Update to my <a href="https://www.gilgamech.com/2021/December.html#12282021">12/28/2021</a> post on the difference between Horsepower and Torque. This video helped me to understand the crucial difference:</p>
+				<p>Update to my <a href="https://www.Gilgamech.com/2021/December.html#12282021">12/28/2021</a> post on the difference between Horsepower and Torque. This video helped me to understand the crucial difference:</p>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/MBXpB4bDp_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><ul>
 				<li>Torque is the well-defined concept of force being applied around a circle.</li>
 				<li>Horsepower is torque multiplied by RPM.</li>

@@ -2,21 +2,21 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-		<link rel="shortcut icon" href="https://www.gilgamech.com/images/favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="https://www.Gilgamech.com/images/favicon.ico" type="image/x-icon"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="Gilgamech's blogging loudly again." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.Gilgamech.com/blog.html" />
 <meta property="og:description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view." />
-<meta property="og:image" content="https://www.gilgamech.com/images/BigG.jpg" />
+<meta property="og:image" content="https://www.Gilgamech.com/images/BigG.jpg" />
 <meta name="description" content="Creating art from math and philosophy from technology. Have a look at the world from a unique point of view.">
 <meta name="keywords" content="blog">
 <meta name="author" content="Gilgamech Technologies">
 		<title>Gilgamech Technologies</title>
 		<script src="https://www.Sparational.com/Sparational.js"></script>
-		<script src="https://www.gilgamech.com/js/sitelets.js"></script>
-		<link href="https://www.gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
-		<link href="https://www.gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
+		<script src="https://www.Gilgamech.com/js/Gilgamech.js"></script>
+		<link href="https://www.Gilgamech.com/css/normalize.css" rel="stylesheet" type="text/css">
+		<link href="https://www.Gilgamech.com/css/Gilgamech.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="titleParent" class="titleContainer">
@@ -59,11 +59,11 @@
 			<div class="textBubbleBG">
 				<h2 id="10212021"><a href="#10212021">10/21/2021</a> - Some Minehut drama, and self-hosting Gilcraft on AWS.</h2>
 				<p>Minehut's <a href="https://twitter.com/minehutsupport/status/1450250681101717504">5 hour outage</a> turned into a 7 hour outage. During that time, I reviewed their frequent downtime, numerous non-working features on their website, and that the server hosting this blog can also host a Minecraft server. Indeed, testing showed this was possible.</p>
-				<img src="https://www.gilgamech.com/images/MCServerStartupRAM.png">
+				<img src="https://www.Gilgamech.com/images/MCServerStartupRAM.png">
 				<p>For one player on a vanilla server, it works pretty well. There's an occasional bit of lag, but not bad. The sawtooth shape is from used variables thrown away into the memory "bit bucket", filling to the max memory (512 MB for this 1GB VM) and then Garbage Collection pauses everything, dumps the "bit bucket", and resumes normal operation. This happens as infrequenty as possible, which is about once per second for this small of server. This should scale with RAM size.</p>
-				<img src="https://www.gilgamech.com/images/MCServerModsStartupRAM.png">
+				<img src="https://www.Gilgamech.com/images/MCServerModsStartupRAM.png">
 				<p>Same server, loaded with WorldGuard and all these other mods - a little rough starting up, so give it a few seconds to settle down, right?</p>
-				<img src="https://www.gilgamech.com/images/MCServerModsPlayer.png">
+				<img src="https://www.Gilgamech.com/images/MCServerModsPlayer.png">
 				<p>Nope -  as soon as a player joins, those nice sawtooths become frentic and irregular, showing how little space there is between the low point (post garbage collection) and the max. Ingame it was unplayably laggy. Since mods are most of the point of Java Edition Minecraft, the best solution is to increase server RAM. This doubles server price (not to mention outgoing data rates) incentivize either buying a Reserved Instance year prepayment of server use, or migration to another host. Look for a host evaluation in the future.</p>
 			</div><br><br>
 			<div class="textBubbleBG">
