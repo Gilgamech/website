@@ -7,7 +7,7 @@
 //Version history:
 //4.0 - Let's get this party restarted.
 
-
+//Text highlighting with rotating colors.
 const colors = [
 	"#FF0000", //red
 	"#FFFFFF",//white
@@ -26,66 +26,7 @@ if (parseInt(color.substr(1,2), 16)+parseInt(color.substr(3,2), 16)+parseInt(col
  colors.push(color);
 });
 
-
-//Text tools
-function colorifyWords(divid, replaceWord, replaceClass) {
-	var replaceRegex = new RegExp(replaceWord, "g");
-	replaceWord = replaceWord.replace("\\","")
-	var str = getElement(divid).innerHTML;
-	str = str.replace(replaceRegex, '<span class="' + replaceClass + '">' + replaceWord + '</span>');
-	getElement(divid).innerHTML = str;
-}; // end colorifyWords
-
-function colorifyMultipleWords(divList,wordList,replaceClass){
-	for (var wordName = 0;wordName<wordList.length;wordName++){
-		for (var divName = 0;divName<divList.length;divName++){
-			colorifyWords(divList[divName],wordList[wordName],replaceClass);
-		}
-	}
-}
-
-function addPopupToWord(divid, replaceWord, popupText,outputClasses) {
-	var replaceRegex = new RegExp(replaceWord, "g");
-	replaceWord = replaceWord.replace(/\\/g,"")
-	var str = getElement(divid).innerHTML;
-	str = str.replace(replaceRegex, '<span class="popup '+outputClasses+'">' + replaceWord + '<span>' + popupText + '</span></span>');
-	getElement(divid).innerHTML = str;
-}; // end addPopupToWord
-
-function addLinkToWord(divid, replaceWord, URI) {
-	var replaceRegex = new RegExp(replaceWord, "g");
-	replaceWord = replaceWord.replaceAll("\\","")
-	var str = getElement(divid).innerHTML;
-	str = str.replace(replaceRegex, '<a href="'+URI+'">' + replaceWord + '</a>');
-	getElement(divid).innerHTML = str;
-}; // end addLinkToWord
-
-//[["innerText","elementType","elementId","Url"]]
-function addList(parentElement,inputArray,titleText,titleClass) {
-	addElement(parentElement,titleText,titleClass)
-	for (var i = 0; i < inputArray.length; i++) {
-		addElement(parentElement,inputArray[i][0],"",inputArray[i][1],"",inputArray[i][3],"","","","","",inputArray[i][2]);
-	}
-}
-
-function addBlogPost(parentElement,dateText,dateLink,inputArray) {
-	let innerElement = dateLink.replace("#","")
-	addElement(parentElement,"","textBubbleBG","","","","","","","","",innerElement)
-	addList(innerElement,inputArray,"","");
-	addLinkToWord(parentElement,dateText,dateLink)
-	addElement(parentElement,"","","br")
-	addElement(parentElement,"","","br")
-}
-
-//Form building tools
-//addInputField(parentElement,preInput,Input,PostInput,onChange,varName){
-function addInputField(parentElement,preInput,Input,PostInput,onChange,varName,fieldType="input"){
-	addElement(parentElement,preInput+": ","","span")
-	addElement(parentElement,Input,"",fieldType,"","",onChange,"","","value",Input,varName)
-	addElement(parentElement,PostInput,"","span")
-	addElement(parentElement,"","","br")
-}
-
+//Math
 function textToNumNotation($inputObject) {
 	if (typeof $inputObject == "string") {
 		$inputObject = $inputObject.replace(/,/g,"");
@@ -193,7 +134,18 @@ function numToTextNotation($inputObject,round) {
 	return $outVal2 + $significand;
 }
 
-
+//textToNumNotation power values
+var $thousand = 1000;
+var $million = $thousand *$thousand;
+var $billion = $million *$thousand;
+var $trillion = $billion *$thousand;
+var $quadrillion = $trillion *$thousand;
+var $quintillion = $quadrillion *$thousand;
+var $sixtillion = $quadrillion *$thousand;
+var $septillion = $sixtillion *$thousand;
+var $octillion = $septillion *$thousand;
+var $nonillion = $octillion *$thousand;
+var $decillion = $nonillion *$thousand;
 
 //Canvas
 function roundRect(lineColor,x, y, w, h, radius, lineWidth, degreeRotate) {
@@ -238,5 +190,61 @@ function drag($stage,evt) {
 
   // make sure to redraw the stage to show the change
   $stage.update();   
+}
+
+//Blog building tools. These were a bad idea. Depreciating, here to support pages until they get switched over.
+function colorifyWords(divid, replaceWord, replaceClass) {
+	var replaceRegex = new RegExp(replaceWord, "g");
+	replaceWord = replaceWord.replace("\\","")
+	var str = getElement(divid).innerHTML;
+	str = str.replace(replaceRegex, '<span class="' + replaceClass + '">' + replaceWord + '</span>');
+	getElement(divid).innerHTML = str;
+}; // end colorifyWords
+
+function colorifyMultipleWords(divList,wordList,replaceClass){
+	for (var wordName = 0;wordName<wordList.length;wordName++){
+		for (var divName = 0;divName<divList.length;divName++){
+			colorifyWords(divList[divName],wordList[wordName],replaceClass);
+		}
+	}
+}
+
+function addPopupToWord(divid, replaceWord, popupText,outputClasses) {
+	var replaceRegex = new RegExp(replaceWord, "g");
+	replaceWord = replaceWord.replace(/\\/g,"")
+	var str = getElement(divid).innerHTML;
+	str = str.replace(replaceRegex, '<span class="popup '+outputClasses+'">' + replaceWord + '<span>' + popupText + '</span></span>');
+	getElement(divid).innerHTML = str;
+}; // end addPopupToWord
+
+function addLinkToWord(divid, replaceWord, URI) {
+	var replaceRegex = new RegExp(replaceWord, "g");
+	replaceWord = replaceWord.replaceAll("\\","")
+	var str = getElement(divid).innerHTML;
+	str = str.replace(replaceRegex, '<a href="'+URI+'">' + replaceWord + '</a>');
+	getElement(divid).innerHTML = str;
+}; // end addLinkToWord
+
+function addList(parentElement,inputArray,titleText,titleClass) {
+	addElement(parentElement,titleText,titleClass)
+	for (var i = 0; i < inputArray.length; i++) {
+		addElement(parentElement,inputArray[i][0],"",inputArray[i][1],"",inputArray[i][3],"","","","","",inputArray[i][2]);
+	}
+}
+
+function addBlogPost(parentElement,dateText,dateLink,inputArray) {
+	let innerElement = dateLink.replace("#","")
+	addElement(parentElement,"","textBubbleBG","","","","","","","","",innerElement)
+	addList(innerElement,inputArray,"","");
+	addLinkToWord(parentElement,dateText,dateLink)
+	addElement(parentElement,"","","br")
+	addElement(parentElement,"","","br")
+}
+
+function addInputField(parentElement,preInput,Input,PostInput,onChange,varName,fieldType="input"){
+	addElement(parentElement,preInput+": ","","span")
+	addElement(parentElement,Input,"",fieldType,"","",onChange,"","","value",Input,varName)
+	addElement(parentElement,PostInput,"","span")
+	addElement(parentElement,"","","br")
 }
 
