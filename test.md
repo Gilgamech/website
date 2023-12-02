@@ -14,4 +14,4 @@ In respect to recent UK laws, users in the UK should not utilize this site, and 
 
 Do you have a burning, throbbing need to connect? Sure, we all do. [Reach out and touch faith](mailto:contact@gilgamech.com).
 
-https: //www.Sparational.com/sites/footer.md
+https://www.Sparational.com/sites/footer.md
