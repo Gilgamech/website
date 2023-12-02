@@ -880,7 +880,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. We are each a shallow pond, an oasis in the desert of the cold and unfeeling interstellar wilderness. The universe is a cold and lonely place, but we are also made of the universe, and we can make parts of it warm and welcoming.
 1. We are each the wrong person, in the wrong place, at the wrong time, doing the wrong thing, to the wrong people, for the wrong reasons. Don't let (the forces freeing you from that with which doesn't harmonize with you) limit you. - 2017.
 1. We are the electromagnetic force, suspended between saline packets of self-expanding lipid-polymer foam, floating along geodesics in 4d spacetime near large gravity masses, navigating a sociopolitical maze of ever-increasing complexity, just trying to get along. - 2018
-1. We are the gears that make our world go around. If one of us doesn't do it, then it simply goes undone.  	
+1. We are the gears that make our world go around. If one of us doesn't do it, then it simply goes undone.
 1. We are vectors in life-space. Collectively, we form a torus.
 1. We can be bitter, or we can be better. - 2022
 1. We cannot go back(wards in time), but we can go anywhere again. (Will we ever go to Washtucna again and see that bus?)
