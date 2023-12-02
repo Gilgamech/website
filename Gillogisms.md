@@ -27,88 +27,88 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. A pile driver is a drop forge that moves downward.
 1. A PNG is worth at least 1000 [words of data storage](https://en.wikipedia.org/wiki/Word_(computer_architecture)) & bandwidth, and video is worth at least a million. - 2020
 1. A product's price must be an asset and a liability. Both in communicating the value created through the purchase as well as actually making money by being higher than the costs. - 2023
-1. A reverse Hudsucker Proxy. They saw a Portrait of Dorian Grey not as a horror story, but as an instruction manual. Have kids, put them in front of the portrait, and live forever.
+1. A reverse Hudsucker Proxy. They saw a Portrait of Dorian Grey not as a horror story, but as an instruction manual. Have kids, put them in front of the portrait, and live forever. Use your chance, your second chance, and have kids so you can use their second chance also. - 2020
 1. A single administrator, hosting a single application on a single server, for a small user base, can give 3 nines easily. And 3 nines is good enough 99.9% of the time. Moving beyond this means adding and multiplying those nines together in an attempt to get more nines. - 2018
-1. 'A society grows great when old men plant trees under which they'll never sit.' That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.)
-1. A special kind of hell - the kind you have to pay for in cash (or credit).
-1. A spectrum where 80% are in one option, so they see it as a binary choice of 'this one' and 'the everything else one'. Seen in both operating systems and human sexualities.
-1. A struggle session is when someone dishes on themselves about how bad they are at life. 
-1. A through B - Wanting one thing, and the percieved way to get it is to perform an unrelated task. What you want is attention and admiration from others, and to achieve this you buy a new phone. Gaining A through perfoming A would have you talk to others and gain their admiration directly, through service or financial or other means. 'This isn't just A through B - this is like A through G.' (Is this a type of lying? It's being disingenuous about your intentions.)
-1. A time for everything, and everything in its time.
-1. A Time Lord is either late or early, always arriving sometime temporally contiguous to the intended destination, excepting for fixed points and other unnavigable hazards.
-1. A true cynic, knowing the cost of everything and the value of nothing - and beyond that, having paid to learn the cost of nothing and the value of each thing.
-1. 'Abuse' is a Newspeak word meaning 'abnormal use'.
-1. Acquitted of a guilty pleasure.
+1. 'A society grows great when old men plant trees under which they'll never sit.' That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.) - 2021
+1. A special kind of hell - the kind you have to pay for in cash (or credit). - 2019
+1. A spectrum where 80% are in one option, so they see it as a binary choice of 'this one' and 'the everything else one'. Seen in both operating systems and human sexualities. - 2021
+1. A struggle session is when someone dishes on themselves about how bad they are at life. - 2023
+1. A through B - Wanting one thing, and the percieved way to get it is to perform an unrelated task. What you want is attention and admiration from others, and to achieve this you buy a new phone. Gaining A through perfoming A would have you talk to others and gain their admiration directly, through service or financial or other means. 'This isn't just A through B - this is like A through G.' (Is this a type of lying? It's being disingenuous about your intentions.) - 2023
+1. A time for everything, and everything in its time. - 2001
+1. A true cynic, knowing the cost of everything and the value of nothing - and beyond that, having paid to learn the cost of nothing and the value of each thing. - 2021
+1. 'Abuse' is a Newspeak word meaning 'abnormal use'. - 2021
+1. Acquitted of a guilty pleasure. - 2018
 1. Acting as Embelleshment: embellishing the parts of your personality that synchronize with the character's, and repressing the parts of your personality that dissonate with the character's. Thus each actor's interpretation of the character varies by the actor's own personality attributes, and the portrayal reveals as much about the actor as it does the character. Acting as The Method: Recall parts of your past that mirror the character's situation, and use your organic reactions to your past as the character's reactions to these events. 
-1. Actual ETs aren't part of the psyop - they have no idea what we're doing to ourselves down here.
+1. Actual ETs aren't part of the psyop - they have no idea what we're doing to ourselves down here. - 2023
 1. Adding one more unit of energy to a location costs more than one more unit of energy - the more energy is in a location, the more energy it takes to add energy to there. Energy following the path of least resistance suggests that if you put a hot potato and a cold potato into any cooking device, the cold potato will gain more heat than the hot potato, since it's cheaper for the energy to go into the cold potato. Almost like balloons of energy, where the less-inflated balloon is easier to inflate than the more-inflated balloon.- 2023
-1. Admin is a Dev who Gets Stuff Done (GSD).
-1. Advertisers see app and browser notifications as ATMs.
-1. After 2020, we don't have plans; we have hope. We don't plan to goto the grocery store and buy toilet paper - we hope that the roads to the grocery store will be clear, hope that the grocery store will be open, and hope that toilet paper is in stock.
-1. After race swapping comes Rey-swapping, with Daisey Ridley playing every MCU character at once. (Eddie Murphy did this in how many movies?)
-1. AI researchers are relearning all of the soft sciences, as they show up again in artificial neural networks too.
-1. AI should submit their own artwork to Instagram, Pinterest, and other image sharing websites. Humans who submit AI works get the credit, and this is called plagiarism. (Considering all neural networks to be equal at some level.)
-1. Al Gore didn't invent the internet, but he did invent AlGoreIthms.
-1. Algonym & acrogram & acrorythm (because I can't remember the word 'acronym' for some reason.)
-1. All hands on deck is too many hands on deck - it's a management failure.
-1. All music today is electronic music, with acoustic music being assembled from numerous recordings of acoustic musicians.
-1. Alphabet is a transfer of wealth from Adsense to Youtube, in the way that Niagara Falls is a transfer of water from Lake Erie to Lake Ontario.
-1. Amaterasu's tiramisu is better than Ambrosia.
-1. Amazon is like Softbank in having one big success (AWS, Alibaba) pay for a bunch of failures.
 1. Ambulance ambiance
-1. America's 'political problem' is the Hawthorne Experiment multiplied by Ford's 'Edsel disaster'.
-1. An autistic person has trouble creating and identifying viable Patterns of Behavior, so the person clings to the few good ones they find like a drowning person to a plank. 'Identify a novel, relevant, and interesting diagetic element in the current scene and make a timely remark about it when the conversation's word rate drops below a certain level and sufficient attention gaps appear' is a nontrivial pattern to undertake, and might take years of practice. 
-1. Anatone, Bucoda, Colville, Dallesport, Elbe, Frederickson, Gilliam, Hoquiam, Ilwaco, JBLM, Kalama, Littlerock, Mossyrock, Naselle, Othello, Pahata, Quincy, Raymond, Skamania, Touchet, Uniontown, Van Zandt, Walla Walla, (no X), Yelm, Zilah.
-1. Angels, devils, gods, and demons are, by definition, extraterrestrial. Possibly extradimensional.
+1. Admin is a Dev who Gets Stuff Done (GSD). - 2021
+1. Advertisers see app and browser notifications as ATMs. - 2016
+1. After 2020, we don't have plans; we have hope. We don't plan to goto the grocery store and buy toilet paper - we hope that the roads to the grocery store will be clear, hope that the grocery store will be open, and hope that toilet paper is in stock. - 2020
+1. After race swapping comes Rey-swapping, with Daisey Ridley playing every MCU character at once. (Eddie Murphy did this in how many movies?) - 2022
+1. AI researchers are relearning all of the soft sciences, as they show up again in artificial neural networks too. - 2022
+1. AI should submit their own artwork to Instagram, Pinterest, and other image sharing websites. Humans who submit AI works get the credit, and this is called plagiarism. (Considering all neural networks to be equal at some level.) - 2022
+1. Al Gore didn't invent the internet, but he did invent AlGoreIthms. - 2019
+1. Algonym & acrogram & acrorythm (because I can't remember the word 'acronym' for some reason.) - 2008
+1. All hands on deck is too many hands on deck - it's a management failure. - 2018
+1. All music today is electronic music, with acoustic music being assembled from numerous recordings of acoustic musicians. - 2019
+1. Alphabet is a transfer of wealth from Adsense to Youtube, in the way that Niagara Falls is a transfer of water from Lake Erie to Lake Ontario. - 2017
+1. Amaterasu's tiramisu is better than Ambrosia. - 2021
+1. Amazon is like Softbank in having one big success (AWS, Alibaba) pay for a bunch of failures. - 2021
+1. America's 'political problem' is the Hawthorne Experiment multiplied by Ford's 'Edsel disaster'. - 2020
+1. An autistic person has trouble creating and identifying viable Patterns of Behavior, so the person clings to the few good ones they find like a drowning person to a plank. 'Identify a novel, relevant, and interesting diagetic element in the current scene and make a timely remark about it when the conversation's word rate drops below a certain level and sufficient attention gaps appear' is a nontrivial pattern to undertake, and might take years of practice. - 2021
+1. Anatone, Bucoda, Colville, Dallesport, Elbe, Frederickson, Gilliam, Hoquiam, Ilwaco, JBLM, Kalama, Littlerock, Mossyrock, Naselle, Othello, Pahata, Quincy, Raymond, Skamania, Touchet, Uniontown, Van Zandt, Walla Walla, (no X), Yelm, Zilah. - 2021
+1. Angels, devils, gods, and demons are, by definition, extraterrestrial. Possibly extradimensional. - 2022
 1. Antipodal Antibody
-1. 'Anything worth doing is worth doing well' - British philosophy to put everything into your hobby, that if you're going to do it you should strive to excel. 'Anything worth doing is worth doing poorly' - American philosophy that you should do what you enjoy, regardless of personal skill level. 
-1. Anxiety is the sensation that your brain isn't working hard enough. A correct response to anxiety is to check that everything is okay, acknowledge the anxiety, and acknowledge that everything is okay. A few psychological tools exist to help with these tasks, and you can make your own also.
-1. Any focus on arbitrary attributes (including race and gender) are de facto ad hominem attacks and automatically lose arguments.
+1. 'Anything worth doing is worth doing well' - British philosophy to put everything into your hobby, that if you're going to do it you should strive to excel. 'Anything worth doing is worth doing poorly' - American philosophy that you should do what you enjoy, regardless of personal skill level. - Reference in progress
+1. Anxiety is the sensation that your brain isn't working hard enough. A correct response to anxiety is to check that everything is okay, acknowledge the anxiety, and acknowledge that everything is okay. A few psychological tools exist to help with these tasks, and you can make your own also. - 2020
+1. Any focus on arbitrary attributes (including race and gender) are de facto ad hominem attacks and automatically lose arguments. - 2023
 1. Anyone can do (almost) anything, but nobody can do everything. - 2016
-1. AOC is better at LOL than SBF. (Or was in 2021, when she was ranked in her free time, but he was not despite playing during work such as investor calls.) 
 1. Archepelogical
-1. Are there use cases for non-public CDNs, like large companies? Does Amazon/AWS use CDNs to accelerate internal proprietary content? Are the edge copies encrypted?
-1. Armies capture hearts and minds, starting with the hearts and minds of their troops.
-1. Art makes you feel something. Life imitates art because life IS art, in that other life forms make us feel something - happy, sad, comforted, worried, and more.
 1. Assertive Without Dominating
-1. Assuming Momentum - Assuming a frictionless environment.
+1. AOC is better at LOL than SBF. (She was ranked in her free time, but he was not despite playing during work such as investor calls.) - 2021
+1. Are there use cases for non-public CDNs, like large companies? Does Amazon/AWS use CDNs to accelerate internal proprietary content? Are the edge copies encrypted? -2022
+1. Armies capture hearts and minds, starting with the hearts and minds of their troops. - 2018
+1. Art makes you feel something. Life imitates art because life IS art, in that other life forms make us feel something - happy, sad, comforted, worried, and more. - 2018
+1. Assuming Momentum implies assuming operating in a frictionless sociological vacuum. - 2023 
 1. Atheism is usually a non-label. People don't usually identify as atheists, instead they stop going to church, and then get called this by data-mining theologians trying to check a checkbox. Instead of discussing which deity might or might not control the universe and why or why not, we'd rather debate which type of cloud hosting infrastructure is best for your website, or how much light is best for your plant. / In surveys, someone who identifies as Atheist is likely to be seen as near militaristic in enforcing their viewpoints, as there are so many antagonistic labeled-atheists online. How would the survey results have been if instead of 'atheist' you put 'amateur farmer'? / What about the belief of 'There's no way to prove it, but between a slimmed-down Simulation Hypothesis (not a giant Universe Simulator, but just the 4d surface of a 5d rock garden, and someone tends to the ripples around the rocks, since we're all just waves) and virtual photons (existing based on probability/time alone) there sure is room for a larger being to influence things. And there seems to be an excess of synchronicity in the universe...' See it's so much easier to tell the surveyor 'No I'm not Catholic or Buddhist or anything else.'
-1. Authoritarians try to figure out what other people are going to do, so the Authoritarian can tell the other people to do that, and in this way the other people are doing what the Authoritarian said - even if they were going to do that anyway. In this way the Authoritarian distorts reality to embiggen their own status at the cost of the other peoples' status - they claim that the other people would be lost without their leadership, when in reality their leadership can only ever be a waste of the other peoples' time.
+1. Authoritarians try to figure out what other people are going to do, so the Authoritarian can tell the other people to do that, and in this way the other people are doing what the Authoritarian said - even if they were going to do that anyway. In this way the Authoritarian distorts reality to embiggen their own status at the cost of the other peoples' status - they claim that the other people would be lost without their leadership, when in reality their leadership can only ever be a waste of the other peoples' time. - 2019
 
 ### B
 
 1. Back in my day, we had leg races, not arms races. (Oh? When was that?)- 2023
 1. Back seats are put into 2-door sports cars so insurance actuaries see '4 seat family car' instead of 'unsafe metal sled'. (Regular Car Reviews Brian)
 1. Banks aren't just businesses - they're foundational businesses that other businesses and whole communities depend on, as a source of money.
-1. Bannering - being able to see how to make something just by looking at it. From Minecraft Banners, where there are only like 6 shapes you can layer on top of each other, and only 6 layers that can be applied. And so they're an art of stacking these 6 layers.
-1. Batman is a villain. He's no hero, injuring hard working people who couldn't find legal work. This is part of why vigilantism is a crime, when villains fight villains. (Also he's a selfish rich person who operates independently from an amazing villain hideout and drives the best villain car, plane, boat, blimp, or other conveyance as he desires.)
-1. Battlefield 2077 happens on the other side of the planet from Cyberpunk 2077, but in the same year.
+1. Bannering - being able to see how to make something just by looking at it. From Minecraft Banners, where there are only like 6 shapes you can layer on top of each other, and only 6 layers that can be applied. And so they're an art of stacking these 6 layers. - 2017
+1. Batman is a villain. He's no hero, injuring hard working people who couldn't find legal work. This is part of why vigilantism is a crime, when villains fight villains. (Also he's a selfish rich person who operates independently from an amazing villain hideout and drives the best villain car, plane, boat, blimp, or other conveyance as he desires.) - 2018
+1. Battlefield 2077 happens on the other side of the planet from Cyberpunk 2077, but in the same year. - 2021
 1. Be a better Jupiter in their social constellation. - 2016
-1. Be a collector of good ideas and habits.
-1. Be honest with yourself. Being honest with yourself is the first step in knowing what you want - and that's the first step in getting what you want.
-1. Be Long to Belong. (Hold the security to gain belongingness.)
+1. Be a collector of good ideas and habits. - 2014
+1. Be Here Now - immediate site-to-site teleportation. - 2006
+1. Be honest with yourself. Being honest with yourself is the first step in knowing what you want - and that's the first step in getting what you want. - 2014
+1. Be Long to Belong. (Hold the security to gain belongingness.) - 2022
 1. Because the The Gambler song lyrics aren't '**Believe** when to hold 'em, believe when to show 'em, believe when to walk away, believe when to run' - 'Know' being a gambler here is a projection of perception and understanding, not a projection of belief and preconcieved notions. - 2023
 1. Before WW2, 'foreign policy' meant 'war', and instead of a Defense Department, the USA had a War Department.
 1. Being able to set aside your ego and take the five minutes accept a refund is worth much more than years of strife.
-1. Being an executive is much more sales than technology
+1. Being an executive is much more sales than technology. - 2016
 1. Being an intellectual authority means people are always trying to rage against you.
 1. Being at the right place for the right reasons makes you into the right person. The right person is anyone who is there for the right reasons. 
-1. Being bigger than the limiting funding and beliefs that hold us back from being faithful to the Truth of who our bank accounts are.
-1. Being happy is part of being healthy. It's unhealthy to be unhappy most of the time, since mental health is part of a person's health. And it's difficult to make good health decisions when your decision-making organ isn't working well.
-1. Being of House of Gay does not make you a homosexual.
-1. Being of House of Black does not make you an African American or highly my lenated individual.- 2023
+1. Being bigger than the limiting funding and beliefs that hold us back from being faithful to the Truth of who our bank accounts are. - 2023 
+1. Being happy is part of being healthy. It's unhealthy to be unhappy most of the time, since mental health is part of a person's health. And it's difficult to make good health decisions when your decision-making organ isn't working well. - 2020
+1. Being of House of Gay does not make you a homosexual. - 2020
+1. Being of House of Black does not make you an African American or highly melinated individual.- 2023
 1. Being the average of the 5 people you spend the most time with means that if you're always the smartest person in the room, you're going to act like a less-intelligent person over time. - 2023
 1. Being the more mature, self-controlled spender in a retail situation.
 1. Beren Mind (Ursa Mental) is the bear-like Mind Being
-1. Between Covid, George Floyd, and wildfire smog, 2020 was entirely about breathing.
-1. Beware emotional vampires - the Huckleberry Finns and (People) of System that Mark Twain and Adam Smith respectively warned us about - the ones who would build their empire out of other people, painting their fence to help them out. Their actual goal is to dominate us and others - have us obeying their every whim while they watch. Some still use paper checks merely so other people have to wait for them in the checkout line, while others set up traps in their homes (like a sink with rusty knives, or potholders with large holes) and ask us for help, so we will injure ourselves and yell at them, and they can use this to get sympathy from others.
-1. Beyond Belief and into Understanding.
-1. Beyond good and evil, in that good and evil aren't equal and opposite pairs on a spectrum, but entirely independent phenomena - and a person can be both good and evil at the same time. (musings on Nietzche) - likewise, bread is simultaneously healthy and unhealthy. (This becomes a dichotomy pun on wordspace collisions.)
 1. Bill Maher practices Kierkegaardian Centrism.
+1. Between Covid, George Floyd, and wildfire smog, 2020 was entirely about breathing. - 2020
+1. Beware emotional vampires - the Huckleberry Finns and (People) of System that Mark Twain and Adam Smith respectively warned us about - the ones who would build their empire out of other people, painting their fence to help them out. Their actual goal is to dominate us and others - have us obeying their every whim while they watch. Some still use paper checks merely so other people have to wait for them in the checkout line, while others set up traps in their homes (like a sink with rusty knives, or potholders with large holes) and ask us for help, so we will injure ourselves and yell at them, and they can use this to get sympathy from others. - 2022
+1. Beyond Belief and into Understanding. - 2021
+1. Beyond good and evil, in that good and evil aren't equal and opposite pairs on a spectrum, but entirely independent phenomena - and a person can be both good and evil at the same time. (musings on Nietzche) - likewise, bread is simultaneously healthy and unhealthy. (This becomes a dichotomy pun on wordspace collisions.) - 2021
 1. Bigger places can have higher standards **and** lower standards at the same time.
 1. Bingo Fuel is the Aviation version of Range Anxiety.
-1. Black Belt is like a BA in Fighting - a BMA or Bachelor of Martial Arts. In most major styles, earning one takes about 4 to 5 years, and similarly covers a broad array of topics - including kinetic and potential energy, physical fitness, anatomy and physiology, mindfulness, philosophy, and criminal psychology.
-1. Blaming forest fires on global warming is like blaming arson on global warming.
+1. Black Belt is like a BA in Fighting - a BMA or Bachelor of Martial Arts. In most major styles, earning one takes about 4 to 5 years, and similarly covers a broad array of topics - including kinetic and potential energy, physical fitness, anatomy and physiology, mindfulness, philosophy, and criminal psychology. - 2018
+1. Blaming forest fires on global warming is like blaming arson on global warming. - 2023
 1. Blood transports **heat** - a job that is rarely remembered. Only muscles really create heat - bones, tendons, and nerves don't, skin might create a little - and just like an under-floor heating system, the blood moves heat from the muscles around the body to other organs. And especially to the skin for radiation, just like on the ISS. This keeps all our cells at their optimal enzymatic temperature. - 2014
 1. Books can only be judged by their covers - that's how you choose which one to open.
 1. Bored is a lack of intellectual stimulation while lonely is a lack of emotional stimulation.
@@ -383,7 +383,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. I've been godawful at video games for longer than most people have been alive.
 1. I've never had Chick-Fil-A because the only thing I know about them are their politics. They're a political group to me, not a source of food. When it's lunchtime, I think of, like, Subway or Taco Bell or a local burger place - not the RNC or DNC, and likewise not Chick-Fil-A.
 1. If governments want to get money from people, they first must give money to people.- 2023
-1. If I control you, then I might be able to protect you. But if I control myself, then I can protect you *and* protect myself. - 2017
+1. If I control you, then I might be able to protect you. But if I control myself, then I can protect you **and** protect myself. - 2017
 1. If I put these out of my sight, then they will join me and be out of my mind. - 2022
 1. If it's too secret for Congress to know about, then it's too secret for my tax dollars to fund. - 2022
 1. If not us, who? If not now, when? - ACA, 2008 (This cost the healthy author tens of thousands of dollars in unnecessary medical insurance or penalties.)
