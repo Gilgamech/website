@@ -32,7 +32,7 @@ Each kind of block has its own inline controls rules.
 
 Strategy:
 
-- Parse into blocks. split("\n\n")
+- Parse into blocks. split('\n\n')
 - Perform control replacement on Paragraph and other suitable blocks.
 - Perform HTML ampersand-escaped replacement.
 - Rewrite each block to replace control replacements with JML, for consumption into Sparational.
