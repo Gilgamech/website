@@ -1,4 +1,44 @@
-# [12/02/2023](#12022023) - The Path To Hell Is Paved in Poorly Folded Towels.
+# [12/05/2023](#12052023) - Markdown Touchdown.
+
+After a few tries, I think I have a good strategy. First, it helps to have an understanding of the general philosophy behind Markdown implementations: to converge data and formatting into the least-conspicuous form. This has largely been achieved through decades of email communication, so Markdown emulates well-written emails. Central to Markdown is the separation of block-level controls and inline controls. 
+
+- Block controls
+  - Paragraphs are the basic unit of Markdown. If a line of text isn't prepended by any control characters, or it start with an escape character then a control character, then it becomes a paragraph. 
+  - Also includes Headers, Tables, Code Blocks, Lists of all kinds, Fences, Horizontal Rules, parsed HTML, etc.
+  - Delineated by 2 line breaks.
+
+Each kind of block has its own inline controls rules. 
+
+- Paragraph Inline controls
+  - A, abbr, anchor, code, del, em, mark, img, ins, strong, sub, sup, etc.
+  - No delineation as it's inline with text.
+  - HTML isn't parsed.
+- Header Inline controls
+  - Most Paragraph block controls.
+- Table Inline controls
+  - Some Paragraph block controls.
+- Code Block Inline controls
+  - No Paragraph block controls.
+- List Inline controls
+  - Some Paragraph block controls.
+- Fence Inline controls
+  - Unsure
+- Horizontal Rule Inline controls
+  - No Paragraph block controls. 
+  - This element doesn't display data, only a separator line.
+- parsed HTML Inline controls
+  - HTML is parsed
+  - No other Paragraph block controls. Has to be HTML-only.
+
+Strategy:
+
+- Parse into blocks. split("\n\n")
+- Perform control replacement on Paragraph and other suitable blocks.
+- Perform HTML ampersand-escaped replacement.
+- Rewrite each block to replace control replacements with JML, for consumption into Sparational.
+  - Use the same rewriter to replace inline HTML blocks with JML, and use this as the parser for the HTML switch for convertWebElement. 
+
+# [12/02/2023](#12022023) - The Path To Hell Is Paved In Poorly Folded Towels.
 
 ## The Bible describes 'the path to Heaven' as 'a narrow path' while 'the path to Hell is very broad'. This is an expression of entropy. 
 
@@ -9,6 +49,7 @@ Think of folding towels, with the 'heaven' of a well-folded towel vs the 'hell' 
 - But if you're not paying attention, its very easy to end in some other state and have to start over. 
   - Even moreso if you're working with larger foldables such as blankets and sheets. 
   - Sometimes 2 people work together against entropy with these larger objects.
+
   
 # [12/01/2023](#12012023) - Series Of Tubes...Err Pipes.
 
