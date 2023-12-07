@@ -1,4 +1,4 @@
-# [12/05/2023](#12052023) - Living In A Stolen Time.
+# [12/07/2023](#12072023) - Living In A Stolen Time.
 
 The perspective that we're living on "stolen" land is a medieval perspective. Compare to Japan, whose Meiji Revolution is still enjoyed today. Meiji saw that these small nations, like Buzen and Yamato and Echigo and Tosa, would stand no chance against full military nations such as the UK, the Dutch, or the Russians. By conquering all of these nations and uniting them under one banner, then drawing from these places to form a national military, Meiji increased the ability for the islands to defend themselves on the world stage. Because of Meiji, Japan is a modern powerhouse instead of a disorganized set of states. 
 
