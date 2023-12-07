@@ -6,7 +6,7 @@ In the same way that Arabia is a set of disconnected and mostly-impotent nations
 
 And so too would North America be a series of weak nations on the world stage, had the US Government not exercised [Right of Conquest](https://en.wikipedia.org/wiki/Right_of_conquest). A weak North America was a goal of the UK, as they wanted to [force all Native nations and tribes to relocate between the USA and Canada](https://en.wikipedia.org/wiki/Indian_barrier_state) - so the UK through Canada would have a weaker trading partner to exploit. By conquering and uniting these nations, we have created the most powerful nation on Earth, by far. And the peoples of these nations are greatly enriched through our potent economy and also with our overwhelming national defense. This is [Maimonidean Charity](https://en.wikipedia.org/wiki/Maimonides#Philosophy) in action, to have an economy so rubust that people do not need to beg. 
 
-Now we're working to unite the planet, as we start to investigate extraterrestrial political connections. And some would have us go backwards 600 years instead, and enter the galactic stage with political Swiss cheese. This is beyond German humor and into Russian humor. 
+Now we're working to unite the planet, as we start to investigate extraterrestrial political connections. And some would have us go backwards 600 years instead, and enter the galactic stage with political Swiss cheese. This is beyond German humor and into Russian humor. Or a plot from [Star Trek: The Next Generation](https://memory-alpha.fandom.com/wiki/Kesprytt)
 
 --------------------------------------------------------------------
 
