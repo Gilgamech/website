@@ -1,3 +1,15 @@
+# [12/05/2023](#12052023) - Living In A Stolen Time.
+
+The perspective that we're living on "stolen" land is a medieval perspective. Compare to Japan, whose Meiji Revolution is still enjoyed today. Meiji saw that these small nations, like Buzen and Yamato and Echigo and Tosa, would stand no chance against full military nations such as the UK, the Dutch, or the Russians. By conquering all of these nations and uniting them under one banner, then drawing from these places to form a national military, Meiji increased the ability for the islands to defend themselves on the world stage. Because of Meiji, Japan is a modern powerhouse instead of a disorganized set of states. 
+
+In the same way that Arabia is a set of disconnected and mostly-impotent nations, unable to escalate their military operations beyond terrorism or sending a few planes to shoot at a neighbor. Arabia is incapable of generating aircraft carriers to send to other parts of Earth, entirely due to persistent political divisions. Indeed, this was part of the reason for the [Act of Union](https://en.wikipedia.org/wiki/Acts_of_Union_1707) in the UK too - it let Britain and Scotland stop fighting each other and allowed them to fight everyone else on Earth instead. 
+
+And so too would North America be a series of weak nations on the world stage, had the US Government not exercised [Right of Conquest](https://en.wikipedia.org/wiki/Right_of_conquest). A weak North America was a goal of the UK, as they wanted to [force all Native nations and tribes to relocate between the USA and Canada](https://en.wikipedia.org/wiki/Indian_barrier_state) - so the UK through Canada would have a weaker trading partner to exploit. By conquering and uniting these nations, we have created the most powerful nation on Earth, by far. And the peoples of these nations are greatly enriched through our potent economy and also with our overwhelming national defense. This is [Maimonidean Charity](https://en.wikipedia.org/wiki/Maimonides#Philosophy) in action, to have an economy so rubust that people do not need to beg. 
+
+Now we're working to unite the planet, as we start to investigate extraterrestrial political connections. And some would have us go backwards 600 years instead, and enter the galactic stage with political Swiss cheese. This is beyond German humor and into Russian humor. 
+
+--------------------------------------------------------------------
+
 # [12/05/2023](#12052023) - Markdown Touchdown.
 
 After a few tries, I think I have a good strategy. First, it helps to have an understanding of the general philosophy behind Markdown implementations: to converge data and formatting into the least-conspicuous form. This has largely been achieved through decades of email communication, so Markdown emulates well-written emails. Central to Markdown is the separation of block-level controls and inline controls. 
@@ -37,6 +49,8 @@ Strategy:
 - Perform HTML ampersand-escaped replacement.
 - Rewrite each block to replace control replacements with JML, for consumption into Sparational.
   - Use the same rewriter to replace inline HTML blocks with JML, and use this as the parser for the HTML switch for convertWebElement. 
+  
+--------------------------------------------------------------------
 
 # [12/02/2023](#12022023) - The Path To Hell Is Paved In Poorly Folded Towels.
 
@@ -50,6 +64,7 @@ Think of folding towels, with the 'heaven' of a well-folded towel vs the 'hell' 
   - Even moreso if you're working with larger foldables such as blankets and sheets. 
   - Sometimes 2 people work together against entropy with these larger objects.
 
+--------------------------------------------------------------------
   
 # [12/01/2023](#12012023) - Series Of Tubes...Err Pipes.
 
