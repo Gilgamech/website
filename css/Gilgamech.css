@@ -63,7 +63,7 @@ nav ul ul {
  position: absolute;
  top: 2.5vw; /*Needs to match nav a line-height for menu to line up*/
 } 
-nav ul:hover > ul {
+nav ul ul:hover { 
  display:inherit;
 } 
 nav ul li:hover > ul {
