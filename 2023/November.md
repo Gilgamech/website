@@ -1,9 +1,11 @@
 # [11/26/2023](#11262023) - Putting my 'box in a box (err frame) for you.
 
 Site frames are a way to fully isolate site data from the HTML bootstrap. A site frame is meant to hold a small amount of JS and other 'connective tissue' to support a site, as it calls data from near and far. This is enabled through the new URL replacement feature: 
+
 - Drop your load in the road! Leave a URL at the start of any line to have the page eventually load and display that data.
 
 Also the variable system is fully functional:
+
 - Replace-o-rama! Full SPA pages - now in JML or YAML - can support $_ 'dollarsign-underscore' variable replacement from anywhere within the document.
 
 [OfferingOverview](https://www.OfferingOverview.com) is now fully Markdown and operating off a Page Frame, which has all of the instructions to load the other page elements. Including the footer, which is retrieved via URL replacement.
