@@ -3,7 +3,10 @@
 
 With a few additions, Markdown can support semantic HTML5 types. This enables simple games, such as the Clicker Game:
 
-https://www.sparational.com/sites/clickergame.md
+::: #clickergame
+:::
+
+https://www.sparational.com/sites/clickergame.md::clickergame
 
 How high can you click it? 
 
