@@ -3,7 +3,9 @@
 ### [Quotes](#quotes)
 
 # [Gillogisms](#Gillogisms)
+
 The words of the prophets are written on abandoned buildings, bathroom walls, and grain trains.
+
 ### Numbering subject to change.
 
 ### #
