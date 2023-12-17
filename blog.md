@@ -1,3 +1,16 @@
+
+# [12/17/2023](#12172023) - Click it just a little bit.
+
+With a few additions, Markdown can support semantic HTML5 types. This enables simple games, such as the Clicker Game:
+
+https://www.sparational.com/sites/clickergame.md
+
+How high can you click it? 
+
+- This is also a demo of the advanced HTTP parsing system, which renders Markdown files instead of merely linking to them.
+
+--------------------------------------------------------------------
+
 # [12/07/2023](#12072023) - Living In A Stolen Time.
 
 The perspective that we're living on 'stolen' land is a medieval perspective. Compare to Japan, whose Meiji Revolution is still enjoyed today. Meiji saw that these small nations, like Buzen and Yamato and Echigo and Tosa, would stand no chance against full military nations such as the UK, the Dutch, or the Russians. By conquering all of these nations and uniting them under one banner, then drawing from these places to form a national military, Meiji increased the ability for the islands to defend themselves on the world stage. Because of Meiji, Japan is a modern powerhouse instead of a disorganized set of states. 
@@ -56,7 +69,8 @@ Strategy:
 
 ## The Bible describes 'the path to Heaven' as 'a narrow path' while 'the path to Hell is very broad'. This is an expression of entropy. 
 
-Think of folding towels, with the 'heaven' of a well-folded towel vs the 'hell' of a mis-folded towel: 
+Think of folding towels, with the 'heaven' of a well-folded towel vs the 'hell' of a mis-folded towel:
+
 - The towel can exist rolled or folded or some mix of these, giving a huge number of possible states. 
 - The goal is to end with one of a few folded states. Often folded in half once along one face axis, then once along the other axis, giving 2 possible end states. 
 - Folding is the process of starting with any random state and moving toward one of the two goal states. 
