@@ -12,14 +12,14 @@ body {
 }
 
 /* Page Title bar*/
-.pageTitle {
+.titleContainer {
+	text-align: center;
+}
+.titleContainer a {
 	font-variant: small-caps;
 	font-size: 7.99vw;
 	color: #fff; 
 	text-decoration: none;
-}
-.titleContainer {
-	text-align: center;
 }
 
 /*Nav bar*/
