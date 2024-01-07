@@ -1,4 +1,4 @@
-# [01/06/2023](#01062023) - Advanced HTTP processing.
+# [01/06/2024](#01062024) - Advanced HTTP processing.
 
 Sparational 4.0 officially moves from Alpha to Beta with this update. HTTP Processing is now inline instead of block, and works on both relative and inline references. So if you leave a URL in your text, it doesn't just become a link, but loads in as an inline image. 
 
