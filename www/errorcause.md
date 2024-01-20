@@ -4,7 +4,7 @@ Red item is causing/seeing the error. Orange item is reporting the error.
 
 ### 400 Bad Request
 
-![401 Unauthorized](https://www.Gilgamech.com/images/services/error400cause.png)
+![400 Bad Request](https://www.Gilgamech.com/images/services/error400cause.png)
 
 A malformed request or query string was sent by the client.
 
