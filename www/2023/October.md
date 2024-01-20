@@ -1,3 +1,11 @@
+::: style#
+body { background-color: #F87217; }
+:::
+
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [10/30/2023](#10302023) - Load a sitelet from anywhere:
 
 ## Added a game changing new feature to Sparational.js: 

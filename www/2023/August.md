@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [08/31/2022](#08312022) -  Obsoletionist
 
 Statistically, almost every business that Elon Musk runs would become bankrupt, if these secret program UFOs can do what we've seen them do, and if they're powered the way we think they're powered.

@@ -1,7 +1,3 @@
-::: style#
-body { background-color: #700; } .textBubbleBG { border: 1px solid #32CD32;}
-:::
-
 # About Us
 
 Gilgamech Technologies is an organization intended to encapsulate and eventually monetize the odd ideas of its founder, Stephen Gillie. Originated in 2012 to develop a robot OS for Arduino devices, the organization has evolved with the needs of its founder to become the legal and logical container for his works. He is an apolitical, athiestic, aromantic, aseptic, ascetic, aspy, acey pale male, to describe mostly through negation. He has [14 years of professional experience](https://www.Gilgamech.com/Resume/Stephen%20Gillie%20Resume.docx) in Cloud (compute, storage, network), Platform (Windows desktop, Server, Ubuntu, RHEL) and Infrastructure (AD, AzureAD, circuits, DNS, DHCP, ISPs, routes, routers, routing, security groups, SQL, SSL, subnets, switches, and VLANs). He loves to express ideas as software as a hobby, and has written tools ranging from this blog to a Steam player tracker to a versioning system for Zendesk KBs (before they added that functionality natively). Additionally, he's an avid gamer (playing mostly Roblox these days), musician (having been a member of several area marching, concert, and jazz bands), and athlete with black belts in both Hapkido and Taekwondo.

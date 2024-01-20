@@ -1,3 +1,11 @@
+::: style#
+body { background-color: #700; } .textBubbleBG { border: 1px solid #32CD32;}
+:::
+
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [12/17/2023](#12172023) - Click It Just A Little Bit.
 
 With a few additions, Markdown can support semantic HTML5 types. This enables simple games, such as the Clicker Game:

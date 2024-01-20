@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [07/10/2022](#07102022) -  If I Were A Rude Boy
 
 Rhianna's art might be evidence of a problem with the Modern world

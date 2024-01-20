@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [05/20/2023](#05202023) - AI experts testify before US Senate.
 
 - Video replay: 

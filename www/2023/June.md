@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [06/30/2023] (#06302023) - How to Internet.
 
 ## Pride in what you do, for those of us who identify as hard-working people who Get Suff Done. Also good advice for the ideologically unemployed, to understand how physical systems actually work.

@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [7/30/2021](#07302021)  - Adding the Android page.
 
 [Android](https://www.fantasyflightgames.com/en/products/android/) is a somewhat complex game made by Fantasy Flight Games. It was described as '4 games in one, each of them almost fun' when given to me. And [these are my notes from attempting to understand it.](/Android.html)

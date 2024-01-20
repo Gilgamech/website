@@ -1,3 +1,7 @@
+From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk).
+
+--------------------------------------------------------------------
+
 # [11/26/2023](#11262023) - Putting my 'box in a box (err frame) for you.
 
 Site frames are a way to fully isolate site data from the HTML bootstrap. A site frame is meant to hold a small amount of JS and other 'connective tissue' to support a site, as it calls data from near and far. This is enabled through the new URL replacement feature: 
