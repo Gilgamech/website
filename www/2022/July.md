@@ -36,11 +36,14 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
   - These are quintessential tech companies in a few ways, including their heavy use of scalable code, investor-driven Ponziesque profit model (where is the ad-supported Bitcon?), and disregard for employees with highly-valuable skills by treating them as disposable.
 	- There are no profit centers here, only cost centers.
 
+--------------------------------------------------------------------
+
 # [07/29/2022](#07292022) - Making websites about making websites.
 
 Part of becoming a solutions architect is endless learning. There are So Many Services. And more than half of them are AWS. So I'm assembling a website to keep track of them all. Right now it's called [Offering Overview](http://offeringoverview.s3-website-us-west-2.amazonaws.com/). It's still a work in progress, so please be gentle.
 
-				
+--------------------------------------------------------------------
+
 # [07/28/2022](#07282022) - For the love of webservice.
 
 Containers led down a rabbit hole that reignited my love of full stack development. I created a [Programmatic Webserver](https://github.com/Gilgamech/ProgrammaticWebserver), to which you can PUT a JSON file with an action described, and the server will respond accordingly when GET is called against the same resource.
