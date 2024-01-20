@@ -18,6 +18,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. 3D for movies is like astigmatism, especially where glasses fix it. - 2012
 
 ### A
+
 1. A 10x engineer should have 10 magnum opii. - 2017
 1. A Brave New 1984, where we modify history to make ourselves happy. - 2016
 1. A criticism of capitalism is that it can only lead to imperalism. A criticism of socialism is that it can only lead to totalitarian communism. A criticism of capitalism with socialsitic safety nets is that it has both wealthy elites and welfare queens. - 2022 (Imperailism and totalitarianism are both forms of autocracy. - 2024)
