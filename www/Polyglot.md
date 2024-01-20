@@ -1,4 +1,5 @@
 # Polyglot. 
+
 -  Language that transpiles to all other languages. (Support under development.)
 -  Written in Markdown.
 -  Commands end in periods instead of semicolons or line endings. 
@@ -10,7 +11,6 @@
 -  Supports as many types of comment character as possible. 
 -  Caps-insensitive? 
 -  Lines ending with commas will ignore clearspace to the next character, and this is encouraged for complex code. 
-
 ## FizzBuzz
 
 - input and output equal Import. 
@@ -29,6 +29,7 @@ else output equals 'buzz'.
 - Export equals input.
 
 ###  Copyright 2024 Gilgamech Technologies
+
 -  Polyglot Demo File 
 -  Author: Stephen Gillie
 -  Created on: 1/4/2024
