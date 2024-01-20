@@ -32,7 +32,7 @@
 <!-- CSS CLASSES GO HERE -->
 </style>
 		</div>
-		<nav id="navContainer"></nav><script>convertWebElement('navContainer',"https://www.Gilgamech.com/sites/menu.md")</script>
+		<nav id="navContainer"></nav><script>convertWebElement("navContainer","/menu.md")</script>
 		<div id="content">
 			<div class="textBubbleBG">
 				<h1>The past and future history of the modern world</h1>
@@ -123,6 +123,84 @@ let styleList = ["max-width: 35px; width: 1vw;","max-width: 52px; width: 1vw;","
 webRequest("GET","https://www.Gilgamech.com/data/historyData.json",(callback => buildScrollingTable("historyChart",'historyTable',callback,40,"textBubbleBG",classList,styleList)),"JSON","",60) 
 </script>
  		</div><!-- End Content-->
- 		<div id="footer" class="copyright"></div><script>convertWebElement('footer',"https://www.sparational.com/sites/footer.md")</script>
+ 		<div id="copyright" class="copyright"></div><script>convertWebElement("copyright","/copyright.md")</script>
  	</body>
 </html>
+
+<!-- 
+I'm realizing that I should sit this news cycle out, or it's going to exhaust me. Which is a perfect time to try taking a 2-week YouTube vacation that I had been thinking about. 
+- Whenever we vacation these days, there's mobile signal almost everywhere, and resorts all have Wi-Fi, so while we change venues, we don't actually disconnect anymore.
+- I'm going to try the reverse, keep working and stay where I am, but shut off a digital source for a little bit. 
+
+
+
+function runSynapses(synapseId){
+	writeElement(synapseId+"synapseA",(readElement(synapseId+"synapseWeight")*1))
+	writeElement(synapseId+"synapseB",(readElement(synapseId+"synapseWeight")*1))
+
+	writeElement(synapseId+"outputA",readElement(synapseId+"inputA")*readElement(synapseId+"synapseA"))
+	writeElement(synapseId+"outputB",readElement(synapseId+"inputB")*readElement(synapseId+"synapseB"))
+	
+	writeElement(synapseId+"activation",(readElement(synapseId+"outputA")*1)+(readElement(synapseId+"outputB")*1))
+	if (readElement(synapseId+"activation") >= readElement(synapseId+"threshold")) {
+		writeElement(synapseId+"output",1)
+	} else {
+		writeElement(synapseId+"output",0)
+	}
+	
+}
+function addNeuronRow(tableName,rowName,synapseId) {
+	var tbody = returnTablePart(tableName,"TBODY").id
+	var neuronRow = addElement(tbody,"","","tr")
+	addElement(neuronRow,rowName,"","th")
+	addElement(addElement(neuronRow,"","","td"),"[0,0]","","input","","","updateRow('"+rowName+"');propagateValues"+synapseId+"();","","","value","[0,0]",rowName+"inputs")
+	addElement(addElement(neuronRow,"","","td"),"[0.6,0.6]","","input","","","updateRow('"+rowName+"');propagateValues"+synapseId+"();","","","value","[0.6,0.6]",rowName+"weights")
+	addElement(addElement(neuronRow,"","","td"),"1","","input","","","updateRow('"+rowName+"');propagateValues"+synapseId+"();","","","value","1",rowName+"threshold")
+	addElement(addElement(neuronRow,"","","td"),"","","input","","","","","","","",rowName+"output")
+	updateRow(rowName);
+}
+function updateRow(rowName){
+	writeElement(rowName+"output",doNeuron(readElement(rowName+"inputs"),readElement(rowName+"weights"),readElement(rowName+"threshold")));
+}
+function doNeuron(inputArray,weightArray,threshold){
+	var accumulate = 0;
+	inputArray = eval(inputArray)
+	weightArray = eval(weightArray)
+	threshold = eval(threshold)
+	for (var i = 0;i<inputArray.length;i++) {
+		accumulate += inputArray[i]*weightArray[i]
+	}
+	if (accumulate >= threshold) {
+		return accumulate//1
+	} else {
+		return 0
+	}
+	
+}
+
+function addNeuronLayers(TableID,inputArray,layers,outputID) {
+	var tbody = returnTablePart(TableID,"TBODY").id
+	for (var j = 0;j<layers;j++) {
+		var layer = "layer"+j
+		addElement(tbody,"","","tr","","","","","","","",layer)
+		addElement(layer,layer,"","th")
+		for (var i = 0;i<inputArray.length;i++) {
+			var layerInput = layer+"input"+i
+			addElement(addElement(layer,"","","td"),"1","","input","","","updateRow('"+layerInput+"');propagateValues"+layerInput+"();","","","value","1",layerInput+"Input")
+			addElement(addElement(layer,"","","td"),"100","","input","","","updateRow('"+layerInput+"');propagateValues"+layerInput+"();","","","value","100",layerInput+"Weight")
+		}
+	addElement(addElement(layer,"","","td"),"","","input","","","","","","","",layer+"output")
+	}
+// Weight update function (arrow pointing to the fastest way up the hill)
+	
+}
+
+	addBlogPost("content","10/14/2023","#10142023",[
+		["10/14/2023 - Neural Networks Part 7: Neura-Links:","h1"],
+		["This is where to stack your nodes.","h2"],
+		["","table","div1014"],
+	]);
+mdArrayToTable("div1014","table1014",[["Title","A","B","Synapse Weight","Output"]])
+addNeuronRow("table1014","rowName","1014")
+addNeuronLayers("table1014",[1,2,3],3,"outputID")
+-->
