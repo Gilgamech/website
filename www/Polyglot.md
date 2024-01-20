@@ -10,7 +10,8 @@
 -  Typed? (With type:variable)
 -  Supports as many types of comment character as possible. 
 -  Caps-insensitive? 
--  Lines ending with commas will ignore clearspace to the next character, and this is encouraged for complex code. 
+-  Lines ending with commas will ignore clearspace to the next character, and this is encouraged for complex code.
+ 
 ## FizzBuzz
 
 - input and output equal Import. 
