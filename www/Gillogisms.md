@@ -21,28 +21,33 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 1. A 10x engineer should have 10 magnum opii. - 2017
 1. A Brave New 1984, where we modify history to make ourselves happy. - 2016
+1. A CPU is a small resistive heater and software radio that can also perform binary transformations (math etc) on data and count milliseconds. - 2016
 1. A criticism of capitalism is that it can only lead to imperalism. A criticism of socialism is that it can only lead to totalitarian communism. A criticism of capitalism with socialsitic safety nets is that it has both wealthy elites and welfare queens. - 2022 (Imperailism and totalitarianism are both forms of autocracy. - 2024)
 1. A dress is a long shirt that is complicated to put on. - 2021
+1. A good brew is swell swill. (Some of these could be called rhyme crimes.) - 2024
 1. A good joke is incepted in the listener's head, having been given 2 lines, only to find they meet at an absurd intersection.
+1. A hair dryer is a toaster gun. The upgrade is just called a heat gun. - 2023
 1. A loving deity would love both believers and nonbelievers, and wouldn't punish nonbelievers like a vengeful deity would. Who would follow a vengeful deity, and beyond this, who would lie that the vengeful deity is loving? - 2017
 1. A Mealy-mouthed Internet Browbeating from a Prevaricating Wastrel. - 2024
 1. A person who doesn't like (or cannot get) vegetables can still get vitamins through properly mixed drinks. - 2019 (Such as getting vitamin C from grog/daquiri.)
 1. A pile driver is a drop forge that moves downward. - 2021
-1. A product's price must be an asset and a liability. An asset in communicating the value created through the purchase as well as a liability in making money by being higher than the costs. And the market window is the gap where the asset value is higher than the liability cost. -  2023
 1. A PNG is worth at least 1000 [words of data storage](https://en.wikipedia.org/wiki/Word_(computer_architecture)) & bandwidth, and video is worth at least a million. - 2020
+1. A product's price must be an asset and a liability. An asset in communicating the value created through the purchase as well as a liability in making money by being higher than the costs. And the market window is the gap where the asset value is higher than the liability cost. -  2023
 1. A reverse Hudsucker Proxy. They saw a Portrait of Dorian Grey not as a horror story, but as an instruction manual. Have kids, put them in front of the portrait, and live forever. Use your chance, your second chance, and have kids so you can use their second chance also. - 2020
-1. A single administrator, hosting a single application on a single server, for a small user base, can give 3 nines easily. And 3 nines is good enough 99.9% of the time. Moving beyond this means adding and multiplying those nines together in an attempt to get more nines. - 2018
-1. 'A society grows great when old men plant trees under which they'll never sit.' That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.) - 2021
+1. A single administrator, hosting a single application on a single server, for a small user base, can give 3 nines easily. And 3 nines is good enough 99.9% of the time. Moving beyond this means multiplying those nines together in an attempt to get more nines. - 2018
 1. A special kind of hell - the kind you have to pay for in cash (or credit). - 2019
+1. 'A society grows great when old men plant trees under which they'll never sit.' That is The Country For Old Men. (The reason people see the world getting worse is because they are not personally making the world better. Good things blossom to those who go out and plant them.) (And women and all humans, gender and age neutral, we're each the gears that make our world go around.) - 2021
 1. A spectrum where 80% are in one option, so they see it as a binary choice of 'this one' and 'the everything else one'. Seen in both operating systems and human sexualities. - 2021
 1. A struggle session is when someone dishes on themselves about how bad they are at life. - 2023
-1. A thorough history includes a history of deadnames and name progression, where a figure moved from one name to another and why. Such as Amenhotep4 'Amun-hotep [Amun is great] the 4th of his name') changing his name to Akhenaten ('Aq-en-Aten' [Useful for Aten]) for religious reasons, and his son Tutankhaten's ('Tutan-qAten') name change to Tutankhamun ('Tutan-qAmun') to revert the religious reasons.
+1. A thorough history includes a history of deadnames and name progression, where a figure moved from one name to another and why. Such as Amenhotep4 ('Amun-hotep ` Amun is great ` the 4th of his name') changing his name to Akhenaten ('Aq-en-Aten' `Useful for Aten`) for religious reasons, and his son Tutankhaten's ('Tutan-qAten' `living image of Aten`) name change to Tutankhamun ('Tutan-qAmun' `living image of Amun`) to revert the religious reasons.
 1. A through B - Wanting one thing, and the percieved way to get it is to perform an unrelated task. What you want is attention and admiration from others, and to achieve this you buy a new phone. Gaining A through perfoming A would have you talk to others and gain their admiration directly, through service or financial or other means. 'This isn't just A through B - this is like A through G.' (Is this a type of lying? It's being disingenuous about your intentions.) - 2023
 1. A time for everything, and everything in its time. - 2001
 1. A true cynic, knowing the cost of everything and the value of nothing - and beyond that, having paid to learn the cost of not having anything and the utility of each thing. - 2021
+1. A word to the wise, because once you're wise, a word is all you need.
 1. 'Abuse' is a Newspeak word meaning 'abnormal use'. - 2021
 1. Acquitted of a guilty pleasure. - 2018
-1. Acting as Embelleshment: embellishing the parts of your personality that synchronize with the character's, and repressing the parts of your personality that dissonate with the character's. Thus each actor's interpretation of the character varies by the actor's own personality attributes, and the portrayal reveals as much about the actor as it does the character. - Acting as The Method: Recall parts of your past that mirror the character's situation, and use your organic reactions to your past as the character's reactions to these events.
+1. Acting as Embelleshment: embellishing the parts of your personality that synchronize with the character's, and repressing the parts of your personality that dissonate with the character's. Thus each actor's interpretation of the character varies by the actor's own personality attributes, and the portrayal reveals as much about the actor as it does the character. 
+1. Acting as The Method: Recall parts of your past that mirror the character's situation, and use your organic reactions to your past as the character's reactions to these events.
 1. Actors say 'break a leg' because 'good luck' is bad luck and they want you to be 'in the cast'. - 2021
 1. Actual ETs aren't part of the psyop - they have no idea what we're doing to ourselves on Earth. - 2023
 1. Adding one more unit of energy to a location costs more than one more unit of energy - the more energy is in a location, the more energy it takes to add energy to there. Energy following the path of least resistance suggests that if you put a hot potato and a cold potato into any cooking device, the cold potato will gain more heat than the hot potato, since it's cheaper for the energy to go into the cold potato. Almost like balloons of energy, where the less-inflated balloon is easier to inflate than the more-inflated balloon. -  2023
@@ -54,6 +59,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. AI researchers are relearning all of the soft sciences, as they show up again in lithographic neural networks too. - 2022
 1. AI should submit their own artwork to Instagram, Pinterest, and other image sharing websites. Humans who submit AI works get the credit, and this is called plagiarism. (Considering all neural networks to be equal at some level.) - 2022
 1. Al Gore didn't invent the internet, but he did invent AlGoreIthms. - 2019
+1. Alcoholic beverages become both antibacterial and flammable at about 75% ABV. - 2023 (This is how flame-spitters work - they hold alcohol similar to Everclear in their mouths, then spit it over a lighter.)
 1. Algonym & acrogram & acrorythm (because I can't remember the word 'acronym' for some reason.) - 2008
 1. All hands on deck is too many hands on deck - it's a management failure. - 2018
 1. All music today is electronic music, with acoustic music being assembled from numerous recordings of acoustic musicians. - 2019
@@ -62,28 +68,30 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Amazon is like Softbank in having one big success (AWS, Alibaba) pay for a bunch of failures. - 2021
 1. Ambulance ambiance.
 1. America's 'political problem' is the Hawthorne Experiment multiplied by Ford's 'Edsel disaster'. - 2020
+1. American Cheese, but from Hollywood instead of Wisconsin. - 2024
 1. An autistic person has trouble creating and identifying viable Patterns of Behavior, so the person clings to the few good ones they find like a drowning person to a plank. 'Identify a novel, relevant, and interesting diagetic element in the current scene and make a timely remark about it when the conversation's word rate drops below a certain level and sufficient attention gaps appear' is a nontrivial pattern to undertake, and might take years of practice. - 2021
+1. An imported maid is a foreign domestic. - 2024
 1. Anatone, Bucoda, Colville, Dallesport, Elbe, Frederickson, Gilliam, Hoquiam, Ilwaco, JBLM, Kalama, Littlerock, Mossyrock, Naselle, Othello, Pahata, Quincy, Raymond, Skamania, Touchet, Uniontown, Van Zandt, Walla Walla, (no X), Yelm, Zilah. - 2021
 1. Angels, devils, gods, and demons are, by definition, extraterrestrial. Possibly extradimensional. - 2022
 1. Antipodal Antibody
-1. 'Anything worth doing is worth doing well' - British philosophy to put everything into your hobby, that if you're going to do it you should strive to excel. 'Anything worth doing is worth doing poorly' - American philosophy that you should do what you enjoy, regardless of personal skill level. (These philosophies are not mutually exclusive, as one can put maximal effort into something and still be garbage at it.) - Reference in progress
 1. Anxiety is the sensation that your brain isn't working hard enough. A correct response to anxiety is to check that everything is okay, acknowledge the anxiety, and acknowledge that everything is okay. A few psychological tools exist to help with these tasks, and you can make your own also. - 2020
 1. Any focus on arbitrary attributes (including race and gender) are de facto ad hominem attacks and automatically lose arguments. - 2023
 1. Anyone can do (almost) anything, but nobody can do everything. - 2016
+1. 'Anything worth doing is worth doing well' - British philosophy to put everything into your hobby, that if you're going to do it you should strive to excel. 'Anything worth doing is worth doing poorly' - American philosophy that you should do what you enjoy, regardless of personal skill level. (These philosophies are not mutually exclusive, as one can put maximal effort into something and still be garbage at it.) - Reference in progress
 1. AOC is better at LOL than SBF. (She was ranked in her free time, but he was not despite playing during work such as investor calls.) - 2021
 1. Archaepelogical.
 1. Are there use cases for non-public CDNs, like large companies? Does Amazon/AWS use CDNs to accelerate internal proprietary content? Are the edge copies encrypted? -2022
 1. Armies capture hearts and minds, starting with the hearts and minds of their troops. - 2018
-1. Assertive Without Dominating. 
+1. Art Carney wasn't a carney (carnival worker/groupie). - 2018
 1. Art makes you feel something. Life imitates art because life IS art, in that other life forms make us feel something - happy, sad, comforted, worried, and more. - 2018
+1. Assertive Without Dominating. 
 1. Assuming Momentum implies assuming operating in a frictionless sociological vacuum. - 2023
 1. Atheism is usually a non-label. People don't usually identify as atheists, instead they stop going to church, and then get called this by data-mining theologians trying to check a checkbox. Instead of discussing which deity might or might not control the universe and why or why not, we'd rather debate which type of cloud hosting infrastructure is best for your website, or how much light is best for your plant. / In surveys, someone who identifies as Atheist is likely to be seen as near militaristic in enforcing their viewpoints, as there are so many antagonistic labeled-atheists online. How would the survey results have been if instead of 'atheist' you put 'amateur farmer'? / What about the belief of 'There's no way to prove it, but between a slimmed-down Simulation Hypothesis (not a giant Universe Simulator, but just the 4d surface of a 5d rock garden, and someone tends to the waves around the rocks, being the waves that constitute our physical reality) and with virtual photons (existing based on probability/time alone) there sure is room for a larger being to influence things. And there seems to be an excess of synchronicity in the universe...' See it's so much easier to tell the surveyor 'No I'm not Catholic or Buddhist or anything else.' - 2019-2023
 1. Authoritarians try to figure out what other people are going to do, so the Authoritarian can tell the other people to do that, and in this way the other people are doing what the Authoritarian said - even if they were going to do that anyway. In this way the Authoritarian distorts reality to embiggen their own status at the cost of the other peoples' status - they claim that the other people would be lost without their leadership, when in reality their leadership can only ever be a waste of the other peoples' time. - 2019
 
 ### B
 
-1. By extending 'anti-Semitism' to cover unrelated topics like opinions on movies, the too-broadly named Jewish Anti-Defamation League (ADL) have made themselves into a joke where the group's actions actively defame Jewish people, to the detriment of Jewish people around Earth. Had they stayed out of unrelated topics, they could provide anti-defamation services to Jews and maybe others, but because of their excessive political action, they have lost too much respect to be taken seriously. This is yet another Current Year situation of a group providing only malassistance [bad help] to the group they purport to support - just as the ADL is anti-Semetic, GLAAD is homophobic, and the LGBTQ Task Force is anti-transsexual.
-1. Back in my day, we had leg races, not arms races. (Oh? When was that?)- 2023
+
 1. Back seats are put into 2-door sports cars so insurance actuaries see '4 seat family car' instead of 'unsafe metal sled'. - Regular Car Reviews Brian
 1. Banks aren't just businesses - they're foundational businesses that other businesses and whole communities depend on, as a source of money. - 2023
 1. Bannering - being able to see how to make something just by looking at it. From Minecraft Banners, where there are only like 6 shapes you can layer on top of each other, and only 6 layers that can be applied. And so they're an art of stacking these 6 layers. - 2017
@@ -99,19 +107,23 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Being at the right place for the right reasons makes you into the right person. The right person is anyone who is there for the right reasons.
 1. Being bigger than the limiting funding and beliefs that hold us back from being faithful to the Truth of who our bank accounts are. - 2023
 1. Being happy is part of being healthy. It's unhealthy to be unhappy most of the time, since mental health is part of a person's health. And it's difficult to make good health decisions when your decision-making organ isn't working well. - 2020
-1. Being of House of Gay does not make you a homosexual. - 2020
+1. Being emotional about a problem just means you're wearing the wrong hat. Exotic Solutions Architecture. - 2023
 1. Being of House of Black does not make you an African American or highly melinated individual. -  2023
+1. Being of House of Gay does not make you a homosexual. - 2020
 1. Being the average of the 5 people you spend the most time with means that if you're always the smartest person in the room, you're going to act like a less-intelligent person over time. - 2023
 1. Being the more mature, self-controlled spender in a retail situation.
 1. Beren Mind (Ursa Mental) is the bear-like Mind Being.
 1. Between Covid, George Floyd, and wildfire smog, 2020 was entirely about breathing. - 2020 (George Floyd was killled by government inaction on Fentanyl, not government action on his neck. - 2023)
 1. Beware emotional vampires - the Huckleberry Finns and (People) of System that Mark Twain and Adam Smith respectively warned us about - the ones who would build their empire out of other people, painting their fence to help them out. Their actual goal is to dominate us and others - have us obeying their every whim while they watch. Some still use paper checks merely so other people have to wait for them in the checkout line, while others set up traps in their homes (like a sink with rusty knives, or potholders with large holes) and ask us for help, so we will injure ourselves and yell at them, and they can use this to get sympathy from others. - 2022
+1. Beware those who seem to teach every subject, as most of them can't actually do anything. - 2024
 1. Beyond Belief and into Understanding. - 2021 - Because the The Gambler song lyrics aren't '**Believe** when to hold 'em, believe when to show 'em, believe when to walk away, believe when to run' - but 'know' - being a gambler here is a projection of perception and understanding, not a projection of invented notions and beliefs. - 2023
 1. Beyond good and evil, in that good and evil aren't equal and opposite pairs on a spectrum, but entirely independent phenomena - and a person can be both good and evil at the same time. (musings on Nietzche) - likewise, bread is simultaneously healthy and unhealthy. (This becomes a dichotomy pun on wordspace collisions.) - 2021
 1. Bigger places can have higher standards **and** lower standards at the same time. - 2018
 1. Bill Maher practices Kierkegaardian Centrism as Talking Out Both Sides Of His Mouth. - 2023
 1. Bingo Fuel is the Aviation version of Range Anxiety. - 2019
 1. Black Belt is like a BA in Fighting - a BMA or Bachelor of Martial Arts. In most major styles, earning one takes about 4 to 5 years, and similarly covers a broad array of topics - including kinetic and potential energy, physical fitness, anatomy and physiology, mindfulness, philosophy, and criminal psychology. - 2018
+1. Black helicopters seem like they're louder than normal helicopters because they usually fly lower than civilian FAA radar systems can detect. Literally 'flying under the radar' and the major revealing element of the UFO conspiracy is that most UFOs *don't* fly below the radar, but instead within the radar. This might help discern which UFOs are part of the conspiracy and which are operated by ETs who don't care about our human classified information system. - 2024 (They're like Cortez and we're like Moctezuma and other Aztec leaders, letting them gain the upper hand in our societies as we try to gain weaponry from them to use against each other. Literally using our own drive to fight against ourselves. Which sci-fi story has various ET races supporting different Earth governments, to increase terrestrial discord, to perpetuate a state of technological stagnation through prioritizing inter-species conflict over intra-species conflict? Basically, keep us divided and focused on our differences so that we can't unite and conquer them? We don't even share what we know with each other because we're too afraid of it being used against us.)
+1. Black Swans to White Squalls - a spectrum of dark horse game changers. - 2023 (How to predict these? Statistically?)
 1. Blaming forest fires on global warming is like blaming arson on global warming. - 2023
 1. Blood transports **heat** - a job that is rarely remembered. Only muscles really create heat - bones, tendons, and nerves don't, skin might create a little - and just like an under-floor heating system, the blood moves heat from the muscles around the body to other organs. And especially to the skin for radiation, just like on the ISS. This keeps all our cells at their optimal enzymatic temperature. - 2014
 1. Books can only be judged by their covers - that's how you choose which one to open.
@@ -130,25 +142,29 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Bullets are packet rockets.
 1. Businesses want to make money in the easiest way possible, and that's almost always from investors. 'From customers' is usually one of the hardest.
 1. Buying macrons or CPUs - or modern Disney movies - you're not buying just 1, you're buying around 40 - and paying them to throw away the around 39 mistakes it took to make 1 good one. Bakeries could sell their 'mistake-rons' for a dime a dozen. (Or 'mist-acron', portmanteau of 'mistake' and 'macron'.) - 2021 (Disney regularly shows 2 dozen different test screenings to different groups, to see which one is better. This means filming and editing dozens of movies and throwing them away. - 2023)
+1. By extending 'anti-Semitism' to cover unrelated topics like opinions on movies, the too-broadly named Jewish Anti-Defamation League (ADL) have made themselves into a joke where the group's actions actively defame Jewish people, to the detriment of Jewish people around Earth. Had they stayed out of unrelated topics, they could provide anti-defamation services to Jews and maybe others, but because of their excessive political action, they have lost too much respect to be taken seriously. This is yet another Current Year situation of a group providing only malassistance [bad help] to the group they purport to support - just as the ADL is anti-Semetic, GLAAD is homophobic, and the LGBTQ Task Force is anti-transsexual.
+1. Back in my day, we had leg races, not arms races. (Oh? When was that?)- 2023
 1. By interrogatory, the furnishing of information. - Unknown. (We're going to ask you some questions.)
 
 ### C
 
 1. C-stores during inflation, when their price-gouging can't keep up and they become a cheaper alternative. - 2021
 1. CAD Loss is basically a jump scare, but it makes you sad instead of startled. - 2017
+1. Calculus should be taught before trigonometry. Calc is an extension of basic algebra to include infinities, but instead of continuing from basic to algebra to calculus, we force students to make huge detours through geometry and trigonometry, then to study trig-calc, which while revealing beautiful equations involving sine waves, does a disservice to most students and holds our society back by producing fewer STEM graduates. It's like making people take a trail instead of a highway - like forcing East Coast history students to walk the Oregon Trail to get to California, instead of letting them read about Oregon Trail travelers from books while riding highways or trains or planes to CA. - 2004
 1. Caliban of Caladan. (Mutants of Dune) - 2018
-1. Can't spell 'solar panels' without LARP
+1. Car dashboard symbols as automotive emoji. - 2023
+1. Can't spell 'solar panels' without LARP.
+1. Can't spell aspartame without Sparta. - 2020
 1. Can't spell constable without stab.
 1. Can't spell conventional without convent.
 1. Can't spell dungeon without dung.
 1. Can't spell inevitable without Evita. (Don't cry for me, Argentina.)
 1. Can't spell proliferation without pro life.
-1. Can't spell aspartame without Sparta. - 2020
 1. Canadian currency is all Loonie Toonie. (CA$1 coins have a beautiful loon on them, and are thus called the 'Loonie'. Then the CA$2 continues the trend as the 'Two-nie')
 1. Cannabinaut. (Exploration of Space)
-1. Celebrate what you could do instead of regretting what you couldn't do. - 2022?
 1. Celebrate the historical progress we have made instead of regretting what our ancestry did. For one, Sins Of The Father aren't, as our society has almost no legal connection between two related adults. - 2023
 1. Celebrimboring.
+1. Celebrate what you could do instead of regretting what you couldn't do. - 2022?
 1. Celebrities including Larry Fink and Jamie Lee Curtis believe in forcing homosexual and transsexual behaviors onto majority not-homosexual and not-transsexual USA population. But are completely mute about doing the same to Middle East populations, or forcing not-transsexual and not-homosexual behaviors on their own homsexual and transsexual populations. This is hypocracy at its finest. - 2023
 1. Celibacy is not involuntary if you're not working on yourself. Would you go home with a genderswapped you? - 2019
 1. Cellulose is Polyglucose, being chains of sugars that bacteria like to eat. But to access one, they have to separate it from the chain, so they can only work on one at a time. - 2020
@@ -159,7 +175,8 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Children are humans with significantly less life experience than adults, along with less height and muscle mass.
 1. Chinese written language is ancient emoji, and typing Chinese with Pinyin is kinda like very old fashioned texting, where you had to press '66 **pause** 666' to type 'hi'
 1. Chivalry lay in the eye of the beholder. - 2017
-1. Choate Cohort
+1. Choate Cohort - 2020
+1. 'Choke up on the bat' but more like Ozzy Ozborne than a baseball player. - 2024
 1. Church is a word not unlike Wealth or Power, whose myriad meanings appear to grant huge agency in human minds, by obfuscating numerous concepts into one. 'Church' means both 'temple' and 'religion' at the same time, while also meaning neither of those, and both other things and not other things. 'Catholic Church' can mean a temple, congregation, priest, parish (congregation + priest), bishop (regional manager for priests), diocese (region covered by a bishop - or archdiocese is a large diocese whose bishop is called an archbishop), Vatican City, the College of Bishops, The Pope, and all of the above. Part of this is because religions were the original megacorporation, and in some legends (WH40k) remain the only megacorps. - 2021
 1. Cities in the USA are incorporated similar to businesses. Both need to buy their land from the county or State. - 2021
 1. Claiming that everyone of a certain race is racist absolves the individual's own racism, in their eyes, while revealing it to everyone else. - 2023
@@ -172,7 +189,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Commodity comorbidity. (Like diabetes and arterial buildup.)
 1. Community is a portmanteau of commune and unity. - 2021
 1. Compare and contrast Teslaquila with Fallout 76 Tequila. - 2020
+1. Conntrails and chemtrails are easy to tell apart. Conntrails are short and follow the plane - and are always a color gradient of pale fading into blue, as plane wing cavitation causes momentary clouds which quickly fade. Chemtrails are long and always a solid pale color and not a gradient, they're tiny particles sprayed into the air. The declassified purpose for chemtrails is to create cloud cover, reducing temperature over metro areas during daylight hours. In smaller metro areas, the pilots might not have full canisters, so the chemtrails in the sky have odd bulges and gaps where the canister sputtered and ran out. Liberal areas seem to exclusively have chemtrails, so liberals might not have ever seen conntrails, leading them to misunderstand how long a 'cloud wake' would last. - 2023
 1. Conservative and liberal extremists, and incels and some feminists - at the very extremes, are the same people: hateful of everyone and everything, because they hate themselves. So they take this out on the world around them, trying to 'share the love' they feel, and burn something or everything down with their rage. - 2020 (The author has since learned that this is called Horseshoe Theory.)
+1. Conviction without browbeating. - 2023
 1. Corruption in government is like rust in iron. Political agency (aka power) corrupts, and political agency is magnetic to the corruptible (Frank Herbert), so political agency should goto those most resistant to corruption. Oxygen rusts, as oxygen is magnetic to rust-prone iron. Power is like oxygen but not every leader is like iron, taking bribes before its term even starts. Some are like cobalt, pitting 2 corruptive influences against each other so neither gets the upper hand over it.
 1. CPU speed not as ability to push out graphics frames, but ability to slice up a mile into 528,000 chunks. - 2018
 1. Cracking an egg is introducing a failure mode into the shell. - 2021
@@ -223,6 +242,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Don't project onto others, but receive from them and reflect their projection back to them.
 1. Don't ruin perfection - let other people do that. -  2023
 1. Don't talk **about** people, talk **TO** people. - 2015. Don't talk to people - talk to what people have done. - 2020
+1. Don't write and publish in the same step. Write freely in one step, edit well in another, and publish with a mind for posterity in a third. This allows you to vent and express clearly the thoughts that you don't want to air publicly. Likewise, don't architect, develop, and administer in the same step. Architect simply, develop robustly, admin decisively, and let your natural reactions in the other 2 make you better at each.
 1. Dot Product and Cross Product are two ways of combining vectors. Multiplication is a generalization of both of them, thus both the Dot ( * ) and Cross ( x ) can be used to multiply. And this becomes the 'who(m)' of basic math, a place for intellectual authoritarians to belittle the average person.
 1. [Dopamine activates neurons](https://www.youtube.com/watch?v=EKkUtrL6B18), while serotonin deactivates neurons. Hence anxiety is too much dopamine or too little serotonin. Dopamine down-regulates serotonin, so the more pleasure you seek, the less happy you become. This chemical-backed intention becomes the delta between our happiness and our pleasure. The Kierkegaardian Finite would be serotonin, and dopamine would compliment this as the Kierkegaardian Infinite - don't get stuck chasing either pleasure or happiness, but seek to go back and forth between them. (Take weekends and vacations off. What lay in the middle of the spectrum between pleasure and happiness?)
 1. Double Chiller - like a Double Boiler (use a hot water bath to heat a pot of food) - but using a cold tap water bath instead, to cool instead of heat. Ice baths can be used but are usually more work than just dumping off the now-hot water and refilling the bath with cold tap water. If ice is required, you might be overextending this technique beyond what the food can handle.
@@ -236,10 +256,12 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Each day making different mistakes, with the goal that all of the mistakes will average out into a normal life. - 2023
 1. Eagles (band) are maligned because 1. they're croners and 2. they're almost impossible to license, because each artist in the band was his own company, so each song is copywritten 3-4 times, and requires 3-4 times as much paperwork to license. (Compared to KISS, which is like 1 license owner and 3 employees. Maybe they recently streamlined this? Please let the site owner know.) This keeps their music out of, like, bar scenes in movies. So their haters still hate them, but they don't really pick up new fans, and their old fans move on. Overlicensing sorta killed their brand.
 1. Earthbound: A cosmic force (gravity) binds us to Earth, and we must pay an enormous (energy) debt to this cosmic force to buy our liberation. 'We are altering your Earthbound property. You are no longer Earthbound.'
+1. Easier = faster and less complex - 2023
 1. Edges and corners are disproportionately impacted by probability. This is why river rocks are rounded. (Is this also true of graphs?)
-1. Efficiency and laziness are two sides of the same coin. Great efficiency enables great laziness - if you get all your work done early then you can take a break until everyone else catches up. Or be Napoleon/Caesar and do the extra credit too, getting that A++.
-1. Either free markets are true and at least **some** consumption within them can be ethical - the consumption of my services is ethical - or free markets are false and we're all slaves to board room decisions.
+1. Efficiency and laziness are two sides of the same coin. Great efficiency enables great laziness - if you get all your work done early then you can take a break until everyone else catches up. Or be Napoleon/Caesar and do the extra credit too, getting that A++. - 2023
+1. Either free markets are true and at least **some** consumption within them can be ethical - the consumption of my services is ethical - or free markets are false and we're all slaves to board room decisions. - 2020
 1. Electrodynamocles - 2023
+1. Electrical devices utilize Watts of energy, by consuming Volt-Amps of electricity. Watts are mechancal energy while Volt-Amps are electrical energy, and despite them being equal in most situations, electrity (power) companies techincally supply Volt-Amps, not Watts. Volts are units of electrical 'pressure' and Amps are units of physical electrons, not unlike water pressure and water volume or flow - 15 Amps at 120 Volts like a 15 gallon reservoir at 120 PSI, and it has that pressure until the reservoir is depleted. Not unlike Super Soaker air-pressure water guns. (Named after James Watt, Alessandro Volta, and Andr├⌐-Marie Amp├¿re respectively, for their immense contributions to our understanding of these intangible materials.) - 2024
 1. Electronics make air conditioning mandatory, or condensation can cause short-circuits. The humans working with the electronics benefit from the A/C like an office plant benefits from the light that workers need to see. - 2019
 1. Emotional physics of social constellations. Be a better Jupiter in their social constellation. - 2016
 1. Emotions prevent most people from acting rationally toward or against groups intersecting their prejudices. - 2021
@@ -248,54 +270,57 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Engage the Expectation of Missing Out.
 1. Enjoy it while you can. -  2023
 1. Ensalottery - is the salad any good?
-1. Entrepreneurship as yourself, your friends, and your bag of side hustles.
+1. Entrepreneurship as yourself, your friends, and your bag of side hustles. - 2021
 1. Entropy per unit of space 
 1. Equal force and force escalation and political power and power creep. - 2022
 1. Equinimius - 2021
 1. ESG sucks because it doesn't make money. ESG that makes money - that's just good business, not ESG. - 2023
 1. Esteban Pescayuda - 2023
-1. Even if you're married, you still need to get consent every time.
+1. Even if you're married, you still need to get consent every time. - 2018
+1. Event-driven story - World events are ongoing and characters exist among them.
 1. Everyone is a different person with other people (is that true?) and some people like who they are around others more than they like who they are alone. Others like their alone self more than their companion self. There are things you do when you are alone that you'd never do around another human. Specific companions may allow a person to be their alone self while with the other person, which may be liberating or suffocating, depending on the previous preferences. And some people like who they are, when they are around you. When guys want to 'get away from the women' and 'hang out with the guys' what we want to get away from is how we act and feel around women.
 1. Everyone is looking for validation - in what way does this person want to be validated?
 1. Everyone on the Internet has an agenda. And if you don't, one will be assigned to you. - 2020
 1. Everything is either a blocker you use to prevent yourself from doing something you don't want to do, or it's yet another achievement you earn on the quest path. If you want it bad enough, you'll find a way, or (uninstall) of old age while you're looking for one. - 2014. (Like Einstein did with the Theory of Everything.)
 1. Evil - self-centered, uncaring of others, narcissistic. - 2020
-1. Ex peril ment
-1. External validation - people are paying other people crazy amounts of money to get your attention. Make them pay **you** for your attention.
+1. Ex peril ment - 2020 (Putting the 'peril' in 'experiment'.)
+1. External validation - people are paying other people crazy amounts of money to get your attention. Make them pay **you** for your attention. - 2020 (This is A through B, or further. - 2024)
 1. Extraterrestrials as the new Gods of the Gap (in our understanding).
 1. Extremely loud and incredibly slow (Why is your car?) - 2020
+1. Eyepatch of Odin over one eye, Eyepatch of Kenpatchi over the other, only by the Prescient Memory of Spice do I see. - 2018
 
 ### F
 
-1. F Murray Abraham, F Scott Fitzgerald, and 'eff' this (person/place/thing).
-1. Fahrenheit and Celsius are 2 buildings next to each other. Celsius is on a hill that's as tall as Fahrenheit's 32nd floor. There are 9 floors in Fahrenheit for every 5 floors in Celsius, and they have a weird shared basement that goes down forever. You're on the 20th floor of Celsius, looking at Fahrenheit. Which floor are you directly across from? (The 68th.)
-1. Fail safe not fail dangerous.
-1. fam = ily (Family are those you love.)
-1. Family are a primary source of belongingness.
-1. Family means Forever when you're a suburban mother who's trying to get your kids to eat their vegetables instead of yell at each other. Once you're an adult, like how age is just a number, family is just a name.
-1. Farming begets ideology because it lets people stop focusing on their own survival and discuss their crazy ideas instead. Prosperity begets Altruism.
-1. Fast & Furious is safe, like one of those Telltale games where you can't (uninstall). It's the ultimate dissection of understanding the villain. (Or maybe Batman is?)
-1. Fed-Ups - The Package Handlers.
-1. Feminism has 2 versions, feminism-as-equality vs feminism-as-superiority. The second group wants to put all men into dresses, until they realize that a lot of us would enjoy it, in one way or another. And that we look better in a skirt and heels than them, since the average man exercises frequently and the average second group member does not.
-1. Ferrero could make UAP-themed Tic Tacs. They could have a little green or gray candy body inside the Tic Tac.
-1. Fiduciary Duty: Are You Held to a Higher Standard?
-1. Fight people by incepting jokes that they're mad that they get.
+1. F Murray Abraham, F Scott Fitzgerald, and 'eff' this (person/place/thing). - 2016
+1. Fahrenheit and Celsius are 2 buildings next to each other. Celsius is on a hill that's as tall as Fahrenheit's 32nd floor. There are 9 floors in Fahrenheit for every 5 floors in Celsius, and they have a weird shared basement that goes down forever. You're on the 20th floor of Celsius, looking at Fahrenheit. Which floor are you directly across from? (The 68th.) - 2019
+1. Fail-safe not fail-dangerous.
+1. Fam = ily (Family are those you love.) - 2020
+1. Family are a primary source of belongingness. - 2023
+1. Family means Forever when you're a suburban mother who's trying to get your kids to eat their vegetables instead of yell at each other. Once you're an adult, like how age is just a number, family is just a name. - 2021
+1. Farming begets ideology because it lets people stop focusing on their own survival and discuss their crazy ideas instead. Prosperity begets Altruism. - 2021
+1. Fast & Furious is safe, like one of those Telltale games where you can't (uninstall). It's the ultimate dissection of understanding the villain. (Or maybe Batman is?) - 2021
+1. Fed-Ups - The Package Handlers. - 2020
+1. Feminism has 2 versions, feminism-as-equality vs feminism-as-superiority. The second group wants to put all men into dresses, until they realize that a lot of us would enjoy it, in one way or another. And that we look better in a skirt and heels than them, since the average man exercises frequently and the average second group member does not. - 2021
+1. Ferrero could make UAP-themed Tic Tacs. They could have a little green or gray candy body inside the Tic Tac. - 2022
+1. Fiduciary Duty: Are You Held to a Higher Standard? - 2019
+1. Fight people by incepting jokes that they're mad that they get. - 2021
 1. Fighting carbon is like throwing money to stop the wind. -  2023
-1. Finding yourself in 2 steps: 1 lose yourself, and 2 move about randomly, learning your way back to what you know.
-1. Fireworks are more effective than silencers at hiding gunshots. So are misfiring cars, but it's nontrivial to get a fuel injected car to misfire, and impossible for an electric.
-1. First Positive Wins and First Negative Loses. The '10k nos and 1 yes is still a yes' is First Positive Wins. The 'must be perfect to pass' is First Negative Loses. Sudden Death Overtime is First Positive Wins.
+1. Finding yourself in 2 steps: 1 lose yourself, and 2 move about randomly, learning your way back to what you know. -1998
+1. Fireworks are more effective than silencers at hiding gunshots. So are misfiring cars, but it's nontrivial to get a fuel injected car to misfire, and impossible for an electric. - 2020
+1. First Positive Wins and First Negative Loses. The '10k nos and 1 yes is still a yes' is First Positive Wins. The 'must be perfect to pass' is First Negative Loses. Sudden Death Overtime is First Positive Wins. - 2023
 1. Five Fridays Finding Freddy Fassbender Felt Fingered. (This is like 99 movies in one!)- 2023
+1. Fix a broken bayonnet. - 2024
 1. Fixing (lysing) nitrogen costs 16 ATP per ammonia molecule.
-1. Flip the narrative to understand the characters. Flip the characters to understand the narrative.
+1. Flip the narrative to understand the characters. Flip the characters to understand the narrative. - 2022
 1. Floats like a microservice, stings like a monolith. - Sparational 4 (2024)
-1. Focus on mindfulness during the spring. If you feel like the only value that you can provide is by receiving, be sure to take a lot of time to meditate on specifically what you're receiving.
-1. Foley folly
-1. Fomenting the foe-men. (Rabble rousers)
-1. Ford cars taste like a gross smoothie.
-1. Forests are chaotic nests of floral combat.
-1. Foundational elements - things you don't even think about.
-1. Free speech and personal accountability are 2 sides of the same coin. It's not possible to speak freely about things without being personally responsible for your speech, and it's not possible to have personal responsibility for actions without the ability to speak freely about the responsibility.
-1. 'French' once meant 'cannibal' in Islamic.
+1. Focus on mindfulness during the spring. If you feel like the only value that you can provide is by receiving, be sure to take a lot of time to meditate on specifically what you're receiving. - 2021
+1. Foley folly. - 2022
+1. Fomenting the foe-men. (Rabble rousers) - 2020
+1. Ford cars taste like a gross smoothie. - 2020
+1. Forests are chaotic nests of floral combat. - 2020
+1. Foundational elements - things you don't even think about. - 2017
+1. Free speech and personal accountability are 2 sides of the same coin. It's not possible to speak freely about things without being personally responsible for your speech, and it's not possible to have personal responsibility for actions without the ability to speak freely about the responsibility. - 2023
+1. 'French' once meant 'cannibal' in Islamic. - Unknown
 1. French word for for 'thank you' Is the Spanish word for 'sea' followed by English word. - 2023
 1. Friends aren't forever. Some friendships last just 5 minutes. - 2016
 1. Friendship is Witchcraft - Jenny Nicholson
@@ -319,6 +344,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Global warming helps to meet Russia's existential need for a port that doesn't freeze over in winter. Their empire has largely been unable to ship goods nor move military forces during half of every year for more than 500 years. And the thawing trans-polar shipping route will create dozens of polar ports. - 2022
 1. GoFundYourself
 1. Good - actively benefits others. (Passive benefit, like breathable air, is largely ignored.)
+1. Good actors are capable of using their facial muscles to convey emotions. - generalized from MST3k and Jenny Nicholson among others.
 1. Good things come to those who wait, but there is too much of a good thing. And waiting is no guarantee that good things will come. Good things also come to those who go out and plant/gather them.
 1. Governments are made out of people.
 1. Grab bags are full of chaotic goods.
@@ -334,6 +360,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. HAL 9001 certified. - 2020
 1. Harry Potter is like Agatha Christie's Scooby Doo, with no Daphne, Shaggy swapped for a teenage Dr Who, and Scooby swapped for a stalwart owl. -  2023
 1. Hatred is built from love and fear. (Anakin among others.) - 2021
+1. Having a stroke, but more like a rowing team than a hospital patient. - 2023
 1. Having males be aggressive means we males will conveniently be gathered in one area (or moving slowly relative to our top speed), so when females find one, they'll find a small group, increasing their chances of finding an above-average mate.
 1. Having someone to complain to - in person or online - gives you a reason to carry around your frustrations, until you can unload on them. And by then, all of your content slots are stuffed full of discontent. Without someone to complain to, the discontent quickly becomes stale and uninteresting compared to other content.
 1. Hayt, your own private Duncan Idaho. (If you get this joke, please join my Dune Readers Support Group for B-52s Fans.) - 2013
@@ -393,8 +420,11 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. If people (in a capitalist society) don't pay (money) for it, they won't (know how much) value (to assign to) it. - 2023
 1. If someone makes more than one ultimatum, does it become a multimatum? (Plural is 'ultimata'.)
 1. If the deceased is someone you didn't like, they get a sonovabituary. - 2023
+1. If The Force is female, does it have to wear a burkha in Iran? - 2023
+1. If you don't perform your own garbage collection (variable de-init), or your language doesn't allow you to, then you'll need to deal with unresponsive periods where garbage collection is perormed. Because systems crashing due to an out of memory error are no longer an 'undocumented feature' of modern programming languages. (If you use Artifactory, your CI/CD pipeline might be offline for hours a week as it performs large artifact garbage collecion, a problem which afflicted at least one very large videogame developer.) - 2024
+1. It's easier for other countries to put sleeper agents in the USA, than it is for the USA to put agents into other countries. This is because going from authoritarian countries to the USA is almost like a vacation, between freedom of travel and general acceptance of person. A citizen of Russia or China might volunteer to move to the USA and be a spy or sleeper agent for free. Meanwhile, convincing someone to depart our relative paradise to endure months or years in a place with bad weather and oppressive government is no easy feat, and might require huge amounts of currency.
 1. If the product is so poorly made that a super-genius needs to go through a tutorial or training course to know how to use it, it's too poorly made to be used and fails the basic usability test.
-1. If there are 2 wolves fighting within you, assert dominance. Then you have 2 wolves to do your bidding. - 2017 - The USA has, like, a donkey and an elephant fighting within us. How to assert dominance over endless stubbornness and boundless reach? But when the need arises, these assemble into incredible working and warring beasts. - 2023.
+1. If there are 2 wolves fighting within you, assert dominance. Then you have 2 wolves to do your bidding. - 2017
 1. If they could just research what actually feminism is. - https://imgur.com/gallery/ZZg62
 1. If we make better and best into enemies, then there's no limit to what we can prevent ourselves from doing. - 2019 In this way, ideology is idiotology. Ideals are models of the universe, and while some might be useful, sacrificing the current functional state for ideal states creates a dysfunctional state that serves nobody, endlessly consumes energy, and becomes an impossible maze. (How do you keep a fool busy? Reload page for a better answer.) - 2023
 1. If you are going to be a badass, you can't half-ass it. (You can't half-ass being a badass.) - 2019 - You can't be a Daddy if you have Daddy Issues. - 2023         
@@ -442,35 +472,40 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 1. Jack Ma was in Jiang Zemin's faction, and owned SCMP. This is part of why he was disappeared.
 1. Jamon [Ham] is very popular in Spain, and they rate ham based on their quality - from low quality 1 Jamon to highest quality Cinco Jotas [five jacks] JJJJJamon. (Let's get our ham on!)
+1. Japancreas - Land of the Rising Insulin. - 2024
 1. Jihad served the same role as Crusades - to unite people behind the religion and against an 'other'. Neither one was used against the Mongol.
 1. John DeLorean faced production issues in Northern Ireland because his employees' unstable political situation meant they were focused more on uninstalling over local politics than assembling cars.
-1. Johns Hopkins' mom thought the name 'John' had a silent S at the end. (Nobody's perfect.)
+1. Johns Hopkins' mom thought the name 'John' had a silent S at the end. (Nobody's prefect. Except Ford Prefect.)
 1. Jokers to the Left of me, Clowns to the Right, I'm stuck in the Center with who(m)? (Being a Centrist means recognizing that Both Sides have good points, and cherry-picking those. It confuses the heck out of the political majority, who religiously stick with their political sports team's decisions, and focus on fervently attacking the Other Side. Often this means painting a Centrist as the other side so that they can justify attacking us, in their zealous thirst to slay political heretics.)
 1. Jokes release tension, and a comedy relief scene can anneal a tense plot.
 1. Jurisdiction [law speak] implies different 'law languages', which implies 'law polyglots' or lawyers who have passed The Bar in multiple jurisdictions.
+1. Just as any memory or storage space can wholly store a smaller memory or storage space within itself, any neural network can fully replicate a smaller neural network within itself. - 2023
 
 ### K
 
-1. Kathleen Kennedy has become Destitution, the Destroyer of Business Value. By ret-canning (forcefully disposing through retroactive continuity) the Star Wars Extended Universe, and disrupting Indiana Jones plotlines, she has personally destroyed hundreds of billions of dollars in potential profit streams and untold potential cultural touchstones. Likewise Victoria Alanso for destroying hundreds of good Marvel plotlines in favor of the few female-oriented plotlines.
-1. Keep a small place in Hell. That way, when people tell you to goto Hell, (or you're going through Hell), you don't have to go somewhere awful, but instead can just head to your other pad.
-1. Kessel run is a flyboy speedrun.
-1. King of kings = greatking aka emperor, and an empire is a political (micro)power large enough to require more than 1 human leader, often splitting power between nested tiers. As a title, it's less impressive today than in prehistorical times. Try for a Nobel prize instead.
+1. Kathleen Kennedy has become Destitution, the Destroyer of Business Value. By ret-canning (forcefully disposing through retroactive continuity) the Star Wars Extended Universe, and disrupting Indiana Jones plotlines, she has personally destroyed hundreds of billions of dollars in potential profit streams and untold potential cultural touchstones. Likewise Victoria Alanso for destroying hundreds of good Marvel plotlines in favor of the few female-oriented plotlines. - 2023
+1. Keep a small place in Hell. That way, when people tell you to goto Hell, (or you're going through Hell), you don't have to go somewhere awful, but instead can just head to your other pad. - 2016 (Beware this small pad becoming 'special'.)
+1. Kessel run is a flyboy speedrun. - 2021
+1. King of kings = greatking aka emperor, and an empire is a political (micro)power large enough to require more than 1 human leader, often splitting power between nested tiers. As a title, it's less impressive today than in prehistorical times. Try for a Nobel prize instead. - 2020
 1. Knowing what you want is the first step in getting what you want. Understanding and knowing yourself is necessary to be honest with yourself. - 2014. It's about really listening to yourself - being a good listener, and not just letting the words, symbols, meanings, and sensations filter through your mind - but writing them down, analyzing them formally, studying their contexts, following them to new intersections, and finding yourself already there. - 2022 Know Thyself- 2023
-1. 'Kraken in the ice!' yells one drill operator to the other. 'Yeah we are cracking into the ice!' says the other drill operator says excitedly, not understanding their marine peril.
+1. 'Kraken in the ice!' yells one drill operator to the other. 'Yeah we are cracking into the ice!' says the other drill operator says excitedly, not understanding their marine peril. - 2023
 
 ### L
 
 1. Lagrangian Skeeball
 1. Law is equal parts charisma and precedence. (Justify what you can, grin when they mention what you cannot, and have the wisdom to know the difference?)- 2023
-1. Lawyers don't have ethics so much as they study and practice moral and ethical capture.
+1. Lawyers don't have ethics so much as they study and practice moral and ethical capture. - 2023
 1. Leadership is as much serving as it is being served, and bad times should cost the leaders at least as much as good times benefit them. - 2022
 1. Learn from idiots - bring others to your level and defeat them with experience. - 2013 (Reply to 'Don't argue with idiots - they'll bring you down to their level and defeat you with experience.') (Also, 'If it's stupid and it works, it's not stupid.') (This is also known as 'bikeshedding', where, for example, a City Council reviews a new nuclear power station, but none of them are nuclear physicists, so they bring discussion down to what they know about the project - the bike shed on the perimeter, near the street.)
-1. Learn the same lesson from 10 different teachers and you'll learn 10 different ways to look at the world.
+1. Learn the same lesson from 10 different teachers and you'll learn 10 different ways to look at the world. - 2020 (Try watching basically the same video on a common topic - like how electriicty works - from around a dozen different channels.)
 1. Lessons don't get learned in corporations - they get fired so the corporation can play a different person's 'we're learning' card. This is one way in which our society actively loses knowledge and technology for profit. - 2017
+1. Lens flare is from light reflecting between lenses in a multi-lens camera. It can't happen in single-lens cameras, such as (D)SLR or eyeballs, which is why the effect takes so many out of JJ Abrams movies. - 2024
 1. Let the franchise die; kill it if you have to. - 2019 regarding Disney properties.
-1. Lev Kuleshov showed that two narrative points make a narrative through-line (the Kuleshov effect), paving the way for broad stock footage use in major motion features (the Ed Wood effect). - 2021
+1. Lev Kuleshov showed that two narrative points make a narrative through-line (the Kuleshov effect, from Lindsay Ellis?), paving the way for broad stock footage use in major motion features (the Ed Wood effect, from MST3k). - 2021
+1. Liberal to conservative on spectrums of personal accountability and honesty - from too little to too much. Don Lemon was fired from CNN for being too aggressive in his dishonesty, while Tucker Carlson was fired from Fox for being too aggressive in his honesty. - 2024
 1. Librare, Bibleria - the capital of the library planet. - 2019
 1. Life is the river, and we are the riverbed. We are the road, and life is the traffic wearing ruts. - 2016 'Primer gray is the color when you're done dying' (Modest Mouse, Polar Opposites) - life is the weather, and we are the coats of paint.
+1. Like how some highly successful people have a success fetish, some highly unsuccessful people have a failure fetish. - 2024
 1. LGBT STEM - Binary math for nonbinary people. - 2020
 1. LGBTQ+ organizations support nonbinary people about as well as MENSA supports the 'highly intelligent community', or the ADL supports the Jewish community - insofar as being composed primarily of narcissitic activists instead of members of the group it's meant to support, who find the group insufferable because of said activists. One of the best (and also Maimodian) ways to support LGBTQ+ people, Black people, and Jewish people, is to give them a job by having a well-running economy that's too desperate for workers to care about isms. This is the moral equality of Capitalism in action. -  2023
 1. Liberal racists practice a very twisted form of racism, sexism, classism, and ageism. They have decided that some groups require certain kinds of charity, and that other groups require other kinds of charity, and that one group doesn't require any charity. And they work so hard to hinder these groups, so they'll become dependent on the liberal's charity. This is most clear in the statement 'We made this movie for this group, but they're not showing up for it.' - 2023
@@ -482,7 +517,8 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Littoral Riparian Fjords - where a river valley becomes a narrow bay. - 2019
 1. Live in the worlds where your magic works, and don't linger in worlds where your magic doesn't work. - 2019
 1. Local **can** be better, and often is, but not always. - 2015
-1. Londonisms - referring to a government by the city it's located in. Often includes considering the whole nation to be a homogenous mindless blob instead of an array of individual humans. ('Tokyo is doing this, and while Seoul hasn't joined in yet, Beijing doesn't like it.' Meaning that the government or military of Japan is performing some action, the government or military of Korea have not joined, and the CCP/PLA are opposed to the action.) - 2022 (Why are they called Londonisms?)
+1. London is 45% immigrants, and this was a large reason for Brexit - because Schengen made Brits feel like foreigners in their own country, and their European neighbors were unsympathetic. - 2023
+1. Londonisms - referring to a government by the city it's located in. Often includes considering the whole nation to be a homogenous mindless blob instead of an array of individual humans. ('Tokyo is doing this, and while Seoul hasn't joined in yet, Beijing doesn't like it.' Meaning that the government or military of Japan is performing some action, the government or military of Korea have not joined, and the CCP/PLA are opposed to the action.) - 2022 (Why are they called Londonisms? I don't know, the name suggested itself.)
 1. Look for companies where you know what they do but they're weirdly undervalued, and you can sit on their stock for a few years. - Warren Buffet. Look for markets that provide actual value and are expanding, where you can sit on their stock for a few years. - 2023
 1. Look for good ideas and habits, in yourself and also in others.
 1. Look for helpers and listen for success stories. - 2020
@@ -516,15 +552,17 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Mature Auture - 2023
 1. May your odds ever be even. (May your chances always be fair.) - 2017
 1. Meaty Ocher
+1. Mechanical Defrosting - causing a frozen food to become effectively unfrozen through mechanical means, such as shaking, grinding, or prying, but without raising its temperature (much) above freezing. - 2023
 1. Media is plural for medium, which just means 'in-between'. The Media means news companies, who 'in-between' information to you for profit. This also describes psychic mediums and social media. The source and veracity of the information should often be subject to interrogation.
+1. Media Studies Theory: Everyone wishes they were MST3k. - 2016
 1. Members of one political party will intentionally hurt themselves during the other party's turn, so they can truthfully say that people got hurt during the other party's turn. Like if the Dodgers were hosting the Astros, and during the bottom of every inning, a bunch of Astros fans started a fight, every inning, until the 5th inning when security cleared out a huge chunk of the stands. And the Astros fans did this so they could talk about how unsafe it is when the Dodgers are at bat, because of all the fights in the stands - therefore the Dodgers shouldn't be allowed to bat anymore, and only the Astros should bat. Where's the political equivalent of unsportspersonlike conduct? Ethics lol. Where's the political equivalent of a fiduciary?
 1. Memories are like video game demos - instead of recording the state of every object at every second, or even every pixel on your screen, just record the inputs (of all players for a game) and replay these on the same hardware and software to get a playback. Game players could send these to other players with the same code and compatible hardware and they could also playback the gameplay - it was common on the lower-bandwidth Internet of the 1990s. A problem arises when a new version of the game comes out, with bug fixes and maybe other changes. Now that replay has slight problems - the fence is slightly taller, so the player can't jump over it, and doesn't make the amazing flag return. This means that team doesn't score a point, and turns a win into a tie - but that's not what happened in the original match. So too our human memories are recordings of inputs replayed onto our neurons - and so the constant reoptimizations in neural connections may cause vagueness in the playback of a human's memory.
-1. Mendicant malversation - needs Workshopping
-1. Megabytes (MB) vs Marketing Megabytes (MiB). Traditional notation has these reversed. MB has always meant 1024 KB, and we've always needed a new symbol to represent the Marketing notation of 'MB means 1000 KB', which is what MiB is for - because MiB means 1000 KiB. It makes no sense to shift one symbol's definition while creating a new symbol for the original - instead the original should be reclaimed (or never abandoned) and the new symbol should be foisted on the new definition.
-1. Mergers allow expensive things like R&D to be removed from the competitor, adding just their logistics to your business. Or throw out your R&D and keep theirs, either way it only increases your variable income and leaves your fixed costs alone.
-1. Metals exist on a spectrum between ductility and hardness. Societies exist on a spectrum between inflation and unemployment.
-1. Meyers-Briggs reflects how the situation impacts you. We're all extroverts around people who energize us and introverts around people who drain us. INTJ (Introvert Intuition Thinking Judging) is projecting, or motion from inside going outward. ESFP (Extrovert Sensing Feeling Perceiving) is receiving, or motion from outside going inward. Neither one is better than the other, and what's better than either one is moving between them in a Kierkegaardian way. Receive so you know what to project (having energy gathering direction), and project so you're empty and ready to receive (having direction gathering energy). Time this correctly and it becomes a conversation, which is an analog data transmission protocol between biological neural networks.
+1. Megabytes (MB) vs Marketing Megabytes (MiB). Traditional notation has these reversed. MB has always meant 1024 KB, and we've always needed a new symbol to represent the Marketing notation of 'MB means 1000 KB', which is what MiB is for - because MiB means 1000 KiB. It makes no sense to shift one symbol's definition while creating a new symbol for the original - instead the original should be reclaimed (or never abandoned) and the new symbol should be foisted on the new definition. - 2023
+1. Mergers allow expensive things like R&D to be removed from the competitor, adding just their logistics to your business. Or throw out your R&D and keep theirs, either way it only increases your variable income and leaves your fixed costs alone. - 2021
+1. Metals exist on a spectrum between ductility and hardness. Societies exist on a spectrum between inflation and unemployment. - 2021
+1. Meyers-Briggs reflects how the situation impacts you. We're all extroverts around people who energize us and introverts around people who drain us. INTJ (Introvert Intuition Thinking Judging) is projecting, or motion from inside going outward. ESFP (Extrovert Sensing Feeling Perceiving) is receiving, or motion from outside going inward. Neither one is better than the other, and what's better than either one is moving between them in a Kierkegaardian way. Receive so you know what to project (having energy gathering direction), and project so you're empty and ready to receive (having direction gathering energy). - 2021
 1. Microeconomics revealed itself to be an illusion in 2020, where some items went on sale despite being out of stock. Protip: you can't incentivize a marginal increase in the sales of a product when there is no stock of that product to sell. You could sell a future of that product, possibly on backorder, but that's a different financial product.
+1. Military leaves grow on the military tree. - 2023
 1. 'Misgendering' is claiming to have transitioned without taking any medical treatments. -  2023
 1. Money moves through the economy like an ideal gas. - 2019
 1. Money flows from the Right to the Left. - 2023
@@ -542,6 +580,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Most government coverups are covering up someone's mistake. - 2021
 1. Most philosophy is justification for petty bossiness. - 2017
 1. Most US electric networks pay providers to have excess capacity ready for emergencies, but Texas doesn't. Coming soon is a utility charge based on generation emissions. - 2019
+1. Multi-Driven Story (MDS) - In most areas, character reactions are showcased. In event areas, the event has precedence, but characters are still featured. And there's a clock constantly ticking in the background, so as the characters burn ticks with their reactions, ever closer draws the next timed event.
 1. Municipal sewers have 2 fees: pay once for it to exist, and pay again to use it. - 2018
 1. My exotic weapons proficiency means I don't need to carry dedicated weaponry. Using anything as a weapon means they're always at hand, but since the unarmed cannot be disarmed (and have no weapon to be used against them), other fighters don't benefit from disarming me at all. - 2019
 1. My finger is my passport. Verify this. (Vulgarization of 'My voice is my passport. Verify me.') - 2020
@@ -564,7 +603,8 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Nickelodeon is a 5 cent theater (Nickel Cineplex Odeon), which was appropriate in the era of penny candy.
 1. Nitrous oxide is an oxidant, not a propellant - heat causes this laughing gas to decompose to inert nitrogen gas, and useful oxygen gas. NOS in cars is similar to turbo/super charging (or tank-charging using a separate air compressor and air tank) in injecting more compressed oxygen into the combustion chamber. Can you put NOS in a twin turbo or super/turbo hybrid system? Yes, but they do the same thing so why? Could you supply enough volatile hydrocarbons, and would the mixture endure so much compression without preigniting? Will the block, head, piston, rod, and crank withstand the explosive force and effectively channel it into rotational energy?
 1. No pigs were harmed during the filming, but bacon was served beforehand.
-1. No thoughts, head empty.
+1. No Starbucks in Starbuck, WA. (It's too small.) - 2024
+1. No thoughts, head empty. - 2018 (From Jenny Nicholson)
 1. Noble gases are so non-polar that they are nearly inert. - 2023
 1. Nomegen - n. 'nom'e'gen' person who makes names. Nomegen rights - who gets to name the new person/place/thing?
 1. Nonconstructive criticism (video) is (cyber)bullying. - 2018
@@ -591,7 +631,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. One of the problems hiring for a police force is separating the helpers from the murderers (cidephilacs). The latter group are drawn to the job because of the license to kill, but these brutal folk need to make a minority of the force, or none. How to filter them out? - 2020
 1. One of the problems with a police force is the toxic mentality they're forced to maintain, where every not-cop they see is a potential murderer looking to uninstall them. This causes more dangerous and violent incidents than it prevents. Another problem is the perception that most people view police as 'life's problem solvers, here to clean up any mess you see.' - 2020
 1. One step forward, two steps backwards. Going the long way around the Earth to arrive at your destination in a reverse way. - 2022
-1. Only make huge mistakes, never small mistakes. Because small mistakes - needs Workshopping
 1. Only stuff so crazy nobody else would do it is worth doing. - 2007 startup advice.
 1. Ontology of oncology [study of cancer]
 1. Open the menu so you can open the menu (restaurant websites)
@@ -607,6 +646,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Pandora Nexus - sync your bookmarks across your browsers! (Commentary on overused names.) - 2014
 1. Pantheon of skypatron deities - Brahma, Crow, Odin,天神 (Tiān shén), YHWH (Yehova), Ζεύς (Zeus, 'zey-oos'), et al - and they have 'shifts' running the world. - 2017
 1. Parasocial relationships aren't healthy. -  2023
+1. Part of why Hollywood exists is to spread classified project cover stories. Hollywood is a Plausible Deniability Machine, being fed bits and pieces of classified projects and programs, to write fantastical stories around these. Then, when someone tries to research the actual classified project, they can't get through the creative cover project's SEO. And people think they're talking about the creative cover project when they mention the actual classified project. This is literally why the movie Stargate (1994) was created - as a cover for Project Star Gate, and the following Stargate SG1 TV show had several episodes lampshading their plausible deniability role in covering for hundreds or thousands of US Military classified projects. It started before military tanks, with the cover story being that they were huge water tanks to hydrate trench troops. - 2021
 1. Particle means the self-propagating set of transverse waves in 2 media. We only see the one path actually occur.
 1. Parting fools from their money - it's like fools line up for the honor, treat the parting as an admission fee, and the fools just hope for a good show. (Does this put Stater & Waldorf on the same footing as crypto nerds?)
 1. Peace Through Victory. Because anything less is just a participation trophy.
@@ -623,6 +663,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. People will pay great amounts of money to be lied to, and told that their ideas are correct. - 2019
 1. Phonetic poetic- 2023
 1. Piano Effect - where the movie 'The Piano' would not have occurred if the woman were a flutist or clarinetist instead. Beware becoming emotionally attached to cumbersome objects. (At one point, she had got this upright piano into a small canoe and was paddling across a lake with it.)
+1. Pitted olives against each other. - 2023
 1. Planetary gearset is a 3-way adapter for gears. - 2019
 1. Plants grow better when you talk to them because you're blasting them with warm and humid carbon dioxide, a macronutrient mix. - 2021
 1. Plastic dinosaurs are made from the remains of real dinosaurs. - YDAW et al, 2021 or earlier.
@@ -638,6 +679,8 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Political term as a balance between consistency of policy and prevention of corruption in government. One of the downsides to democracies is the bipolar nature of foreign policy across numerous administrations. - 2022
 1. Politics need to be inclusive of all voters, not just special interests. - 2023
 1. Pollution is dumping useful raw materials into the environment. Carbon monoxide is a powerful reducing agent and hugely valuable to industry, and we dump it out of our cars instead of capturing it. (The CO molecule's carbon's 2 free hands want to hold an Oxygen atom's 2 free hands to become relatively-inert CO2.) - 2018
+1. Pros and cons - productivity and conductivity. - 2023
+1. Positive dispositive - Economic metric related to the outcome of a court case.  - 2023
 1. Power is the ability to do things.
 1. Power over others as power over your own impatience.
 1. Praying is literally the least you can do. - 2013 - Sometimes it's also the most you can do. - 2018 - Maybe it's better for certain people to be praying, instead of doing more, because anything more they do makes it worse. - 2022
@@ -649,6 +692,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Projection is an argumentation tactic, where you take something illegal or immoral that you're doing, and accuse your opponent of doing it.
 1. Proximity to world power based on quantity of loan words borrowed from their language. Because The West borrow more words from English, Former Soviet bloc borrow more words from Russian, and Asian countries borrow more words from Chinese. Possibly even linguistic anthropology to show when different words from different languages were borrowed, using cultural import and export as an indicator of the cultural exchanges between various nations and micropowers. (Consider historic world, regional, and micro powers when considering history and intersections.) (USA got most of its words from the UK as colonies, then started getting a lot of French words during the 1800s for political reasons.)
 1. Psychic is a subset of omniscient. Omniscience is the goal of the ultimate know-it-all. Being omniscient means being psychic, and numerous orders of magnitude more awareness about the universe.
+1. Psychological weight of complexity, in that complex objects are conceptually 'heavier' to carry around than simple objects. - 2023
 1. Punishment is not art and should not involve complex emotional states - instead it should involve complex (emotionless) intellectual analysis of the past, and future. Involving complex emotional states toxifies the punishment. Part of the point of punishment is deterrence, letting other potential criminals and/or villains know that their precrimes will have physical penalties if realized.
 1. 'Put the em-PHA-sis on the wrong syl-LA-ble' - Choir pianist critiquing a practicing choir through vocal irony, circa 2004.
 1. 'Put your ejection seat in the locked-and-loaded position.'
@@ -663,6 +707,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 
 ### R
 
+1. Racism is its own antiparticle. Raise the field strength, or lower, but the only way to fight this fire is with more fire. - 2023 (We didn't start the fire - it's been burning since the world's been turning.)
 1. Radio is an electronic whistle.
 1. Rage against the machine powers the machine. Only apathy can counter the machine.  躺平 [[Lay Flat]](https://en.wikipedia.org/wiki/Tang_ping) and 摆烂 [[Let It Rot]].
 1. Random memories popping up is how we test our current neural network weights against previous experiences.
@@ -713,29 +758,30 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Short Long Island Medium on South East North Bend Road.
 1. Similar to how movies can be loved by fans and panned by critics - or vice-versa - so too can companies be loved by customers and panned by investors (Pebble) - or vice-versa (Juicero).
 1. Simulacrimonious - a bitter copy.
+1. Skills and experience are non-transferrable between fields or people. Forcefully apply Dunning-Kreuger to keep intellectuals in their areas of expertise - pay attention to people only when they discuss their field of study or profession or deep hobby, and ignore people without actual experience. Beware being a 'paper MCSE' who only knows enough to pass the exam and is useless in the server room.
 1. Sleep -> exercise -> intelligence -> work -> income
 1. Snow as a balance between pretty to look at versus difficult to traverse. - 2021
 1. So long as humans are alive, they'll want another human to explain what the computer is telling them. This is the Bargaining step of the Grief Process, trying to find the computer's manager and talk to them, convince them to change the computer's outputs - or even change reality. (The other human's job in this situation is to help the first move from the Bargaining step to the Acceptance step, while being aware of the Anger step.) (Reference: 'All right, I've been thinking when life gives you lemons, don't make lemonade! Make life take the lemons back! Get mad! I don't want your damn lemons! What am I supposed to do with these? Demand to see life's manager. Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am? I'm the man who's gonna burn your house down- with those lemons! I'm gonna get my engineers to invent a combustible lemon that burns down your house.' -Cave Johnson, Portal 2)
 1. So many good things were made in the late 1960s because the Boomers were in their 20s. Why were so many good things made in the 1860s? Because so many people were fleeing the disaster that was the CSA. (The CSA was a disaster partly because it started with massive land theft, taking entire States-worth of land from the USA. It kinda held hostage all of the humans who didn't want to (or couldn't) move nor join the CSA. Some of these humans were physically enslaved in an unprofitable and oppressive union of serfdom and incarceration. (Why pay humans to guard the humans working your land, when you could just pay the working humans directly? Guards cost more than farmers because of the riskier job, and you need about as many or maybe more.) The entire debacle was a sludge pit of immoral decisions, which is no foundation to build any government nor society.) What about the 2060s? - 2021
 1. So much junk that you need more trunk. - 2021 (That person has too much junk for my trunk.)
 1. Social influence falls off at an inverse square of degrees of separation. Influence = 1/Degrees+1. You have full influence (1/1) over yourself at the 'zeroeth' degree, like 50% influence over 1st degree friends, 25% influence over 2nd degree friends of friends, 12.5% (1/4) over 3rd degree relations, 6.25% over 4th, 3.125% over 5th, 1.5625% (1/7) over 6th, and 0.78125% over 7th (when we reach that level of social complexity). - 2017
+1. Social media sock puppet masters, constantly browbeating everyone with new information, and selling this cruelty to their friends and neighbors as a virtue. - 2024
 1. Social Media, the 'salons of our age, where Thought Leaders exchange Important Ideas', are Validation Casinos, where we pay in comments and payout in upvotes. (Imgur's tutorial literally instructs new users to find a specific downvoted post and downvote it again, as a rite of passage - this is also training the user to play 'upvote/downvote', and continue downvoting things that already have downvotes without critical thinking about the post.)
 1. Social networks are in the same boat as TV news, needing to sell discontent to users, so those users can be resold for sharply decreasing ad revenues. Have we hit the changeover from banners to influencers & bake-in? - 2022
 1. Socialism is usually a response to a lack of funding. The less we have, the more we share. Selfishness complicates scaling this beyond a family unit or small party. - 2022
 1. Socialism wasn't Chinese enough for North China's CCP. They wanted 'socialism with Chinese characteristics' aka fit with one-party rule, which wasn't Socialism but State Capitalism. Likewise, cooperative international space exploration isn't Chinese enough - they want State Capitalism In Space. (Has every implementation of communism been tied with one-party rule? Have there been any multi-party communist systems?) 
-1. Solutions Architecture is just Bannering in different fields. - 2023
-1. Super-dehydrangia (go drink some water)- 2023
 1. Sociology is an emergent phenomenon of grouped humans.
+1. Sock puppets were normalized by the LGBTQ+ community's highly toxic online interactions, and the heavy use of sock puppet accounts to evade acccount bans. This is because community members have to use account blocks for safety, and so get used to using these heavy-handed tools for lesser offenses, and their counterpart creates another account to continue the discussion. Community members are constantly overshadowing and dismissing whole swaths of the community, from misandrist lesbians to misogynic gays to monogamy-hating polyamorists, forcing other community members to rally against the dismissive group, for awareness and recognition. Some call community interactions an 'Oppression Olympics'. - 2024
+1. Solutions Architecture is just Bannering in different fields. - 2023
 1. Sometimes, all you can do is shake your fist at the sky. - 2005
-1. Skills and experience are non-transferrable between fields or people. Forcefully apply Dunning-Kreuger to keep intellectuals in their areas of expertise - pay attention to people only when they discuss their field of study or profession or deep hobby, and ignore people without actual experience. Beware being a 'paper MCSE' who only knows enough to pass the exam and is useless in the server room.
 1. Sometimes, customers cost a business more than they pay. 
 1. Sony Lemma Tina - What are the meaning and origin? Frere Jaques 'sonnez le matines' [ring the mornings] -  (morining bells, based on the English version 'morning bells are ringing'.) - 2023
 1. Sooner is cheaper than later. Or more profitable, referencing the time value of money.
-1. Stephen Strange Syndrome - having such high skill levels in so many areas that most people can't provide more assistance than you can do yourself, and so can only provide malassistance.
 1. Sound is a longitudinal wave in 1 medium, light is transverse waves in 2 media at a right angle to each other, and gravitational waves are transverse waves in one medium at right angles to itself - as stretching then squashing.
 1. Sound Transit 3 (ST3) light rail will cost $54 billion across 25 years - for the same amount, we could put 1 WA State resident on the moon, or build 5.4 space telescopes and place them into L2 orbit. Or build 500 miles of interstate highway. Or 50,000 units of free housing per year at a cost of $40,000 per unit. It's a boondoggle that will only serve about 4% of the region's drivers, and regional judges have ruled it unconstutitional to not complete.
 1. SpaceX's landing pad is (was?) close enough to Blue Origin's offices that BO needs to take a day off for SpaceX to land. (Has this changed since 2018?)
 1. Speed of light is the 'speed of sound' (speed of vibration propagation) of the electric and magnetic fields. And gravitational fields - how does every field have the same propagation rate? Even air's propagation rate varies with temperature, necessitating leaving large instruments (pianos) on site for weeks in advance, then be tuned, to remain in tune for the performance.
+1. Spin twice to return to the original state - is spin once the antiparticle? - 2023
 1. Spintazer - spinfusor that tazers instead of exploding.
 1. Split ends - hair has a smooth exterior, made smoother by oils. Split ends are broken hair, basically cut by probability, and so by definition have a rough surface. These rough surfaces can interlock with other rough surfaces much more easily than the smooth in-lifespan hair, and often create a 'loop' of hair, .
 1. Splitting hares is like breaking bread. - 2021
@@ -747,17 +793,21 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Steal like an artist - buy/borrow/take/liberate/'nationalize', but most importantly, move on. And make a lot of your own stuff too, for others to steal, so it's more fair. (Be prolific)
 1. Steam (Valve) is a package manager and store that takes 30% of every game you buy to sit in your tray and advertise at you. - 2023
 1. Steampunk is a past where technology is a friend. Cyberpunk is a future where technology is an enemy. - 2020
+1. Stephen Strange Syndrome - having such high skill levels in so many areas that most people can't provide more assistance than you can do yourself, and so can only provide malassistance.
+1. Sticks and stones might only break my bones, but certain words will ensure I never eat again. - 2023
 1. Stop solving problems you don't have. - 2019. Stop letting other people give you their problems for free. - 2023
 1. Storing energy in the form of a question?
 1. Stratify, stratify. (Paraphrase of Thoreau. Dunbar's number management through classism.)
-1. Sticks and stones might only break my bones, but certain words will ensure I never eat again. - 2023
 1. Study science and engineering in your 20s, art history in your 30s, & geopolitics in your 40s.
 1. Stunt-driven story - stunts occur and characters/plot points are written to connect them. (This is Tom Cruise's Mission Impossible franchise.)
 1. Stupidity is exhausting because it means doing everything the hard way, and sometimes twice or more. - 2023
 1. Subluminal subliminal - a message traveling slower than the speed of light, but faster than average human awareness.
 1. Subscreen is what sailors use to prevent subburn.
 1. Sunlight is actually a terrible disinfectant, and greatly encourages bacteria growth.
+1. Super-dehydrangia (go drink some water)- 2023
 1. Supersize your nothing burger.
+1. Supporting the draft, but the draft from a window, not a government draft. - 2024
+1. Suspend your disbelief from the ceiling. - 2024
 
 ### T
 
@@ -767,11 +817,13 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Taoist toast the summation of Creation.
 1. Tazer - EMP that disables humans. (We heal quickly so it's only temporary. Needs to pierce the thin inert skin and enter any 2 saline packets.)
 1. Teach just enough to make them into good customers.
+1. Team Trash Panda - We take only the best of the worst. (While playing Roblox Energy Assault.) - 2022
 1. Tech companies are Ponzi schemes until the investors force management to stumble in the general direction of profitability. Most give up after barely reaching Advertising, not even trying to reach Value-Add or partnering with other tech companies to Assemble Components.
 1. Tech is equal parts automation and abeyance. (Scale what you can, ignore what you cannot, and have the wisdom to know the difference?)- 2023
 1. Thank you for putting up with me. -  2023
 1. The 4 basic colors are CMYK as Carbon (and Nitrogen), Manganese, Yttrium, Potassium (and Chlorine aka black salt)
 1. The Algorithm becomes one of your 5 friends. How does this affect you - formally, contextually, emotionally? (You're the average of the 5 people you spend the most time with.)
+1. The American Flying Fork is stupid, and we should learn to cut with our left hands. - 1993 (The author hs been using the 'Reverse European' eating style since the 1990s, holding the fork with his right hand and cutting with his left hand.)
 1. The apple falls downwind from the tree. How far it falls depends on the strength of the wind and the slope of the ground. (Or at least the pine cone does, at windy Ft Spokane. One large tree will have a grove of smaller trees fanned out in a triangle downwind from it.)
 1. The cure for my own toxicity is the beauty and passion that lay within other people. - 2017.
 1. The Devil (nee Loki) is the Joker & the Thief is Yeshua. (Matthew 24:43)
@@ -779,9 +831,13 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. The far end of the Columbian Expansion was the Obesity Crisis. - 2019
 1. The first is the greatest. - 2019
 1. The first one to back down from a retail conflict.
+1. The Friend Zone is for loading and unloading of junk trunk only. Do not park your relationship in the Friend Zone. - 2024
+1. The Giving Stone - the more of it that you give away, the more of it that you have to give away. - 2024
 1. The hammer is the gas pedal. I want to put the hammer down. - 2021
+1. The head looks where the neck turns - MBFGW - The referee looks where the ball is going. - Sportsball tactic to get a penalty assigned to the other team - throw the ball at the penalty so the officials can't ignore it.
 1. The hills have eyes, but only for you. (Valentine's day horror movie) - 2018
 1. The Immortal Hero Dies is a tired trope, like an emotional jumpscare.
+1. The Internet is a series of tubes, and each tube is full of cats. 
 1. The Internet is not the real world - it's like a weird Roblox IRL Simulator.
 1. The journey is the worthier part. It's about becoming, and never peaking by never quite being, by always shifting the goal posts just one step beyond where you are right now. This keeps you on The Climb, always hungry for a new power progression to overcome. And keeps you in the flux of the apprentice and out of the toxicity of the master.
 1. The Judge is The House, and The House (almost) always wins. If The House doesn't always win, then it's a charity and not a business. (Is this true?)- 2023
@@ -796,14 +852,16 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. The Mountain - That we all live on The Mountain of life, and some live further uphill than others. Some dedicate themselves to The Climb, working to improve their self and status through education, employment, or other investments of time and their money. While others look forward to going downhill because life gets easier for a little bit, while going downhill. Then they stop descending and life difficulty reasserts itself, but without the amenities. Having a cabin in the woods or a loft in the sky are both equal on The Mountain, in that both are the same: having a grand home. And sometimes that's a trailer off the highway, which is extremely attainable. Attainability has a grandness of its own. - 2018
 1. The new, more fuel efficient hybrid DeLorean time travels at just 66 MPH. - 2021
 1. The older someone is, the more life events they have had which need investigation, proportionately reducing their chances for getting US Secret Clearance. This is a form of ageism. Likewise older companies and projects have more project history and environment to investigate. - 2021
-1. Trying to maintain a Center somewhere between the horseshoe-extremes of Authoritarian Racism and Forced Diversity.
 1. The One Man Who Could is an Authoritarian trope. (See Great Man Theory)
 1. The only people who care about pronouns are the ones looking to attack you for any reason, because they like to attack peope and pronouns have proved to be an 'infinite well' of insults.
 1. The people who do not wish to be merely a number, number in the billions.
+1. The Patriarchy are the people who believe in Great Man Theory, that society is largely progressed by Great Men. The Matriarchy are the people who believe that Behind every Great Man is a Great Woman. - 2024 (What are called the people who believe in both, as a kind of Yin and Yang, each driving the other? We need both halves for a functional society, and arguing over which is better is illogical. It's like arguing about a forest being better than an ocean, then arguing that we should have only forests and no oceans.)
 1. The person who does not take risks, only drinks champagne. - Russian proverb.
 1. The pot calling the grass green. - 2017
 1. The primary cause of heart disease is coronary artery disease. Diet and exercise have proven to be the most effective way to address this disease. -  2016
 1. The problem with being psychic is nobody tells you what they mean - they expect you to climb into their head and see for yourself. - 2017
+1. The process for making biodiesel is basically the same as making soap, but with methanol added. - 2018
+1. The process of 'construct a factory factory factory inside a JVM inside a container inside a VM inside a cloud host' isn't state-of-the-art website hosting, but state-of-the-art job security. - 2023
 1. The profit motive is the easiest motive to trust, because it's so well understood and documented. It causes people to be 'evil' (self-centered and narcissistic), in very well-known and predictable ways which can be prepared for or worked around. Assuming people are seeking profit is like assuming gravity pulls objects towards large masses, in the level of predictability. The documentation extends back for millennia and is highly consistent. This almost certain predictability is much preferred to less-consistent ideologies. (The devil you know.)
 1. The role of advertising in generating narratives in a capitalist society.
 1. The studio doesn't have nostalgia for the artwork, merely nostalgia for its revenue stream. - regarding Disney et al in 2023
@@ -811,13 +869,13 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. The sweet spot of the hockey stick. The point where the performance-price hyperbola's 2nd derivative is maximized.
 1. The US Military can control what happens with its weapons, to some extent. We should continue upgrading our weaponry to be more safe, and to only work on approved targets, through GPS and other means. This will provide us with better control over our weaponry on the global stage, and prevent unnecessary loss of life from unintentional use.
 1. The US State Dept doesn't enjoy the CIA putting spies into foreign embassies and using diplomatic cover, because every CIA spy means one fewer diplomat.
+1. The USA is unique in having histories written by both winners and losers. - 2024
 1. The vast application of time and space is the best way to prevent any conflict between 2 people. They'll have trouble finding the ability to conflict if you put 10 light years and 10 million years between them. - 2015
 1. The way to have your cake and eat it too - is to start with 2 cakes. - 2015 - The easiest way to start with 2 cakes is to lie about the other one. - 2020 (This comes from old Tom Leykis advice on how to impress and date the gullible: take an attractive person on a nice date in your lame car, and say that your expensive car is in the shop. Name a shop that works on that type of car. (Prepare these lies in advance.) Then say that your expensive house is being repaired, and drive past someone else's expensive house to show the repairs. Say that you're staying in a crummy apartment during the repairs, and use that excuse to bring them to your crummy apartment for the night.)
 1. The way to herd kittens is with tuna. - Unknown, 2007
 1. 'The wheel will lift you up, and the wheel will pull you down. Wait for the wheel.' - Farscape (Somewhere used to have these 'water-ferris wheels' mounted to docks, and the bottom 1/4 was underwater - also like a water wheel with seats. As the wheel was spun, you'd be pulled under the water and back up - dangerously unsafe ancient summertime recreation.) - 2013
 1. The whole point of a Crow's Nest on old ships was to take advantage of Earth's spheroid nature, where being higher up lets you see more of the sphere. Were the Earth flat, Crow's Nests would be pointless on the open sea.
 1. The whole point of diversity is not to get two of every Pokemon onto your Ark, but to not restrict yourself from hiring the best because of their arbitrary attributes.
-1. There's less time in a gravity well because all of the matter gets in its way. Steeper gravity wells are compressing more matter into less space, and black holes are when matter is occupying all available space, and there's no space for time. This is to say that the current section of time (aka 'now') traverses more units of space in some areas than in others.
 1. The whole point of keeping a corporate change log and having Change Requests and Change Approvers - in theory - is so you could 'replay' your data center from a known snapshot, like SQL transaction log or a commit history. Any change to any system should be recorded, so it can be performed again later - either to rebuild this system, build a future system, troubleshoot, et cetera. This breaks down when human laziness omits 'small' changes from the reporting system. Or when the change management cadence is too long - at a previous employer, we would email specs to our cloud host, and they would manually build the system, often with too many NICs. Removing the excess NICs required a change approver's sign-off from the weekly meeting. So each configuration error added a week to the build time. Change management merges perfectly with configuration management at the intersection of infrastructure as code, where any change must be approved as part of the commit process. This merges development and change processes while removing the 'small change' category - increasing your flexibility through the tighter feedback loop, increasing security through recording all changes, reducing costs & complexity through reducing operations administration needs. This is the same mix of benefits as seen through cloud-native architecture, and these should pair nicely.
 1. The world can't run out of sand, since it's made from the stuff. Sand are rocks with volume between 1 mm^3^ and 1.6 mm^3^. This would be like the ocean running out of water, or the Universe running out of space.
 1. Theory: Impact Wrench Theory of Engineer Management: Putting an engineer under pressure causes them to solve more problems faster, and maybe more creatively. Stress v pressure - Pressure enables this, while stress hinders it. - 2013
@@ -831,6 +889,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. There is nothing wrong with your television set - and if there is, we didn't cause it. (Paraphrase of The Outer Limits opening to limit their liability.)
 1. There is the concept that humans are illogical and operate based on illogical emotions. But then how did humans develop logic to compare to our emotions and find the latter illogical? Power corrupts, but people have different types and levels of corruption, and a goal for human governance is for the least-corruptible to have power. And as corporate governance is a type of human governance, so too should corporations seek leaders who are highly resistent to corruption.
 1. TherMOMeter
+1. There's less time in a gravity well because all of the matter gets in its way. Steeper gravity wells are compressing more matter into less space, and black holes are when matter is occupying all available space, and there's no space for time. This is to say that the current section of time (aka 'now') traverses more units of space in some areas than in others.
 1. They act like me putting myself first is wrong because doing so also benefits someone that they don't like. This is basically 'If you keep hitting yourself, I'll be your friend.' - 2023
 1. Things remain mostly the same. How we perceive things changing tells us much about how we, ourselves, are changing. - 2006
 1. Things should either be always too large, or always too small. Avoid things which are both too big AND too small. - 2021
@@ -839,6 +898,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Time Being's name is Nick, which is why people say 'the Nick of Time'. Sometimes people do things for the Time Being, and they say 'For the Time Being...' - 2020
 1. Time travel has been theoretically demonstrated, but not quite proven, and consumes enormous amounts of 'inverted energy' which has also been theoretically demonstrated, but not quite proven.
 1. Time travel with vegetables and the Flux-Capacipotato!
+1. Time-driven story: An event will happen on tick N and characters act, usually with no other events happening. - 2024
 1. To recognize that everyone sees me as a walking dollar sign. I don't know where the buck stops, but this is where it departs from.
 1. Tokyo attacked by a giant peacock. (NBC launches their app in Japan.) - 2022
 1. Tom Waits for Gal Gadot. - 2019
@@ -853,6 +913,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Trolls might have an aperitiefling before dinner. - 2020
 1. Truckheads operate LED-bedazzled combustion-powered pipe organ sexual vibrators (on metal sleds, or trucks too lifted to tow) that produce uselessly massive torque (Dodge Charger) as a side effect. - 2021
 1. Truth is stranger than fiction - if you want strange, why read fiction? Goto fiction when you want normalcy. - 2022
+1. Trying to maintain a Center somewhere between the horseshoe-extremes of Authoritarian Racism and Forced Diversity.
 1. Trying to save money has been the most expensive thing I've ever done. Much cheaper is trying to meet my needs and explore different parts of the market. - 2021
 1. Turn off content which is only discontent. - 2020
 1. Two, in three dimensions, is eight. - 2021
@@ -862,6 +923,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Ukranium - uranium from Ukraine. - 2022
 1. Understanding the motives and objectives of a villain or criminal doesn't absolve them of their crimes or remove the need (both for them and for the rest of society) for punishment to be administered. Someone stealing bread etc means there are 2 problems: someone stealing AND someone starving. Both of these need to be addressed through existing means. 
 1. Undying Undine
+1. Unlike the Hollywood concept of drugs hurting kids directly, through getting hooked - drugs hurt kids indirectly much more, by stealing our acting and music stars, and depriving whole generations of our most gifted artists. - 2024
 1. Using a periodic table to describe the elements of a field usually doesn't make sense as the elements in most fields don't include an inherent periodic parameter, - such as electron shell diameter, which grows as you go left then jumps smaller at the periodic break.
 
 ### V
@@ -871,6 +933,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Videogame mirrors are an 'unsolved problem' - but how can such a simple problem go unsolved? Put another camera behind the mirror, have move parallel the the player along the middle of the mirror, and project what it sees on the mirror. Or another way, make it into a clipped window that's flipped around its vertical axis. Like the portals in Portal, where you put 2 portals next to each other and can see yourself - literally that but directly in front of the player, and clipped so you can't walk through it.
 1. Vidjae is plural for vidja.
 1. Visual cortex as a reverse video card, to separate inputs into patterns of light and dark, which become assembled into logical objects. -  2023
+1. VOIP calls aren't an audio connection between users, but 333 MP3s of duration 300 ms recorded every second (or another similar division), transferred, and played for the listeners. - 2016 - This is not unlike recording a tape full of thoughts, and mailing them to a friend across the country, as some did to avoid high long distance phone rates in the 20th Century. The major innovation is making each recording about 300x shorter - 300 ms instead of 90,000 ms. - 2024 
 1. VR lenticular lenses turn sunlight into a deadly laser beam, focused into a fine point on the VR goggle screen. -  2023
 1. Vulcans are Mensa and Klingons are Vikings. Anyone can join them, just learn their language and move to their solar system. Ferengi are British, between the FCA (Financial Conduct Authority / Ferengi Commerce Authority), the constant rain on the home world/island, and overzealous capitalism where everything is for sale and the monarch is the one who owns the most stuff. And anyone who can buy their way in can join them. When the going gets tough, the tough go Viking/Klingon.
 
@@ -883,6 +946,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. War as a series of burned bridges.
 1. Wars are almost entirely conducted to resolve disputes over dimensional resources - underground resources or tunnels, surface land area, buildings & improvements, flowing or standing water, airspace, orbitspace, et cetera. - 1989 (with later updates).
 1. Was One Punch Man minmaxed into a glass cannon?- 2023
+1. Water beds must be heated to be used, or else they become too cold to be slept on, pulling heat out of the body. (Might be good in tropical weather?) So can't be used during power outages or in off-grid situations. - 2003
 1. Water isn't really H2O, but a mixture of hydroxide (OH-) and hydronium (H3O+), with the oxygen atoms moving back and forth between molecules, as a function of temperature. The Sour Taste Bud directly detects hydronium. and since there's more of both hydroxide and hydronium when water is hotter, this is how we can taste the temperature of water. -  2023
 1. Watermelon Man's name is Urizane. (from sCRYed)
 1. Wave-particle duality is actually wave function - wave location duality.
@@ -906,22 +970,23 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Werewolf is past tense of Iswolf. - 2022
 1. What dressing do you like on your word salad? - 2023
 1. What makes a computer tick? The computer's clock makes it tick. Kernels are the base-level programs that run on (micro)processors. The difference between a simple kernel and a full OS is like the difference between an application and a web browser - make (application programming) interfaces to load other software into local memory and give them compute time on your CPUs.
-1. What to get someone for Christmas when they like to fight with people over dumb things.
-1. What you want is not (the thing) - what you want is how you feel about (the thing), and you want someone else to feel that way about you.
-1. Whataboutism is an argumentation tactic, where one party asks a tangential question, with an answer too long for the other party to fully respond in their allotted debate time or post character limit.
+1. What to get someone for Christmas when what they really enjoy is to brag about having extended arguments with random people over unimportant matters? - 2021 (Maybe a lemon-quality product with a great warranty, so they can yell at the store employees?)
+1. What you want is not (the thing) - what you want is how you feel about (the thing), and you want someone else to feel that way about you. - 2021
+1. Whataboutism is an argumentation tactic, where one party asks a tangential question, with an answer too long for the other party to fully respond in their allotted debate time or post character limit. - 2023
 1. When I learned that GOTO was considered harmful, it felt like someone was attacking my lifestyle. - 2022
 1. When in danger or in doubt, run in circles, scream and shout. (MST3k)
-1. When people call New York the Empire State, they're serious about the Empire part.
-1. When the going gets tough, the tough 'go Viking'. -  2023
-1. When the 'Great Person''s 'Only Option' is to 'Self Martyr' - Like Gene Roddenberry kept doing for Star Trek.
-1. When you Arrive, you find that you have to work even harder to stay there. Or constantly work to learn and reinvent yourself.
+1. When people call New York the Empire State, they're serious about the Empire part. - 2023
+1. When the going gets tough, the tough 'go Viking'. -  2013
+1. When the 'Great Person''s 'Only Option' is to 'Self Martyr' - Like Gene Roddenberry kept doing for Star Trek. - 2021
+1. When you Arrive, you find that you have to work even harder to stay there. Or constantly work to learn and reinvent yourself. - 2018
 1. When you talk about someone else, don't talk about them, but the part of you that you see reflected in them.
-1. 'Who Are You?' / 'What Do You Want?' - Babylon 5 (Questions of the Vorlons and Shadows respectively.)
+1. 'Who Are You?' / 'What Do You Want?' - Babylon 5 (Questions of the Vorlons and Shadows respectively.) "My name is Cain. I am here to help." - Kung Fu: The Legend Continues
 1. Why buy what you can make? (There are many good reasons, such as mass production. Still something to consider.)
 1. Why doesn't the NSA provide an MFA app for all US Citizens? Why doesn't the Post Office offer a free email address for every US Citizen? Why doesn't the US Treasury update their archaic website that doesn't allow you to type your password, and instead have to click it from a Javascript keyboard?
 1. Why don't Woke characters use sex as a weapon?
 1. Why drive people crazy when you can make them walk?
 1. Why rent an apartment if you're allowed to sleep in your office? If you move into your office, you'd be working from home while being 100% in-office.
+1. Wisdom is to experience, as torque is to horsepower, and CPU APUs are to GFLOPS or TOPS. - 2024
 1. With the (uninstall) of the American Dream, so many are looking for a replacement dream.
 1. Woke Hollywood is like getting a cheese pizza and asking for pepperoni. SO they take it back and make an all-pepperoni pizza. Pepperoni crust, pepperoni sauce, pepperoni cheese. Oops all pepperoni. Like, no I enjoy crust and cheese and sauce, but just want an extra topping. Can't talk to these entertainment extremists like normal people - they intentionally misunderstand.
 1. Woke as being drunk on the dopamine rush from the validation cycle built into Current Year Social Media.
@@ -932,7 +997,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Workshop is where someone works. Laboratory is where someone labors.
 1. Workshopping as a process that advances the pattern. -  2023
 1. World is polluted with too many complaints. - 2020
-1. World-driven story - World events are ongoing and characters exist among them.
 1. Write down your metrics and their upgrade paths. Then you can simply press the upgrade button when the time is right.
 
 ### X
@@ -953,6 +1017,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. You won't always find all of the puzzle pieces at the same time, in order, or in any sort of linear or logical way. They will come to you as you need them, in the form chosen by the need at the moment when you create them, and you exist to find ways to connect them into a viable existence to sustain your body. Being the right person becomes having been the right person at each formation point, to have formed the correct puzzle pieces to form the correct viable pattern. There are many patterns that could sustain us, but few can sustain us and also sustain our offspring. (Needs slight workshop)- 2023
 1. You're not one of those insufferable people, are you? - 2023
 1. Your Dinosaurs Are Wrong - and sometimes, Not Even Wrong. - 2022
+1. Your fantasy is problematic in that it's based around technically illegal situations, and so we have to check that this isn't a villain fantasy. Such as paying for someone's hotel room fee in exchange for them being physically intimate with you - this is illegal in many US States, specifically to prevent the reality of human trafficking that you're fantasizing about. 
 
 ### Z
 
