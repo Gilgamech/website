@@ -66,10 +66,10 @@ Check it out at [OfferingOverview.com](https://www.offeringoverview.com/)
 
 Building the [OfferingOverview](https://www.Gilgamech.com/blog.html#07292022) site drove a rebuilding of the SPArational simple serverless framework. It's the core of the page engines that converts the Services.json data file into over 130 different pages, entirely generated within the browser.
 
-New for v3 are table creation tools. Provide a multidimensional array in JSON (like [["Player","Score"],["Alice"3],["Bob",2]]) and mdArrayToTable will build this into a table:
+New for v3 are table creation tools. Provide a multidimensional array in JSON (like [['Player','Score'],['Alice'3],['Bob',2]]) and mdArrayToTable will build this into a table:
 
 ::: script#tableCreationWrapper
-mdArrayToTable('tableCreationWrapper','',[["Player","Score"],["Alice",3],["Bob",2]]);
+mdArrayToTable('tableCreationWrapper','',[['Player','Score'],['Alice',3],['Bob',2]]);
 :::				
 
 Alongside addElement, these allow a great deal of website creation ability packed into a few powerful commands. Indeed, this whole post is just 10 lines.SPArational not only makes building sites easy - it makes building site engines to convert JSON into websites easy.
