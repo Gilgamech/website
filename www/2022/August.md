@@ -14,7 +14,10 @@ Testing using a sitelet for the navigation menu. Sitelet on this page, normal HT
 
 https://www.sparational.com/sitelets/textArea.js
 
-::: script#TextAreaWrapper
+::: #TextAreaWrapper
+:::
+
+::: script#
 buildTextAreaSitelet('TextAreaWrapper');
 :::
 
@@ -26,7 +29,10 @@ Rebuilt the [Sudoku solver](https://www.Sparational.com/sitelets/sudokuSolver.js
 
 https://www.sparational.com/sitelets/sudokuSolver.js
 
-::: script#solverWrapper
+::: #solverWrapper
+:::
+
+::: script#
 buildSudokuSolverSitelet('solverWrapper');
 :::
 
@@ -38,7 +44,10 @@ Rebuilt the [calc.js](https://www.Sparational.com/sitelets/calc.js) sitelet. It'
 
 https://www.Sparational.com/sitelets/calc.js
 
-::: script#calcWrapper
+::: #calcWrapper
+:::
+
+::: script#
 buildCalculatorSitelet('calcWrapper');
 :::
 
@@ -68,8 +77,11 @@ Building the [OfferingOverview](https://www.Gilgamech.com/blog.html#07292022) si
 
 New for v3 are table creation tools. Provide a multidimensional array in JSON (like [['Player','Score'],['Alice'3],['Bob',2]]) and mdArrayToTable will build this into a table:
 
-::: script#tableCreationWrapper
+::: #tableCreationWrapper
+:::
+
+::: script#
 mdArrayToTable('tableCreationWrapper','',[['Player','Score'],['Alice',3],['Bob',2]]);
-:::				
+:::
 
 Alongside addElement, these allow a great deal of website creation ability packed into a few powerful commands. Indeed, this whole post is just 10 lines.SPArational not only makes building sites easy - it makes building site engines to convert JSON into websites easy.
