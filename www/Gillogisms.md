@@ -980,7 +980,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. When the 'Great Person''s 'Only Option' is to 'Self Martyr' - Like Gene Roddenberry kept doing for Star Trek. - 2021
 1. When you Arrive, you find that you have to work even harder to stay there. Or constantly work to learn and reinvent yourself. - 2018
 1. When you talk about someone else, don't talk about them, but the part of you that you see reflected in them.
-1. 'Who Are You?' / 'What Do You Want?' - Babylon 5 (Questions of the Vorlons and Shadows respectively.) "My name is Cain. I am here to help." - Kung Fu: The Legend Continues
+1. 'Who Are You?' / 'What Do You Want?' - Babylon 5 (Questions of the Vorlons and Shadows respectively.) 'My name is Cain. I am here to help.' - Kung Fu: The Legend Continues
 1. Why buy what you can make? (There are many good reasons, such as mass production. Still something to consider.)
 1. Why doesn't the NSA provide an MFA app for all US Citizens? Why doesn't the Post Office offer a free email address for every US Citizen? Why doesn't the US Treasury update their archaic website that doesn't allow you to type your password, and instead have to click it from a Javascript keyboard?
 1. Why don't Woke characters use sex as a weapon?
