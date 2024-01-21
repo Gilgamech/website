@@ -20,6 +20,8 @@ https://www.sparational.com/sites/calc.spa
 
 This will be the direction for Sparational.js in the future. As well as adding YAML and Markdown as data types.
 
+--------------------------------------------------------------------
+
 # [10/29/2023](#10292023) - 3D Printing Business Ideas:
 
 ## 3D Printing is in the 'chicken and egg' stage, where it's not needed because it's not used. There are 3 good ways to approach this:
@@ -36,11 +38,18 @@ This will be the direction for Sparational.js in the future. As well as adding Y
   - This could work as a delivery service - show up once to measure the piece, and return with the printed piece.
   - Also could work similar to the pickup and dropoff service.
 
+--------------------------------------------------------------------
+
 # [10/22/2023](#10222023) - Link Checker
 
 ## This checks the links on this page.
 
-https://www.sparational.com/sites/checklinks.spa
+::: #LinkChecker
+:::
+
+https://www.sparational.com/sites/checklinks.spa::LinkChecker
+
+--------------------------------------------------------------------
 
 # [10/07/2023](#10072023) - Last time on Dragonball Z:
 

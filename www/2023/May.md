@@ -42,6 +42,8 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
   - "So different levels of manipulating people?" "Yes - (goes into Counterfeit People article.)
   - "What to expect when you're expecting GPT4"
 
+--------------------------------------------------------------------
+
 # [05/09/2023](#05092023) - Writing prompt.
 
 In this society, only even-numbered elements are used. Odd-numbered elements are considered an abomination and anyone who touches one is unclean. This is because their planet has almost exclusively even-numbered elements and very few odd-numbered ones.
@@ -49,6 +51,8 @@ In this society, only even-numbered elements are used. Odd-numbered elements are
 - How does this impact their planet's development and existence?
 - What buildings and objects can they build and not build?
 - How does this cause conflict with other societies?
+
+--------------------------------------------------------------------
 
 # [05/06/2023](#05062023) - Amps and volts.
 
