@@ -44,9 +44,7 @@ Finally hunted down a [good CSS-only way to make iframes responsive](https://www
 	
 Here's a demo of what I'm working on - finalize and record the script, and make a few more scenes like this, and I'll have a 10 minute video.
 
-::: iframe# iframe-container
 https://www.youtube.com/embed/obi8QXZmNxM
-:::
 
 --------------------------------------------------------------------
 
