@@ -13,6 +13,8 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 - [How to merge table cells](https://www.computerhope.com/issues/ch001655.htm)
 - [How to Center the Text in the HTML Table Row](https://www.w3docs.com/snippets/css/how-to-center-the-text-in-html-table-row.html)
 
+--------------------------------------------------------------------
+
 # [7/20/2021](#07202021)  - Connecting some dots in the bullet shortage.
 
 ## Looking into product shortages and their causes in different industries, to better understand the world, brings up the recent bullet shortage.

@@ -4,7 +4,7 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 
 # [03/27/2022](#03272022) - Introducing the Door Clamp.
 	
-Demo of the "door clamp" idea - these would clamp together several small box trailers. This example is a pair of 14 foot box trailers tail to tail, giving about 28 feet. And there's another pair of 14 foot box trailers to the left, giving space for a bedroom, living room, kitchenette, and bathroom. This demo is missing the weatherstripping wrap that would be clamped on either side, giving a much more enclosed space. Or the door ramps that would allow seamless thresholds. 
+Demo of the 'door clamp' idea - these would clamp together several small box trailers. This example is a pair of 14 foot box trailers tail to tail, giving about 28 feet. And there's another pair of 14 foot box trailers to the left, giving space for a bedroom, living room, kitchenette, and bathroom. This demo is missing the weatherstripping wrap that would be clamped on either side, giving a much more enclosed space. Or the door ramps that would allow seamless thresholds. 
 
 https://www.Gilgamech.com/images/doorClamp.png
 
@@ -70,7 +70,7 @@ https://www.Gilgamech.com/images/Enigma-E.gif
 
 # [03/21/2022](#03212022) - Enigmeta Data
 	
-Some data from [The Crypto Museum](https://cryptomuseum.com/crypto/enigma/index.htm), tabulated. This might show up in the Enigma Machine video. Note that component names have been translated into English. Also, this leaves out the Swedish General Service's 28-contact version, which omits "W" and adds Ä, Å, and Ö - Swedish didn't have a W, and they typed foreign names with a double-v, such as "VVashington" or "VVarsavva".
+Some data from [The Crypto Museum](https://cryptomuseum.com/crypto/enigma/index.htm), tabulated. This might show up in the Enigma Machine video. Note that component names have been translated into English. Also, this leaves out the Swedish General Service's 28-contact version, which omits 'W' and adds Ä, Å, and Ö - Swedish didn't have a W, and they typed foreign names with a double-v, such as 'VVashington' or 'VVarsavva'.
 	
 First, the rotating and static wheels, and some other data points:
 
@@ -112,7 +112,7 @@ Enigma-M4 was distributed to the other branches after development, but the 3 Mar
 |Enigma.3|C|Enigma.2 plus rolling reflector positions increased from 1 to 2 or 4.|
 |Enigma.4|D,K|Enigma.3 plus rolling reflector positions increased from 2 or 4 to 26.|
 |Enigma.5|1|Enigma.4 plus front panel allows transposing letters. Rolling reflector positions decreased from 26 to 1 (fixed), |
-|Enigma.6|M1, M2, M3, M4 (navy)|Enigma.5 plus rolling reflector is rewirable. Shipped with 3 extra "marine wheels" with different stepping.|
+|Enigma.6|M1, M2, M3, M4 (navy)|Enigma.5 plus rolling reflector is rewirable. Shipped with 3 extra 'marine wheels' with different stepping.|
 |Enigma.7|M4 (army/af)|Enigma.5 plus rolling reflector is rewirable, and  4thwheel is like a 2nd (26 position) rolling reflector.|
 |Enigma.8|M4 (navy)|Enigma.6 plus 4thwheel is like a 2nd (26 position) rolling reflector, and has an Enigma.6-compatible setting.|
 
@@ -136,7 +136,7 @@ Planned on very short notice, the invasion was planned to be a quick taking of K
 	
 **Planned on very short notice**, the invasion was supposed to limit or prevent reaction time from other world powers. That the US State Department caught this, when even Russian businesses were unaware, speaks to the incredible intuitive abilities of the people who constitute that group. **This is Putin's War, and Putin's War alone.** It has no support from other world powers, or even from smaller nations. It also has no internal support in Russia, which is reflected in the half-baked planning and sloppy exection of the invasion.
 	
-**A planned quick invasion by the "obviously" superior military forces to subdue the lesser nation - but this has gone from mired in literal mud to mired in an unworkable military position.** Russian forces have been shown to be in various states of disrepair and unfit for deployment anywhere outside of Russia. And now it appears that the majority of Russia's military machines have broken down. They may be unable to muster military might for some years, or maybe even decades.
+**A planned quick invasion by the 'obviously' superior military forces to subdue the lesser nation - but this has gone from mired in literal mud to mired in an unworkable military position.** Russian forces have been shown to be in various states of disrepair and unfit for deployment anywhere outside of Russia. And now it appears that the majority of Russia's military machines have broken down. They may be unable to muster military might for some years, or maybe even decades.
 	
 Very short notice prevented Russian nations from performing their normal pre-embargo/pre-sanction stockpiling, and so Russian businesses and citizens are hurting especially badly. Many businesses are unable to continue operations due to a lack of raw material inputs, or inability to ship output products to customers. So many Russians are out of work directly because of Putin's personal actions, and they are very well aware. This will also heavily impact the maintenance and rebuilding of Russia's military forces, further extending the period of time before they can again muster a significant military force.
 	
@@ -172,7 +172,7 @@ Learning 3d animation is really easy with Blender - it's a great tool for taking
 
 # [03/13/2022](#03132022) - Historical Labor.
 	
-I made myself a challenge last week, to see if I could output 25 history videos, covering a large chunk of the historical compendium. It turns out I bit off more than I could chew. But I built a "video factory" learned a lot in the process:
+I made myself a challenge last week, to see if I could output 25 history videos, covering a large chunk of the historical compendium. It turns out I bit off more than I could chew. But I built a 'video factory' learned a lot in the process:
 
 1. Screenshot the page and add to GIMP. This is roughly 960x540, and expands nicely on HD video. Then create a new layer foreach of the history items in the image. This step takes like 5 minutes.
 2. Foreach layer, rectangle select the item, then invert. Painbrush black 60% opacity to deluminate the others. Second pass to add the Big G Gear stamp, same settings. Third pass to snap these into PNGs. Each of these operations is a one-click mouse macro. This step takes like 5-10 minutes.
@@ -182,9 +182,7 @@ I made myself a challenge last week, to see if I could output 25 history videos,
 	
 From the latest set of videos:
 
-::: iframe#
 https://www.youtube.com/embed/azD6usOHEso
-:::
 
 --------------------------------------------------------------------
 

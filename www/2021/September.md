@@ -4,8 +4,8 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 		
 # [9/30/2021](#09302021) - Random fact
 
-- The Haradrim in LOTR were from Harad, a vast land to the south of Gondor and Mordor.</li>
-- The Horadrim in Diablo were a brotherhood of mages formed by the Archangel Tyrael.</li>
+- The Haradrim in LOTR were from Harad, a vast land to the south of Gondor and Mordor.
+- The Horadrim in Diablo were a brotherhood of mages formed by the Archangel Tyrael.
 
 Their similar names made me think they were connected, but sadly not.
 
