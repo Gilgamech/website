@@ -35,9 +35,9 @@ Revised the server build code while upgrading the server. And work progresses on
 
 # [10/22/2021](#10222021) - The one kind of video that Youtube doesn't want to have.
 
-Youtube are again completely retraining their algorithm, this time to hate videos longer than 4 minutes. Their claim that this is to support mobile views suggests they're losing views to another video service, so are quick to alienate their long-video users. Supporting long (30+ minute) videos over watchable (4-20 minute) was to compete with a 3rd video service. It's the eventual result of every group who tries to be "everything to everyone" and lead all segments, as the goal of compromise is to spread misery through nonviolent political means. This is a social upgrade from spreading misery through military means. As for the video length, it's a [Random Walk](https://en.wikipedia.org/wiki/Random_walk), like a dog going inside-outside-inside-outside.
+Youtube are again completely retraining their algorithm, this time to hate videos longer than 4 minutes. Their claim that this is to support mobile views suggests they're losing views to another video service, so are quick to alienate their long-video users. Supporting long (30+ minute) videos over watchable (4-20 minute) was to compete with a 3rd video service. It's the eventual result of every group who tries to be 'everything to everyone' and lead all segments, as the goal of compromise is to spread misery through nonviolent political means. This is a social upgrade from spreading misery through military means. As for the video length, it's a [Random Walk](https://en.wikipedia.org/wiki/Random_walk), like a dog going inside-outside-inside-outside.
 
-Youtube provides an easy way to search for short (under 4 minute) and long (over 20 minute) videos. But strangely do not provide an option to prefer videos between 4 and 20 minutes long. And this is "logical" because underserving their userbase somehow makes them more money. The obvious solution here is to launch a service focused on "quick bites" that are 4-6 minutes long amirite?
+Youtube provides an easy way to search for short (under 4 minute) and long (over 20 minute) videos. But strangely do not provide an option to prefer videos between 4 and 20 minutes long. And this is 'logical' because underserving their userbase somehow makes them more money. The obvious solution here is to launch a service focused on 'quick bites' that are 4-6 minutes long amirite?
 
 --------------------------------------------------------------------
 
@@ -47,7 +47,7 @@ Minehut's [5 hour outage](https://twitter.com/minehutsupport/status/145025068110
 
 https://www.Gilgamech.com/images/MCServerStartupRAM.png
 
-For one player on a vanilla server, it works pretty well. There's an occasional bit of lag, but not bad. The sawtooth shape is from used variables thrown away into the memory "bit bucket", filling to the max memory (512 MB for this 1GB VM) and then Garbage Collection pauses everything, dumps the "bit bucket", and resumes normal operation. This happens as infrequenty as possible, which is about once per second for this small of server. This should scale with RAM size.
+For one player on a vanilla server, it works pretty well. There's an occasional bit of lag, but not bad. The sawtooth shape is from used variables thrown away into the memory 'bit bucket', filling to the max memory (512 MB for this 1GB VM) and then Garbage Collection pauses everything, dumps the 'bit bucket', and resumes normal operation. This happens as infrequenty as possible, which is about once per second for this small of server. This should scale with RAM size.
 
 https://www.Gilgamech.com/images/MCServerModsStartupRAM.png
 
@@ -65,7 +65,7 @@ Adding a few lines recompiled from the 10/7 entry, to update the remote MS-RDP a
 
 ```
 $instance = (Get-EC2Instance).Instances
-$Group = @( "sg-123456", $GilSecurityGroupID)
+$Group = @( 'sg-123456', $GilSecurityGroupID)
 Edit-EC2InstanceAttribute -InstanceId $instance.instanceid -Group $group
 ```
 	
@@ -114,7 +114,7 @@ The [ramblings](/Gillogisms.html) of a sane man in a mad world. And a few clever
 
 Humans are neuroprocessors mounted to frames. Our neuroprocessors have huge computation ability, but still finite, and can be depleted in daily situations.
 
-Lumping people together is a monkeysphering * process where our brains "combine" people with similar physical characteristics, in an attempt to simplify and reduce the amount of information being processed. This process can easily become problematic or even harmful, and the first step in preventing it is identifying it.
+Lumping people together is a monkeysphering * process where our brains 'combine' people with similar physical characteristics, in an attempt to simplify and reduce the amount of information being processed. This process can easily become problematic or even harmful, and the first step in preventing it is identifying it.
 
 - Monkeysphering is the set of techniques we use to keep the information about other people, stored in our brains, to a manageable level. It's based on [Dunbar's number](https://en.wikipedia.org/wiki/Dunbar's_number) being the upper limit to an average human neuroprocessor's data storage and processing ability. And nobody wants to run their brain at 100% all the time, as it's exhausting.
 
@@ -130,7 +130,7 @@ Researching the literature after making this post, instead of before, leads to a
 
 Musings on interacting with domains of knowledge and the people who dwell within.
 
-- How to interact with a complex topic like "computer engineering" or "cardiovascular heath"?
+- How to interact with a complex topic like 'computer engineering' or 'cardiovascular heath'?
   - Is the domain well-known?
   - Is the domain controversial?
   - Who are the famous people who work in the domain?
@@ -165,22 +165,22 @@ Musings on interacting with domains of knowledge and the people who dwell within
 	
 --------------------------------------------------------------------
 
-# [10/11/2021](#10112021) - Carbon has 4 "hands" and 4 "pockets".
+# [10/11/2021](#10112021) - Carbon has 4 'hands' and 4 'pockets'.
 
-Here's a simplifying framework to combine [VSPER theory](https://en.wikipedia.org/wiki/VSEPR_theory), [sp^2^](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/05%3A_Bonding_in_polyatomic_molecules/5.2%3A_Valence_Bond_Theory_-_Hybridization_of_Atomic_Orbitals/5.2C%3A_sp2_Hybridization)[Hybridization](https://byjus.com/jee/hybridization/#sp-Hybridization), and [Lewis acids & bases](https://en.wikipedia.org/wiki/Lewis_acids_and_bases). VSPER allows the S and P electron orbitals around an atomic nucleus to merge. The 2S orbital holds one pair of electrons, while the 2P orbital holds 3, so these "SP-hybrids" are 4 sets of paired electrons and mangnetically balance into a tetrahedral shape around the spherical nucleus & spherical 1S orbital. This also explains the [shape of snowflakes](https://duckduckgo.com/?q=vsper+ice&atb=v116-1&iax=images&ia=images).
+Here's a simplifying framework to combine [VSPER theory](https://en.wikipedia.org/wiki/VSEPR_theory), [sp^2^](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Map%3A_Inorganic_Chemistry_(Housecroft)/05%3A_Bonding_in_polyatomic_molecules/5.2%3A_Valence_Bond_Theory_-_Hybridization_of_Atomic_Orbitals/5.2C%3A_sp2_Hybridization)[Hybridization](https://byjus.com/jee/hybridization/#sp-Hybridization), and [Lewis acids & bases](https://en.wikipedia.org/wiki/Lewis_acids_and_bases). VSPER allows the S and P electron orbitals around an atomic nucleus to merge. The 2S orbital holds one pair of electrons, while the 2P orbital holds 3, so these 'SP-hybrids' are 4 sets of paired electrons and mangnetically balance into a tetrahedral shape around the spherical nucleus & spherical 1S orbital. This also explains the [shape of snowflakes](https://duckduckgo.com/?q=vsper+ice&atb=v116-1&iax=images&ia=images).
 
-Traditional acids and bases operate around the exchange of hydrogen atoms, or electrons. Lewis Acids, by contrast, operate around the exchange of electron pairs. Boron is frequently a Lewis Acid due to having a open "pocket" in only having 3 "SP-hybrid" electrons, and thus only able to pair into 3 electron pairs. This vacancy sometimes gets filled by being a lower-energy state than having another electron pair in the outermost electron shell around the molecule.
+Traditional acids and bases operate around the exchange of hydrogen atoms, or electrons. Lewis Acids, by contrast, operate around the exchange of electron pairs. Boron is frequently a Lewis Acid due to having a open 'pocket' in only having 3 'SP-hybrid' electrons, and thus only able to pair into 3 electron pairs. This vacancy sometimes gets filled by being a lower-energy state than having another electron pair in the outermost electron shell around the molecule.
 
-To extend this, oxygen has 6 hands and still 4 pockets. All "SP-hybrids" have 4 pockets, and the number of hands goes up with atomic number:
+To extend this, oxygen has 6 hands and still 4 pockets. All 'SP-hybrids' have 4 pockets, and the number of hands goes up with atomic number:
 
 |Atomic Number|5|6|7|8|9|10|
 |Element|Boron|Carbon|Nitrogen|Oxygen|Flourine|Neon|
 |sp^2^ electrons|3|4|5|6|7|8|
 |sp^2^ orbitals|4|4|4|4|4|4|
-|Open "Hands"|5|4|3|2|1|0|
-|Open "Pockets"|2.5|2|1.5|1|0.5|0|
+|Open 'Hands'|5|4|3|2|1|0|
+|Open 'Pockets'|2.5|2|1.5|1|0.5|0|
 
-This explains why carbon is so "gregarious" and makes more molecular combinations than any other element. It has the most free hands, allowing it to form molecular bonds more easily than other elements in its periodic row. Boron just doesn't have enough "electromagnetic density" to really fill its pockets, and those which do already have at least 1 pocket full. Carbon is a "Goldilocks" element for molecule-building. 
+This explains why carbon is so 'gregarious' and makes more molecular combinations than any other element. It has the most free hands, allowing it to form molecular bonds more easily than other elements in its periodic row. Boron just doesn't have enough 'electromagnetic density' to really fill its pockets, and those which do already have at least 1 pocket full. Carbon is a 'Goldilocks' element for molecule-building. 
 
 The next row down can also SP3 hybridize. But since they have both the full s^1^ and sp^2^ electron rings to work with, the effect is weaker and not quite the same.
 
@@ -188,8 +188,8 @@ The next row down can also SP3 hybridize. But since they have both the full s^1^
 |Element|Aluminum|Silicon|Phosphorus|Sulfur|Chlorine|Argon|
 |sp^3^ electrons|3|4|5|6|7|8|
 |sp^3^ orbitals|4|4|4|4|4|4|
-|Open "Hands"|5|4|3|2|1|0|
-|Open "Pockets"|2.5|2|1.5|1|0.5|0|
+|Open 'Hands'|5|4|3|2|1|0|
+|Open 'Pockets'|2.5|2|1.5|1|0.5|0|
 
 --------------------------------------------------------------------
 
@@ -199,7 +199,7 @@ Here is another pair of my D&D characters that I haven't played yet.
 
 ###  Maro Khan, King Hu's Cannon
 
-- 29 yo human heavy explosives expert. 6'2" 220 lbs.
+- 29 yo human heavy explosives expert. 6'2' 220 lbs.
 
 ###  in the Royal Army of his homeland, he's on loan to the Imperial Army of Zara's homeland. 
 
@@ -210,11 +210,11 @@ Here is another pair of my D&D characters that I haven't played yet.
 
 ### Princess Zara Omenuko
 
-- 32 yo human fighter, blind since birth, but didn't let that hold her back from her love of fighting. 5'8" 160 lbs
+- 32 yo human fighter, blind since birth, but didn't let that hold her back from her love of fighting. 5'8' 160 lbs
 - Princess from a jungle land far to the southeast.
 - Her royal parents brought in an old gladiator who had since gone blind, to train her.
 - But Blind Fighting never made sense, and she became very good at charging or flailing towards voices, foot scrapes, crunched branches and leaves, or other humanoid sounds.
-- Prefers blindly charging opponents with her shield, constantly doing shield bash. Uses double maces (2 foot long) as backup, flailing wildly. (She rolls a 1d4 "subtraction dice" to negate her To HIt role.)
+- Prefers blindly charging opponents with her shield, constantly doing shield bash. Uses double maces (2 foot long) as backup, flailing wildly. (She rolls a 1d4 'subtraction dice' to negate her To HIt role.)
 - Has a hemispherical (140 degree) enchanted shield that has an intertial dampner in it, so she doesn't really feel the impact of what she hit - the shield just kinda stops moving forward and her with it.
 - Charging blind means she fights almost like a barbarian, with move bonus, but without the long recovery.
 
@@ -246,7 +246,7 @@ Now for something completely different. These are a pair of my D&D characters th
 ### Lui'ha
 
 - Female [Kenku](https://forgottenrealms.fandom.com/wiki/Kenku) whose only care in the world is to be airborne.
-- Her name is actually a tune played by an enchanted ocarina that was found with her. Kind Richard sings the word "Lui'ha" when he sings the tune that is her name, and so she generally answers to the name as well.
+- Her name is actually a tune played by an enchanted ocarina that was found with her. Kind Richard sings the word 'Lui'ha' when he sings the tune that is her name, and so she generally answers to the name as well.
 - Hasn't met another Kenku.
 - Very high intelligence and willpower.
 - Master of hangglider combat - escapes off ledges and circle around, flying kicks, dropping light items.
@@ -273,7 +273,7 @@ Now for something completely different. These are a pair of my D&D characters th
 
 ### VPC > SG > EC2 > RDP > IIS > SSL >  DNS
 
-AWS (now) starts with VPCs, within which are Security Groups and Subnets, on which EC2 servers are built, to which we'll MS-RDP, configure IIS, request SSL, and finally direct DNS. This will use the "cattle not pets" philosophy to generate a new webserver, update, configure, deploy, and cleanup.
+AWS (now) starts with VPCs, within which are Security Groups and Subnets, on which EC2 servers are built, to which we'll MS-RDP, configure IIS, request SSL, and finally direct DNS. This will use the 'cattle not pets' philosophy to generate a new webserver, update, configure, deploy, and cleanup.
 
 ### Prerequisite: Rotate AWS key
 
@@ -307,14 +307,14 @@ Filter Flip-BytesToText {
 		[switch]$Unicode
 		); #end Param
 	[int]$Unicode2 = 0
-	$ReturnString = ""
+	$ReturnString = ''
 	if ($_) {
 		if ($Unicode) {
 			$ReturnString = [System.Text.Encoding]::Unicode.GetString(($_,$Unicode2))
 			} else {
 			$ReturnString = [System.Text.Encoding]::ASCII.GetString($_)
 		}; #end if Unicode
-		if ($ReturnString -ne "") {
+		if ($ReturnString -ne '') {
 			return $ReturnString
 		}; #end if ReturnString
 	}; #end if _
@@ -327,8 +327,8 @@ Set up your AWS Region and VPC ID. Replace REGION with your default region, and 
 
 ```
 Set-DefaultAWSRegion -Region REGION
-$VpcId = "VPCID"
-$GilSecurityGroupID = "sg-123456" 
+$VpcId = 'VPCID'
+$GilSecurityGroupID = 'sg-123456' 
 ```
 
 ## Step 2 (optional): New Security Group
@@ -340,14 +340,14 @@ This script gets your IP from AWS. The security model is to restrict IP to users
 ```
 Function New-GilSecurityGroup {
 	$addr = (iwr https://checkip.amazonaws.com)
-	[ipaddress]$ipaddr = (($addr.content | Flip-BytesToText ) -replace "`n","" -join "")
-	$IpCidr = ($ipaddr.IPAddressToString+"/32")
-	$GroupName = ("RDP access - "+$IpCidr)
-	$GilSecurityGroupID = New-EC2SecurityGroup -Description "RDP access" -GroupName $GroupName -VpcId $VpcId
+	[ipaddress]$ipaddr = (($addr.content | Flip-BytesToText ) -replace '`n','' -join '')
+	$IpCidr = ($ipaddr.IPAddressToString+'/32')
+	$GroupName = ('RDP access - '+$IpCidr)
+	$GilSecurityGroupID = New-EC2SecurityGroup -Description 'RDP access' -GroupName $GroupName -VpcId $VpcId
 	$cidrBlocks = New-Object 'collections.generic.list[string]'
 	$cidrBlocks.add($IpCidr)
 	$ipPermissions = New-Object Amazon.EC2.Model.IpPermission
-	$ipPermissions.IpProtocol = "tcp"
+	$ipPermissions.IpProtocol = 'tcp'
 	$ipPermissions.FromPort = 3389
 	$ipPermissions.ToPort = 3389
 	$ipPermissions.IpRanges = $cidrBlocks
@@ -361,8 +361,8 @@ I use Windows and IIS because I'm a villain. Replace SUBNETID with your Subnet I
 
 ```
 Function Build-GilServer {
-	$GilImage = Get-EC2ImageByName "WINDOWS_2016_BASE"
-	New-EC2Instance -ImageId $GilImage.ImageId -SecurityGroupId $GilSecurityGroupID -InstanceType "t2.micro" -AvailabilityZone "us-west-2a" -KeyName "KEYPAIR" -SubnetId "SUBNETID"	
+	$GilImage = Get-EC2ImageByName 'WINDOWS_2016_BASE'
+	New-EC2Instance -ImageId $GilImage.ImageId -SecurityGroupId $GilSecurityGroupID -InstanceType 't2.micro' -AvailabilityZone 'us-west-2a' -KeyName 'KEYPAIR' -SubnetId 'SUBNETID'	
 }
 ```
 
@@ -402,11 +402,11 @@ Function Do-LetsEncrypt {
 	[string]$CFAuthKey = 'CFAUTHKEYGOESHERETHISONEISLONG'
 	[string]$CFAuthEmail = 'YourEmail@Example.com'
 	[string]$PFXPass = '$tr0ngPa$$W0rdG03$|-|3r3'
-	[array]$Domains = ("*.Example.com","*.Subdomain.Example.com","Example.com")
-	[string]$DownloadPath = "C:\LetsEncryptCerts\$((Get-Date).ToString('yyyyMM'))"
+	[array]$Domains = ('*.Example.com','*.Subdomain.Example.com','Example.com')
+	[string]$DownloadPath = 'C:\LetsEncryptCerts\$((Get-Date).ToString('yyyyMM'))'
 	[string]$ContactEmail = 'Contact@Example.com'
 	[array]$ComputerList = ((hostname))
-	[string]$FriendlyName = ("LetsEncrypt_$((Get-Date).AddDays(90).ToString('yyyy-MM-dd'))")
+	[string]$FriendlyName = ('LetsEncrypt_$((Get-Date).AddDays(90).ToString('yyyy-MM-dd'))')
 ```
 
 	### #Information Gathering
@@ -430,9 +430,9 @@ Function Do-LetsEncrypt {
 	mkdir $DownloadPath -Force
 	$Path = Get-PACertificate | select -ExpandProperty CertFile
 	$Path = $Path.Substring(0,$Path.LastIndexOf('\'))
-	Copy-Item "$Path\cert.cer" $DownloadPath -Force
-	Copy-Item "$Path\cert.key" $DownloadPath -Force
-	Copy-Item "$Path\cert.pfx" $DownloadPath -Force
+	Copy-Item '$Path\cert.cer' $DownloadPath -Force
+	Copy-Item '$Path\cert.key' $DownloadPath -Force
+	Copy-Item '$Path\cert.pfx' $DownloadPath -Force
 ```
 
 ### #Import PFXPassword, ComputerList and Thumbprint
@@ -445,8 +445,8 @@ Function Do-LetsEncrypt {
 ### #Deploy
 
 ```
-	Copy-Item "$DownloadPath\Cert.pfx" "\\$Computer\c$"
-	Import-PfxCertificate -FilePath "C:\cert.pfx" -CertStoreLocation Cert:\LocalMachine\My\ -Exportable:$false -Password $PFXPassword
+	Copy-Item '$DownloadPath\Cert.pfx' '\\$Computer\c$'
+	Import-PfxCertificate -FilePath 'C:\cert.pfx' -CertStoreLocation Cert:\LocalMachine\My\ -Exportable:$false -Password $PFXPassword
 	$Cert = Get-ChildItem Cert:\LocalMachine\My\$Thumbprint
 	$Cert.FriendlyName = $FriendlyName
 ```
@@ -454,7 +454,7 @@ Function Do-LetsEncrypt {
 	### #Cleanup
 
 ```
-	Remove-Item "\\$Computer\c$\cert.pfx"
+	Remove-Item '\\$Computer\c$\cert.pfx'
 	Get-ChildItem Cert:\LocalMachine\My\ | Where-Object {($_.Subject -eq 'CN=*.Example.com') -and ($_.ThumbPrint -ne $Thumbprint)} | Remove-Item -Force
 } 
 ```
@@ -472,7 +472,7 @@ New-WebBinding -Name -Protocol -Port -IPAddress -HostHeader -SslFlags -Force -Ve
 This lets the public internet reach the server on ports 80 and 443. Again, replace RDPSECURITYGROUPID with your MS-RDP Security Group ID, and HOSTINGSECURITYGROUPID with your Hosting Security Group ID.
 
 ```
-Edit-EC2InstanceAttribute -InstanceId INSTANCEID -Group @( "RDPSECURITYGROUPID", "HOSTINGSECURITYGROUPID" )
+Edit-EC2InstanceAttribute -InstanceId INSTANCEID -Group @( 'RDPSECURITYGROUPID', 'HOSTINGSECURITYGROUPID' )
 ```
 ## Step 8: Transfer domain in Google Domains
 
@@ -505,7 +505,7 @@ An old LE root cert expired yesterday. It's implied in my cert chain, and I'm on
 
 # [10/3/2021](#10012021) - Game and Shadowgame
 
-When you see someone driving a very nice car, a common reaction is "How did they pay for that?".  Game and Shadowgame are an extension of that question: 
+When you see someone driving a very nice car, a common reaction is 'How did they pay for that?'.  Game and Shadowgame are an extension of that question: 
 
 - Game is something someone does to be seen, for example, the person driving the very nice car.
 - Shadowgame is all of the extra labor, negotiating, shipping, storage, financing, and other work to make a particular Game work.
