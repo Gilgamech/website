@@ -419,10 +419,10 @@ Function Do-LetsEncrypt {
 
 ### #Goto Google Domains and add the A records _acme-challenge and _acme-challenge.hosting - leave off the .Example.com.
 
-- #C:\\Programs\\BIND\\dig.exe txt \\`@8.8.8.8 \\_acme-challenge.Example.com
+- #C:\\Programs\\BIND\\dig.exe txt @8.8.8.8 acme-challenge.Example.com
+- #C:\\Programs\\BIND\\dig.exe txt @8.8.8.8 acme-challenge.hosting.Example.com
 
-- #C:\\Programs\\BIND\\dig.exe txt \\`@8.8.8.8 \\_acme-challenge.hosting.Example.com
-
+(Escaping caret and underscore before `acme` omitted for display.)
 
 ### Copy to fileserver
 
