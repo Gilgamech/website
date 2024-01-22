@@ -373,7 +373,7 @@ Function Build-GilServer {
 This retrieves the password. Replace INSTANCEID with the Instance ID generated in the previous step, and replace the KEYPAIR.pem path with the path to your priavte key. Instead of storing the server password, store this command.
 
 ```
-Get-EC2PasswordData -InstanceId INSTANCEID -PemFile C:\Secure\Location\KEYPAIR.pem -Decrypt | clip
+Get-EC2PasswordData -InstanceId INSTANCEID -PemFile C:\\Secure\\Location\\KEYPAIR.pem -Decrypt | clip
 ```
 
 ### Install software
@@ -392,7 +392,7 @@ Install-Module -Name Posh-ACME
 
 ### [From: TheSysAdminChannel.com - Create Free Let's Encrypt SSL Certs using Powershell](https://thesysadminchannel.com/create-free-lets-encrypt-ssl-certificates-using-powershell)
 
-Feel free to copy website code to c:\inetpub\wwwroot before/while running these steps. This process uses manual domain verification, until Google Domains automation can be developed.
+Feel free to copy website code to c:\\inetpub\\wwwroot before/while running these steps. This process uses manual domain verification, until Google Domains automation can be developed.
 
 ```
 Function Do-LetsEncrypt {
@@ -403,7 +403,7 @@ Function Do-LetsEncrypt {
 	[string]$CFAuthEmail = 'YourEmail@Example.com'
 	[string]$PFXPass = '$tr0ngPa$$W0rdG03$|-|3r3'
 	[array]$Domains = ('*.Example.com','*.Subdomain.Example.com','Example.com')
-	[string]$DownloadPath = 'C:\LetsEncryptCerts\$((Get-Date).ToString('yyyyMM'))'
+	[string]$DownloadPath = 'C:\\LetsEncryptCerts\\$((Get-Date).ToString('yyyyMM'))'
 	[string]$ContactEmail = 'Contact@Example.com'
 	[array]$ComputerList = ((hostname))
 	[string]$FriendlyName = ('LetsEncrypt_$((Get-Date).AddDays(90).ToString('yyyy-MM-dd'))')
@@ -419,9 +419,9 @@ Function Do-LetsEncrypt {
 
 ### #Goto Google Domains and add the A records _acme-challenge and _acme-challenge.hosting - leave off the .Example.com.
 
-- #C:\Programs\BIND\dig.exe txt \`@8.8.8.8 \_acme-challenge.Example.com
+- #C:\\Programs\\BIND\\dig.exe txt \\`@8.8.8.8 \\_acme-challenge.Example.com
 
-- #C:\Programs\BIND\dig.exe txt \`@8.8.8.8 \_acme-challenge.hosting.Example.com
+- #C:\\Programs\\BIND\\dig.exe txt \\`@8.8.8.8 \\_acme-challenge.hosting.Example.com
 
 
 ### Copy to fileserver
@@ -429,10 +429,10 @@ Function Do-LetsEncrypt {
 ```
 	mkdir $DownloadPath -Force
 	$Path = Get-PACertificate | select -ExpandProperty CertFile
-	$Path = $Path.Substring(0,$Path.LastIndexOf('\'))
-	Copy-Item '$Path\cert.cer' $DownloadPath -Force
-	Copy-Item '$Path\cert.key' $DownloadPath -Force
-	Copy-Item '$Path\cert.pfx' $DownloadPath -Force
+	$Path = $Path.Substring(0,$Path.LastIndexOf('\\'))
+	Copy-Item '$Path\\cert.cer' $DownloadPath -Force
+	Copy-Item '$Path\\cert.key' $DownloadPath -Force
+	Copy-Item '$Path\\cert.pfx' $DownloadPath -Force
 ```
 
 ### #Import PFXPassword, ComputerList and Thumbprint
@@ -445,17 +445,17 @@ Function Do-LetsEncrypt {
 ### #Deploy
 
 ```
-	Copy-Item '$DownloadPath\Cert.pfx' '\\$Computer\c$'
-	Import-PfxCertificate -FilePath 'C:\cert.pfx' -CertStoreLocation Cert:\LocalMachine\My\ -Exportable:$false -Password $PFXPassword
-	$Cert = Get-ChildItem Cert:\LocalMachine\My\$Thumbprint
+	Copy-Item '$DownloadPath\\Cert.pfx' '\\\\$Computer\\c$'
+	Import-PfxCertificate -FilePath 'C:\\cert.pfx' -CertStoreLocation Cert:\\LocalMachine\\My\\ -Exportable:$false -Password $PFXPassword
+	$Cert = Get-ChildItem Cert:\\LocalMachine\\My\\$Thumbprint
 	$Cert.FriendlyName = $FriendlyName
 ```
 
 	### #Cleanup
 
 ```
-	Remove-Item '\\$Computer\c$\cert.pfx'
-	Get-ChildItem Cert:\LocalMachine\My\ | Where-Object {($_.Subject -eq 'CN=*.Example.com') -and ($_.ThumbPrint -ne $Thumbprint)} | Remove-Item -Force
+	Remove-Item '\\\\$Computer\\c$\\cert.pfx'
+	Get-ChildItem Cert:\\LocalMachine\\My\\ | Where-Object {($_.Subject -eq 'CN=*.Example.com') -and ($_.ThumbPrint -ne $Thumbprint)} | Remove-Item -Force
 } 
 ```
 
