@@ -1,5 +1,5 @@
 ::: style#
-body { background-color: #700; } .textBubbleBG { border: 1px solid #32CD32;}
+body { background-color: #700;} .textBubbleBG { border: 1px solid #32CD32;}
 :::
 
 From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculous](https://www.youtube.com/watch?v=zy9FkAXMBfk)
@@ -70,16 +70,7 @@ Cost per month (30 days) of operation: $
 :::{calcElec();}
 
 ::: script#
-function calcElec(op) {
-	if (op ==1) {writeElement('AmpInput',getRoundedNumber(readElement('WattCalc'/120,2))
-	} else {writeElement('WattCalc',getRoundedNumber(readElement('AmpInput'*120,2))
-	}
-	writeElement('ConsCalc',getRoundedNumber(readElement('WattCalc'/1000,4))
-	writeElement('HourCost',getRoundedNumber(readElement('CostInput'*readElement('ConsCalc,4))
-	writeElement('DayCost',getRoundedNumber(readElement('HourCost'*24,4))
-	writeElement('MonthCost',getRoundedNumber(readElement('DayCost'*30,2))
-}
-calcElec();
+function calcElec(op) {; if (op ==1) {writeElement('AmpInput',getRoundedNumber(readElement('WattCalc'/120,2));} else {writeElement('WattCalc',getRoundedNumber(readElement('AmpInput'*120,2));}; writeElement('ConsCalc',getRoundedNumber(readElement('WattCalc'/1000,4)); writeElement('HourCost',getRoundedNumber(readElement('CostInput'*readElement('ConsCalc,4)); writeElement('DayCost',getRoundedNumber(readElement('HourCost'*24,4)); writeElement('MonthCost',getRoundedNumber(readElement('DayCost'*30,2));}; calcElec(); 
 :::
 
 --------------------------------------------------------------------
@@ -134,13 +125,7 @@ Todo:
 - Auto-Enigma Man
 
 ::: script#
-function outputMockingCipher2(keyInput,txtInput,mocked,encrypted,decrypted,keyOutput) {
-	writeElement(mocked,doMockingCipher(readElement(keyInput),readElement(txtInput)));
-	writeElement(encrypted,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(mocked))));
-	writeElement(keyOutput,revertMockingCipher(readElement(encrypted)))
-	writeElement(decrypted,doEnigmaMan(2,readElement(encrypted)))
-}
-outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput');
+function outputMockingCipher2(keyInput,txtInput,mocked,encrypted,decrypted,keyOutput)  {writeElement(mocked,doMockingCipher(readElement(keyInput),readElement(txtInput))); writeElement(encrypted,doMockingCipher(readElement(keyInput),doEnigmaMan(1,readElement(mocked)))); writeElement(keyOutput,revertMockingCipher(readElement(encrypted))); writeElement(decrypted,doEnigmaMan(2,readElement(encrypted)));}; outputMockingCipher2('keyInput','txtInput','txtMid','txtEnc','txtDecrypt','keyOutput'); 
 :::
 
 --------------------------------------------------------------------
