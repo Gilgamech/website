@@ -58,7 +58,7 @@ Not quite as comprehensive as promised - whoops, plot hole.
 
 - Previous AWS pricing: 1xCPU 1GB RAM 30GB HDD | bandwidth website only = $18-ish - more than calculated.
 - Previous AWS pricing: 1xCPU 2GB RAM 30GB HDD | bandwidth plus Minecraft = $22-ish - less than calculated.
-- Azure A1 Basic from [pricing calculator](httlis://azure.microsoft.com/en-us/pricing/calculator/): 1xCPU 1.75GB RAM 40GB 	HDD = $29.20
+- Azure A1 Basic from [pricing calculator](httlis://azure.microsoft.com/en-us/pricing/calculator/): 1xCPU 1.75GB RAM 40GB HDD = $29.20
 - Azure A1 Standard from [pricing calculator](httlis://azure.microsoft.com/en-us/pricing/calculator/): 1xCPU 1.75GB RAM 70GB HDD = $65.75
 
 Unsure what is the difference between Azure Basic and Azure Standard that triples the price - does Standard give significant redundancy? AWS appears cheaper here still. 
