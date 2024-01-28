@@ -30,25 +30,25 @@ https://www.youtube.com/embed/qsUixihhUSk
 
 # [11/24/2021](#11242021) -  Wuh.
 
-Recently heard a guy with a German accent say "W" as "Double-oo" (or "doubleoo"). This makes our long  "Double You" name seem unwieldy, even though it's the equivalent. (Also, go double yourself) So why don't we just rename the letter to "Wuh"? "Ess" "Tee" "You" "Vee" "Wuh" "Ecks" "Why" "Zee" - it flows so much better.
+Recently heard a guy with a German accent say 'W' as 'Double-oo' (or 'doubleoo'). This makes our long  'Double You' name seem unwieldy, even though it's the equivalent. (Also, go double yourself) So why don't we just rename the letter to 'Wuh'? 'Ess' 'Tee' 'You' 'Vee' 'Wuh' 'Ecks' 'Why' 'Zee' - it flows so much better.
 
 --------------------------------------------------------------------
 
 # [11/22/2021](#11222021) -  Charlemagne.
 
-Charles the Great of France's given name is usually pronounced "Shar-le-mane". But this is likely in error. Magna is Latin for Great, so the name is likely "Charle Magne".
+Charles the Great of France's given name is usually pronounced 'Shar-le-mane'. But this is likely in error. Magna is Latin for Great, so the name is likely 'Charle Magne'.
 
 --------------------------------------------------------------------
 
 # [11/21/2021](#11212021) -  The two most important questions.
 
-These are "How" and "Why". They are the most important questions because all other questions are derived from them. And together they (eventually) describe the entirety of human activity. "How" encompasses all material, somatic, and other components, while "Why" encompasses the entirety of human philosophy and political interest. The other "newspaper questions": "who", "when", "what", and "where" are either mandated by "How" if they are important, or left to the whims of "Why" if they are not. 
+These are 'How' and 'Why'. They are the most important questions because all other questions are derived from them. And together they (eventually) describe the entirety of human activity. 'How' encompasses all material, somatic, and other components, while 'Why' encompasses the entirety of human philosophy and political interest. The other 'newspaper questions': 'who', 'when', 'what', and 'where' are either mandated by 'How' if they are important, or left to the whims of 'Why' if they are not. 
 
 --------------------------------------------------------------------
 
 # [11/19/2021](#11192021) -  Network effects of Youtube's algorithm.
 
-Youtube's algorithm shows similar videos to people in the same place - if your neighbor likes a video, then Youtube is more likely to show it to you. If you visit an area with a lot of trains and train watchers, you'll be recommended more train-related videos. Live in an area with a lot of political keyboard warriors, and you're likely to have many political opinions recommended to you. And so Youtube shows you more politically toxic videos when you have a politically toxic neighbor. Instead of becoming an internet refuge, it begins to mirror other parts of your life. Is this to fulfill the "low" half of the TV News Emotional Cycle, and let fluffy teddy bears sell soap to you in the "high" half?
+Youtube's algorithm shows similar videos to people in the same place - if your neighbor likes a video, then Youtube is more likely to show it to you. If you visit an area with a lot of trains and train watchers, you'll be recommended more train-related videos. Live in an area with a lot of political keyboard warriors, and you're likely to have many political opinions recommended to you. And so Youtube shows you more politically toxic videos when you have a politically toxic neighbor. Instead of becoming an internet refuge, it begins to mirror other parts of your life. Is this to fulfill the 'low' half of the TV News Emotional Cycle, and let fluffy teddy bears sell soap to you in the 'high' half?
 
 --------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ Function Reset-GilKey {
 	$oldKey = (Get-AWSCredential default).GetCredentials().AccessKey
 	$key = New-IAMAccessKey
 	Set-AWSCredential -AccessKey $key.AccessKeyId -SecretKey $key.SecretAccessKey -StoreAs default
-	0..30| %{Write-Progress -Activity "Sleeping for keys to settle down." -Status "Countdown to 30 seconds: $_" -PercentComplete ($_*3.33);sleep 1}
+	0..30| %{Write-Progress -Activity 'Sleeping for keys to settle down.' -Status 'Countdown to 30 seconds: $_' -PercentComplete ($_*3.33);sleep 1}
 	Remove-IAMAccessKey -AccessKeyId $oldKey -Force
 }
 ```
@@ -99,14 +99,14 @@ Filter Flip-BytesToText {
 		[switch]$Unicode
 		); #end Param
 	[int]$Unicode2 = 0
-	$ReturnString = ""
+	$ReturnString = ''
 	if ($_) {
 		if ($Unicode) {
 $ReturnString = [System.Text.Encoding]::Unicode.GetString(($_,$Unicode2))
 } else {
 $ReturnString = [System.Text.Encoding]::ASCII.GetString($_)
 }; #end if Unicode
-		if ($ReturnString -ne "") {
+		if ($ReturnString -ne '') {
 			return $ReturnString
 }; #end if ReturnString
 		}; #end if _
@@ -124,14 +124,14 @@ Updating this function with a better name for the SG.
 ```
 Function New-GilSecurityGroup {
 	$addr = (iwr https://checkip.amazonaws.com)
-	[ipaddress]$ipaddr = (($addr.content | Flip-BytesToText ) -replace "`n","" -join "")
-	$IpCidr = ($ipaddr.IPAddressToString+"/32")
-	$GroupName = ("RDP access - "+$IpCidr)
-	$GilSecurityGroupID = New-EC2SecurityGroup -Description ("RDP access" + (Get-date -f yyymmdd)) -GroupName $GroupName -VpcId $VpcId
+	[ipaddress]$ipaddr = (($addr.content | Flip-BytesToText ) -replace '`n','' -join '')
+	$IpCidr = ($ipaddr.IPAddressToString+'/32')
+	$GroupName = ('RDP access - '+$IpCidr)
+	$GilSecurityGroupID = New-EC2SecurityGroup -Description ('RDP access' + (Get-date -f yyymmdd)) -GroupName $GroupName -VpcId $VpcId
 	$cidrBlocks = New-Object 'collections.generic.list[string]'
 	$cidrBlocks.add($IpCidr)
 	$ipPermissions = New-Object Amazon.EC2.Model.IpPermission
-	$ipPermissions.IpProtocol = "tcp"
+	$ipPermissions.IpProtocol = 'tcp'
 	$ipPermissions.FromPort = 3389
 	$ipPermissions.ToPort = 3389
 	$ipPermissions.IpRanges = $cidrBlocks
@@ -161,6 +161,6 @@ Remove-EC2SecurityGroup -Force -GroupId OLDSECURITYGROUPID
 
 # [11/1/2021](#11012021) - Wave-partcle duality.
 
-The wave equation says a "wavicle" (like a photon or electron) will radiate outwardly through 3d space as a wave, until it reacts with another wavicle (or composite of them like a molecule). But the wave equation is describing the probability that the whole photon will be at that location, not dividing the photon across the area. Quantum physics "news" has the malady of selling how "weird" it all is, like a teenage boy going through a "girls are weird" phase. It's as weird as millions of people buying a lottery ticket, but only one of them winning. The lottery prize isn't split equally among the ticket buyers, despite the lottery's marketing, but is given to the person whose ticket happens to match the selected numbers. Likewise, the photon's charge is given to the molecule whose location happens to match the selected coordinates. To knit together these two analogies, consider lottery tickets to describe a location in 3, 6, or other integer dimension space: maybe not enough "locations" "bought tickets" for this "week's" "photonic energy prize" to have any "winning coordinates", so it goes back into the "pot" for next "week's" "drawing". And it radiates out another Planck Length for the next "drawing".
+The wave equation says a 'wavicle' (like a photon or electron) will radiate outwardly through 3d space as a wave, until it reacts with another wavicle (or composite of them like a molecule). But the wave equation is describing the probability that the whole photon will be at that location, not dividing the photon across the area. Quantum physics 'news' has the malady of selling how 'weird' it all is, like a teenage boy going through a 'girls are weird' phase. It's as weird as millions of people buying a lottery ticket, but only one of them winning. The lottery prize isn't split equally among the ticket buyers, despite the lottery's marketing, but is given to the person whose ticket happens to match the selected numbers. Likewise, the photon's charge is given to the molecule whose location happens to match the selected coordinates. To knit together these two analogies, consider lottery tickets to describe a location in 3, 6, or other integer dimension space: maybe not enough 'locations' 'bought tickets' for this 'week's' 'photonic energy prize' to have any 'winning coordinates', so it goes back into the 'pot' for next 'week's' 'drawing'. And it radiates out another Planck Length for the next 'drawing'.
 
-The really weird part is how the probabilities split photons sometimes, like when two winning lottery tickets are picked. And if these go through two separate routes (unsure the lottery equivalent), the "winners" show a diffraction pattern. (How would that show up in lottery winners?)
+The really weird part is how the probabilities split photons sometimes, like when two winning lottery tickets are picked. And if these go through two separate routes (unsure the lottery equivalent), the 'winners' show a diffraction pattern. (How would that show up in lottery winners?)
