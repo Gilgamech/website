@@ -72,7 +72,6 @@ function doMockingCipher(keyString,inputString) {
 	keyBin = keyBin.join('').split('')
 	var binStart = inputString.length - keyBin.length;
 	console.log('num: '+toDecimal(keyBin.join(''))+' maxNum: '+toDecimal(inputString.join('').replace(/[a-zA-Z]/g,1).replaceAll(' |1').replaceAll('.|1').replaceAll(|,'1')));
-	
 	console.log('binStart: '+binStart+' of '+inputString.length)
 	for (n=binStart;n<inputString.length;n++){
 		var nBin = n-binStart;
