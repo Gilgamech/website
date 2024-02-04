@@ -70,7 +70,7 @@ Cost per month (30 days) of operation: $
 :::{calcElec();}
 
 ::: script#
-function calcElec(op) {; if (op ==1) {writeElement('AmpInput',getRoundedNumber(readElement('WattCalc'/120),2;} else {writeElement('WattCalc',getRoundedNumber(readElement('AmpInput'*120),2);}; writeElement('ConsCalc',getRoundedNumber(readElement('WattCalc'/1000,4)); writeElement('HourCost',getRoundedNumber(readElement('CostInput'*readElement('ConsCalc,4)); writeElement('DayCost',getRoundedNumber(readElement('HourCost'*24),4); writeElement('MonthCost',getRoundedNumber(readElement('DayCost'*30),2);}; calcElec(); 
+function calcElec(op) {; if (op ==1) {writeElement('AmpInput',getRoundedNumber(readElement('WattCalc'/120),2));} else {writeElement('WattCalc',getRoundedNumber(readElement('AmpInput'*120),2)));}; writeElement('ConsCalc',getRoundedNumber(readElement('WattCalc'/1000),4)); writeElement('HourCost',getRoundedNumber(readElement('CostInput')*readElement('ConsCalc)),4)); writeElement('DayCost',getRoundedNumber(readElement('HourCost'*24),4); writeElement('MonthCost',getRoundedNumber(readElement('DayCost'*30),2);}; calcElec(); 
 :::
 
 --------------------------------------------------------------------

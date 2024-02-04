@@ -8,7 +8,7 @@ The front page is a demonstration of a Stripe bot written in 2013, and the World
 
 The Gilgamech Technologies community is hospitable, considerate, and open to everyone - including those who hate each other. Open, but neither inclusive nor exclusive. Racism and sexism aren't welcome, but racists and sexists who can behave themselves are. All political viewpoints, just don't start a fight. The Canceled may join and leave as they please, so long as it's not overly dramatic. And likewise hate for canceled celebrities is not welcome - calm and civil discussion of their acts and consequences, but no 'fire-and-brimstone'. Those who dislike or heavily criticize me may also join and leave freely, so long as they voice their opinions in a hospitable and considerate manner.
 
-In respect to recent UK laws, users in the UK should not utilize this site, and this site is not liable for UK users who do not follow this suggestion.
+Devices that can display this website might contain chemicals known to the State of California to cause cancer and reproductive harm. If you are from Oregon, feel free to pump your own gas. In respect to recent UK laws, users in the UK should not utilize this site, and this site is not liable for UK users who do not follow this suggestion.
 
 # Contact Us
 
