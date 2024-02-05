@@ -204,9 +204,9 @@ sortNumTable(5,"kcals")
 				<h2 id="02222022"><a href="#02222022">02/22/2022</a> - An Enigma, Sold by a Riddle, Built into a Mystery: Part 5 - Enigma Man.</h2>
 				<p>To cap off this enigmatic journey, here is Enigma Man, a cipher which performs my <a href="#02172022">Running Man</a> cipher 9 times:</p>
 				
-				//Message: <textarea id="enigmaManMessage" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(0,readElement("enigmaManMessage")));'>Are you decrypted yet because my legs are tired</textarea><br />
-				//Encrypted: <textarea id="enigmaManEncrypted" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(1,readElement("enigmaManMessage")));'></textarea><br />
-				//Reverted: <textarea id="enigmaManReverted" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(2,readElement("enigmaManMessage")));'></textarea><br />
+				//Message: <textarea id="enigmaManMessage" oninput='writeElement(&quot;enigmaManEncrypted&quot;,doEnigmaMan(1,readElement("enigmaManMessage")));writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));'>Are you decrypted yet because my legs are tired</textarea><br />
+				//Encrypted: <textarea id="enigmaManEncrypted" oninput='writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));'></textarea><br />
+				//Reverted: <textarea id="enigmaManReverted"></textarea><br />
 <script>
 writeElement("enigmaManEncrypted",doEnigmaMan(5,readElement("enigmaManMessage")));
 </script>				
