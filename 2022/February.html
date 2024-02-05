@@ -204,11 +204,11 @@ sortNumTable(5,"kcals")
 				<h2 id="02222022"><a href="#02222022">02/22/2022</a> - An Enigma, Sold by a Riddle, Built into a Mystery: Part 5 - Enigma Man.</h2>
 				<p>To cap off this enigmatic journey, here is Enigma Man, a cipher which performs my <a href="#02172022">Running Man</a> cipher 9 times:</p>
 				
-				//Message: <textarea id="enigmaManMessage" oninput='writeElement(&quot;enigmaManEncrypted&quot;,doEnigmaMan(1,readElement("enigmaManMessage")));writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));'>Are you decrypted yet because my legs are tired</textarea><br />
+				//Message: <textarea id="enigmaManMessage" oninput='writeElement("enigmaManEncrypted",doEnigmaMan(1,readElement("enigmaManMessage")));writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));'>Are you decrypted yet because my legs are tired</textarea><br />
 				//Encrypted: <textarea id="enigmaManEncrypted" oninput='writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));'></textarea><br />
 				//Reverted: <textarea id="enigmaManReverted"></textarea><br />
 <script>
-writeElement("enigmaManEncrypted",doEnigmaMan(5,readElement("enigmaManMessage")));
+writeElement("enigmaManEncrypted",doEnigmaMan(1,readElement("enigmaManMessage")));writeElement("enigmaManReverted",doEnigmaMan(2,readElement("enigmaManEncrypted")));
 </script>				
 				<p>This cipher ran 9 times is probably more secure than the 9 ciphers in Enigma, plus no key is required, just the message. Indeed, the number of encryption rotations could be viewed as a type of key. It's more secure because adding or removing a pair of letters from the end of the message changes the entire encrypted output, since removing letters shifts the midpoint of the message, which moves the first letter of the key. A downside is that message length must be even or lose a character.</p>
 				<p>Enigma was somewhat overengineered on the encryption side, but was a nifty application-specific mechanical computer. The faulty philosophy of "nobody could reverse engineer something this overengineered" ignored Polish ingenuity.</p>
