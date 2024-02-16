@@ -62,7 +62,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Alcoholic beverages become both antibacterial and flammable at about 75% ABV. - 2023 (This is how flame-spitters work - they hold alcohol similar to Everclear in their mouths, then spit it over a lighter.)
 1. Algonym & acrogram & acrorythm (because I can't remember the word 'acronym' for some reason.) - 2008
 1. All hands on deck is too many hands on deck - it's a management failure. - 2018
-1. All of my excess sympathy was spent in 2023. In this time, there is no time, for those who would take my time - gas, grass, or ass are required to pass this checkpoint. - 2024 (Not even robbing Peter to pay Paul and Mary - but robbing The Devil to pay Quark of DS9. Not getting blood from a stone, but getting blood from the seawater.)
+1. All of my excess sympathy was spent in 2023 - in this time, there is no time, for those who would take my time - gas, grass, or ass are required to pass this checkpoint. - 2024 (Not even robbing Peter to pay Paul and Mary - but robbing The Devil to pay Quark of DS9; not getting blood from a stone, but getting blood from the sea.)
 1. All music today is electronic music, with acoustic music being assembled from numerous recordings of acoustic musicians. - 2019
 1. Alphabet is a transfer of wealth from Adsense to Youtube, in the way that Niagara Falls is a transfer of water from Lake Erie to Lake Ontario. - 2017
 1. Amaterasu's tiramisu is better than Ambrosia. - 2021
