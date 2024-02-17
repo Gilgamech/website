@@ -130,7 +130,7 @@ And this means it takes the BEV car 7.5 years of charging entirely from renewabl
 Graph of pounds of CO2 released. These assume 55k mi of driving at 20 MPG equivalent to assemble the BEV battery. Engine and body values made up but assumed to be close.
 
 |Input|Battery|Engine|Body|Assembly Sum|Rate|Year0|Year1|Year2|Year3|Year4|Year5|Year6|Year7|Year8|
-|------|------|------|------|------|-------------|-----|---math=('Assembly Sum'+0)-|---math=('Rate'+'Year0')-|---math=('Rate'+'Year1')-|---math=('Rate'+'Year2')-|---math=('Rate'+'Year3')-|---math=('Rate'+'Year4')-|---math=('Rate'+'Year5')-|---math=('Rate'+'Year6')-|---math=('Rate'+'Year7')-|
+|------|------|------|------|------|-------------|-----|---math('Assembly Sum'+0)-|---math('Rate'+'Year0')-|---math('Rate'+'Year1')-|---math('Rate'+'Year2')-|---math('Rate'+'Year3')-|---math('Rate'+'Year4')-|---math('Rate'+'Year5')-|---math('Rate'+'Year6')-|---math('Rate'+'Year7')-|
 |Mileage|0|0|0|0|15k|
 |BEV|55k|0|3k|58k|0|
 |Hybrid|275|2k|3k|5.275k|7.5k|
@@ -156,7 +156,7 @@ Notes from [Lei's Real Talk video](https://www.youtube.com/watch?v=16-obNP1zJo) 
 - Votes used as reference. Sometimes a successor gets few votes, and this embarassment is ignored.
 
 |Step|Mainland|Taiwan|Sum|Selected|Per selected|China Rep|Taiwan Rep|
-|------|-------------|---------|---math=('Taiwan'+'Mainland')-|---math=('Sum'/'Selected')-|---math=('Mainland'/'','1.4 billion')-|---math=('Taiwan'/'','23.57 million')-|
+|------|-------------|---------|---math('Taiwan'+'Mainland')-|---math('Sum'/'Selected')-|---math('Mainland'/'','1.4 billion')-|---math('Taiwan'/'','23.57 million')-|
 |Members select citizens|1.4 billion|23.57 million||90 million|
 |Members select delegates|90 million|235.7k||2k|
 |Delegates select committee|2000-10|10||200|
