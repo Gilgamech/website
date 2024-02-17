@@ -156,7 +156,7 @@ Notes from [Lei's Real Talk video](https://www.youtube.com/watch?v=16-obNP1zJo) 
 - Votes used as reference. Sometimes a successor gets few votes, and this embarassment is ignored.
 
 |Step|Mainland|Taiwan|Sum|Selected|Per selected|China Rep|Taiwan Rep|
-|------|-------------|---------|---math('Taiwan'+'Mainland')-|---math('Sum'/'Selected')-|---math('Mainland'/'','1.4 billion')-|---math('Taiwan'/'','23.57 million')-|
+|------|-------------|---------|---math('Taiwan'+'Mainland')-|---math('Sum'/'Selected')-|---math('Mainland'/'(1.4 billion)')-|---math('Taiwan'/'(23.57 million)')-|
 |Members select citizens|1.4 billion|23.57 million||90 million|
 |Members select delegates|90 million|235.7k||2k|
 |Delegates select committee|2000-10|10||200|

@@ -160,8 +160,8 @@ Extra credit:
 
 Ukraine had just started allowing private individuals to own land in 2021, and the [average price](https://kyivindependent.com/business/ukraine-land-sales-reach-200-million-six-months-after-launch) was $1420/hectare. [Specific regions](https://www.globalpropertyguide.com/Europe/Ukraine/Price-History) have more specific pricing from another site. [Hectare areas](https://en.wikipedia.org/wiki/Oblasts_of_Ukraine) from Wikipedia.
 
-|Region|Hectares|USD per hectare|USD for region|Days of war|Sum| #1001Table
-|---------|------------|---------------------|---math(Hectares*USD per hectare)---|---math(Days of war/(900 million))-m---|---math(Days of war+Sum(-1))-|
+|Region|Hectares|USD per hectare|USD for region|Days of war|Sum| #Table1001
+|---------|------------|---------------------|---math('Hectares'*'USD per hectare')---|---math('USD for region'/'(900 million)')-m---|---math('Days of war'+'Sum(-1)')-|
 |Cherkasy Oblast|2089100|1420|
 |Chernihiv Oblast|31851300|1420|
 |Chernivtsi Oblast|8093600|1420|
