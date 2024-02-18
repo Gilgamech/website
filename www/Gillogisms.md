@@ -576,7 +576,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. Money flows from the Right to the Left. - 2023
 1. Monkier Moniker - More Ape Than Ape - 2023
 1. Monogamy index
-1. (sung)~Mor~ning has bro~ken! / Someone should fi~ix it! / Black bird has spo~ken / What drug are you on? - 2022
+1. (sung) Mor-ning has bro-ken! / Someone should fi-ix it! / Black bird has spo-ken / What drug are you on? - 2022
 1. Moorage Life
 1. Morals should reflect the society's laws and expand upon them as a kind of beneficence, not conflict with them as a kind of strife. Morallogical groups should work to extend morals, to further society and help more of us to occupy the same spaces. If the morallogical groups aren't working to advance society morally, then their conviction is in conflict with their goals and they should leave the ideology. If they are working to change laws, then their aims conflict with the society's and they should leave the society. There should be a kind of simplicity, insofar as what they say, matches what they do, matches what they are, matches where they are. So too morals should be an advanced form of laws - while laws represent guardrails and situations to avoid, morals represent goals and situations to pursue. Because the law and the moral form a line that creates the society's direction.
 1. Morden: What do you want? (in a galactic politics sense) / Vir Cotto: I'd like to live just long enough to be there when they cut off your head and stick it on a pike as a warning to the next ten generations that some favors come with too high a price. I would look up at your lifeless eyes and wave like this. (Gives a mockingly cheerful finger waggle.) Can you and your associates arrange this for me, Mr. Morden? - Babylon 5
