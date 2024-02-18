@@ -51,7 +51,7 @@ Move forward to the next item.
 ## Recent compute eras, simplified.
 
 |Era|Compute|Network|Storage|
-|------|------|------|------|
+|----|------------|------------|----------|
 |2023|N/A|CF Edge|S3-IA|
 |2020|N/A|CloudFront|S3|
 |2017|Lambda|API Gateway|S3|
@@ -68,7 +68,7 @@ Move forward to the next item.
 - 1990s Era: Bare Metal, ISP Circuits, RAID storage. A couple routes exist, depending on your data center costs. The ultimate goal of any cloud-native migration is to replace each of your services with APIs, but intermediate cost savings and flexibility gain can be achieved by rehosting workloads onto EC2 servers. Or if you have low data center costs, use an on-premise Kubernetes service to build and test your new cloud-native services. For complex systems, a multi-step migration path can be followed, to allow enough granularity for a smooth migration across multiple maintenance windows:
 
 |Step|Compute|Network|Storage|
-|------|------|------|------|
+|------|------------|------------|----------|
 |0|Bare Metal|ISP Circuit|RAID|
 |1|VMWare|ISP Circuit|RAID|
 |2|VMWare Cloud|ISP Circuit|RAID, S3 & Data Lake|
@@ -185,7 +185,7 @@ Notes from [Lei's Real Talk video](https://www.youtube.com/watch?v=16-obNP1zJo) 
 ## PSC Players
 
 |Pinyin Name|Phonetic Name|Age|Faction|19th PSC Role|20th PSC Role|Notes|
-|------|------|------|------|------|------|------|
+|-----------------|--------------------|-----|----------|------------------|------------------|--------|
 |Xi Jinping|Shi Jinping|69|XJP|CCP Secretary|CCP Secretary|Called XJP here because his name comes up too often. A benefit of the role is that 7-up 8-down doesn't apply.|
 |Li Keqiang|Lee Ke'chang|67|Hu Jintau|Premier|People's Congress or retire|Unlikely to become CCP Secretary. Doesn't want to be Premier again.|
 |Wang Yang|Wong Yong|67|Hu Jintau|Political Consultative Conference|Premier?|Many believe Wang Yang's relationship with XJP is better than Li Keqiang's, but Wang Yang has a 'leisure job' and isn't earning much trust, so probably won't. Hu Jintau's previous chosen successor for XJP.|
