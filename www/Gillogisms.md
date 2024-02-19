@@ -1070,7 +1070,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. You can tell how much a neurodivergent human hyperfocuses on food based on their body weight.
 1. You can't be Woke if your morals were never asleep in the first place. - 2023
 1. You can't toast with water? Between true friends, even water sweet enough. - 2021
-1. You either die the misunderstood villain, or live long enough to see yourself redeemed through others understanding your motivations.
+1. You either die the misunderstood villain, or live long enough to redeem yourself through understanding your own motivations and becoming a hero. - 2024
 1. You have the right to feel secure in your person and papers. You have the right to associate and not associate with whom you choose. Based on these, you are not legally required to endure abusive language from legal professionals. You can require that a more-civil individual handle the correspondence with you. - 2018
 1. You have to drive halfway the wrong way before you can turn around to go the right way by half again. - 2023
 1. 'You know nothing, Jon Snow' - including that you know more than nothing. (Socrates)
@@ -1090,9 +1090,9 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 ### Creativity
 
 - The Feynman Algorithm:
- 1. Write down the problem.
- 1. Think real hard.
- 1. Write down the solution.
+  1. Write down the problem.
+  1. Think real hard.
+  1. Write down the solution.
  - (Everyone thinks the secret here is the 2nd step - but really, it's the 1st step, where the problem is defined. Once you have any problem clearly defined in a sentence, or even a paragraph, it's pretty easy to find solutions.)
 - 'Don't let schooling interfere with your education.' - Mark Twain
 - 'All the world's a stage.' - William Shakespeare (Who owns the stage? Who are the actors and who are the stagehands?)
@@ -1158,6 +1158,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 - 'When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down ‘happy’. They told me I didn’t understand the assignment, and I told them they didn’t understand life.' - John Lennon
 - 'Everyone thinks of changing the world, but no one thinks of changing himself.' - Leo Tolstoy
 - 'There are only bad options. It's about finding the best one.' - Tony Mendez, Argo (Ben Affleck, 2012)
+- Strong emotions are for (dandies) and cattle. - adapted from Frank Herbert, Dune. (Excessive sympathy is unheathy. - WDW Pro | Toughen up, buttercup. - Unknown | Get stronger last longer.)
 - 'Seek freedom and become captive of your desires. Seek discipline and find your liberty.' - Frank Herbert
 - 'I'm starting with the (person) in the mirror...' - Michael Jackson, Man in the Mirror
 - 'Inside every cynical person is a disappointed idealist.' - George Carlin.
@@ -1171,9 +1172,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 - 'Remember, I'm pulling for you. We're all in this together.' - Red Green
 - 'The journey is the worthier part' Serenity: The Shepherd's Tale
 - 'Live long and prosper' - Vulcan proverb.
-
-
-1. Strong emotions are for (dandies) and cattle. - adapted from Frank Herbert, Dune. (Excessive sympathy is unheathy. - WDW Pro | Toughen up, buttercup. - Unknown | Get stronger last longer.)
 
 ### Jobs & Hobbies
 
