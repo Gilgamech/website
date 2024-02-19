@@ -1017,7 +1017,6 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. We can be bitter, or we can be better. - 2022
 1. We cannot go back(wards in time), but we can go anywhere again.  - 2020 (Will we ever go to Washtucna again and see that bus?)
 1. We don't see through our eyes - our eyes are the inputs to a visual conversion 2d-to-3d neural network, and the 3d world we experience is the output. Objects always appear to be composed of Platonic solids because that's how our neural networks compose 3d objects - compositing objects from adding and subtracting simpler objects such as Platonic solids. And there might be things that our neural networks are trained to not pass on to us (They Live). Some neural networks hallucinate (schizophrenia). Some neural networks fail to find viable models of the patterns of their inputs (autism). - 2024
-1. We don't see through our eyes, so much as our eyes are inputs into an image generation neural network as part of our brain, and we're basically viewing its output. - 2024
 1. We enjoy narrative straight lines, but reality is based much more in narrative waves, as most people live a random walk between optimal states.
 1. We have this sword here, to protect us from bandits. But it's made from uranium among other metals, so it's slowly killing us. Is it better than the bandits? - 2023
 1. We live in 'the gap', a Goldilocks-like zone between the Rock of Not Enough and Hard Place of Too Much.
