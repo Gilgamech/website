@@ -1,4 +1,6 @@
-|Constant|Value|
+#Audio stuff
+
+|Constant|Property|
 |------------|-------|
 |Speed of sound to temp conversion constant|0.5592425817|
 |M/S to F/S conversion constant|3.280839895|
