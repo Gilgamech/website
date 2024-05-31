@@ -6,7 +6,7 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 
 Hardtack is a foundational food item. Used from Biblical to Frontier times, its deletion from the Space-Age menu is a historical anomaly. It's like a cement cracker, and one of the best survival foods. If you want to live for under $1/day, you'll be making a lot of hardtack. 
 
-Flour contains both polycarbonate substrate (in the form of starch polyglucose) and gluten binder. The gluten is activated by water (solvent), activating the disulfide bonds between the oblate spheroid gliadin ("glee-add-in", or maybe "glee-a-din") and the long poly-protein glutenin. This is how hardtack works - dry the water out so it's just polycarbonate powder held together by binder. This could be used as a building material, but isn't waterproof. 
+Flour contains both polycarbonate substrate (in the form of starch polyglucose) and gluten binder. The gluten is activated by water (solvent), activating the disulfide bonds between the oblate spheroid gliadin ('glee-add-in', or maybe 'glee-a-din') and the long poly-protein glutenin. This is how hardtack works - dry the water out so it's just polycarbonate powder held together by binder. This could be used as a building material, but isn't waterproof. 
 
 Fats are plasticizers - the triglyceride arms resemble both phthalate arms and epoxidized soybean oil arms, both of which are widely-used plasticizers. These make the hardtack more flexible and softer - from crackers to tortillas (which have a relatively large amount of lard) without reducing the lifespan too much.
 
