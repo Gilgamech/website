@@ -2,12 +2,12 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 
 --------------------------------------------------------------------
 
-# [04/06/2024](#04062024) - Cook Until Done - Algorithmic Recipes
+# [05/31/2024](#05312024) - Cook Until Done - Substrate-Binder-Solvent
 
-## Generate a new recipe from 2 or more recipes:
+Hardtack is a foundational food item. Used from Biblical to Frontier times, its deletion from the Space-Age menu is a historical anomaly. It's like a cement cracker, and one of the best survival foods. If you want to live for under $1/day, you'll be making a lot of hardtack. 
 
-1. Ratio quantities. Some recipes are made to produce 4-6 dozen cookies, while others make just 2 servings of soup. Work backwards from how much you want to make/eat/store/share, then ratio each recipe so it makes that much. (This is like finding common denominators or similar speakers - it's finding common quantiites.)
-2. Separate recipes into flavorful and structural elements. Often, a recipe will create a flavor sauce in a solvent-binder water-fat mix, adhere this to a water-soluble starch substrate, then evaporate the water solvent. This describes everything from pasta to rice dishes to quesadillas to grilled cheese sandwiches. This lets these elements be rotated, creating substitutions, like moving a rice-based dish to a pasta substrate for a rice-allergic person, or a potato-substrate to ramen for a fusion treat. (This is like aligning decimal places or putting all of the speakers at the same distance.)
-3. Average each flavorful ingredient - take the same ratioed ingredient from each recipe, and average those together. Examine how far that is from each one, and how much you like that flavor. This makes sure that a sufficient amount of the ingredient is in the recipe. (This is like performing math on each column or adjusting speaker volumes to be about the same from the listening location.)
-4. Re-ratio flavorful ingredients. This is fine-tuning their ratio to each other, to get the flavor mix and the taste from the final product. 
-(This is like summing the columns into the answer, and double-checking it, or adjusting the equalizer.)
+Flour contains both polycarbonate substrate (in the form of starch polyglucose) and gluten binder. The gluten is activated by water (solvent), activating the disulfide bonds between the oblate spheroid gliadin ("glee-add-in", or maybe "glee-a-din") and the long poly-protein glutenin. This is how hardtack works - dry the water out so it's just polycarbonate powder held together by binder. This could be used as a building material, but isn't waterproof. 
+
+Fats are plasticizers - the triglyceride arms resemble both phthalate arms and epoxidized soybean oil arms, both of which are widely-used plasticizers. These make the hardtack more flexible and softer - from crackers to tortillas (which have a relatively large amount of lard) without reducing the lifespan too much.
+
+Sugar is usually considered a liquid when baking, and is frequently mixed with liquids and not solids, despite being a solid. Simple sugar is the glucose molecule, and more complex sugars such as sucrose or lactose have another molecule - fructose or galactose respectively - bonded to the glucose molecule. The classification as liquid might have to do with the molecular polarity and high number of bonding locations, making the molecule ideal for polymerization into starch, cellulose, and other storage molecules, for storage or construction. But unlike actual liquids, the sugar's evaporation temperature is above its combustion temperature, so will stay in the food when baked. Adding sugars makes the hardtack softer and sweeter. 
