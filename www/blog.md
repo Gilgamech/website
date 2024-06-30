@@ -14,7 +14,7 @@ Constructed a solar system, to enable more-remote work. Solar systems are really
 - Charge regulation and control is provided by a [7 Amp Charge Regulator](https://www.harborfreight.com/7-amp-solar-charge-regulator-96728.html).
   - It's small and simple, but gets the job done here.
   - Charging a battery by solar is basically the same as charging by wall, from a 7 A charger. 
-- Charger wiring is using a 16 AWG extension cable. 
+- Charger wiring is using a 16 AWG extension cable, from a [set of extensions and adapters](https://www.harborfreight.com/solar-power-connection-cable-kit-59171.html). 
   - The system could operate on wiring provided by the regulator and panel alone, but this gives more flexibiltiy in where to place the panel.
 - Inverter Wiring is [3 feet of 2/0 AWG flexible copper cabling](https://www.harborfreight.com/3-ft-20-awg-inverter-cable-set-63748.html).
   - Discharging requires pulling a large current from the battery, and compressing this into a higher mains voltage. This necessitates large and short cabling between inverter and battery.
