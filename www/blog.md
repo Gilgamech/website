@@ -9,7 +9,7 @@ Constructed a solar system, to enable more-remote work. Solar systems are really
 - Generator is a [100 Watt folding solar panel](https://www.harborfreight.com/100-watt-solar-panel-briefcase-57991.html).
   - This model is about 17 pounds, and fits easily into a car trunk or back seat. Has integrated stands, handle, and wiring. Comes with cover.
   - This usually charges the battery in around 5 hours of uninterrupted solar input.
-- Storage is a 35 Amp-hour / 420 Watt-hour [sealed lead acid (absorbent glass mat) battery](https://www.harborfreight.com/12v-35-ah-sealed-lead-acid-battery-56770.html).
+- Storage is a 35 Amp-hour / 420 Watt-hour [sealed lead acid - absorbent glass mat - battery](https://www.harborfreight.com/12v-35-ah-sealed-lead-acid-battery-56770.html).
   - 1 laptop and hotspot usually discharges the battery in 4-5 hours. 
 - Charge regulation and control is provided by a [7 Amp Charge Regulator](https://www.harborfreight.com/7-amp-solar-charge-regulator-96728.html).
   - It's small and simple, but gets the job done here.
