@@ -2,12 +2,21 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 
 --------------------------------------------------------------------
 
-# [05/31/2024](#05312024) - Cook Until Done - Substrate-Binder-Solvent
+# [06/30/2024](#06302024) - Battery buckets
 
-Hardtack is a foundational food item. Used from Biblical to Frontier times, its deletion from the Space-Age menu is a historical anomaly. It's like a cement cracker, and one of the best survival foods. If you want to live for under $1/day, you'll be making a lot of hardtack. 
+Constructed a solar system, to enable more-remote work. Solar systems are really 2 systems: Charge and Discharge. This was built with Commercial Off The Shelf (COTS) products from Harbor Freight. (These aren't affilliate links and I'm not associated with them.)
 
-Flour contains both polycarbonate substrate (in the form of starch polyglucose) and gluten binder. The gluten is activated by water (solvent), activating the disulfide bonds between the oblate spheroid gliadin ('glee-add-in', or maybe 'glee-a-din') and the long poly-protein glutenin. This is how hardtack works - dry the water out so it's just polycarbonate powder held together by binder. This could be used as a building material, but isn't waterproof. 
-
-Fats are plasticizers - the triglyceride arms resemble both phthalate arms and epoxidized soybean oil arms, both of which are widely-used plasticizers. These make the hardtack more flexible and softer - from crackers to tortillas (which have a relatively large amount of lard) without reducing the lifespan too much.
-
-Sugar is usually considered a liquid when baking, and is frequently mixed with liquids and not solids, despite being a solid. Simple sugar is the glucose molecule, and more complex sugars such as sucrose or lactose have another molecule - fructose or galactose respectively - bonded to the glucose molecule. The classification as liquid might have to do with the molecular polarity and high number of bonding locations, making the molecule ideal for polymerization into starch, cellulose, and other storage molecules, for storage or construction. But unlike actual liquids, the sugar's evaporation temperature is above its combustion temperature, so will stay in the food when baked. Adding sugars makes the hardtack softer and sweeter. 
+- Generator is a [100 Watt folding solar panel](https://www.harborfreight.com/100-watt-solar-panel-briefcase-57991.html).
+  - This model is about 17 pounds, and fits easily into a car trunk or back seat. Has integrated stands, handle, and wiring. Comes with cover.
+  - This usually charges the battery in around 5 hours of uninterrupted solar input.
+- Storage is a 35 Amp-hour / 420 Watt-hour [sealed lead acid (absorbent glass mat) battery](https://www.harborfreight.com/12v-35-ah-sealed-lead-acid-battery-56770.html).
+  - 1 laptop and hotspot usually discharges the battery in 4-5 hours. 
+- Charge regulation and control is provided by a [7 Amp Charge Regulator](https://www.harborfreight.com/7-amp-solar-charge-regulator-96728.html).
+  - It's small and simple, but gets the job done here.
+  - Charging a battery by solar is basically the same as charging by wall, from a 7 A charger. 
+- Charger wiring is using a 16 AWG extension cable. 
+  - The system could operate on wiring provided by the regulator and panel alone, but this gives more flexibiltiy in where to place the panel.
+- Inverter Wiring is [3 feet of 2/0 AWG flexible copper cabling](https://www.harborfreight.com/3-ft-20-awg-inverter-cable-set-63748.html).
+  - Discharging requires pulling a large current from the battery, and compressing this into a higher mains voltage. This necessitates large and short cabling between inverter and battery.
+- Inverter is a [1000 Watt (2000 max) pure sine wave inverter](https://www.harborfreight.com/1000-watt-continuous2000-watt-peak-pure-sine-wave-power-inverter-57273.html), the preferred choice for electronics. 
+  - This device has a 5-bar battery meter (driven by output voltage, haven't seen it above 4 bars while on battery) and a 5-bar output meter.
