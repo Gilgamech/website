@@ -10,12 +10,12 @@ Putting ingredients and dishes into (onto?) a table, to see what comes out.
 |-------|-------|-------|-------|-------|-------|-------|-------|
 |carrots|.|.|.|Beef|Poultry A|.|Lamb|
 |broccoli|.|Rice|.|.|.|.|.|
-|cayenne|.|.|.|.|.|.|Poultry B|.|
-|celery|.|.|.|Beef|Poultry A|.|.|Lamb|
+|cayenne|.|.|.|.|.|Poultry B|.|
+|celery|.|.|.|Beef|Poultry A|.|Lamb|
 |garlic/powder|Pork|Rice|Potatoes|.|.|Poultry B|Lamb|
 |green onions|.|Rice|Potatoes|.|.|.|.|
 |onion/powder|.|.|.|.|.|Poultry B|.|
-|lime|Pork|.|.|.|.|.|.|.|
+|lime|Pork|.|.|.|.|.|.|
 |mushrooms|.|Rice|Potatoes|Beef|.|.|.|
 |paprika|.|.|.|.|.|Poultry B|.|
 |peppers|Pork|.|.|.|.|.|.|
