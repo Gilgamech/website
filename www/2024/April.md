@@ -14,23 +14,23 @@ From the [sublime](https://www.youtube.com/watch?v=CNUTlKqSO-I) to the [ridiculo
 
 
 
-| Meal name | Protein | Cheese | Carb | Vegetable | Sauce |
-| --------------- | ---------- | ---------- |------ | ------------- | ------ |
-| Meat n potatoes | meat | (no) | potato | mixed | gravy |
-| Sandwich | meat | sliced | bread | salad | mayo |
-| Salad | meat | grated | croutons? | salad | dressing |
-| Burger | meat | sliced, melted | hamburger bun | salad, tomato, onion | mayo |
-| Fajita | meat | (no) | tortilla | peppers | fajita packet |
-| Taco | meat | grated | tortilla | peppers & salsa | taco packet, salsa |
-| Burrito | meat, mashed beans | grated | tortilla | peppers & salsa | salsa |
-| Quesadilla | meat | grated, melted | tortilla | peppers? & salsa? | tomato (salsa) |
-| Chili Mac | meat (chili) | grated, melted | pasta | peppers and beans (chili) | tomato (chili) | 
-| Chicken and Joes | Fried chicken | (no) | Jo-jo potatoes | veggie tray | blue cheese | 
-| Ramen | meat | (no) | noodles | mixed veg | soup packet |
-| Potato salad | eggs | (no) | potato | celery, green onions | mayonnaise | 
-| Spaghetti | meat| grated parmesan | pasta | peppers and onions | tomato sauce | 
-| SOS | sausage | (no) | biscuits | misc | country gravy |
-| PB&J | peanut butter | (no) | bread | fruit spread (jelly/jam/preserve/etc) | (no) |
+|Meal name|Protein|Cheese|Carb|Vegetable|Sauce|
+|---------------|----------|----------|------|-------------|------|
+|Meat n potatoes|meat|(no)|potato|mixed|gravy|
+|Sandwich|meat|sliced|bread|salad|mayo|
+|Salad|meat|grated|croutons?|salad|dressing|
+|Burger|meat|sliced, melted|hamburger bun|salad, tomato, onion|mayo|
+|Fajita|meat|(no)|tortilla|peppers|fajita packet|
+|Taco|meat|grated|tortilla|peppers & salsa|taco packet, salsa|
+|Burrito|meat, mashed beans|grated|tortilla|peppers & salsa|salsa|
+|Quesadilla|meat|grated, melted|tortilla|peppers? & salsa?|tomato (salsa)|
+|Chili Mac|meat (chili)|grated, melted|pasta|peppers and beans (chili)|tomato (chili)|
+|Chicken and Joes|Fried chicken|(no)|Jo-jo potatoes|veggie tray|blue cheese|
+|Ramen|meat|(no)|noodles|mixed veg|soup packet|
+|Potato salad|eggs|(no)|potato|celery, green onions|mayonnaise|
+|Spaghetti|meat|grated parmesan|pasta|peppers and onions|tomato sauce|
+|SOS|sausage|(no)|biscuits|misc|country gravy|
+|PB&J|peanut butter|(no)|bread|fruit spread (jelly/jam/preserve/etc)|(no)|
 
 
 Meats: sausage and egg, steak, tuna, ground beef, chicken, salmon, 
