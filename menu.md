@@ -1,6 +1,7 @@
 - [Blog ▼]()
-  - [June 2024](/blog.html)
+  - [Sept 2024](/blog.html)
   - [2024 ▼]()
+    - [June 2024](/2024/June.html)
     - [May 2024](/2024/May.html)
     - [Apr 2024](/2024/April.html)
     - [Mar 2024](/2024/March.html)
