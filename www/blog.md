@@ -8,17 +8,17 @@ Putting ingredients and dishes into (onto?) a table, to see what comes out.
 
 |Name|Pork|Rice|Potatoes|Beef|Poultry A|Poultry B|Lamb|
 |-------|-------|-------|-------|-------|-------|-------|-------|
-|carrots|p|r|p|Beef|x|Poultry A|pB|Lamb|
-|broccoli|p|Rice|p|b|pA|pB|l|
-|cayenne|p|r|p|b|x||Poultry B|x|
-|celery|p|r|p|Beef|x|Poultry A|Lamb|
-|garlic/powder|Pork|Rice|Potatoes|x||Poultry B|Lamb|
-|green onions|p|Rice|Potatoes|x||x|
-|onion/powder|p|r|p||x|Poultry B|x|
-|lime|Pork|r|p|x||x||
-|mushrooms|p|Rice|Potatoes|Beef|x||
-|paprika|p|r|p||x|Poultry B|
-|peppers|Pork|r|p|x||x|
-|potatoes|p|r|Potatoes|Beef|Poultry A|x|
-|shallot|Pork|r|p|Beef|x|Lamb|
+|carrots||||Beef|Poultry A||||Lamb|
+|broccoli||Rice||||||||||
+|cayenne|||||||Poultry B||
+|celery||||Beef||Poultry A|Lamb|
+|garlic/powder|Pork|Rice|Potatoes||||Poultry B|Lamb|
+|green onions||Rice|Potatoes||||||
+|onion/powder|||||||Poultry B||
+|lime|Pork|||||||||
+|mushrooms||Rice|Potatoes|Beef|||||
+|paprika|||||||Poultry B||
+|peppers|Pork||||||||
+|potatoes|||Potatoes|Beef|Poultry A|||
+|shallot|Pork|||Beef|||Lamb|
 
