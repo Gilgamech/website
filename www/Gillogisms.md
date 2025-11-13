@@ -445,6 +445,7 @@ The words of the prophets are written on abandoned buildings, bathroom walls, an
 1. I'm tired of Hollywood and other racists telling me that I can't see myself in characters with different arbitrary attributes, because our attributes are different. I see more of myself in Idris Elba's Heimdal (working man) than I do in Chris Hemsworth's Thor (spoiled trust fund baby) or Anthony Hopkins' Odin (rich old man). - 2023 (Thor's story is that after joyriding and crashing his hammer for the last time, his daddy puts him on probation by telling the KITT inside the hammer 'don't let him drive unless he's going somewhere noble' and is entirely unrelatable to an inaffluent non-royal like me. But hanging out at your workplace and waiting for customers to need to use your service is just basic retail/help desk.)
 1. I've been godawful at video games for longer than most people have been alive. - 2015
 1. I've never had Chick-Fil-A because the only thing I know about them are their politics. They're a political group to me, not a source of food. When it's lunchtime, I think of, like, Subway or Taco Bell or a local burger place - not the RNC or DNC, and likewise not Chick-Fil-A. - 2022
+1. I've had worse ideas - it's documented. - 2024
 1. If governments want to get money from people, they first must give money to people. - 2023
 1. If I control you, then I might be able to protect you. But if I control myself, then I can protect you **and** protect myself. - 2017
 1. If I put these out of my sight, then they will join me and be out of my mind. - 2022
